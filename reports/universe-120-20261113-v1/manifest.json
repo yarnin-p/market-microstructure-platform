@@ -1,0 +1,1485 @@
+{
+  "config": {
+    "calendar": [
+      {
+        "afterhours_end": "2026-05-26T20:00:00-04:00",
+        "anchor_at": "2026-05-26T20:00:00+00:00",
+        "anchor_date": "2026-05-26",
+        "calendar": "XNYS",
+        "cycle_id": "2026-05-27",
+        "end_at": "2026-05-27T20:00:00+00:00",
+        "premarket_start": "2026-05-27T04:00:00-04:00",
+        "rth_open": "2026-05-27T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-05-27T20:00:00-04:00",
+        "anchor_at": "2026-05-27T20:00:00+00:00",
+        "anchor_date": "2026-05-27",
+        "calendar": "XNYS",
+        "cycle_id": "2026-05-28",
+        "end_at": "2026-05-28T20:00:00+00:00",
+        "premarket_start": "2026-05-28T04:00:00-04:00",
+        "rth_open": "2026-05-28T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-05-28T20:00:00-04:00",
+        "anchor_at": "2026-05-28T20:00:00+00:00",
+        "anchor_date": "2026-05-28",
+        "calendar": "XNYS",
+        "cycle_id": "2026-05-29",
+        "end_at": "2026-05-29T20:00:00+00:00",
+        "premarket_start": "2026-05-29T04:00:00-04:00",
+        "rth_open": "2026-05-29T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-05-29T20:00:00-04:00",
+        "anchor_at": "2026-05-29T20:00:00+00:00",
+        "anchor_date": "2026-05-29",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-01",
+        "end_at": "2026-06-01T20:00:00+00:00",
+        "premarket_start": "2026-06-01T04:00:00-04:00",
+        "rth_open": "2026-06-01T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-01T20:00:00-04:00",
+        "anchor_at": "2026-06-01T20:00:00+00:00",
+        "anchor_date": "2026-06-01",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-02",
+        "end_at": "2026-06-02T20:00:00+00:00",
+        "premarket_start": "2026-06-02T04:00:00-04:00",
+        "rth_open": "2026-06-02T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-02T20:00:00-04:00",
+        "anchor_at": "2026-06-02T20:00:00+00:00",
+        "anchor_date": "2026-06-02",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-03",
+        "end_at": "2026-06-03T20:00:00+00:00",
+        "premarket_start": "2026-06-03T04:00:00-04:00",
+        "rth_open": "2026-06-03T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-03T20:00:00-04:00",
+        "anchor_at": "2026-06-03T20:00:00+00:00",
+        "anchor_date": "2026-06-03",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-04",
+        "end_at": "2026-06-04T20:00:00+00:00",
+        "premarket_start": "2026-06-04T04:00:00-04:00",
+        "rth_open": "2026-06-04T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-04T20:00:00-04:00",
+        "anchor_at": "2026-06-04T20:00:00+00:00",
+        "anchor_date": "2026-06-04",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-05",
+        "end_at": "2026-06-05T20:00:00+00:00",
+        "premarket_start": "2026-06-05T04:00:00-04:00",
+        "rth_open": "2026-06-05T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-05T20:00:00-04:00",
+        "anchor_at": "2026-06-05T20:00:00+00:00",
+        "anchor_date": "2026-06-05",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-08",
+        "end_at": "2026-06-08T20:00:00+00:00",
+        "premarket_start": "2026-06-08T04:00:00-04:00",
+        "rth_open": "2026-06-08T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-08T20:00:00-04:00",
+        "anchor_at": "2026-06-08T20:00:00+00:00",
+        "anchor_date": "2026-06-08",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-09",
+        "end_at": "2026-06-09T20:00:00+00:00",
+        "premarket_start": "2026-06-09T04:00:00-04:00",
+        "rth_open": "2026-06-09T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-09T20:00:00-04:00",
+        "anchor_at": "2026-06-09T20:00:00+00:00",
+        "anchor_date": "2026-06-09",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-10",
+        "end_at": "2026-06-10T20:00:00+00:00",
+        "premarket_start": "2026-06-10T04:00:00-04:00",
+        "rth_open": "2026-06-10T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-10T20:00:00-04:00",
+        "anchor_at": "2026-06-10T20:00:00+00:00",
+        "anchor_date": "2026-06-10",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-11",
+        "end_at": "2026-06-11T20:00:00+00:00",
+        "premarket_start": "2026-06-11T04:00:00-04:00",
+        "rth_open": "2026-06-11T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-11T20:00:00-04:00",
+        "anchor_at": "2026-06-11T20:00:00+00:00",
+        "anchor_date": "2026-06-11",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-12",
+        "end_at": "2026-06-12T20:00:00+00:00",
+        "premarket_start": "2026-06-12T04:00:00-04:00",
+        "rth_open": "2026-06-12T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-12T20:00:00-04:00",
+        "anchor_at": "2026-06-12T20:00:00+00:00",
+        "anchor_date": "2026-06-12",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-15",
+        "end_at": "2026-06-15T20:00:00+00:00",
+        "premarket_start": "2026-06-15T04:00:00-04:00",
+        "rth_open": "2026-06-15T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-15T20:00:00-04:00",
+        "anchor_at": "2026-06-15T20:00:00+00:00",
+        "anchor_date": "2026-06-15",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-16",
+        "end_at": "2026-06-16T20:00:00+00:00",
+        "premarket_start": "2026-06-16T04:00:00-04:00",
+        "rth_open": "2026-06-16T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-16T20:00:00-04:00",
+        "anchor_at": "2026-06-16T20:00:00+00:00",
+        "anchor_date": "2026-06-16",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-17",
+        "end_at": "2026-06-17T20:00:00+00:00",
+        "premarket_start": "2026-06-17T04:00:00-04:00",
+        "rth_open": "2026-06-17T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-17T20:00:00-04:00",
+        "anchor_at": "2026-06-17T20:00:00+00:00",
+        "anchor_date": "2026-06-17",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-18",
+        "end_at": "2026-06-18T20:00:00+00:00",
+        "premarket_start": "2026-06-18T04:00:00-04:00",
+        "rth_open": "2026-06-18T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-18T20:00:00-04:00",
+        "anchor_at": "2026-06-18T20:00:00+00:00",
+        "anchor_date": "2026-06-18",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-22",
+        "end_at": "2026-06-22T20:00:00+00:00",
+        "premarket_start": "2026-06-22T04:00:00-04:00",
+        "rth_open": "2026-06-22T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-22T20:00:00-04:00",
+        "anchor_at": "2026-06-22T20:00:00+00:00",
+        "anchor_date": "2026-06-22",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-23",
+        "end_at": "2026-06-23T20:00:00+00:00",
+        "premarket_start": "2026-06-23T04:00:00-04:00",
+        "rth_open": "2026-06-23T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-23T20:00:00-04:00",
+        "anchor_at": "2026-06-23T20:00:00+00:00",
+        "anchor_date": "2026-06-23",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-24",
+        "end_at": "2026-06-24T20:00:00+00:00",
+        "premarket_start": "2026-06-24T04:00:00-04:00",
+        "rth_open": "2026-06-24T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-24T20:00:00-04:00",
+        "anchor_at": "2026-06-24T20:00:00+00:00",
+        "anchor_date": "2026-06-24",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-25",
+        "end_at": "2026-06-25T20:00:00+00:00",
+        "premarket_start": "2026-06-25T04:00:00-04:00",
+        "rth_open": "2026-06-25T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-25T20:00:00-04:00",
+        "anchor_at": "2026-06-25T20:00:00+00:00",
+        "anchor_date": "2026-06-25",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-26",
+        "end_at": "2026-06-26T20:00:00+00:00",
+        "premarket_start": "2026-06-26T04:00:00-04:00",
+        "rth_open": "2026-06-26T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-26T20:00:00-04:00",
+        "anchor_at": "2026-06-26T20:00:00+00:00",
+        "anchor_date": "2026-06-26",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-29",
+        "end_at": "2026-06-29T20:00:00+00:00",
+        "premarket_start": "2026-06-29T04:00:00-04:00",
+        "rth_open": "2026-06-29T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-29T20:00:00-04:00",
+        "anchor_at": "2026-06-29T20:00:00+00:00",
+        "anchor_date": "2026-06-29",
+        "calendar": "XNYS",
+        "cycle_id": "2026-06-30",
+        "end_at": "2026-06-30T20:00:00+00:00",
+        "premarket_start": "2026-06-30T04:00:00-04:00",
+        "rth_open": "2026-06-30T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-06-30T20:00:00-04:00",
+        "anchor_at": "2026-06-30T20:00:00+00:00",
+        "anchor_date": "2026-06-30",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-01",
+        "end_at": "2026-07-01T20:00:00+00:00",
+        "premarket_start": "2026-07-01T04:00:00-04:00",
+        "rth_open": "2026-07-01T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-01T20:00:00-04:00",
+        "anchor_at": "2026-07-01T20:00:00+00:00",
+        "anchor_date": "2026-07-01",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-02",
+        "end_at": "2026-07-02T20:00:00+00:00",
+        "premarket_start": "2026-07-02T04:00:00-04:00",
+        "rth_open": "2026-07-02T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-02T20:00:00-04:00",
+        "anchor_at": "2026-07-02T20:00:00+00:00",
+        "anchor_date": "2026-07-02",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-06",
+        "end_at": "2026-07-06T20:00:00+00:00",
+        "premarket_start": "2026-07-06T04:00:00-04:00",
+        "rth_open": "2026-07-06T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-06T20:00:00-04:00",
+        "anchor_at": "2026-07-06T20:00:00+00:00",
+        "anchor_date": "2026-07-06",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-07",
+        "end_at": "2026-07-07T20:00:00+00:00",
+        "premarket_start": "2026-07-07T04:00:00-04:00",
+        "rth_open": "2026-07-07T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-07T20:00:00-04:00",
+        "anchor_at": "2026-07-07T20:00:00+00:00",
+        "anchor_date": "2026-07-07",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-08",
+        "end_at": "2026-07-08T20:00:00+00:00",
+        "premarket_start": "2026-07-08T04:00:00-04:00",
+        "rth_open": "2026-07-08T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-08T20:00:00-04:00",
+        "anchor_at": "2026-07-08T20:00:00+00:00",
+        "anchor_date": "2026-07-08",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-09",
+        "end_at": "2026-07-09T20:00:00+00:00",
+        "premarket_start": "2026-07-09T04:00:00-04:00",
+        "rth_open": "2026-07-09T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-09T20:00:00-04:00",
+        "anchor_at": "2026-07-09T20:00:00+00:00",
+        "anchor_date": "2026-07-09",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-10",
+        "end_at": "2026-07-10T20:00:00+00:00",
+        "premarket_start": "2026-07-10T04:00:00-04:00",
+        "rth_open": "2026-07-10T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-10T20:00:00-04:00",
+        "anchor_at": "2026-07-10T20:00:00+00:00",
+        "anchor_date": "2026-07-10",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-13",
+        "end_at": "2026-07-13T20:00:00+00:00",
+        "premarket_start": "2026-07-13T04:00:00-04:00",
+        "rth_open": "2026-07-13T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-13T20:00:00-04:00",
+        "anchor_at": "2026-07-13T20:00:00+00:00",
+        "anchor_date": "2026-07-13",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-14",
+        "end_at": "2026-07-14T20:00:00+00:00",
+        "premarket_start": "2026-07-14T04:00:00-04:00",
+        "rth_open": "2026-07-14T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-14T20:00:00-04:00",
+        "anchor_at": "2026-07-14T20:00:00+00:00",
+        "anchor_date": "2026-07-14",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-15",
+        "end_at": "2026-07-15T20:00:00+00:00",
+        "premarket_start": "2026-07-15T04:00:00-04:00",
+        "rth_open": "2026-07-15T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-15T20:00:00-04:00",
+        "anchor_at": "2026-07-15T20:00:00+00:00",
+        "anchor_date": "2026-07-15",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-16",
+        "end_at": "2026-07-16T20:00:00+00:00",
+        "premarket_start": "2026-07-16T04:00:00-04:00",
+        "rth_open": "2026-07-16T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-16T20:00:00-04:00",
+        "anchor_at": "2026-07-16T20:00:00+00:00",
+        "anchor_date": "2026-07-16",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-17",
+        "end_at": "2026-07-17T20:00:00+00:00",
+        "premarket_start": "2026-07-17T04:00:00-04:00",
+        "rth_open": "2026-07-17T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-17T20:00:00-04:00",
+        "anchor_at": "2026-07-17T20:00:00+00:00",
+        "anchor_date": "2026-07-17",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-20",
+        "end_at": "2026-07-20T20:00:00+00:00",
+        "premarket_start": "2026-07-20T04:00:00-04:00",
+        "rth_open": "2026-07-20T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-20T20:00:00-04:00",
+        "anchor_at": "2026-07-20T20:00:00+00:00",
+        "anchor_date": "2026-07-20",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-21",
+        "end_at": "2026-07-21T20:00:00+00:00",
+        "premarket_start": "2026-07-21T04:00:00-04:00",
+        "rth_open": "2026-07-21T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-21T20:00:00-04:00",
+        "anchor_at": "2026-07-21T20:00:00+00:00",
+        "anchor_date": "2026-07-21",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-22",
+        "end_at": "2026-07-22T20:00:00+00:00",
+        "premarket_start": "2026-07-22T04:00:00-04:00",
+        "rth_open": "2026-07-22T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-22T20:00:00-04:00",
+        "anchor_at": "2026-07-22T20:00:00+00:00",
+        "anchor_date": "2026-07-22",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-23",
+        "end_at": "2026-07-23T20:00:00+00:00",
+        "premarket_start": "2026-07-23T04:00:00-04:00",
+        "rth_open": "2026-07-23T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-23T20:00:00-04:00",
+        "anchor_at": "2026-07-23T20:00:00+00:00",
+        "anchor_date": "2026-07-23",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-24",
+        "end_at": "2026-07-24T20:00:00+00:00",
+        "premarket_start": "2026-07-24T04:00:00-04:00",
+        "rth_open": "2026-07-24T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-24T20:00:00-04:00",
+        "anchor_at": "2026-07-24T20:00:00+00:00",
+        "anchor_date": "2026-07-24",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-27",
+        "end_at": "2026-07-27T20:00:00+00:00",
+        "premarket_start": "2026-07-27T04:00:00-04:00",
+        "rth_open": "2026-07-27T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-27T20:00:00-04:00",
+        "anchor_at": "2026-07-27T20:00:00+00:00",
+        "anchor_date": "2026-07-27",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-28",
+        "end_at": "2026-07-28T20:00:00+00:00",
+        "premarket_start": "2026-07-28T04:00:00-04:00",
+        "rth_open": "2026-07-28T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-28T20:00:00-04:00",
+        "anchor_at": "2026-07-28T20:00:00+00:00",
+        "anchor_date": "2026-07-28",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-29",
+        "end_at": "2026-07-29T20:00:00+00:00",
+        "premarket_start": "2026-07-29T04:00:00-04:00",
+        "rth_open": "2026-07-29T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-29T20:00:00-04:00",
+        "anchor_at": "2026-07-29T20:00:00+00:00",
+        "anchor_date": "2026-07-29",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-30",
+        "end_at": "2026-07-30T20:00:00+00:00",
+        "premarket_start": "2026-07-30T04:00:00-04:00",
+        "rth_open": "2026-07-30T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-30T20:00:00-04:00",
+        "anchor_at": "2026-07-30T20:00:00+00:00",
+        "anchor_date": "2026-07-30",
+        "calendar": "XNYS",
+        "cycle_id": "2026-07-31",
+        "end_at": "2026-07-31T20:00:00+00:00",
+        "premarket_start": "2026-07-31T04:00:00-04:00",
+        "rth_open": "2026-07-31T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-07-31T20:00:00-04:00",
+        "anchor_at": "2026-07-31T20:00:00+00:00",
+        "anchor_date": "2026-07-31",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-03",
+        "end_at": "2026-08-03T20:00:00+00:00",
+        "premarket_start": "2026-08-03T04:00:00-04:00",
+        "rth_open": "2026-08-03T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-03T20:00:00-04:00",
+        "anchor_at": "2026-08-03T20:00:00+00:00",
+        "anchor_date": "2026-08-03",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-04",
+        "end_at": "2026-08-04T20:00:00+00:00",
+        "premarket_start": "2026-08-04T04:00:00-04:00",
+        "rth_open": "2026-08-04T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-04T20:00:00-04:00",
+        "anchor_at": "2026-08-04T20:00:00+00:00",
+        "anchor_date": "2026-08-04",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-05",
+        "end_at": "2026-08-05T20:00:00+00:00",
+        "premarket_start": "2026-08-05T04:00:00-04:00",
+        "rth_open": "2026-08-05T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-05T20:00:00-04:00",
+        "anchor_at": "2026-08-05T20:00:00+00:00",
+        "anchor_date": "2026-08-05",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-06",
+        "end_at": "2026-08-06T20:00:00+00:00",
+        "premarket_start": "2026-08-06T04:00:00-04:00",
+        "rth_open": "2026-08-06T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-06T20:00:00-04:00",
+        "anchor_at": "2026-08-06T20:00:00+00:00",
+        "anchor_date": "2026-08-06",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-07",
+        "end_at": "2026-08-07T20:00:00+00:00",
+        "premarket_start": "2026-08-07T04:00:00-04:00",
+        "rth_open": "2026-08-07T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-07T20:00:00-04:00",
+        "anchor_at": "2026-08-07T20:00:00+00:00",
+        "anchor_date": "2026-08-07",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-10",
+        "end_at": "2026-08-10T20:00:00+00:00",
+        "premarket_start": "2026-08-10T04:00:00-04:00",
+        "rth_open": "2026-08-10T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-10T20:00:00-04:00",
+        "anchor_at": "2026-08-10T20:00:00+00:00",
+        "anchor_date": "2026-08-10",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-11",
+        "end_at": "2026-08-11T20:00:00+00:00",
+        "premarket_start": "2026-08-11T04:00:00-04:00",
+        "rth_open": "2026-08-11T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-11T20:00:00-04:00",
+        "anchor_at": "2026-08-11T20:00:00+00:00",
+        "anchor_date": "2026-08-11",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-12",
+        "end_at": "2026-08-12T20:00:00+00:00",
+        "premarket_start": "2026-08-12T04:00:00-04:00",
+        "rth_open": "2026-08-12T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-12T20:00:00-04:00",
+        "anchor_at": "2026-08-12T20:00:00+00:00",
+        "anchor_date": "2026-08-12",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-13",
+        "end_at": "2026-08-13T20:00:00+00:00",
+        "premarket_start": "2026-08-13T04:00:00-04:00",
+        "rth_open": "2026-08-13T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-13T20:00:00-04:00",
+        "anchor_at": "2026-08-13T20:00:00+00:00",
+        "anchor_date": "2026-08-13",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-14",
+        "end_at": "2026-08-14T20:00:00+00:00",
+        "premarket_start": "2026-08-14T04:00:00-04:00",
+        "rth_open": "2026-08-14T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-14T20:00:00-04:00",
+        "anchor_at": "2026-08-14T20:00:00+00:00",
+        "anchor_date": "2026-08-14",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-17",
+        "end_at": "2026-08-17T20:00:00+00:00",
+        "premarket_start": "2026-08-17T04:00:00-04:00",
+        "rth_open": "2026-08-17T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-17T20:00:00-04:00",
+        "anchor_at": "2026-08-17T20:00:00+00:00",
+        "anchor_date": "2026-08-17",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-18",
+        "end_at": "2026-08-18T20:00:00+00:00",
+        "premarket_start": "2026-08-18T04:00:00-04:00",
+        "rth_open": "2026-08-18T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-18T20:00:00-04:00",
+        "anchor_at": "2026-08-18T20:00:00+00:00",
+        "anchor_date": "2026-08-18",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-19",
+        "end_at": "2026-08-19T20:00:00+00:00",
+        "premarket_start": "2026-08-19T04:00:00-04:00",
+        "rth_open": "2026-08-19T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-19T20:00:00-04:00",
+        "anchor_at": "2026-08-19T20:00:00+00:00",
+        "anchor_date": "2026-08-19",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-20",
+        "end_at": "2026-08-20T20:00:00+00:00",
+        "premarket_start": "2026-08-20T04:00:00-04:00",
+        "rth_open": "2026-08-20T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-20T20:00:00-04:00",
+        "anchor_at": "2026-08-20T20:00:00+00:00",
+        "anchor_date": "2026-08-20",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-21",
+        "end_at": "2026-08-21T20:00:00+00:00",
+        "premarket_start": "2026-08-21T04:00:00-04:00",
+        "rth_open": "2026-08-21T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-21T20:00:00-04:00",
+        "anchor_at": "2026-08-21T20:00:00+00:00",
+        "anchor_date": "2026-08-21",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-24",
+        "end_at": "2026-08-24T20:00:00+00:00",
+        "premarket_start": "2026-08-24T04:00:00-04:00",
+        "rth_open": "2026-08-24T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-24T20:00:00-04:00",
+        "anchor_at": "2026-08-24T20:00:00+00:00",
+        "anchor_date": "2026-08-24",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-25",
+        "end_at": "2026-08-25T20:00:00+00:00",
+        "premarket_start": "2026-08-25T04:00:00-04:00",
+        "rth_open": "2026-08-25T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-25T20:00:00-04:00",
+        "anchor_at": "2026-08-25T20:00:00+00:00",
+        "anchor_date": "2026-08-25",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-26",
+        "end_at": "2026-08-26T20:00:00+00:00",
+        "premarket_start": "2026-08-26T04:00:00-04:00",
+        "rth_open": "2026-08-26T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-26T20:00:00-04:00",
+        "anchor_at": "2026-08-26T20:00:00+00:00",
+        "anchor_date": "2026-08-26",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-27",
+        "end_at": "2026-08-27T20:00:00+00:00",
+        "premarket_start": "2026-08-27T04:00:00-04:00",
+        "rth_open": "2026-08-27T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-27T20:00:00-04:00",
+        "anchor_at": "2026-08-27T20:00:00+00:00",
+        "anchor_date": "2026-08-27",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-28",
+        "end_at": "2026-08-28T20:00:00+00:00",
+        "premarket_start": "2026-08-28T04:00:00-04:00",
+        "rth_open": "2026-08-28T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-28T20:00:00-04:00",
+        "anchor_at": "2026-08-28T20:00:00+00:00",
+        "anchor_date": "2026-08-28",
+        "calendar": "XNYS",
+        "cycle_id": "2026-08-31",
+        "end_at": "2026-08-31T20:00:00+00:00",
+        "premarket_start": "2026-08-31T04:00:00-04:00",
+        "rth_open": "2026-08-31T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-08-31T20:00:00-04:00",
+        "anchor_at": "2026-08-31T20:00:00+00:00",
+        "anchor_date": "2026-08-31",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-01",
+        "end_at": "2026-09-01T20:00:00+00:00",
+        "premarket_start": "2026-09-01T04:00:00-04:00",
+        "rth_open": "2026-09-01T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-01T20:00:00-04:00",
+        "anchor_at": "2026-09-01T20:00:00+00:00",
+        "anchor_date": "2026-09-01",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-02",
+        "end_at": "2026-09-02T20:00:00+00:00",
+        "premarket_start": "2026-09-02T04:00:00-04:00",
+        "rth_open": "2026-09-02T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-02T20:00:00-04:00",
+        "anchor_at": "2026-09-02T20:00:00+00:00",
+        "anchor_date": "2026-09-02",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-03",
+        "end_at": "2026-09-03T20:00:00+00:00",
+        "premarket_start": "2026-09-03T04:00:00-04:00",
+        "rth_open": "2026-09-03T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-03T20:00:00-04:00",
+        "anchor_at": "2026-09-03T20:00:00+00:00",
+        "anchor_date": "2026-09-03",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-04",
+        "end_at": "2026-09-04T20:00:00+00:00",
+        "premarket_start": "2026-09-04T04:00:00-04:00",
+        "rth_open": "2026-09-04T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-04T20:00:00-04:00",
+        "anchor_at": "2026-09-04T20:00:00+00:00",
+        "anchor_date": "2026-09-04",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-08",
+        "end_at": "2026-09-08T20:00:00+00:00",
+        "premarket_start": "2026-09-08T04:00:00-04:00",
+        "rth_open": "2026-09-08T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-08T20:00:00-04:00",
+        "anchor_at": "2026-09-08T20:00:00+00:00",
+        "anchor_date": "2026-09-08",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-09",
+        "end_at": "2026-09-09T20:00:00+00:00",
+        "premarket_start": "2026-09-09T04:00:00-04:00",
+        "rth_open": "2026-09-09T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-09T20:00:00-04:00",
+        "anchor_at": "2026-09-09T20:00:00+00:00",
+        "anchor_date": "2026-09-09",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-10",
+        "end_at": "2026-09-10T20:00:00+00:00",
+        "premarket_start": "2026-09-10T04:00:00-04:00",
+        "rth_open": "2026-09-10T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-10T20:00:00-04:00",
+        "anchor_at": "2026-09-10T20:00:00+00:00",
+        "anchor_date": "2026-09-10",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-11",
+        "end_at": "2026-09-11T20:00:00+00:00",
+        "premarket_start": "2026-09-11T04:00:00-04:00",
+        "rth_open": "2026-09-11T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-11T20:00:00-04:00",
+        "anchor_at": "2026-09-11T20:00:00+00:00",
+        "anchor_date": "2026-09-11",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-14",
+        "end_at": "2026-09-14T20:00:00+00:00",
+        "premarket_start": "2026-09-14T04:00:00-04:00",
+        "rth_open": "2026-09-14T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-14T20:00:00-04:00",
+        "anchor_at": "2026-09-14T20:00:00+00:00",
+        "anchor_date": "2026-09-14",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-15",
+        "end_at": "2026-09-15T20:00:00+00:00",
+        "premarket_start": "2026-09-15T04:00:00-04:00",
+        "rth_open": "2026-09-15T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-15T20:00:00-04:00",
+        "anchor_at": "2026-09-15T20:00:00+00:00",
+        "anchor_date": "2026-09-15",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-16",
+        "end_at": "2026-09-16T20:00:00+00:00",
+        "premarket_start": "2026-09-16T04:00:00-04:00",
+        "rth_open": "2026-09-16T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-16T20:00:00-04:00",
+        "anchor_at": "2026-09-16T20:00:00+00:00",
+        "anchor_date": "2026-09-16",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-17",
+        "end_at": "2026-09-17T20:00:00+00:00",
+        "premarket_start": "2026-09-17T04:00:00-04:00",
+        "rth_open": "2026-09-17T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-17T20:00:00-04:00",
+        "anchor_at": "2026-09-17T20:00:00+00:00",
+        "anchor_date": "2026-09-17",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-18",
+        "end_at": "2026-09-18T20:00:00+00:00",
+        "premarket_start": "2026-09-18T04:00:00-04:00",
+        "rth_open": "2026-09-18T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-18T20:00:00-04:00",
+        "anchor_at": "2026-09-18T20:00:00+00:00",
+        "anchor_date": "2026-09-18",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-21",
+        "end_at": "2026-09-21T20:00:00+00:00",
+        "premarket_start": "2026-09-21T04:00:00-04:00",
+        "rth_open": "2026-09-21T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-21T20:00:00-04:00",
+        "anchor_at": "2026-09-21T20:00:00+00:00",
+        "anchor_date": "2026-09-21",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-22",
+        "end_at": "2026-09-22T20:00:00+00:00",
+        "premarket_start": "2026-09-22T04:00:00-04:00",
+        "rth_open": "2026-09-22T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-22T20:00:00-04:00",
+        "anchor_at": "2026-09-22T20:00:00+00:00",
+        "anchor_date": "2026-09-22",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-23",
+        "end_at": "2026-09-23T20:00:00+00:00",
+        "premarket_start": "2026-09-23T04:00:00-04:00",
+        "rth_open": "2026-09-23T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-23T20:00:00-04:00",
+        "anchor_at": "2026-09-23T20:00:00+00:00",
+        "anchor_date": "2026-09-23",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-24",
+        "end_at": "2026-09-24T20:00:00+00:00",
+        "premarket_start": "2026-09-24T04:00:00-04:00",
+        "rth_open": "2026-09-24T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-24T20:00:00-04:00",
+        "anchor_at": "2026-09-24T20:00:00+00:00",
+        "anchor_date": "2026-09-24",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-25",
+        "end_at": "2026-09-25T20:00:00+00:00",
+        "premarket_start": "2026-09-25T04:00:00-04:00",
+        "rth_open": "2026-09-25T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-25T20:00:00-04:00",
+        "anchor_at": "2026-09-25T20:00:00+00:00",
+        "anchor_date": "2026-09-25",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-28",
+        "end_at": "2026-09-28T20:00:00+00:00",
+        "premarket_start": "2026-09-28T04:00:00-04:00",
+        "rth_open": "2026-09-28T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-28T20:00:00-04:00",
+        "anchor_at": "2026-09-28T20:00:00+00:00",
+        "anchor_date": "2026-09-28",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-29",
+        "end_at": "2026-09-29T20:00:00+00:00",
+        "premarket_start": "2026-09-29T04:00:00-04:00",
+        "rth_open": "2026-09-29T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-29T20:00:00-04:00",
+        "anchor_at": "2026-09-29T20:00:00+00:00",
+        "anchor_date": "2026-09-29",
+        "calendar": "XNYS",
+        "cycle_id": "2026-09-30",
+        "end_at": "2026-09-30T20:00:00+00:00",
+        "premarket_start": "2026-09-30T04:00:00-04:00",
+        "rth_open": "2026-09-30T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-09-30T20:00:00-04:00",
+        "anchor_at": "2026-09-30T20:00:00+00:00",
+        "anchor_date": "2026-09-30",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-01",
+        "end_at": "2026-10-01T20:00:00+00:00",
+        "premarket_start": "2026-10-01T04:00:00-04:00",
+        "rth_open": "2026-10-01T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-01T20:00:00-04:00",
+        "anchor_at": "2026-10-01T20:00:00+00:00",
+        "anchor_date": "2026-10-01",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-02",
+        "end_at": "2026-10-02T20:00:00+00:00",
+        "premarket_start": "2026-10-02T04:00:00-04:00",
+        "rth_open": "2026-10-02T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-02T20:00:00-04:00",
+        "anchor_at": "2026-10-02T20:00:00+00:00",
+        "anchor_date": "2026-10-02",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-05",
+        "end_at": "2026-10-05T20:00:00+00:00",
+        "premarket_start": "2026-10-05T04:00:00-04:00",
+        "rth_open": "2026-10-05T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-05T20:00:00-04:00",
+        "anchor_at": "2026-10-05T20:00:00+00:00",
+        "anchor_date": "2026-10-05",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-06",
+        "end_at": "2026-10-06T20:00:00+00:00",
+        "premarket_start": "2026-10-06T04:00:00-04:00",
+        "rth_open": "2026-10-06T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-06T20:00:00-04:00",
+        "anchor_at": "2026-10-06T20:00:00+00:00",
+        "anchor_date": "2026-10-06",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-07",
+        "end_at": "2026-10-07T20:00:00+00:00",
+        "premarket_start": "2026-10-07T04:00:00-04:00",
+        "rth_open": "2026-10-07T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-07T20:00:00-04:00",
+        "anchor_at": "2026-10-07T20:00:00+00:00",
+        "anchor_date": "2026-10-07",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-08",
+        "end_at": "2026-10-08T20:00:00+00:00",
+        "premarket_start": "2026-10-08T04:00:00-04:00",
+        "rth_open": "2026-10-08T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-08T20:00:00-04:00",
+        "anchor_at": "2026-10-08T20:00:00+00:00",
+        "anchor_date": "2026-10-08",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-09",
+        "end_at": "2026-10-09T20:00:00+00:00",
+        "premarket_start": "2026-10-09T04:00:00-04:00",
+        "rth_open": "2026-10-09T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-09T20:00:00-04:00",
+        "anchor_at": "2026-10-09T20:00:00+00:00",
+        "anchor_date": "2026-10-09",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-12",
+        "end_at": "2026-10-12T20:00:00+00:00",
+        "premarket_start": "2026-10-12T04:00:00-04:00",
+        "rth_open": "2026-10-12T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-12T20:00:00-04:00",
+        "anchor_at": "2026-10-12T20:00:00+00:00",
+        "anchor_date": "2026-10-12",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-13",
+        "end_at": "2026-10-13T20:00:00+00:00",
+        "premarket_start": "2026-10-13T04:00:00-04:00",
+        "rth_open": "2026-10-13T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-13T20:00:00-04:00",
+        "anchor_at": "2026-10-13T20:00:00+00:00",
+        "anchor_date": "2026-10-13",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-14",
+        "end_at": "2026-10-14T20:00:00+00:00",
+        "premarket_start": "2026-10-14T04:00:00-04:00",
+        "rth_open": "2026-10-14T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-14T20:00:00-04:00",
+        "anchor_at": "2026-10-14T20:00:00+00:00",
+        "anchor_date": "2026-10-14",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-15",
+        "end_at": "2026-10-15T20:00:00+00:00",
+        "premarket_start": "2026-10-15T04:00:00-04:00",
+        "rth_open": "2026-10-15T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-15T20:00:00-04:00",
+        "anchor_at": "2026-10-15T20:00:00+00:00",
+        "anchor_date": "2026-10-15",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-16",
+        "end_at": "2026-10-16T20:00:00+00:00",
+        "premarket_start": "2026-10-16T04:00:00-04:00",
+        "rth_open": "2026-10-16T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-16T20:00:00-04:00",
+        "anchor_at": "2026-10-16T20:00:00+00:00",
+        "anchor_date": "2026-10-16",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-19",
+        "end_at": "2026-10-19T20:00:00+00:00",
+        "premarket_start": "2026-10-19T04:00:00-04:00",
+        "rth_open": "2026-10-19T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-19T20:00:00-04:00",
+        "anchor_at": "2026-10-19T20:00:00+00:00",
+        "anchor_date": "2026-10-19",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-20",
+        "end_at": "2026-10-20T20:00:00+00:00",
+        "premarket_start": "2026-10-20T04:00:00-04:00",
+        "rth_open": "2026-10-20T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-20T20:00:00-04:00",
+        "anchor_at": "2026-10-20T20:00:00+00:00",
+        "anchor_date": "2026-10-20",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-21",
+        "end_at": "2026-10-21T20:00:00+00:00",
+        "premarket_start": "2026-10-21T04:00:00-04:00",
+        "rth_open": "2026-10-21T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-21T20:00:00-04:00",
+        "anchor_at": "2026-10-21T20:00:00+00:00",
+        "anchor_date": "2026-10-21",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-22",
+        "end_at": "2026-10-22T20:00:00+00:00",
+        "premarket_start": "2026-10-22T04:00:00-04:00",
+        "rth_open": "2026-10-22T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-22T20:00:00-04:00",
+        "anchor_at": "2026-10-22T20:00:00+00:00",
+        "anchor_date": "2026-10-22",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-23",
+        "end_at": "2026-10-23T20:00:00+00:00",
+        "premarket_start": "2026-10-23T04:00:00-04:00",
+        "rth_open": "2026-10-23T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-23T20:00:00-04:00",
+        "anchor_at": "2026-10-23T20:00:00+00:00",
+        "anchor_date": "2026-10-23",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-26",
+        "end_at": "2026-10-26T20:00:00+00:00",
+        "premarket_start": "2026-10-26T04:00:00-04:00",
+        "rth_open": "2026-10-26T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-26T20:00:00-04:00",
+        "anchor_at": "2026-10-26T20:00:00+00:00",
+        "anchor_date": "2026-10-26",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-27",
+        "end_at": "2026-10-27T20:00:00+00:00",
+        "premarket_start": "2026-10-27T04:00:00-04:00",
+        "rth_open": "2026-10-27T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-27T20:00:00-04:00",
+        "anchor_at": "2026-10-27T20:00:00+00:00",
+        "anchor_date": "2026-10-27",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-28",
+        "end_at": "2026-10-28T20:00:00+00:00",
+        "premarket_start": "2026-10-28T04:00:00-04:00",
+        "rth_open": "2026-10-28T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-28T20:00:00-04:00",
+        "anchor_at": "2026-10-28T20:00:00+00:00",
+        "anchor_date": "2026-10-28",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-29",
+        "end_at": "2026-10-29T20:00:00+00:00",
+        "premarket_start": "2026-10-29T04:00:00-04:00",
+        "rth_open": "2026-10-29T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-29T20:00:00-04:00",
+        "anchor_at": "2026-10-29T20:00:00+00:00",
+        "anchor_date": "2026-10-29",
+        "calendar": "XNYS",
+        "cycle_id": "2026-10-30",
+        "end_at": "2026-10-30T20:00:00+00:00",
+        "premarket_start": "2026-10-30T04:00:00-04:00",
+        "rth_open": "2026-10-30T13:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-10-30T20:00:00-04:00",
+        "anchor_at": "2026-10-30T20:00:00+00:00",
+        "anchor_date": "2026-10-30",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-02",
+        "end_at": "2026-11-02T21:00:00+00:00",
+        "premarket_start": "2026-11-02T04:00:00-05:00",
+        "rth_open": "2026-11-02T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-02T20:00:00-05:00",
+        "anchor_at": "2026-11-02T21:00:00+00:00",
+        "anchor_date": "2026-11-02",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-03",
+        "end_at": "2026-11-03T21:00:00+00:00",
+        "premarket_start": "2026-11-03T04:00:00-05:00",
+        "rth_open": "2026-11-03T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-03T20:00:00-05:00",
+        "anchor_at": "2026-11-03T21:00:00+00:00",
+        "anchor_date": "2026-11-03",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-04",
+        "end_at": "2026-11-04T21:00:00+00:00",
+        "premarket_start": "2026-11-04T04:00:00-05:00",
+        "rth_open": "2026-11-04T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-04T20:00:00-05:00",
+        "anchor_at": "2026-11-04T21:00:00+00:00",
+        "anchor_date": "2026-11-04",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-05",
+        "end_at": "2026-11-05T21:00:00+00:00",
+        "premarket_start": "2026-11-05T04:00:00-05:00",
+        "rth_open": "2026-11-05T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-05T20:00:00-05:00",
+        "anchor_at": "2026-11-05T21:00:00+00:00",
+        "anchor_date": "2026-11-05",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-06",
+        "end_at": "2026-11-06T21:00:00+00:00",
+        "premarket_start": "2026-11-06T04:00:00-05:00",
+        "rth_open": "2026-11-06T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-06T20:00:00-05:00",
+        "anchor_at": "2026-11-06T21:00:00+00:00",
+        "anchor_date": "2026-11-06",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-09",
+        "end_at": "2026-11-09T21:00:00+00:00",
+        "premarket_start": "2026-11-09T04:00:00-05:00",
+        "rth_open": "2026-11-09T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-09T20:00:00-05:00",
+        "anchor_at": "2026-11-09T21:00:00+00:00",
+        "anchor_date": "2026-11-09",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-10",
+        "end_at": "2026-11-10T21:00:00+00:00",
+        "premarket_start": "2026-11-10T04:00:00-05:00",
+        "rth_open": "2026-11-10T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-10T20:00:00-05:00",
+        "anchor_at": "2026-11-10T21:00:00+00:00",
+        "anchor_date": "2026-11-10",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-11",
+        "end_at": "2026-11-11T21:00:00+00:00",
+        "premarket_start": "2026-11-11T04:00:00-05:00",
+        "rth_open": "2026-11-11T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-11T20:00:00-05:00",
+        "anchor_at": "2026-11-11T21:00:00+00:00",
+        "anchor_date": "2026-11-11",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-12",
+        "end_at": "2026-11-12T21:00:00+00:00",
+        "premarket_start": "2026-11-12T04:00:00-05:00",
+        "rth_open": "2026-11-12T14:30:00+00:00",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-12T20:00:00-05:00",
+        "anchor_at": "2026-11-12T21:00:00+00:00",
+        "anchor_date": "2026-11-12",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-13",
+        "end_at": "2026-11-13T21:00:00+00:00",
+        "premarket_start": "2026-11-13T04:00:00-05:00",
+        "rth_open": "2026-11-13T14:30:00+00:00",
+        "timezone": "America/New_York"
+      }
+    ],
+    "code_hashes": {
+      "__init__.py": "7e5a1fb8f71403b24ae2ced9d5f02bf4cae570bcba7600b6f054abb47e2f9b90",
+      "api.py": "3bf7d831b2a611ee7be60060eab36fbc435b0e6be50f2560ecb6e818935f9f48",
+      "calendar.py": "8e7734e5366427896a36b86bfc23cc32b1751aceda3fca04a5c3eaef3b832a4a",
+      "cli.py": "9280193394887985f01d463754dc1e20ed5fdc6b5230d034efd9ea2bac518a84",
+      "datasets.py": "d9d1361fa4381368964a140a16e955ecdc3745052d1bccd00198481bd14921b2",
+      "eligibility.py": "2474c4378d97d920adb2b1d9480af5c6accd216ad43c3a207cf872e1b775947d",
+      "pipeline.py": "ed742a84697be971497d45eb0f8b7525a727fd2fc3fd4adecd4cd93869759d64",
+      "results.py": "ab5f0f08b826ed2291b9389ab08e8a37d6cb34e1ea895f3956f2258e9895c207",
+      "storage.py": "22ce03842e482ec08c98af3630fe9908ec15b44ee03f8a1ea8d6792ec4449623"
+    },
+    "cycles": 120,
+    "end": "2026-11-13",
+    "evidence_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "float_max": 15000000,
+    "float_min": 100000,
+    "policy_version": "task001-anchor-v1",
+    "price_max_inclusive": 3,
+    "price_min_exclusive": 0
+  },
+  "config_hash": "c2c99d26abd9f8d24bce5bd9a0ac54f364e59d509b0470f57c06106cafadd146",
+  "cycles": [
+    {
+      "changes": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/universe-120-20261113-v1/exchange_changes/cycle=2026-05-27/changes.parquet",
+      "changes_hash": "c6676aa78afdffa907ce8496bfdd29586a3384b4f3b328676295a28cca3db544",
+      "config_hash": "c2c99d26abd9f8d24bce5bd9a0ac54f364e59d509b0470f57c06106cafadd146",
+      "counts": {
+        "candidates": 12644,
+        "excluded": 10732,
+        "excluded_exchange": 3966,
+        "excluded_float": 0,
+        "excluded_price": 10653,
+        "qualified": 0,
+        "unresolved": 1912,
+        "unresolved_exchange": 0,
+        "unresolved_fields": 12644,
+        "unresolved_float": 12644,
+        "unresolved_price": 485
+      },
+      "cycle_id": "2026-05-27",
+      "observation_error": null,
+      "snapshot": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/universe-120-20261113-v1/universe/cycle=2026-05-27/snapshot.parquet",
+      "snapshot_hash": "ccca6c0e0c93b7c905e109b36c7aeb85a7d19b7f1b8c39de83db170115c17bc6",
+      "sources": [
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/70bbbb3a7b888a896e6b9e28a0ff23217dd0dbc3f3c052112fab94ad87039bc0.parquet",
+          "sha256": "8faefa7f914f694feb9aa131ba4705b28da108031aee323918f3f4daef42e94c"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/ad003c945ae7cba0a2da682086ad88b502e33ebffd7b148e905c2310334e2561.parquet",
+          "sha256": "27a3911b1a81b809aeb0a7cd9eeff0be967b0ff6288a7a278e3b1235970e6c4f"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/dca96e9d8de3e10704d0a108373636785c3ae7c16785093813ca26ad30e40dfd.parquet",
+          "sha256": "f1f6ba8b6e0ffe18d4522cc8328774d437801914bc272398243e389620664e60"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/79b8a3cbf5c05abfb3748e865849504b18609426d476d290eb1f86949477ba13.parquet",
+          "sha256": "5db1d204a8726d5d52f8025b9bc1a0ff5db01ea78df9f3d7653648351afcb172"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/0c5d967393c59474d993a37248264ec88c7d3325a66d3df6053457de35744a1f.parquet",
+          "sha256": "77f92bfa2cc8c831d2ace22c6f5a685aa3930e60a4815e87bf5f2652f8b79ed3"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/f4a7833c00356bccfd4ec593d1ac72a51a289df6394fcd9729058275c41b6471.parquet",
+          "sha256": "f0401fe42269aff539c716a9078e6fef563471b1128a04d5340abdde373a1e06"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/ab134e629715775c1a05ff500b9fa9282e2c476a162f1c4f32a79c256108e7e8.parquet",
+          "sha256": "120d215fef5bbc2e5010d20625478664861d2353a78060ea6661ebd4bb62d407"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/33f8a2faf57e9fb5bd3136cacdf94a86e515a0ac9bd11762fffa2857003158af.parquet",
+          "sha256": "064af38b52af69a7c2c31b9cb6a4e69f13e47064ad6c5e0bbe92d40c0326b960"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e499f898594d390b1e7507934a32c40641dc41a65233351113661b82f4178685.parquet",
+          "sha256": "03e2742d16606c1eb6103fe063621588d373ec9304a91debcac661cc2711d70a"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/19e7a43052df376ae4546d9eb179f972bff637b1c577f91b3233c73f725df0bd.parquet",
+          "sha256": "7210b49b9e6d405407632a8b716f12d124dcaef00ef83bc75bc5b9dae9588d26"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/969e71438696a1158cec17f30773b00005a8d5dfc2d225dd0f8ed36ee77a7c7a.parquet",
+          "sha256": "8019092ff6dd629c3ce5775002e948cd1f804c0fa8a0b3a92af5dc48be9840c9"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/d5940f4819bd511d06296ab03a2cad5b7fe9210b7e2dbb7c652e25f6f62352fd.parquet",
+          "sha256": "8ca2a44eda7f32348a3ec3bf8a74f6a8c0a1610b7f26664182210b3fc3b88485"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/449f38a68577b2990a1c5f10261da979e10a997150a88beb4b9b2fe82f848894.parquet",
+          "sha256": "3e299309984fbbe8f15958408429edb1e4f9744b26d4dee3460f9557c53cf1af"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=prices/a2d34b404bf34ae95d5679b3d2acf84265220d663b0911e9d454f28f3406cde1.parquet",
+          "sha256": "8c7b0c0eb61307939966af96752f78486603a97a2789f71b0cbe9038672b6683"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/97048b2c061b0d1496ce8adfd7de83776ec18e3df46723c123703501f26bfd5d.parquet",
+          "sha256": "3eee34c9ed889848aa5c5d7973aec41eb59ca344281c0d834929fcbe89d8ed7b"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/7c71226db7b655a258eac7b3820e3259c0bc5a3238779aab36520c20d001f4c5.parquet",
+          "sha256": "9308e5488d737300d74e69fccb1e5da8b0f1a34556acc969e3d39e2c6082079b"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/995eddcafe356e20354fa458e203172bf734010aaed3476b95e9fbd1f30b355d.parquet",
+          "sha256": "d34beaeec695d06ff26a79cd01a73a4bd43490375a1b6ffe2b93de98144012af"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/7646d56d1f7d0ebb760290aad61b4ffcf92ae07a6913eee85e4659e078fb6715.parquet",
+          "sha256": "9c51a85b7bceeb006e35b9b52a70c21b24d4ac6efa8a1731d9597087240c7660"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/17e834a67ea5803d97d9d5691b5da8da12d0e645a5753bf35eddee89325763c4.parquet",
+          "sha256": "afe284c4d769c504e141a95215affb6ddd4191e9ebd19054c7bbd5838da0b54c"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/a34c904e9b01f5864429d625099ac0fcc7c3b2347c7dadb037c03ffd6279b73b.parquet",
+          "sha256": "48b52e4152616f48b77d9c2aeee83dcf7239ece0df4d73556e62ae255fcb83cf"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/f1612854d9c0888de272a696cfd93458959994f2594cdd1e04741e96781dec09.parquet",
+          "sha256": "ad3e56f0d560d1cb5a95da282a3ab9e36366d104453395c650ec712fd9ab194c"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/f4835ac37327045daffd7cbff47048c4a9dcb19f4151ca3ff696e42d3ba84c82.parquet",
+          "sha256": "53c8ccbf3aed74e3cc9c988280a2eaf1dbbc8590b2f0b3e10d11b49c6c5e5231"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/8a5cea0396269419cbb32bc6b9fa153022bc888b85108d20d8f0f17e0e18431b.parquet",
+          "sha256": "f2ad637a55efd75aae7bfff0a88fa87d5d9783004cfd5755f57708aaa9d6d343"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/7b56bb1af2696f26f42c715d9d07bc9d9014c657b6be14df98ae8aaa17d29b58.parquet",
+          "sha256": "69515a6ea4b382f0c9f91e8b1d0b2c59a7b20c9e1409e7917f5e353a69b8a374"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/4fd7b959c96790c3b80d7261ed7da328c8349841ba67692834166e656b4d9236.parquet",
+          "sha256": "bae9ae9130aa7466fab5b6cf36f0e885413b0ff8d75e769a7c5cfab82819b2fc"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e233dd961193bc474b77cdeed4c5e4be77ea8ac65025df7fecb0c3fd201d425a.parquet",
+          "sha256": "284eb83af2784b3d76f2c6839dae2bfb88559478a3086e5d6bc31dc4b40fe024"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/f3f102e873287746ccb8642a5789b189b17d8984a22018013efcea36b02e6b7c.parquet",
+          "sha256": "fae00d595df23d4b6e5b85e19f3e7d66d0441a30178ec444047d87135e8825a2"
+        }
+      ],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "requested_cycles": 120,
+  "run_id": "universe-120-20261113-v1",
+  "started_at": "2026-11-14T05:34:59.750230+00:00",
+  "status": "RUNNING"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "event_results",
+  "version": 1,
+  "fields": [
+    {
+      "name": "event_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cycle_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ticker",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "security_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "session",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "event_timestamp",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "confirmation_classification",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "pullback_classification",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "continuation_outcome",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "outcome_horizon",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "data_validity",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "censoring_reason",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "source_dataset_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "previous_rth_close",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "event_price",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "bid",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "ask",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "shares_float",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "mfe",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "mae",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "censored",
+      "type": "bool",
+      "nullable": true
+    },
+    {
+      "name": "event_order",
+      "type": "int64",
+      "nullable": true
+    }
+  ]
+}

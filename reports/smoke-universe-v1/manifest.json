@@ -1,0 +1,341 @@
+{
+  "api_errors": [],
+  "artifacts": [
+    {
+      "bytes": 972349,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/smoke-universe-v1/universe/cycle=2026-11-13/snapshot.parquet",
+      "sha256": "998c2347507ec5d0ae4e2d8f40cd7937192abef6949178f6fed8c342fc89981c"
+    },
+    {
+      "bytes": 14414,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/smoke-universe-v1/exchange_changes/cycle=2026-11-13/changes.parquet",
+      "sha256": "12f42fa24afaa26ada91ce0e8751eb9d176b60d7336e590ae611361bb1f1c3cb"
+    }
+  ],
+  "cache_hits_this_invocation": 1,
+  "code_hashes": {
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/__init__.py": "7e5a1fb8f71403b24ae2ced9d5f02bf4cae570bcba7600b6f054abb47e2f9b90",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/api.py": "3bf7d831b2a611ee7be60060eab36fbc435b0e6be50f2560ecb6e818935f9f48",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/calendar.py": "8e7734e5366427896a36b86bfc23cc32b1751aceda3fca04a5c3eaef3b832a4a",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/cli.py": "9280193394887985f01d463754dc1e20ed5fdc6b5230d034efd9ea2bac518a84",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/eligibility.py": "d61e4e99500f5f52becad527b0415110793025d6976924ceda35a334bffcf16d",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/pipeline.py": "ed742a84697be971497d45eb0f8b7525a727fd2fc3fd4adecd4cd93869759d64",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/results.py": "01a9dbd0f8e35e973a7fa8faf13230d817a4e35a184167b7e37d18cb23b752d4",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/storage.py": "22ce03842e482ec08c98af3630fe9908ec15b44ee03f8a1ea8d6792ec4449623"
+  },
+  "completed_cycles": 0,
+  "config": {
+    "calendar": [
+      {
+        "afterhours_end": "2026-11-12T20:00:00-05:00",
+        "anchor_at": "2026-11-12T21:00:00+00:00",
+        "anchor_date": "2026-11-12",
+        "calendar": "XNYS",
+        "cycle_id": "2026-11-13",
+        "end_at": "2026-11-13T21:00:00+00:00",
+        "premarket_start": "2026-11-13T04:00:00-05:00",
+        "rth_open": "2026-11-13T14:30:00+00:00",
+        "timezone": "America/New_York"
+      }
+    ],
+    "code_hashes": {
+      "__init__.py": "7e5a1fb8f71403b24ae2ced9d5f02bf4cae570bcba7600b6f054abb47e2f9b90",
+      "api.py": "3bf7d831b2a611ee7be60060eab36fbc435b0e6be50f2560ecb6e818935f9f48",
+      "calendar.py": "8e7734e5366427896a36b86bfc23cc32b1751aceda3fca04a5c3eaef3b832a4a",
+      "cli.py": "9280193394887985f01d463754dc1e20ed5fdc6b5230d034efd9ea2bac518a84",
+      "eligibility.py": "d61e4e99500f5f52becad527b0415110793025d6976924ceda35a334bffcf16d",
+      "pipeline.py": "ed742a84697be971497d45eb0f8b7525a727fd2fc3fd4adecd4cd93869759d64",
+      "results.py": "01a9dbd0f8e35e973a7fa8faf13230d817a4e35a184167b7e37d18cb23b752d4",
+      "storage.py": "22ce03842e482ec08c98af3630fe9908ec15b44ee03f8a1ea8d6792ec4449623"
+    },
+    "cycles": 1,
+    "end": "2026-11-13",
+    "evidence_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "float_max": 15000000,
+    "float_min": 100000,
+    "policy_version": "task001-anchor-v1",
+    "price_max_inclusive": 3,
+    "price_min_exclusive": 0
+  },
+  "config_hash": "844aff3c9e9653b2143bda55cfaf43c9623dbd2b7ad081e2957185115f1c8cf9",
+  "contract_version": "research-results-v1",
+  "cycles": [
+    {
+      "changes": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/smoke-universe-v1/exchange_changes/cycle=2026-11-13/changes.parquet",
+      "changes_hash": "12f42fa24afaa26ada91ce0e8751eb9d176b60d7336e590ae611361bb1f1c3cb",
+      "config_hash": "844aff3c9e9653b2143bda55cfaf43c9623dbd2b7ad081e2957185115f1c8cf9",
+      "counts": {
+        "candidates": 13247,
+        "excluded": 10978,
+        "excluded_exchange": 4440,
+        "excluded_float": 0,
+        "excluded_price": 10920,
+        "qualified": 0,
+        "unresolved": 2269,
+        "unresolved_exchange": 24,
+        "unresolved_fields": 13247,
+        "unresolved_float": 13247,
+        "unresolved_price": 665
+      },
+      "cycle_id": "2026-11-13",
+      "observation_error": null,
+      "snapshot": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/smoke-universe-v1/universe/cycle=2026-11-13/snapshot.parquet",
+      "snapshot_hash": "998c2347507ec5d0ae4e2d8f40cd7937192abef6949178f6fed8c342fc89981c",
+      "sources": [
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/4cd02295572a08b070af261b8e684cfaf0ae2020f534bdc37e12af08d1ed85f9.parquet",
+          "sha256": "b4393c7313e0b4855cfb6ab9dd482e71f72e046dfdd30fed1614c1511fa078ff"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/dbe342807fd2c8acbf0886529168e9538fca258093bfae050da48cc088f1f957.parquet",
+          "sha256": "59fc4aae12e34a3ab7a1c3a3d720582906d21a716e196aab057d8242acf92de7"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/4b529b30af0a27f364b6af600b5302ae2b5a181b20c87ae79eb728b2a26c18e2.parquet",
+          "sha256": "b0efea702d81c8936468b1ac9aafedc4c7c468cbee0370ebc46c28a772a28aa8"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e0e884cea01110091d0f18783d94fe02734c42b0a2aa3d424d57e6c192e2588f.parquet",
+          "sha256": "f506170bc1c42165b65779a6827ed9a242c60306358b9994d5059a2ed5ae7ca3"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/58d1908e14905683e5941a46057a75e72c4ba9645f4a5d637f55f9f8e552cf14.parquet",
+          "sha256": "a14cb24bb4fe54587c50fc6f19637c48b9988216265fe6bac3940519435026be"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/acedec9e7ec45fa06903170db42f4a030b20b112c9fb3b6fe651d99f9e3e9fef.parquet",
+          "sha256": "8d8164927b270745ec7a2bd1ba9920f926c5c11bf7eb3800b3a2b23358aaf931"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/58750d63eabcd967d15b70b6d2d85e711b7a0f4c14fbd259ee83f87440f70183.parquet",
+          "sha256": "ebf7351204ef1fb44e31b77ef8bf6cd542d3f3a2a2277ba44ea604ed9e5eabca"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/55a3371db7165a9e1455f212884a3130d393c98d46e7e44d4609ce84fc453c69.parquet",
+          "sha256": "5b6f9ec37e4be28fe387458b75d3e17e452aa3f2920450c3908b34038b303740"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/de5ae80072aea8d8aa0e1de2775b5b19f4d4308892bac3c129dfc122141d303f.parquet",
+          "sha256": "f036bb99d3786791ce2ac8bc0270fe1971a594685b0227973fcec46eb4eac860"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/2f365de36a88dcaa541fac7816fedb56d07671046573600898eae3f698aa8268.parquet",
+          "sha256": "31825e40a80039294ef5cb2035e5d2f064d65fda0544b28ecc354af688f31129"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5f6c3d201ef7ac02d0b5ad033c92b5f6b001266296685f44be714172c6f49cca.parquet",
+          "sha256": "9b85a38a78d19a1a5a07c6a799932258a34c05d2f5bf729fdac18b278c028874"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/9d3860533916cddd81fee7218e5676eefa0bbb8951a0bc22721e7caa931454cf.parquet",
+          "sha256": "d1d349d614fc2d58f46368fcc6171270d58ad19d39e3b0b059d789bb1e15014a"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/aa1d3fadb57f1ef756e3bd0a4a28904edff90893f07ab116b5f4e19dba70b0e0.parquet",
+          "sha256": "33f9c8882e6008cd8c276be2cab9cec717b9a92e5b57ee022ca882ae643e995b"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/a288e00369ab94668a2f80f87bd7a98f328454433548eef141213ecc3a2d05bb.parquet",
+          "sha256": "f7ea719ca8f490c72bd1f90df2e282cfd92fcbf24c8857cdd68a530830e83cf8"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=prices/34dbc74c16f7ac9a4ad6cea956a1cb0fa58412ee157441078ebc94edc60a32fc.parquet",
+          "sha256": "7dd945d6e159f28473b278f33615d6c808d603b3040ece3967f3a150a4933366"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c0daf804b694e825dd403fc4a97d8de11c8dbd2b394c71d90318e0845ba77667.parquet",
+          "sha256": "b9b805852453603ab21e0930ff20057fc4ea91d0bdecdb500ad96ce12d0f19c3"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/fcbcc7f99676a4cf354b6f5c4940514c8d3b23df80a39aaa4e04d3a490951fd6.parquet",
+          "sha256": "e71b5c7158843252fd1dbebbf901caf54a076179f6db141f8cbb45a60185100a"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c9a15518630d9e5261874c4c42bd973dbe30fb067cff6f450fd5b8c966ea0711.parquet",
+          "sha256": "ecad3f977987a7265895380c00cb726a0002eb3388731bb8ba9f8fc8f4ed454b"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c408bec9c00c75fc5d6e2b053f822b0956f320d791ffd44fe0c67e6d6a489e0d.parquet",
+          "sha256": "d87e0a7227f307226c74f6178953e23e9faf301938399f07b7d39dc2e08b1da8"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/1245c1ec23ea61e32af6f56af8be0bbb07396a353a08c556a4d5c395c12100d8.parquet",
+          "sha256": "ca28359962fc30bf0e9bde5cb478470ffe33d63c38b58e6d98855b93f56d8343"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5af709a46fb92afc20c304cc20f9bc493d433c479901f5702a20dbeaceb016d6.parquet",
+          "sha256": "135d0953404bed1970130c3025fc6fd69abcb06387959b657b476992f9782da1"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/9061214ad4a6cfd4cc8636f246918daac0e90b69fd3cde82911b11aa562e3e32.parquet",
+          "sha256": "7f80f7676494b51936af524001ea8a1725d79dfb1156e60106c426b2b3f5a27b"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/81986813bc5de2a530ca72f3f4c928362b2c6f63bee193f3e0739a35c1a9b339.parquet",
+          "sha256": "56fc9b1935e8cee342041e47feb1b0dd68a7233fead3ef45c6d0b65b66b9be8a"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/bb86a383c38d2e64aaa1388670b5e3ca1df4ebd484a5c744b3981bd39c5e1632.parquet",
+          "sha256": "99f5363a86b80e86ac577ef0f12880a38f4d1068a59133da996f9531d189beb6"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e613e372bcc9080d01da93b605e5e9ffc11d5351cedca7f22c6ff6f733a7ac69.parquet",
+          "sha256": "ae5449a266f2b267f6656a8d7aefda6f755b4756d31722d9e9c26e8d4cf05243"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/975ddab6db13d91bc6660f3762c2b161b5dd6c27506baa3eee900f2a2c0a26b9.parquet",
+          "sha256": "c8b7efd6611c0d5315a306ef8fdf77b5f40cb3041aff72b90bdf607ed84027ad"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/deaadd51ed4f2ae42ea6e728aad01d505455fec1ad71c92a317e04ce57bfad22.parquet",
+          "sha256": "94ed20e0d72539798c0e601b9f7cb8988623cc98b878fb74d7786618b4b4ecd6"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c22b76efcac4e771a1c6d0c631445408442cc60ed4d6a6434ac33948a6e60371.parquet",
+          "sha256": "0238c15fec91c9686df21b0d26296db2dbd44fe1e2bf0cbfe1e85b7d22959726"
+        },
+        {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5d0def9276aaf1db7409623f7aa36ccda28f6f7eed83c86d0e55b6048350167f.parquet",
+          "sha256": "9df06cbb8114d5d92a87a532b11b12400ef357ef1d4058d857dcba0fd658b0cc"
+        }
+      ],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "dependencies": {
+    "duckdb": "2.0.0",
+    "exchange-calendars": "4.13.2",
+    "pyarrow": "26.0.1",
+    "requests": "2.34.2"
+  },
+  "git_commit": null,
+  "network_requests_this_invocation": 29,
+  "processed_cycles": 1,
+  "python": "3.13.18",
+  "raw_evidence": [
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/614200f9d3d92098e9beda78a35b117aab03a8e36f50bafcfdf0d630fea952dd.parquet",
+      "sha256": "e79fa9bbe2c40fa30e04fa8bdf96113be44127c19e96d7babf008234a8254940"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/4cd02295572a08b070af261b8e684cfaf0ae2020f534bdc37e12af08d1ed85f9.parquet",
+      "sha256": "b4393c7313e0b4855cfb6ab9dd482e71f72e046dfdd30fed1614c1511fa078ff"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/dbe342807fd2c8acbf0886529168e9538fca258093bfae050da48cc088f1f957.parquet",
+      "sha256": "59fc4aae12e34a3ab7a1c3a3d720582906d21a716e196aab057d8242acf92de7"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/4b529b30af0a27f364b6af600b5302ae2b5a181b20c87ae79eb728b2a26c18e2.parquet",
+      "sha256": "b0efea702d81c8936468b1ac9aafedc4c7c468cbee0370ebc46c28a772a28aa8"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e0e884cea01110091d0f18783d94fe02734c42b0a2aa3d424d57e6c192e2588f.parquet",
+      "sha256": "f506170bc1c42165b65779a6827ed9a242c60306358b9994d5059a2ed5ae7ca3"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/58d1908e14905683e5941a46057a75e72c4ba9645f4a5d637f55f9f8e552cf14.parquet",
+      "sha256": "a14cb24bb4fe54587c50fc6f19637c48b9988216265fe6bac3940519435026be"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/acedec9e7ec45fa06903170db42f4a030b20b112c9fb3b6fe651d99f9e3e9fef.parquet",
+      "sha256": "8d8164927b270745ec7a2bd1ba9920f926c5c11bf7eb3800b3a2b23358aaf931"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/58750d63eabcd967d15b70b6d2d85e711b7a0f4c14fbd259ee83f87440f70183.parquet",
+      "sha256": "ebf7351204ef1fb44e31b77ef8bf6cd542d3f3a2a2277ba44ea604ed9e5eabca"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/55a3371db7165a9e1455f212884a3130d393c98d46e7e44d4609ce84fc453c69.parquet",
+      "sha256": "5b6f9ec37e4be28fe387458b75d3e17e452aa3f2920450c3908b34038b303740"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/de5ae80072aea8d8aa0e1de2775b5b19f4d4308892bac3c129dfc122141d303f.parquet",
+      "sha256": "f036bb99d3786791ce2ac8bc0270fe1971a594685b0227973fcec46eb4eac860"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/2f365de36a88dcaa541fac7816fedb56d07671046573600898eae3f698aa8268.parquet",
+      "sha256": "31825e40a80039294ef5cb2035e5d2f064d65fda0544b28ecc354af688f31129"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5f6c3d201ef7ac02d0b5ad033c92b5f6b001266296685f44be714172c6f49cca.parquet",
+      "sha256": "9b85a38a78d19a1a5a07c6a799932258a34c05d2f5bf729fdac18b278c028874"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/9d3860533916cddd81fee7218e5676eefa0bbb8951a0bc22721e7caa931454cf.parquet",
+      "sha256": "d1d349d614fc2d58f46368fcc6171270d58ad19d39e3b0b059d789bb1e15014a"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/aa1d3fadb57f1ef756e3bd0a4a28904edff90893f07ab116b5f4e19dba70b0e0.parquet",
+      "sha256": "33f9c8882e6008cd8c276be2cab9cec717b9a92e5b57ee022ca882ae643e995b"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/a288e00369ab94668a2f80f87bd7a98f328454433548eef141213ecc3a2d05bb.parquet",
+      "sha256": "f7ea719ca8f490c72bd1f90df2e282cfd92fcbf24c8857cdd68a530830e83cf8"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=prices/34dbc74c16f7ac9a4ad6cea956a1cb0fa58412ee157441078ebc94edc60a32fc.parquet",
+      "sha256": "7dd945d6e159f28473b278f33615d6c808d603b3040ece3967f3a150a4933366"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c0daf804b694e825dd403fc4a97d8de11c8dbd2b394c71d90318e0845ba77667.parquet",
+      "sha256": "b9b805852453603ab21e0930ff20057fc4ea91d0bdecdb500ad96ce12d0f19c3"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/fcbcc7f99676a4cf354b6f5c4940514c8d3b23df80a39aaa4e04d3a490951fd6.parquet",
+      "sha256": "e71b5c7158843252fd1dbebbf901caf54a076179f6db141f8cbb45a60185100a"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c9a15518630d9e5261874c4c42bd973dbe30fb067cff6f450fd5b8c966ea0711.parquet",
+      "sha256": "ecad3f977987a7265895380c00cb726a0002eb3388731bb8ba9f8fc8f4ed454b"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c408bec9c00c75fc5d6e2b053f822b0956f320d791ffd44fe0c67e6d6a489e0d.parquet",
+      "sha256": "d87e0a7227f307226c74f6178953e23e9faf301938399f07b7d39dc2e08b1da8"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/1245c1ec23ea61e32af6f56af8be0bbb07396a353a08c556a4d5c395c12100d8.parquet",
+      "sha256": "ca28359962fc30bf0e9bde5cb478470ffe33d63c38b58e6d98855b93f56d8343"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5af709a46fb92afc20c304cc20f9bc493d433c479901f5702a20dbeaceb016d6.parquet",
+      "sha256": "135d0953404bed1970130c3025fc6fd69abcb06387959b657b476992f9782da1"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/9061214ad4a6cfd4cc8636f246918daac0e90b69fd3cde82911b11aa562e3e32.parquet",
+      "sha256": "7f80f7676494b51936af524001ea8a1725d79dfb1156e60106c426b2b3f5a27b"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/81986813bc5de2a530ca72f3f4c928362b2c6f63bee193f3e0739a35c1a9b339.parquet",
+      "sha256": "56fc9b1935e8cee342041e47feb1b0dd68a7233fead3ef45c6d0b65b66b9be8a"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/bb86a383c38d2e64aaa1388670b5e3ca1df4ebd484a5c744b3981bd39c5e1632.parquet",
+      "sha256": "99f5363a86b80e86ac577ef0f12880a38f4d1068a59133da996f9531d189beb6"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/e613e372bcc9080d01da93b605e5e9ffc11d5351cedca7f22c6ff6f733a7ac69.parquet",
+      "sha256": "ae5449a266f2b267f6656a8d7aefda6f755b4756d31722d9e9c26e8d4cf05243"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/975ddab6db13d91bc6660f3762c2b161b5dd6c27506baa3eee900f2a2c0a26b9.parquet",
+      "sha256": "c8b7efd6611c0d5315a306ef8fdf77b5f40cb3041aff72b90bdf607ed84027ad"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/deaadd51ed4f2ae42ea6e728aad01d505455fec1ad71c92a317e04ce57bfad22.parquet",
+      "sha256": "94ed20e0d72539798c0e601b9f7cb8988623cc98b878fb74d7786618b4b4ecd6"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/c22b76efcac4e771a1c6d0c631445408442cc60ed4d6a6434ac33948a6e60371.parquet",
+      "sha256": "0238c15fec91c9686df21b0d26296db2dbd44fe1e2bf0cbfe1e85b7d22959726"
+    },
+    {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache/raw/endpoint=reference/5d0def9276aaf1db7409623f7aa36ccda28f6f7eed83c86d0e55b6048350167f.parquet",
+      "sha256": "9df06cbb8114d5d92a87a532b11b12400ef357ef1d4058d857dcba0fd658b0cc"
+    }
+  ],
+  "requested_cycles": 1,
+  "run_id": "smoke-universe-v1",
+  "started_at": "2026-11-14T05:33:18.183097+00:00",
+  "status": "PARTIAL_UNRESOLVED"
+}

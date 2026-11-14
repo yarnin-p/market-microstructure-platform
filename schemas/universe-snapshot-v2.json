@@ -1,0 +1,211 @@
+{
+  "fields": [
+    {
+      "name": "run_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "cycle_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "anchor_at",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "end_at",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "ticker",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "security_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "security_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "primary_exchange_raw",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "canonical_exchange",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "exchange_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "exchange_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "price_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "price_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "float_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "float_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "change_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "reference_date",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "reference_precision",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "provenance_json",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "policy_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "mapping_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "type_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "type_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "record_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "identity_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "identity_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "currency_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "currency_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "action_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "action_reason",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "float_cohort",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "split_group",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "reference_close_method",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "reference_available_at",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "reference_availability_status",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "schema_version",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "previous_rth_close",
+      "nullable": true,
+      "type": "decimal128(38, 12)"
+    },
+    {
+      "name": "shares_float",
+      "nullable": true,
+      "type": "decimal128(38, 12)"
+    },
+    {
+      "name": "trigger_price",
+      "nullable": true,
+      "type": "decimal128(38, 14)"
+    }
+  ],
+  "float_invariant": "No current float; unavailable historical float is null with UNRESOLVED status.",
+  "name": "universe-snapshot",
+  "primary_audit_key": [
+    "run_id",
+    "record_id"
+  ],
+  "version": 2
+}

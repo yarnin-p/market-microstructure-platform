@@ -1,0 +1,291 @@
+{
+  "api_errors": [],
+  "artifact_root": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3",
+  "artifacts": [
+    {
+      "bytes": 2456418,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-11/snapshot.parquet",
+      "sha256": "77fdd226f2455359958e48313ac3deb5a99d135c41cf7dbb045f381ecd4e5a1b"
+    },
+    {
+      "bytes": 14601,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-11/changes.parquet",
+      "sha256": "6aa1dbc126ad6a84a758f52e68cc10e4cfe8818ca4eb87ddbe75f495c3300909"
+    },
+    {
+      "bytes": 2496949,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-12/snapshot.parquet",
+      "sha256": "4455149568ef87a090afd6baa7baad0ecb2d9368170ffce2d4e33947f38864a7"
+    },
+    {
+      "bytes": 14424,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-12/changes.parquet",
+      "sha256": "bf1b6bfb5315eb656423d6981a4ff8f4294db7d48f46f950518f89dbb0bbe0ed"
+    },
+    {
+      "bytes": 2424650,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-13/snapshot.parquet",
+      "sha256": "dab86a7604f230cca3977e3ae2e37fd2108a03045c7e5b0f1293421b9e97d28d"
+    },
+    {
+      "bytes": 14414,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-13/changes.parquet",
+      "sha256": "12f42fa24afaa26ada91ce0e8751eb9d176b60d7336e590ae611361bb1f1c3cb"
+    }
+  ],
+  "cache_hits_this_invocation": 1,
+  "code_hashes": {
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/__init__.py": "18e5ad7320ce25cc27f1fd2e326e5e3b8e53939d156f6a563d57c7e269faeb2d",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/api.py": "82e9f6d7d856a3acd7517249db487e9424d556f0a962a593d634ec442f09e8c0",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/audit.py": "01d8dfb23d0b3614da03dd8f2343bc0efb30c398cce53ea7b8f0e7495e3a8d9c",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/bundle.py": "64d256c4ce9d48abede275b25c88562e5f6c52e6212e9073c5b648f0d9953c08",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/calendar.py": "8a5183bcdf66fdc43391c0ab22ac55e418f945742f6e29341d8ae37056d19e9b",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/cli.py": "6d930b0c94742f2fbe787109c5180e378801cca8014b23499129a38faa8ae616",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/corporate_actions.py": "8e7df33285e930555436edc70606b9d70678ecd64ac87420e8c9f06d4c2c0e49",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/datasets.py": "5a6236e27fae054f05cae0a7ce0dd8ea7ca20c0cbe0bb34f05123e82f7ccb090",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/eligibility.py": "41a0177ab582a82b2cbb0f1e5f15c75f491160f82ba809236b95168a793b7447",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/pipeline.py": "3561032ccd881adcd0afa6274791f1554fafefd8fb1c62eb9d8ee814a8408cd0",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/results.py": "9d1f9c2103097c34d7ec7e303b77c0c6b81233de586deaafbf26f3b998c82f6f",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/market_lab/storage.py": "87b801420a7269a9ed1418f630d560279375a57091fdd13f4953a75401cd64b6"
+  },
+  "completed_cycles": 0,
+  "config": {
+    "actions_hash": "96f4fcb6ebe71b6df61791fa6ee1ab7b27806d99fa96aa42653e36bdcaafd7f8",
+    "approved_policy": {
+      "advance_to_m2": false,
+      "allow_current_float_substitution": false,
+      "approved_at_date": "2026-11-15",
+      "cycles": 120,
+      "dividend_policy": "FLAG_NO_TOTAL_RETURN_ADJUSTMENT",
+      "eligibility_time": "PREVIOUS_RTH_CLOSE",
+      "eligible_security_types": [
+        "CS"
+      ],
+      "end_date": "2026-11-13",
+      "event_rules": "DEFERRED_TO_M3",
+      "exploration_cycles": 80,
+      "export_bundle": "OPTIONAL",
+      "float_max_inclusive": 15000000,
+      "float_min_inclusive": 100000,
+      "holdout_cycles": 40,
+      "missing_historical_float": "UNRESOLVED",
+      "overnight_policy": "OUTSIDE_OBSERVED_COVERAGE",
+      "policy_version": "m1-approved-20261115-v1",
+      "price_max_inclusive": "3",
+      "price_min_exclusive": "0",
+      "primary_exchange_mics": [
+        "XNAS",
+        "XASE",
+        "XNYS"
+      ],
+      "primary_float_cohorts": [
+        "VERIFIED_PIT"
+      ],
+      "reference_close": "UNADJUSTED_PROVIDER_DAILY_CLOSE",
+      "split_cycle_policy": "UNRESOLVED_EXCLUDE_FROM_PRIMARY"
+    },
+    "calendar": [
+      {
+        "afterhours_end": "2026-11-10T20:00:00-05:00",
+        "anchor_at": "2026-11-10T21:00:00+00:00",
+        "anchor_date": "2026-11-10",
+        "calendar": "XNYS",
+        "calendar_version": "4.13.2",
+        "cycle_id": "2026-11-11",
+        "early_close": false,
+        "end_at": "2026-11-11T21:00:00+00:00",
+        "extended_hours_status": "PROVIDER_COVERAGE_WINDOW_NOT_VENUE_SCHEDULE",
+        "premarket_start": "2026-11-11T04:00:00-05:00",
+        "rth_open": "2026-11-11T14:30:00+00:00",
+        "split_group": "PILOT",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-11T20:00:00-05:00",
+        "anchor_at": "2026-11-11T21:00:00+00:00",
+        "anchor_date": "2026-11-11",
+        "calendar": "XNYS",
+        "calendar_version": "4.13.2",
+        "cycle_id": "2026-11-12",
+        "early_close": false,
+        "end_at": "2026-11-12T21:00:00+00:00",
+        "extended_hours_status": "PROVIDER_COVERAGE_WINDOW_NOT_VENUE_SCHEDULE",
+        "premarket_start": "2026-11-12T04:00:00-05:00",
+        "rth_open": "2026-11-12T14:30:00+00:00",
+        "split_group": "PILOT",
+        "timezone": "America/New_York"
+      },
+      {
+        "afterhours_end": "2026-11-12T20:00:00-05:00",
+        "anchor_at": "2026-11-12T21:00:00+00:00",
+        "anchor_date": "2026-11-12",
+        "calendar": "XNYS",
+        "calendar_version": "4.13.2",
+        "cycle_id": "2026-11-13",
+        "early_close": false,
+        "end_at": "2026-11-13T21:00:00+00:00",
+        "extended_hours_status": "PROVIDER_COVERAGE_WINDOW_NOT_VENUE_SCHEDULE",
+        "premarket_start": "2026-11-13T04:00:00-05:00",
+        "rth_open": "2026-11-13T14:30:00+00:00",
+        "split_group": "PILOT",
+        "timezone": "America/New_York"
+      }
+    ],
+    "code_hashes": {
+      "__init__.py": "18e5ad7320ce25cc27f1fd2e326e5e3b8e53939d156f6a563d57c7e269faeb2d",
+      "api.py": "82e9f6d7d856a3acd7517249db487e9424d556f0a962a593d634ec442f09e8c0",
+      "audit.py": "01d8dfb23d0b3614da03dd8f2343bc0efb30c398cce53ea7b8f0e7495e3a8d9c",
+      "bundle.py": "64d256c4ce9d48abede275b25c88562e5f6c52e6212e9073c5b648f0d9953c08",
+      "calendar.py": "8a5183bcdf66fdc43391c0ab22ac55e418f945742f6e29341d8ae37056d19e9b",
+      "cli.py": "6d930b0c94742f2fbe787109c5180e378801cca8014b23499129a38faa8ae616",
+      "corporate_actions.py": "8e7df33285e930555436edc70606b9d70678ecd64ac87420e8c9f06d4c2c0e49",
+      "datasets.py": "5a6236e27fae054f05cae0a7ce0dd8ea7ca20c0cbe0bb34f05123e82f7ccb090",
+      "eligibility.py": "41a0177ab582a82b2cbb0f1e5f15c75f491160f82ba809236b95168a793b7447",
+      "pipeline.py": "3561032ccd881adcd0afa6274791f1554fafefd8fb1c62eb9d8ee814a8408cd0",
+      "results.py": "9d1f9c2103097c34d7ec7e303b77c0c6b81233de586deaafbf26f3b998c82f6f",
+      "storage.py": "87b801420a7269a9ed1418f630d560279375a57091fdd13f4953a75401cd64b6"
+    },
+    "cycles": 3,
+    "dependency_lock_hash": "d235a1c6bcb56cd2869bcdaa8ffc14bb3ebb14073a0f32f0796e6ce5e4189724",
+    "eligible_security_types": [
+      "CS"
+    ],
+    "end": "2026-11-13",
+    "evidence_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "float_max": 15000000,
+    "float_min": 100000,
+    "policy_hash": "8e974c5d0b297fb9261968bfd2fec26c334f647fe6fc024c060dbb44c5c76c55",
+    "policy_version": "m1-approved-20261115-v1",
+    "price_max_inclusive": 3,
+    "price_min_exclusive": 0,
+    "schema_version": "universe-snapshot-v2",
+    "source_index_hash": "1073a1fc0aa82a738aeb6c4586d6f0af43c33e734ab8d66f8f75fc0d4d76ef7f"
+  },
+  "config_hash": "34aa0f04245e75d5cbdbcbb56e0f75878e012a6b02f33be65dc1aa1b4aa4bf4c",
+  "contract_version": "research-results-v1",
+  "cycles": [
+    {
+      "changes": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-11/changes.parquet",
+      "changes_hash": "6aa1dbc126ad6a84a758f52e68cc10e4cfe8818ca4eb87ddbe75f495c3300909",
+      "counts": {
+        "candidates": 13243,
+        "excluded": 11905,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4432,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10933,
+        "excluded_type": 7934,
+        "qualified": 0,
+        "unresolved": 1338,
+        "unresolved_action": 2402,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 22,
+        "unresolved_fields": 13243,
+        "unresolved_float": 13243,
+        "unresolved_identity": 2397,
+        "unresolved_price": 645,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-11",
+      "observation_error": null,
+      "price_error": null,
+      "snapshot": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-11/snapshot.parquet",
+      "snapshot_hash": "77fdd226f2455359958e48313ac3deb5a99d135c41cf7dbb045f381ecd4e5a1b",
+      "status": "UNRESOLVED"
+    },
+    {
+      "changes": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-12/changes.parquet",
+      "changes_hash": "bf1b6bfb5315eb656423d6981a4ff8f4294db7d48f46f950518f89dbb0bbe0ed",
+      "counts": {
+        "candidates": 13244,
+        "excluded": 11890,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4436,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10921,
+        "excluded_type": 7938,
+        "qualified": 0,
+        "unresolved": 1354,
+        "unresolved_action": 2399,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 22,
+        "unresolved_fields": 13244,
+        "unresolved_float": 13244,
+        "unresolved_identity": 2397,
+        "unresolved_price": 692,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-12",
+      "observation_error": null,
+      "price_error": null,
+      "snapshot": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-12/snapshot.parquet",
+      "snapshot_hash": "4455149568ef87a090afd6baa7baad0ecb2d9368170ffce2d4e33947f38864a7",
+      "status": "UNRESOLVED"
+    },
+    {
+      "changes": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/exchange_changes/cycle=2026-11-13/changes.parquet",
+      "changes_hash": "12f42fa24afaa26ada91ce0e8751eb9d176b60d7336e590ae611361bb1f1c3cb",
+      "counts": {
+        "candidates": 13247,
+        "excluded": 11870,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4440,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10920,
+        "excluded_type": 7942,
+        "qualified": 0,
+        "unresolved": 1377,
+        "unresolved_action": 2400,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 24,
+        "unresolved_fields": 13247,
+        "unresolved_float": 13247,
+        "unresolved_identity": 2397,
+        "unresolved_price": 665,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-13",
+      "observation_error": null,
+      "price_error": null,
+      "snapshot": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/universe/cycle=2026-11-13/snapshot.parquet",
+      "snapshot_hash": "dab86a7604f230cca3977e3ae2e37fd2108a03045c7e5b0f1293421b9e97d28d",
+      "status": "UNRESOLVED"
+    }
+  ],
+  "dataset_id": "9225bf4558a28c0bbdc67b9a2a45182283711304647b77bfc74622329dd90092",
+  "dependencies": {
+    "duckdb": "2.0.0",
+    "exchange-calendars": "4.13.2",
+    "pyarrow": "26.0.1",
+    "requests": "2.34.2"
+  },
+  "ended_at": "2026-11-14T17:30:20.946422+00:00",
+  "git_commit": null,
+  "git_dirty": true,
+  "input_actions": {
+    "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/corporate_actions.json",
+    "sha256": "e0f3e47c462f8a555a4210de122b7f9d393a743c3b5a47be0b966c18523fbdc8"
+  },
+  "network_requests_this_invocation": 0,
+  "processed_cycles": 3,
+  "python": "3.13.18",
+  "raw_evidence_index": {
+    "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-pilot-20261115-v3/evidence-index.json",
+    "records": 67,
+    "sha256": "76b98880577d6d4c65da5793a1411af1122d2acc3369cbb5f3d1e7078ab54093"
+  },
+  "requested_cycles": 3,
+  "research_fingerprint": "55eb5716b7f207449229ce8c979107bb62926eebbdbb849fde4462d9c2ff45cb",
+  "research_ready": false,
+  "run_id": "m1-pilot-20261115-v3",
+  "schema_version": "universe-snapshot-v2",
+  "started_at": "2026-11-14T17:30:02.488455+00:00",
+  "status": "PARTIAL_UNRESOLVED",
+  "technical_validation": "PENDING_VALIDATOR"
+}

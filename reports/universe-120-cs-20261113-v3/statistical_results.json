@@ -1,0 +1,9 @@
+{
+  "confidence_intervals": null,
+  "event_sample_size": 0,
+  "outcome_distributions": null,
+  "reason": "No event detector, tick replay or continuation study has run. Universe counts are descriptive full-population counts, not predictive statistics.",
+  "sample_size": 1568804,
+  "stage": "HISTORICAL_UNIVERSE",
+  "status": "NOT_ESTIMATED"
+}

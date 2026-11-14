@@ -1,0 +1,26 @@
+{
+  "audit": "api-audit.json",
+  "commit_or_push_performed": false,
+  "current_float_substitution_rows": 0,
+  "historical_float_unresolved_records": 1568804,
+  "independent_query_check": "full-population-checks.json",
+  "m1_status": "BLOCKED_DATA",
+  "m2_started": false,
+  "processed_cycles": 120,
+  "raw_data_committed": false,
+  "requested_cycles": 120,
+  "research_ready": false,
+  "resume_check": "resume-pilot.json",
+  "run_id": "m1-universe-120-20261115-v2",
+  "run_report_checksums": {
+    "acceptance.json": "2b960b7a4ae2bc281f4fc8489b0b74b048dccd38bd2f2e692314b355e15a84e9",
+    "coverage.json": "d0920eafd5414f0c48bfaecde1b72fb770e2f9a215cc80ea85a1ae79d7492c26",
+    "data_quality.json": "85347debc4eca195068e83d218523b8e3521be092e8e918d9c9e0b2cb8bf3af4",
+    "manifest.json": "5f9770f883d124cfd333a786d57fb59eb7c76e53e063ce5a3654e499115c253b",
+    "summary.json": "c57981fd0723af434933da8329a0f1e83411328f231863d676b10c1f40431b9c"
+  },
+  "security_cycle_records": 1568804,
+  "source_fingerprint": "3f998015d74dfe8044f14bb4d2bc5249177878d0afa36f8324dd4d4996a9454f",
+  "technical_validation": "PASSED",
+  "tests_passed": 87
+}

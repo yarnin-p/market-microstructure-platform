@@ -1,0 +1,66 @@
+{
+  "schema_version": "planning-audit-v1",
+  "review_date_bangkok": "2026-11-14",
+  "status": "PLAN_READY_FOR_REVIEW",
+  "spec_copy_byte_identical": true,
+  "artifacts": [
+    {
+      "path": "docs/specs/master-research-engineering-plan-v0.1.md",
+      "sha256": "5f198644a23b091b2a1619fe95e8781555f161d05e5f27c417da14cc161e448e",
+      "bytes": 9486
+    },
+    {
+      "path": "docs/plans/task-001-m1-v0.1/README.md",
+      "sha256": "2c76de7f42b78ca53f42cea27e14ec93faae6935653bb343230780f887a1a292",
+      "bytes": 39005
+    },
+    {
+      "path": "docs/plans/task-001-m1-v0.1/evidence/check_calendar.py",
+      "sha256": "70cdda3ecd17baf6db26b1707c185a7c9619665a5246f19ab51adb588da5e7a7",
+      "bytes": 3025
+    },
+    {
+      "path": "docs/plans/task-001-m1-v0.1/evidence/calendar-check.json",
+      "sha256": "a43ac831701cb5f615190494f10b69577687c9f9abdcad112793f056351235f8",
+      "bytes": 34321
+    }
+  ],
+  "checks": {
+    "local_links": "PASS",
+    "required_plan_sections": 16,
+    "calendar": "PASS"
+  },
+  "documentation_audit": "Official Massive API/knowledge-base pages and exchange calendar sources read; endpoint discovery via connected Massive tool",
+  "authenticated_market_data_probe": "NOT_RUN",
+  "existing_platform_tests": "NOT_RUN",
+  "existing_reports": "NOT_VALIDATED",
+  "platform_implementation": "NOT_CHANGED_BY_THIS_PLANNING_TASK",
+  "bulk_tick_download": "NOT_RUN",
+  "git_commit_push": "NOT_RUN",
+  "pending_research_decisions": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09"
+  ],
+  "sources": [
+    "https://massive.com/knowledge-base/article/does-massive-have-historical-float-data",
+    "https://massive.com/knowledge-base/article/does-massive-have-a-downloadable-security-master",
+    "https://massive.com/docs/rest/stocks/tickers/all-tickers",
+    "https://massive.com/docs/rest/stocks/tickers/ticker-overview",
+    "https://massive.com/docs/rest/stocks/aggregates/daily-market-summary",
+    "https://massive.com/docs/rest/stocks/market-operations/exchanges",
+    "https://massive.com/docs/rest/stocks/market-operations/condition-codes",
+    "https://massive.com/docs/rest/stocks/trades-quotes/trades",
+    "https://massive.com/docs/rest/stocks/trades-quotes/quotes",
+    "https://massive.com/docs/rest/stocks/corporate-actions/splits",
+    "https://massive.com/knowledge-base/article/does-a-form-t-trade-update-a-pre-market-minute-bars-high-low-open-and-close",
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://github.com/gerrymanoim/exchange_calendars"
+  ]
+}

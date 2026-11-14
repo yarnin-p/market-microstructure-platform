@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-microstructure-platform"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["requests==2.34.2", "pyarrow==26.0.1", "exchange-calendars==4.13.2", "duckdb==2.0.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0"]
+
+[project.scripts]
+market-lab = "market_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["market_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

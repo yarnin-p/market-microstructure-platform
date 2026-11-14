@@ -1,0 +1,9 @@
+{
+  "drilldown": "Use market-lab query --run-id RUN --status UNRESOLVED and --cycle / --ticker filters. All records remain in Parquet.",
+  "items": [
+    {
+      "kind": "HISTORICAL_FLOAT_UNAVAILABLE",
+      "severity": "blocking_for_qualification"
+    }
+  ]
+}

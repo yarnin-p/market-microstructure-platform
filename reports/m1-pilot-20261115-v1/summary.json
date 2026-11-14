@@ -1,0 +1,43 @@
+{
+  "completed_cycles": 0,
+  "counts": {
+    "candidates": 39734,
+    "excluded": 35665,
+    "excluded_action": 0,
+    "excluded_currency": 0,
+    "excluded_exchange": 13308,
+    "excluded_float": 0,
+    "excluded_identity": 0,
+    "excluded_price": 32774,
+    "excluded_type": 23814,
+    "qualified": 0,
+    "unresolved": 4069,
+    "unresolved_action": 7,
+    "unresolved_currency": 0,
+    "unresolved_exchange": 68,
+    "unresolved_fields": 39734,
+    "unresolved_float": 39734,
+    "unresolved_identity": 7191,
+    "unresolved_price": 2002,
+    "unresolved_type": 0
+  },
+  "metric_definitions": {
+    "completed_cycle": "discovery and prices available, no unresolved candidate fields, and change observation available",
+    "excluded_exchange/price/float": "independent gate counts; may overlap",
+    "qualified": "all anchor common-stock type, exchange, price, float gates ELIGIBLE",
+    "unresolved": "no known exclusion and at least one unresolved gate",
+    "unresolved_fields": "records with any unresolved field, including already excluded records"
+  },
+  "outcome_distributions": {
+    "INELIGIBLE": 35665,
+    "UNRESOLVED": 4069
+  },
+  "population": "discovered security-cycle records; not unique tickers",
+  "requested_cycles": 3,
+  "research_stage": "HISTORICAL_UNIVERSE",
+  "run_id": "m1-pilot-20261115-v1",
+  "sampling": false,
+  "statistics_basis": "FULL_DISCOVERED_POPULATION",
+  "unique_security_ids": 10855,
+  "unique_tickers": 13255
+}

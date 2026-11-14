@@ -1,0 +1,31 @@
+{
+  "name": "distributions",
+  "version": 1,
+  "fields": [
+    {
+      "name": "metric",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "population",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "sample_size",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "quantile",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "value",
+      "type": "double",
+      "nullable": true
+    }
+  ]
+}

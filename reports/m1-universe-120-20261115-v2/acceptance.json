@@ -1,0 +1,30 @@
+{
+  "completed_cycles": 0,
+  "counts": {
+    "candidates": 1568804,
+    "excluded": 1422848,
+    "excluded_action": 0,
+    "excluded_currency": 0,
+    "excluded_exchange": 512947,
+    "excluded_float": 0,
+    "excluded_identity": 0,
+    "excluded_price": 1310764,
+    "excluded_type": 931410,
+    "qualified": 0,
+    "unresolved": 145956,
+    "unresolved_action": 285384,
+    "unresolved_currency": 0,
+    "unresolved_exchange": 617,
+    "unresolved_fields": 1568804,
+    "unresolved_float": 1568804,
+    "unresolved_identity": 284557,
+    "unresolved_price": 75505,
+    "unresolved_type": 8
+  },
+  "m1_status": "BLOCKED_DATA",
+  "processed_cycles": 120,
+  "requested_cycles": 120,
+  "research_ready": false,
+  "technical_validation": "PASSED",
+  "validation": "PASSED"
+}

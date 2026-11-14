@@ -1,0 +1,9 @@
+{"cycle": "2026-11-11", "status": "UNRESOLVED", "counts": {"candidates": 13243, "qualified": 0, "unresolved": 1338, "excluded": 11905, "unresolved_fields": 13243, "excluded_exchange": 4432, "unresolved_exchange": 22, "excluded_price": 10933, "unresolved_price": 645, "excluded_float": 0, "unresolved_float": 13243, "excluded_type": 7934, "unresolved_type": 0, "excluded_identity": 0, "unresolved_identity": 2397, "excluded_currency": 0, "unresolved_currency": 0, "excluded_action": 0, "unresolved_action": 2402}}
+{"cycle": "2026-11-12", "status": "UNRESOLVED", "counts": {"candidates": 13244, "qualified": 0, "unresolved": 1354, "excluded": 11890, "unresolved_fields": 13244, "excluded_exchange": 4436, "unresolved_exchange": 22, "excluded_price": 10921, "unresolved_price": 692, "excluded_float": 0, "unresolved_float": 13244, "excluded_type": 7938, "unresolved_type": 0, "excluded_identity": 0, "unresolved_identity": 2397, "excluded_currency": 0, "unresolved_currency": 0, "excluded_action": 0, "unresolved_action": 2399}}
+{"cycle": "2026-11-13", "status": "UNRESOLVED", "counts": {"candidates": 13247, "qualified": 0, "unresolved": 1377, "excluded": 11870, "unresolved_fields": 13247, "excluded_exchange": 4440, "unresolved_exchange": 24, "excluded_price": 10920, "unresolved_price": 665, "excluded_float": 0, "unresolved_float": 13247, "excluded_type": 7942, "unresolved_type": 0, "excluded_identity": 0, "unresolved_identity": 2397, "excluded_currency": 0, "unresolved_currency": 0, "excluded_action": 0, "unresolved_action": 2400}}
+{
+  "run_id": "m1-pilot-20261115-v3",
+  "status": "PARTIAL_UNRESOLVED",
+  "completed_cycles": 0,
+  "processed_cycles": 3
+}

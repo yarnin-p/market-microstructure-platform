@@ -1,0 +1,30 @@
+{
+  "current_or_fabricated_float_rows": 0,
+  "dataset_id": "7bcf7fedfaccaf33e79b49d0bf10a7378f3caa86e8ff25631405c63580d68dbe",
+  "duplicate_record_ids": 0,
+  "focused_extract_matching_rows": 145956,
+  "focused_extract_returned_rows": 1,
+  "invalid_reference_dates_or_availability_claims": 0,
+  "network_requests": 0,
+  "overall_counts": {
+    "INELIGIBLE": 1422848,
+    "UNRESOLVED": 145956
+  },
+  "records": 1568804,
+  "research_fingerprint": "3f998015d74dfe8044f14bb4d2bc5249177878d0afa36f8324dd4d4996a9454f",
+  "run_id": "m1-universe-120-20261115-v2",
+  "source_hashes_match_frozen_run": true,
+  "split_counts": [
+    [
+      "EXPLORATION",
+      80,
+      1038821
+    ],
+    [
+      "HOLDOUT",
+      40,
+      529983
+    ]
+  ],
+  "status": "PASS"
+}

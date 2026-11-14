@@ -1,0 +1,45 @@
+{
+  "common_stock_candidate_records": 637386,
+  "drilldown_passed": true,
+  "example_rows": [
+    [
+      "AMIX",
+      "CS",
+      "XNAS",
+      1.355,
+      "UNRESOLVED",
+      "HISTORICAL_FLOAT_UNAVAILABLE"
+    ],
+    [
+      "WETO",
+      "CS",
+      "XNAS",
+      0.6259,
+      "UNRESOLVED",
+      "HISTORICAL_FLOAT_UNAVAILABLE"
+    ]
+  ],
+  "storage": {
+    "bundle": {
+      "bytes": 17048,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/research/runs/universe-120-cs-20261113-v3/research_bundle.zip",
+      "sha256": "474d584679cc1ff95bd47eacac508eea64c2efd0591bcf8c4e2fffd6f0767d31"
+    },
+    "compact_reports": {
+      "bytes": 258582,
+      "files": 6,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/reports/universe-120-cs-20261113-v3"
+    },
+    "run_artifacts": {
+      "bytes": 119009002,
+      "files": 365,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/universe-120-cs-20261113-v3"
+    },
+    "shared_api_cache": {
+      "bytes": 135688259,
+      "files": 3570,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/cache"
+    }
+  },
+  "unique_common_stock_tickers": 5616
+}

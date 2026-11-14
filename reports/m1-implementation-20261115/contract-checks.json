@@ -1,0 +1,9 @@
+{
+  "documentation_links_checked": [
+    "README.md",
+    "docs/M1_IMPLEMENTATION.md"
+  ],
+  "lock_hash": "d235a1c6bcb56cd2869bcdaa8ffc14bb3ebb14073a0f32f0796e6ce5e4189724",
+  "policy_hash": "8e974c5d0b297fb9261968bfd2fec26c334f647fe6fc024c060dbb44c5c76c55",
+  "schema_matches_runtime": true
+}

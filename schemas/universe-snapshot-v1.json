@@ -1,0 +1,136 @@
+{
+  "name": "universe-snapshot",
+  "version": 1,
+  "fields": [
+    {
+      "name": "run_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cycle_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "anchor_at",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "end_at",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ticker",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "security_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "security_type",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "primary_exchange_raw",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "canonical_exchange",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "exchange_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "exchange_reason",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "price_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "price_reason",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "float_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "float_reason",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "change_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "reference_date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "reference_precision",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "provenance_json",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "policy_version",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "mapping_version",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "type_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "type_reason",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "previous_rth_close",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "shares_float",
+      "type": "double",
+      "nullable": true
+    }
+  ]
+}

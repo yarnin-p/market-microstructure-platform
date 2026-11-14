@@ -1,0 +1,86 @@
+{
+  "name": "cycle_metrics",
+  "version": 1,
+  "fields": [
+    {
+      "name": "cycle_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "universe_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "replay_status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "candidates",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "qualified",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "excluded",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "unresolved",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "excluded_type",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "excluded_exchange",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "excluded_price",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "excluded_float",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "detected_events",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "ah_events",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "pre_events",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "rth_events",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "continuation_rate",
+      "type": "double",
+      "nullable": true
+    }
+  ]
+}

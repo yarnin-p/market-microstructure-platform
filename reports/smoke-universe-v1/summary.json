@@ -1,0 +1,29 @@
+{
+  "completed_cycles": 0,
+  "counts": {
+    "candidates": 13247,
+    "excluded": 10978,
+    "excluded_exchange": 4440,
+    "excluded_float": 0,
+    "excluded_price": 10920,
+    "qualified": 0,
+    "unresolved": 2269,
+    "unresolved_exchange": 24,
+    "unresolved_fields": 13247,
+    "unresolved_float": 13247,
+    "unresolved_price": 665
+  },
+  "metric_definitions": {
+    "completed_cycle": "discovery and prices available, no unresolved candidate fields, and change observation available",
+    "excluded_exchange/price/float": "independent gate counts; may overlap",
+    "qualified": "all anchor exchange, price, float gates ELIGIBLE",
+    "unresolved": "no known exclusion and at least one unresolved gate",
+    "unresolved_fields": "records with any unresolved field, including already excluded records"
+  },
+  "population": "discovered security-cycle records; not unique tickers",
+  "requested_cycles": 1,
+  "research_stage": "HISTORICAL_UNIVERSE",
+  "run_id": "smoke-universe-v1",
+  "sampling": false,
+  "statistics_basis": "FULL_DISCOVERED_POPULATION"
+}

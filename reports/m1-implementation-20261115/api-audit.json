@@ -1,0 +1,292 @@
+{
+  "bulk_ticks_downloaded": false,
+  "checks": [
+    {
+      "capture": "close-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/v1/open-close/AAPL/2026-11-12",
+      "has_more": false,
+      "params": {
+        "adjusted": false
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/close-connector.json",
+      "retrieved_at": "2026-11-14 17:19:41 UTC",
+      "rows": 1,
+      "sha256": "a8c2c2cf7f0f20e5f7d40da75122ef2eddd1085d934d297fd97dde280e9e800e",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "conditions-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/v3/reference/conditions",
+      "has_more": false,
+      "params": {
+        "asset_class": "stocks",
+        "data_type": "trade",
+        "limit": 1000
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/conditions-connector.json",
+      "retrieved_at": "2026-11-14 17:24:20 UTC",
+      "rows": 55,
+      "sha256": "e8e57e33c34b21fe724cbc899d6b6b76882f9170ebd385d778216bba723cd72e",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-2-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": true,
+      "params": {
+        "cursor": "AgQJ-_CgBgn7RKICAQABAAABAfuIEwACAQ8EQ09OWQEPQUVjOTliZGNiNWUyYTIxNDRiMjZkYTFiMzFlNTBkY2JiMjQ0YWU1NDM1YzhiNzdiM2QzYzQyZjYwNzg4YjRiNWI5"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-2-connector.json",
+      "retrieved_at": "2026-11-14 17:19:56 UTC",
+      "rows": 5000,
+      "sha256": "b660a47321c846ab7456705a00b1eae855613bc6d9d1fd2801d96ecc40dbd32a",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-3-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": true,
+      "params": {
+        "cursor": "AgQJ-_CgBgn7RKICAQABAAABAfuIEwACAQ8ER0lBWAEPQUVlOTRlOTNmN2YwZGNlNzE5ZWFiNGVmMGZhZjAzNzVkMzFhMjBmZTM5YzIwYTk4NTI3NmEzM2YwMWE1YzQ4NTUx"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-3-connector.json",
+      "retrieved_at": "2026-11-14 17:20:02 UTC",
+      "rows": 5000,
+      "sha256": "56fc17f4bfafda789f853f89a823f0f1ddc420040bfda0b8495a7cc41024ca13",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-4-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": true,
+      "params": {
+        "cursor": "AgQJ-_CgBgn7RKICAQABAAABAfuIEwACAQ8ETE9XVgEPQUU1YjJjMTkxYjVlMmJiMDQxY2IxOGM3MDRkNDcwMDI1NTlmMWM2ZWQzMzdhZGEyMTBhYmRjN2ViZThhZjIzMjAz"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-4-connector.json",
+      "retrieved_at": "2026-11-14 17:20:08 UTC",
+      "rows": 5000,
+      "sha256": "e0e05177d39b44abf04794f40a201161bdfbe1990f433c977f901d8aa9210e11",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-5-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": true,
+      "params": {
+        "cursor": "AgQJ-_CgBgn7RKICAQABAAABAfuIEwACAQ8EUFVTSAEPQUU0MjM4NzI3MDYxOTA5OTVlYzY0ZTZjMzRlOGJkZWZkYThmM2QxZDM1OWFiYjFhYzI1NDM5MmUzNTU2MTdlMjFk"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-5-connector.json",
+      "retrieved_at": "2026-11-14 17:20:16 UTC",
+      "rows": 5000,
+      "sha256": "6778b2c6d8b5ba8d44a91f9bd36d113ccee20fdee2dea4f2ea42ab8edf2852ad",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-6-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": false,
+      "params": {
+        "cursor": "AgQJ-_CgBgn7RKICAQABAAABAfuIEwACAQ8EVFNMWQEPQUUyYzZmNDIyMWIzNTRmY2E0MmViOGNjMjQxMmQ1N2IwN2M4NWIyYTlkMzEwNzhkOTY2Y2M1NjQ0OGI4NTRmOTFi"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-6-connector.json",
+      "retrieved_at": "2026-11-14 17:20:22 UTC",
+      "rows": 3464,
+      "sha256": "a75b46ee477b363c45ffd4c6a37ef9436ebae09edf8e29c10c7143d3f5256e53",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "dividends-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/dividends",
+      "has_more": true,
+      "params": {
+        "ex_dividend_date.gte": "2026-05-27",
+        "ex_dividend_date.lte": "2026-11-13",
+        "limit": 5000,
+        "sort": "ticker.asc"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/dividends-connector.json",
+      "retrieved_at": "2026-11-14 17:19:29 UTC",
+      "rows": 5000,
+      "sha256": "4448d221019d98e06d08335ae77ea044acd0f225a7b57626b499ad3b4e43c0e9",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "exchanges-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/v3/reference/exchanges",
+      "has_more": false,
+      "params": {
+        "asset_class": "stocks",
+        "locale": "us"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/exchanges-connector.json",
+      "retrieved_at": "2026-11-14 17:24:16 UTC",
+      "rows": 27,
+      "sha256": "40a852ac3b4ac6dbf2fb5cbdd0959dc57678deba22d13527f9d399501370b5cb",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "historical-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/v3/reference/tickers",
+      "has_more": false,
+      "params": {
+        "active": true,
+        "date": "2026-05-26",
+        "limit": 1,
+        "market": "stocks",
+        "ticker": "AAPL"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/historical-connector.json",
+      "retrieved_at": "2026-11-14 17:19:33 UTC",
+      "rows": 1,
+      "sha256": "51f3c390cf1c3e1387dbd5ed3754de6a5706d82b75e570415ccee5afedb4665a",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "inactive-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/v3/reference/tickers",
+      "has_more": true,
+      "params": {
+        "active": false,
+        "date": "2026-11-13",
+        "limit": 2,
+        "market": "stocks"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/inactive-connector.json",
+      "retrieved_at": "2026-11-14 17:19:37 UTC",
+      "rows": 2,
+      "sha256": "7522834e50f54e452c15feb8706f8ec751b0204376f39e7952c83101c4e62e01",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "quotes-0-connector.json",
+      "coverage_claim": "BOUNDED_SCHEMA_PROBE_ONLY",
+      "endpoint": "/v3/quotes/AAPL",
+      "has_more": true,
+      "params": {
+        "limit": 100,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gte": "1779888600000000000",
+        "timestamp.lt": "1779888660000000000"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/quotes-0-connector.json",
+      "retrieved_at": "2026-11-14 17:24:30 UTC",
+      "rows": 100,
+      "sha256": "a2852a0e1b17ff7171cc56c878a1aea7ed60d64213289822550a75fab032da65",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "quotes-1-connector.json",
+      "coverage_claim": "BOUNDED_SCHEMA_PROBE_ONLY",
+      "endpoint": "/v3/quotes/AAPL",
+      "has_more": true,
+      "params": {
+        "limit": 100,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gte": "1794580200000000000",
+        "timestamp.lt": "1794580260000000000"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/quotes-1-connector.json",
+      "retrieved_at": "2026-11-14 17:24:39 UTC",
+      "rows": 100,
+      "sha256": "fb1f8688eef7187a7dfbfb6af574a3f433202fd58de03a6061463e97babe1311",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "splits-connector.json",
+      "coverage_claim": "CAPTURED_PAGE_ONLY",
+      "endpoint": "/stocks/v1/splits",
+      "has_more": false,
+      "params": {
+        "execution_date.gte": "2026-05-27",
+        "execution_date.lte": "2026-11-13",
+        "limit": 5000,
+        "sort": "execution_date.asc"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/splits-connector.json",
+      "retrieved_at": "2026-11-14 17:19:20 UTC",
+      "rows": 845,
+      "sha256": "ff882eacd71f6f0d02aa2920c2df8bb8ad1d473ead050adf0a717ad282a8d716",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "trades-0-connector.json",
+      "coverage_claim": "BOUNDED_SCHEMA_PROBE_ONLY",
+      "endpoint": "/v3/trades/AAPL",
+      "has_more": true,
+      "params": {
+        "limit": 100,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gte": "1779888600000000000",
+        "timestamp.lt": "1779888660000000000"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/trades-0-connector.json",
+      "retrieved_at": "2026-11-14 17:24:23 UTC",
+      "rows": 100,
+      "sha256": "feea7d375f174f5339ff37663f11d8bda5414dde954140ecffc94c2bd434c7ba",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    },
+    {
+      "capture": "trades-1-connector.json",
+      "coverage_claim": "BOUNDED_SCHEMA_PROBE_ONLY",
+      "endpoint": "/v3/trades/AAPL",
+      "has_more": true,
+      "params": {
+        "limit": 100,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gte": "1794580200000000000",
+        "timestamp.lt": "1794580260000000000"
+      },
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/audit-m1-20261115/trades-1-connector.json",
+      "retrieved_at": "2026-11-14 17:24:34 UTC",
+      "rows": 100,
+      "sha256": "38579123c1f06eece7cbc1cec3d929e04b9a35f5b442b3eaf2db598ad335569f",
+      "status": "PASS",
+      "transport": "AUTHENTICATED_MASSIVE_CONNECTOR"
+    }
+  ],
+  "connector_calls_recorded": 16,
+  "current_float_requested": false,
+  "event_outcomes_computed": false,
+  "historical_float": "UNAVAILABLE_UNRESOLVED",
+  "http_retries_inside_connector": "NOT_EXPOSED",
+  "limitations": [
+    "Connector exposes normalized tables, not original wire HTTP bodies or retry counts.",
+    "Tick probes validate access/schema only; their pagination is intentionally not followed.",
+    "No full-session/overnight/halt completeness or historical float verification is implied."
+  ],
+  "local_http_entitlement": "NOT_TESTED_NO_LOCAL_KEY",
+  "schema_version": "m1-capability-audit-v1",
+  "status": "PASS",
+  "tick_rows": 400,
+  "tick_windows": 2
+}

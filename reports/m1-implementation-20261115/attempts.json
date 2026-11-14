@@ -1,0 +1,10 @@
+{
+  "final_full_window": "m1-universe-120-20261115-v2",
+  "final_pilot": "m1-pilot-20261115-v3",
+  "reason": "Final code review added action checks across renamed symbols; use final runs only. Earlier attempt may contain code-file hashes observed during a source update and is not the final reproducibility artifact.",
+  "superseded": [
+    "m1-pilot-20261115-v1",
+    "m1-pilot-20261115-v2",
+    "m1-universe-120-20261115-v1"
+  ]
+}

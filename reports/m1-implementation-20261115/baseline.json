@@ -1,0 +1,24 @@
+{
+  "baseline_tests": {
+    "passed": 62,
+    "warnings": 56
+  },
+  "files": {
+    "README.md": "5784cb658566cdf6703b9ba10670680cdabf29e027f5b3bb6ecef3720227fbeb",
+    "market_lab/__init__.py": "492340894a66f7714a5b54f0d4e56d7879fad566a18a2a832f9c4cc3d841a635",
+    "market_lab/api.py": "5b4017cf31929aa229dbcc2e02846df65ae032a1fd3dc7705b63b9862f32bc6c",
+    "market_lab/bundle.py": "64d256c4ce9d48abede275b25c88562e5f6c52e6212e9073c5b648f0d9953c08",
+    "market_lab/calendar.py": "8e7734e5366427896a36b86bfc23cc32b1751aceda3fca04a5c3eaef3b832a4a",
+    "market_lab/cli.py": "03d7ad1ca3b1e92a32ae2c8078d7814d16c641d5bc16850c6f759b6c08af0a6f",
+    "market_lab/datasets.py": "5a6236e27fae054f05cae0a7ce0dd8ea7ca20c0cbe0bb34f05123e82f7ccb090",
+    "market_lab/eligibility.py": "cd1dbbbb6f262c83d53d644a375d8f575e9fe24ee75ca19ac6aba196dd7a674f",
+    "market_lab/pipeline.py": "8eb3f910e932cdc63f7deff4b7b99719240eb8b9c59da087783f4c16d9f44359",
+    "market_lab/results.py": "fe203fb63e553b768a696ff1b231821d289b277c3a6e524c8fb852336e5a351f",
+    "market_lab/storage.py": "22ce03842e482ec08c98af3630fe9908ec15b44ee03f8a1ea8d6792ec4449623",
+    "pyproject.toml": "437659f3304f424b136dc6ac887f27fc12cd848fa6647663a93b4d67132bb5be",
+    "requirements.lock": "d235a1c6bcb56cd2869bcdaa8ffc14bb3ebb14073a0f32f0796e6ce5e4189724",
+    "tests/test_bundle.py": "2dcfa97c5d043c0ef508d468c7cd725c1ef64df2c7daaa4e3c838fa12b407df9",
+    "tests/test_results_contract.py": "415c68dc3cd15c8858498121d811d7286d79e877d2363c83cf44ad1fb1ff1546",
+    "tests/test_universe.py": "abe2d611170ede44d5d8db39e1f1bd616dc480e1e9a5625888b24284ac59a56a"
+  }
+}

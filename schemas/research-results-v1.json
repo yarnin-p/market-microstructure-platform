@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Standard Research Results Package v1",
+  "type": "object",
+  "required": ["manifest.json", "summary.json", "data_quality.json", "statistical_results.json", "anomalies.json", "report.md"],
+  "properties": {
+    "manifest.json": {"type": "object", "required": ["contract_version", "run_id", "config", "config_hash", "artifacts", "code_hashes", "dependencies", "cycles"]},
+    "summary.json": {"type": "object", "required": ["run_id", "research_stage", "population", "statistics_basis", "sampling", "counts", "metric_definitions"]},
+    "data_quality.json": {"type": "object", "required": ["api_errors", "missing_cycles", "unresolved_cycles", "limitations"]},
+    "statistical_results.json": {"type": "object", "required": ["stage", "status", "sample_size", "event_sample_size", "outcome_distributions", "confidence_intervals"]},
+    "anomalies.json": {"type": "object", "required": ["items", "drilldown"]},
+    "report.md": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,114 @@
+{
+  "cycles": [
+    {
+      "anchor_at": "2026-11-10T21:00:00+00:00",
+      "counts": {
+        "candidates": 13243,
+        "excluded": 11905,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4432,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10933,
+        "excluded_type": 7934,
+        "qualified": 0,
+        "unresolved": 1338,
+        "unresolved_action": 2,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 22,
+        "unresolved_fields": 13243,
+        "unresolved_float": 13243,
+        "unresolved_identity": 2397,
+        "unresolved_price": 645,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-11",
+      "end_at": "2026-11-11T21:00:00+00:00",
+      "halt_coverage": "NOT_VERIFIED",
+      "reference_coverage": "PROCESSED",
+      "split_group": "PILOT",
+      "status": "UNRESOLVED",
+      "tick_session_coverage": {
+        "AH": "NOT_REQUESTED_M1",
+        "OVERNIGHT": "NOT_REQUESTED_M1",
+        "PRE": "NOT_REQUESTED_M1",
+        "RTH": "NOT_REQUESTED_M1"
+      }
+    },
+    {
+      "anchor_at": "2026-11-11T21:00:00+00:00",
+      "counts": {
+        "candidates": 13244,
+        "excluded": 11890,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4436,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10921,
+        "excluded_type": 7938,
+        "qualified": 0,
+        "unresolved": 1354,
+        "unresolved_action": 1,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 22,
+        "unresolved_fields": 13244,
+        "unresolved_float": 13244,
+        "unresolved_identity": 2397,
+        "unresolved_price": 692,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-12",
+      "end_at": "2026-11-12T21:00:00+00:00",
+      "halt_coverage": "NOT_VERIFIED",
+      "reference_coverage": "PROCESSED",
+      "split_group": "PILOT",
+      "status": "UNRESOLVED",
+      "tick_session_coverage": {
+        "AH": "NOT_REQUESTED_M1",
+        "OVERNIGHT": "NOT_REQUESTED_M1",
+        "PRE": "NOT_REQUESTED_M1",
+        "RTH": "NOT_REQUESTED_M1"
+      }
+    },
+    {
+      "anchor_at": "2026-11-12T21:00:00+00:00",
+      "counts": {
+        "candidates": 13247,
+        "excluded": 11870,
+        "excluded_action": 0,
+        "excluded_currency": 0,
+        "excluded_exchange": 4440,
+        "excluded_float": 0,
+        "excluded_identity": 0,
+        "excluded_price": 10920,
+        "excluded_type": 7942,
+        "qualified": 0,
+        "unresolved": 1377,
+        "unresolved_action": 4,
+        "unresolved_currency": 0,
+        "unresolved_exchange": 24,
+        "unresolved_fields": 13247,
+        "unresolved_float": 13247,
+        "unresolved_identity": 2397,
+        "unresolved_price": 665,
+        "unresolved_type": 0
+      },
+      "cycle_id": "2026-11-13",
+      "end_at": "2026-11-13T21:00:00+00:00",
+      "halt_coverage": "NOT_VERIFIED",
+      "reference_coverage": "PROCESSED",
+      "split_group": "PILOT",
+      "status": "UNRESOLVED",
+      "tick_session_coverage": {
+        "AH": "NOT_REQUESTED_M1",
+        "OVERNIGHT": "NOT_REQUESTED_M1",
+        "PRE": "NOT_REQUESTED_M1",
+        "RTH": "NOT_REQUESTED_M1"
+      }
+    }
+  ],
+  "processed_cycles": 3,
+  "requested_cycles": 3
+}

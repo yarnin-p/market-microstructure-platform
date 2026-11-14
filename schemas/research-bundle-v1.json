@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consolidated Research Bundle Manifest v1",
+  "type": "object",
+  "required": ["contract_version", "experiment_id", "research_configuration", "configuration_hash", "requested_trading_cycles", "processed_trading_cycles", "event_definitions", "outcome_definitions", "timezone", "schema_versions", "files", "execution_status", "event_population", "size_policy"],
+  "properties": {
+    "contract_version": {"const": "research-bundle-v1"},
+    "execution_status": {"enum": ["COMPLETE", "INCOMPLETE", "FAILED"]},
+    "files": {
+      "type": "object",
+      "required": ["summary.json", "event_results.parquet", "cycle_metrics.parquet", "cohort_metrics.parquet", "distributions.parquet", "statistical_tests.json", "data_quality.json", "anomalies.json", "report.md"]
+    },
+    "raw_ticks_included": {"const": false}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "cohort_metrics",
+  "version": 1,
+  "fields": [
+    {
+      "name": "dimension",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cohort",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "event_count",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "continuation_rate",
+      "type": "double",
+      "nullable": true
+    }
+  ]
+}

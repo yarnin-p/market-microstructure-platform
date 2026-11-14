@@ -1,0 +1,42 @@
+{
+  "bundle_validation": {
+    "bytes": 17048,
+    "cycle_records": 120,
+    "event_records": 0,
+    "members": 10,
+    "validation": "PASSED"
+  },
+  "live_execution": {
+    "api_errors": [
+      {
+        "attempt": 1,
+        "error": "NETWORK_OR_INVALID_JSON",
+        "request_hash": "3299a16288a55e8143255cb7bcf8cce7b356c36a19f59672ab4b75bf69288027"
+      },
+      {
+        "attempt": 2,
+        "error": "NETWORK_OR_INVALID_JSON",
+        "request_hash": "3299a16288a55e8143255cb7bcf8cce7b356c36a19f59672ab4b75bf69288027"
+      }
+    ],
+    "completed_cycles": 0,
+    "config_hash": "c5d643a023804463291e0183f36d2039fec6ba926c098afd01e7b9bf2d576dd4",
+    "network_requests": 3,
+    "processed_cycles": 120,
+    "run_id": "universe-120-cs-20261113-v3"
+  },
+  "resume_validation": {
+    "config_unchanged": true,
+    "network_requests_on_resume": 0,
+    "raw_evidence_index_unchanged": true,
+    "rows_after_resume": 1568804,
+    "snapshots_unchanged": 120,
+    "status": "PASSED"
+  },
+  "source_matches_executed_configuration": true,
+  "unit_and_integration_tests": {
+    "failed": 0,
+    "log": "reports/checks/unit-tests.txt",
+    "passed": 62
+  }
+}
