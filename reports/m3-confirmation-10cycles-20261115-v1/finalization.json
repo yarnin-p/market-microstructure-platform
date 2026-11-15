@@ -1,0 +1,15 @@
+{
+  "all_event_json_equals_parquet": true,
+  "analysis_sha256": "203ac2bc85b8765a6aed75c07d89baa84cab5325873f80a5fa8e94a96c535f6e",
+  "documents": {
+    "docs/plans/TASK-003-price-confirmation.md": "e92a193274b8b422f9dda5297846e044fb32d1eb669940eca496581ae4aa935a",
+    "docs/research/task-003-price-confirmation-pilot.md": "ac653e8c1a8989b4e40832075a44b0816ca903a83b2dfbad6ea7a7c070dd4081"
+  },
+  "event_policy_condition_rows": 240,
+  "execution_sha256": "e04625599880e30e2c96c33cf2989c9e8317a22dae86e9f7482fae151f8bd9e8",
+  "finalizer_sha256": "48261facbe8ba842ec675c78b0775ace6cd468dda10884b74dff0fc97eb8f541",
+  "note": "Run integrity and deterministic source replay receipts are separate from packaging checks.",
+  "primary_c0_equivalence": true,
+  "risk_set": 40,
+  "status": "PASS"
+}

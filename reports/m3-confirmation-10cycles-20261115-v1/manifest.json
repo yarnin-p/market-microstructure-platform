@@ -1,0 +1,215 @@
+{
+  "baseline_commit": "cb0912f",
+  "code_hashes": {
+    "market_lab/__init__.py": "18e5ad7320ce25cc27f1fd2e326e5e3b8e53939d156f6a563d57c7e269faeb2d",
+    "market_lab/api.py": "82e9f6d7d856a3acd7517249db487e9424d556f0a962a593d634ec442f09e8c0",
+    "market_lab/audit.py": "01d8dfb23d0b3614da03dd8f2343bc0efb30c398cce53ea7b8f0e7495e3a8d9c",
+    "market_lab/bundle.py": "64d256c4ce9d48abede275b25c88562e5f6c52e6212e9073c5b648f0d9953c08",
+    "market_lab/calendar.py": "8a5183bcdf66fdc43391c0ab22ac55e418f945742f6e29341d8ae37056d19e9b",
+    "market_lab/cli.py": "6d930b0c94742f2fbe787109c5180e378801cca8014b23499129a38faa8ae616",
+    "market_lab/confirmation.py": "dfcec946522131a2de39e7e4f92bb8204a02a16f7535b349729a0a440f8522ec",
+    "market_lab/confirmation_pilot.py": "9243839123cc64931abafdc1d4e87c643320a6bf6e0f742186f647a318c81f41",
+    "market_lab/corporate_actions.py": "8e7df33285e930555436edc70606b9d70678ecd64ac87420e8c9f06d4c2c0e49",
+    "market_lab/datasets.py": "5a6236e27fae054f05cae0a7ce0dd8ea7ca20c0cbe0bb34f05123e82f7ccb090",
+    "market_lab/eligibility.py": "41a0177ab582a82b2cbb0f1e5f15c75f491160f82ba809236b95168a793b7447",
+    "market_lab/m2_pilot.py": "a5f406f35cc311823741aef71de3bf87102a3e87e573dd9b6025829001fdcfe7",
+    "market_lab/m2_report.py": "2a41781ceed9a71c7862be52a946f5984042efb4e5dad38f303bbdb400a2e9d7",
+    "market_lab/pipeline.py": "3561032ccd881adcd0afa6274791f1554fafefd8fb1c62eb9d8ee814a8408cd0",
+    "market_lab/replay_methodology.py": "25ff1afc6427f7d1fbb1174b9a49210765e41da68e1870e0c7abc01d639575b1",
+    "market_lab/replay_qa.py": "09b4803e714c7ae2906b11cd54359ed978397dc0e2e4e222c1f2f1194f44bb01",
+    "market_lab/results.py": "9d1f9c2103097c34d7ec7e303b77c0c6b81233de586deaafbf26f3b998c82f6f",
+    "market_lab/storage.py": "87b801420a7269a9ed1418f630d560279375a57091fdd13f4953a75401cd64b6",
+    "market_lab/systematic_pilot.py": "357eb1ffec5fad877c83e2f081c7fb98fa4f49538dbb13a6701b3e174e23628b",
+    "market_lab/systematic_report.py": "3ae0c142dc4b539367bed5fb232672c6aac5768d231cb44903dd33854ed21313",
+    "market_lab/tick_ingest.py": "1d053432d91fe78f09759f501f32ad103ebf097d7c34cdaa7076b93300143362",
+    "market_lab/tick_replay.py": "7370ccf1d0b9f1bd259d70ec8104b49fbfc3326fbd3a8e9fc7759addc2de939d"
+  },
+  "completed_at": "2026-11-15T09:45:12.896827+00:00",
+  "configuration_hash": "a8cd4e1f246c51d37ecab314de24b36129295cc0687856cd3a5e62d1b1b19f61",
+  "contract_version": "research-bundle-v1",
+  "event_definitions": "Fixed 40 original anchors, C0 touch; C1 three trades over 30s; C2 fresh bid support >=10s by +60s",
+  "event_population": "40 fixed initial primary events, six repeated analyses each; not 240 independent events",
+  "execution_status": "COMPLETE",
+  "experiment_id": "m3-confirmation-10cycles-20261115-v1",
+  "files": {
+    "analysis-validation.json": {
+      "bytes": 283,
+      "sha256": "96fe2c3c9d26212df378a7d21081c15f47a819b7612c7ad540fb1bf1546b314b"
+    },
+    "anomalies.json": {
+      "bytes": 9480,
+      "sha256": "46b03028cab8086deb5a667f4b075038903d4003dc0f5c2259e3e59d2e5e80c3"
+    },
+    "cohort_metrics.json": {
+      "bytes": 338913,
+      "sha256": "98adf9ce97311aee14f30f3afb3b1aa61504045602fd3ea840166fdb2b3ec172"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 49217,
+      "sha256": "6dd87e0ab41ae1cbae15ba4ed1d2a5c7b97a6892a9e56de0e6b06fa894fe3f97"
+    },
+    "cycle_metrics.parquet": {
+      "bytes": 19246,
+      "sha256": "8d77083cb6b12d711e923b06df0254c678965efd2513674f427c61d020f7c80c"
+    },
+    "data_quality.json": {
+      "bytes": 689,
+      "sha256": "fdb47944a9d487d34ccd118871bf98e98750135da7df6495b19ce4ceece2f4de"
+    },
+    "distributions.parquet": {
+      "bytes": 68631,
+      "sha256": "f307f9aa43981b7af2c62c72edee7b05a851a9bfba2e448cfbeb7e423c5be8da"
+    },
+    "event-level-results.json": {
+      "bytes": 4487282,
+      "sha256": "43dda4584a1c5a414a487ef7ea985eccef622e74c849f3fca2dfdb34b1172c6f"
+    },
+    "event_results.parquet": {
+      "bytes": 149784,
+      "sha256": "2cbaa199ecab3170ae4c42418750bee167aea0b0f83c477c831efd6264a446f8"
+    },
+    "finalization.json": {
+      "bytes": 791,
+      "sha256": "b443246eb1a8b8e986b44d31c785e0f72aae33b363e88eb54fc4d58c680e1483"
+    },
+    "findings-th.md": {
+      "bytes": 16481,
+      "sha256": "ac653e8c1a8989b4e40832075a44b0816ca903a83b2dfbad6ea7a7c070dd4081"
+    },
+    "methodology.md": {
+      "bytes": 7341,
+      "sha256": "e92a193274b8b422f9dda5297846e044fb32d1eb669940eca496581ae4aa935a"
+    },
+    "paired_comparisons.json": {
+      "bytes": 238314,
+      "sha256": "93b74fee7cf60a72685a0a5b4f3033f5f5fd15015b6558d979289de1cf2fa638"
+    },
+    "report.md": {
+      "bytes": 3543,
+      "sha256": "050924aeeadaf79d25aead90d37e21119ec3aa38bde33c2a0e638f25aae65c57"
+    },
+    "resume-validation.json": {
+      "bytes": 161,
+      "sha256": "a3b5ac19f8ddd2dec3d9b39e92fb461bac1ca4be545f6c4dc276d2b199452130"
+    },
+    "sampling.json": {
+      "bytes": 4984,
+      "sha256": "b96b1848da86e3870dc164f25f8b2046212a5c80455c87461dab740a8ff77040"
+    },
+    "sensitivity-analysis.json": {
+      "bytes": 203442,
+      "sha256": "e23e0672c474a09c857c15a4d6c421ce54960bd614a5a4f3c0194e88cb4f691e"
+    },
+    "statistical_tests.json": {
+      "bytes": 293,
+      "sha256": "2a0dd6729f1cda8bee4551154519b66eee2ef0521e6cb159378d5538707b19a8"
+    },
+    "summary.json": {
+      "bytes": 25157,
+      "sha256": "1f6754544a89d1ee125bce2343ef88af65c1ff8566851c7829eb3fcb35c05e51"
+    },
+    "tests.json": {
+      "bytes": 1202,
+      "sha256": "b32fcefb7a6fbb0a164e635260d76d957cc067d0443a270fa60b910671252b6a"
+    },
+    "validation.json": {
+      "bytes": 381,
+      "sha256": "28fbfb6e442bb47236c2423f80e68cf409c2d942e6c5d4e74a32b50b9febc929"
+    }
+  },
+  "input_dataset": "m2-systematic-10cycles-20261115-v2",
+  "outcome_definitions": "Own-signal gross trade-mark 5/15/30/60m, excursions and first passage; censoring retained",
+  "processed_trading_cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-03",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-08",
+    "2026-06-09"
+  ],
+  "raw_ticks_included": false,
+  "record_counts": {
+    "cohort_metrics.parquet": 72,
+    "cycle_metrics.parquet": 30,
+    "distributions.parquet": 486,
+    "event_results.parquet": 240
+  },
+  "requested_trading_cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-03",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-08",
+    "2026-06-09"
+  ],
+  "research_configuration": {
+    "barriers": [
+      [
+        "0.03",
+        "0.03"
+      ],
+      [
+        "0.05",
+        "0.03"
+      ],
+      [
+        "0.10",
+        "0.05"
+      ]
+    ],
+    "baseline_commit": "cb0912f",
+    "c1_deadline": "CYCLE_END; RESET_ACROSS_UNOBSERVED_OVERNIGHT",
+    "c1_include_touch": true,
+    "c1_min_observations": 3,
+    "c1_min_span_seconds": 30,
+    "c1_subthreshold_trade_resets": false,
+    "c2_min_span_seconds": 10,
+    "c2_window_seconds": 60,
+    "condition_policies": [
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "forward_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "gap_sensitivities_seconds": [
+      null,
+      300,
+      900
+    ],
+    "historical_eligibility_changes": false,
+    "holdout_access": false,
+    "initial_primary_events": 40,
+    "initial_risk_set": "SAME_40_PRIMARY_EVENTS_FOR_ALL_SIGNALS_AND_ODD_LOT_SENSITIVITY",
+    "max_http_requests": 0,
+    "max_mark_age_seconds": 60,
+    "max_quote_age_seconds": 5,
+    "methodology_version": "task-003-confirmation-v1",
+    "population_inference": false,
+    "run_id": "m3-confirmation-10cycles-20261115-v1",
+    "signal_policies": [
+      "C0",
+      "C1",
+      "C2"
+    ],
+    "source_run": "m2-systematic-10cycles-20261115-v2",
+    "threshold_optimization": false
+  },
+  "schema_versions": {
+    "event": "confirmation-event-v1"
+  },
+  "size_policy": "Full event results; no raw ticks; no truncation",
+  "source_selection_sha256": "4c8f27c44972f718319c249d20aa8770813de025abee72120cb2df53ade0e6ae",
+  "timezone": "America/New_York sessions, UTC integer SIP nanoseconds"
+}

@@ -1,0 +1,26 @@
+{
+  "historical_float": "UNRESOLVED; current proxy frozen and not PIT",
+  "initial_opportunities": 240,
+  "missing_confirmation_is_not_a_negative_return": true,
+  "overnight": "UNVERIFIED",
+  "primary_first_touches": 40,
+  "quote_estimate_marks": {
+    "INSUFFICIENT_QUOTE_OR_PRICE_PATH_EVIDENCE": 648
+  },
+  "quote_scope": "Existing bounded windows only; provider cursor exhaustion, not independent SIP certification",
+  "signal_statuses": {
+    "C0": {
+      "CONFIRMED": 40
+    },
+    "C1": {
+      "CONFIRMED": 33,
+      "UNCONFIRMED": 7
+    },
+    "C2": {
+      "CONFIRMED": 6,
+      "INSUFFICIENT_DATA": 10,
+      "UNCONFIRMED": 24
+    }
+  },
+  "unselected_new_odd_only_events": 3
+}

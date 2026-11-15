@@ -1,0 +1,213 @@
+{
+  "events_retained": true,
+  "rows": [
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "initial_event_id": "f918480c2f8a9bb85056b1ee045d9ce459f1ba66387c3f85fb1c6e063fd6c3a3",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 49493,
+          "ask": "0.4403",
+          "bid": "0.4384",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1779890623472502713,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/5bd006dd254cf36476a4ff88a7419f0e4d55eb9844367127973bfa1c27e83e83.json\", \"sha256\": \"f1e79c2b3e395e215347d24a85be1885ba3c710d8cc157c96478417e1879bd45\", \"row\": 212}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C2",
+      "ticker": "OTLK"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "initial_event_id": "f918480c2f8a9bb85056b1ee045d9ce459f1ba66387c3f85fb1c6e063fd6c3a3",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 49493,
+          "ask": "0.4403",
+          "bid": "0.4384",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1779890623472502713,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/5bd006dd254cf36476a4ff88a7419f0e4d55eb9844367127973bfa1c27e83e83.json\", \"sha256\": \"f1e79c2b3e395e215347d24a85be1885ba3c710d8cc157c96478417e1879bd45\", \"row\": 212}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C2",
+      "ticker": "OTLK"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "initial_event_id": "8bf53b9cf2f0de3538034cfa70c63508ffdf0023d0e30b6be84f2a27ec4fd2c4",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 2663519,
+          "ask": "1.26",
+          "bid": "1.24",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780434499548079546,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/8190ad614019e62c2c7c8836d38af05f5b5c3fcdd63b788795db072c17e56211.json\", \"sha256\": \"c5ac6358cea022568350790cb9910e8df755ad13cdc7e5cddf3c681a74598db6\", \"row\": 79}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "BELOW_BID",
+      "signal_policy": "C2",
+      "ticker": "MSS"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "initial_event_id": "8bf53b9cf2f0de3538034cfa70c63508ffdf0023d0e30b6be84f2a27ec4fd2c4",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 2663519,
+          "ask": "1.26",
+          "bid": "1.24",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780434499548079546,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/8190ad614019e62c2c7c8836d38af05f5b5c3fcdd63b788795db072c17e56211.json\", \"sha256\": \"c5ac6358cea022568350790cb9910e8df755ad13cdc7e5cddf3c681a74598db6\", \"row\": 79}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "BELOW_BID",
+      "signal_policy": "C2",
+      "ticker": "MSS"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "initial_event_id": "c5b142547f85aa8717a2a741428e4a5779732d0e8729cb9168aac04fa1ed3bc7",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 16,
+          "ask": "0.3752",
+          "bid": "0.3692",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780485873095693312,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/1c747011ab4a0f8967c224d2876ffb4196562a22bad2dd944c60a2cdb71cf4b4.json\", \"sha256\": \"d829e82503d5d40cd917575d548d97e3dd1eca1519e6fdb864e566c9035d6215\", \"row\": 133}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C1",
+      "ticker": "KIDZ"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "initial_event_id": "c5b142547f85aa8717a2a741428e4a5779732d0e8729cb9168aac04fa1ed3bc7",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 16,
+          "ask": "0.3752",
+          "bid": "0.3692",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780485873095693312,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/1c747011ab4a0f8967c224d2876ffb4196562a22bad2dd944c60a2cdb71cf4b4.json\", \"sha256\": \"d829e82503d5d40cd917575d548d97e3dd1eca1519e6fdb864e566c9035d6215\", \"row\": 133}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "WITHIN_NBBO",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C1",
+      "ticker": "KIDZ"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "initial_event_id": "2c1459f82cd133e99cd65a85823945b0c7336a2440fc172ab64c2cbddde1d9ac",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 719027253,
+          "ask": "0.5",
+          "bid": "0.4925",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780603481652421833,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/d84ee668f2f3feadad46913ef2befe24c3849a22bbf7b5931fc91fa52400fc9b.json\", \"sha256\": \"2c3e568c1c4f75f6b0b295e6c268377159981a2a03632ebd505ffdd993bd908e\", \"row\": 14}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "ABOVE_PRECEDING_ASK",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C0",
+      "ticker": "DEVS"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "initial_event_id": "2c1459f82cd133e99cd65a85823945b0c7336a2440fc172ab64c2cbddde1d9ac",
+      "initial_quality": {
+        "later_invalidated": false,
+        "quote": {
+          "age_ns": 719027253,
+          "ask": "0.5",
+          "bid": "0.4925",
+          "coverage_complete": true,
+          "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+          "flags": [],
+          "sip_timestamp": 1780603481652421833,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/d84ee668f2f3feadad46913ef2befe24c3849a22bbf7b5931fc91fa52400fc9b.json\", \"sha256\": \"2c3e568c1c4f75f6b0b295e6c268377159981a2a03632ebd505ffdd993bd908e\", \"row\": 14}",
+          "status": "OK",
+          "trade_discarded_for_nbbo_relation": false,
+          "trade_relation": "ABOVE_PRECEDING_ASK",
+          "used_for_trigger": false
+        },
+        "restoration_status": "AS_RECORDED",
+        "strict_full_cycle_first_verified": false
+      },
+      "price_relation": "ABOVE_ASK",
+      "signal_policy": "C0",
+      "ticker": "DEVS"
+    }
+  ]
+}

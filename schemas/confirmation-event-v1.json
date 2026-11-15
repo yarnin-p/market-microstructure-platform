@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fixed-risk-set confirmation event v1",
+  "type": "object",
+  "required": ["event_id", "run_id", "methodology_version", "initial_event_id", "initial_event_timestamp", "condition_policy", "signal", "sampling_weight", "selection_probability", "outcomes", "first_touch_anchor_unchanged"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "methodology_version": {"const": "task-003-confirmation-v1"},
+    "initial_event_timestamp": {"type": "integer"},
+    "condition_policy": {"enum": ["HIGH_LOW_ONLY", "ODD_LOT_OBSERVATION_SENSITIVITY"]},
+    "signal": {
+      "type": "object",
+      "required": ["signal_policy", "status", "reason", "signal_timestamp", "market_observation_price", "evidence"],
+      "properties": {
+        "signal_policy": {"enum": ["C0", "C1", "C2"]},
+        "status": {"enum": ["CONFIRMED", "UNCONFIRMED", "INSUFFICIENT_DATA"]},
+        "signal_timestamp": {"type": ["integer", "null"]},
+        "market_observation_price": {"type": ["string", "null"]},
+        "evidence": {"type": "array"}
+      }
+    },
+    "first_touch_anchor_unchanged": {"const": true},
+    "sampling_weight": {"type": "number", "exclusiveMinimum": 0},
+    "selection_probability": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+    "outcomes": {"type": "array"}
+  },
+  "x-clock": "Integer SIP receipt nanoseconds; C2 market-observation mark timestamp is separate from quote signal timestamp",
+  "x-population": "All 40 original primary initial events retained in each signal/condition policy; no zero-return imputation"
+}

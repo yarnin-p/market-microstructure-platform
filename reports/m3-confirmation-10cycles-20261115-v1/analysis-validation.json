@@ -1,0 +1,9 @@
+{
+  "all_initial_denominators_reconcile": true,
+  "analysis_code_sha256": "203ac2bc85b8765a6aed75c07d89baa84cab5325873f80a5fa8e94a96c535f6e",
+  "cohort_session_policy_groups": 72,
+  "event_rows": 240,
+  "gap_stratum_policy_panels": 18,
+  "initial_risk_set": 40,
+  "status": "PASS"
+}
