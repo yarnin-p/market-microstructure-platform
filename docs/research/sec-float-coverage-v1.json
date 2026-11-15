@@ -1,0 +1,849 @@
+{
+  "schema_version": "sec-float-coverage-v1",
+  "outcome": "ACCESS_BLOCKED",
+  "m1_status": "BLOCKED_DATA",
+  "sample_size": 24,
+  "sample_design": "Per exchange: 4 ranked split/change cases + 4 alphabetically first stable cases; exploration only; no SEC outcomes used",
+  "representative_sample": false,
+  "exchange_counts": {
+    "NASDAQ": 8,
+    "NYSE American (AMEX)": 8,
+    "NYSE": 8
+  },
+  "split_flagged_securities": 12,
+  "change_flagged_securities": 5,
+  "confirmed_delisted_or_renamed": null,
+  "cik_mapping": {
+    "structurally_present": 24,
+    "denominator": 24,
+    "issuer_metadata_corroborated": 0,
+    "share_class_mapping_verified": 0
+  },
+  "sec_access": {
+    "http_attempts": 1,
+    "http_status_counts": {
+      "403": 1
+    },
+    "submissions_ok": 0,
+    "companyfacts_ok": 0,
+    "original_documents_ok": 0
+  },
+  "filing_availability": {
+    "securities_with_recent_annual_or_quarterly": 0,
+    "availability_rate": null,
+    "scope": "RETRIEVED_RECENT_SUBMISSIONS_ONLY"
+  },
+  "public_float_disclosures": {
+    "securities_observed": 0,
+    "coverage_rate": null
+  },
+  "defensible_estimates_observed": 0,
+  "earliest_observed_acceptance_at": null,
+  "earliest_known_publication_at": null,
+  "status_counts": {
+    "UNRESOLVED": 24
+  },
+  "cycle_coverage": {
+    "requested_cycles": 120,
+    "sample_security_cycle_pairs": 2880,
+    "validated_float_share_pairs": 0,
+    "whole_universe_estimated_coverage": null,
+    "staleness_by_security": [
+      {
+        "security_id": "BBG00R28GXX4",
+        "ticker": "AMIX",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG00P1DG9D3",
+        "ticker": "BYND",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SFMX15",
+        "ticker": "CREG",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG008LFXNV4",
+        "ticker": "FEED",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001S5N8T1",
+        "ticker": "AAME",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG004M1KJP3",
+        "ticker": "ABAT",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG0058YJ326",
+        "ticker": "ABOS",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SMCS49",
+        "ticker": "ABVC",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SPBXV2",
+        "ticker": "GORO",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG01Q0T3FL7",
+        "ticker": "APUS",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG00JMZD5D6",
+        "ticker": "GPUS",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG01J7XRSC3",
+        "ticker": "HCWC",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG00Z17HFQ5",
+        "ticker": "AEON",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SK3JJ7",
+        "ticker": "AGIG",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG020VXPCC3",
+        "ticker": "AIB",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SB9J29",
+        "ticker": "AIM",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG00H00J2Q8",
+        "ticker": "ALIT",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG0157C6630",
+        "ticker": "BRCC",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG003QPMHS7",
+        "ticker": "LFT",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG00XWZB4W8",
+        "ticker": "NRDY",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001S72KY7",
+        "ticker": "ACH",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SLQ6G1",
+        "ticker": "AHT",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001S876N3",
+        "ticker": "AIV",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      },
+      {
+        "security_id": "BBG001SZYYL4",
+        "ticker": "AMC",
+        "cycles_with_accepted_float_value_usd": 0,
+        "measurement_age_days_min": null,
+        "measurement_age_days_max": null,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {}
+      }
+    ]
+  },
+  "reverse_split_quality": "UNASSESSED_NO_RECONSTRUCTED_FLOAT_SHARE_BASIS",
+  "massive_current_float_comparison": {
+    "status": "NOT_PERFORMED_NO_COMPARABLE_HISTORICAL_ESTIMATES",
+    "current_float_substitution": false
+  },
+  "request_evidence": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001617867.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:09:42.911790+00:00",
+      "status": 403,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 4818,
+      "sha256": "1f845d94567f549891225527b258d6b38fc34429e15c1c4586dbd067ee667437",
+      "retrieved_at": "2026-11-15T03:09:44.131254+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Sun, 15 Nov 2026 03:09:44 GMT"
+      }
+    }
+  ],
+  "securities": [
+    {
+      "ticker": "AMIX",
+      "security_id": "BBG00R28GXX4",
+      "cik": "0001617867",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.418000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HTTP_403",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AMIX",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "BYND",
+      "security_id": "BBG00P1DG9D3",
+      "cik": "0001655210",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-08-14",
+      "previous_rth_close": "0.407000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "BYND",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "0e9dc7baaad7b6560cc37a9ebb962b664fafac98671c76d6f7ba9c610bb94f7f"
+    },
+    {
+      "ticker": "CREG",
+      "security_id": "BBG001SFMX15",
+      "cik": "0000721693",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.378500000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "CREG",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "FEED",
+      "security_id": "BBG008LFXNV4",
+      "cik": "0001326706",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.925500000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "FEED",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AAME",
+      "security_id": "BBG001S5N8T1",
+      "cik": "0000008177",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.160000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AAME",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ABAT",
+      "security_id": "BBG004M1KJP3",
+      "cik": "0001576873",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-06-23",
+      "previous_rth_close": "2.930000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "ABAT",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "d202d0ecd916282bc442ddbc8336fca07523c5386eded6d72cbcf02bbebab276"
+    },
+    {
+      "ticker": "ABOS",
+      "security_id": "BBG0058YJ326",
+      "cik": "0001576885",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.420000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "ABOS",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ABVC",
+      "security_id": "BBG001SMCS49",
+      "cik": "0001173313",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.290000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "ABVC",
+          "XNAS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "GORO",
+      "security_id": "BBG001SPBXV2",
+      "cik": "0001160791",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.270000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "GORO",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "APUS",
+      "security_id": "BBG01Q0T3FL7",
+      "cik": "0001894525",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.420000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "APUS",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "GPUS",
+      "security_id": "BBG00JMZD5D6",
+      "cik": "0000896493",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.172000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "GPUS",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "HCWC",
+      "security_id": "BBG01J7XRSC3",
+      "cik": "0001948864",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.261700000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "HCWC",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AEON",
+      "security_id": "BBG00Z17HFQ5",
+      "cik": "0001837607",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.770000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AEON",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AGIG",
+      "security_id": "BBG001SK3JJ7",
+      "cik": "0001156041",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.150000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AGIG",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AIB",
+      "security_id": "BBG020VXPCC3",
+      "cik": "0002070542",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-06-03",
+      "previous_rth_close": "2.500000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AIB",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "2bbae186c032e7e756fffe9317135c7e4f64da322c312aee9de9693aa59f1754"
+    },
+    {
+      "ticker": "AIM",
+      "security_id": "BBG001SB9J29",
+      "cik": "0000946644",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.232700000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AIM",
+          "XASE"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ALIT",
+      "security_id": "BBG00H00J2Q8",
+      "cik": "0001809104",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.885700000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "ALIT",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "BRCC",
+      "security_id": "BBG0157C6630",
+      "cik": "0001891101",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.750000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "BRCC",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "LFT",
+      "security_id": "BBG003QPMHS7",
+      "cik": "0001547546",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.060000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "LFT",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "NRDY",
+      "security_id": "BBG00XWZB4W8",
+      "cik": "0001819404",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.831000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "NRDY",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ACH",
+      "security_id": "BBG001S72KY7",
+      "cik": "0000075252",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.760000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "ACH",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AHT",
+      "security_id": "BBG001SLQ6G1",
+      "cik": "0001232582",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.900000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AHT",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AIV",
+      "security_id": "BBG001S876N3",
+      "cik": "0000922864",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-06-09",
+      "previous_rth_close": "2.950000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AIV",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "af19947dcabe8b37649123dfdcbce1fe81dd0838dccd7428d9adbb0b478770bf"
+    },
+    {
+      "ticker": "AMC",
+      "security_id": "BBG001SZYYL4",
+      "cik": "0001411579",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.590000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "UNRESOLVED",
+      "errors": [
+        "submissions:SEC_HOST_BLOCKED_AFTER_403_OR_429",
+        "companyfacts:SEC_HOST_BLOCKED_AFTER_403_OR_429"
+      ],
+      "historical_symbols": [
+        [
+          "AMC",
+          "XNYS"
+        ]
+      ],
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    }
+  ],
+  "source_hashes": {
+    "sample": "b3c08ce9565cc843700063df60bee11dd2f1bb2f1ecb1471af1fd4b92020a1d3",
+    "results": "4df5f1aece308b3ef5ae3395fef64cd2726b5f53dd536c9223d391d7bc80c624"
+  }
+}

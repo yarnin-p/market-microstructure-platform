@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:market-microstructure-platform:sec-float-evidence:v1",
+  "title": "SEC float pilot evidence v1",
+  "type": "object",
+  "required": ["schema_version", "security", "status", "sources", "facts", "documents", "derived_estimates", "errors", "verified_pit"],
+  "properties": {
+    "schema_version": {"const": "sec-float-evidence-v1"},
+    "security": {
+      "type": "object",
+      "required": ["security_id", "ticker", "cik", "source_snapshot_sha256"],
+      "properties": {
+        "security_id": {"type": "string", "minLength": 1},
+        "ticker": {"type": "string", "minLength": 1},
+        "cik": {"type": ["string", "null"]},
+        "source_snapshot_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "status": {
+      "enum": ["SEC_DERIVED_HISTORICAL_ESTIMATE", "SEC_REPORTED_SHARE_COUNT_ONLY", "INSUFFICIENT_PRICE_BASIS", "AMBIGUOUS_SHARE_CLASS", "UNRESOLVED"]
+    },
+    "verified_pit": {"const": false},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["concept", "unit", "value", "observation_date", "filing_date", "accession", "acceptance_at", "available_at", "availability_status"],
+        "properties": {
+          "concept": {"type": "string"},
+          "unit": {"enum": ["USD", "shares"]},
+          "value": {"$ref": "#/$defs/decimal"},
+          "observation_date": {"type": ["string", "null"], "format": "date"},
+          "filing_date": {"type": "string", "format": "date"},
+          "accession": {"type": ["string", "null"]},
+          "acceptance_at": {"type": ["string", "null"], "format": "date-time"},
+          "available_at": {"type": "null"},
+          "availability_status": {"const": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"}
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["accession", "form", "filing_date", "acceptance_at", "url"],
+        "properties": {
+          "accession": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "form": {"type": "string"},
+          "acceptance_at": {"type": ["string", "null"], "format": "date-time"},
+          "source": {"$ref": "#/$defs/source"},
+          "error": {"type": "string"},
+          "float_passages": {"type": "array"},
+          "facts": {"type": "array"},
+          "contexts": {"type": "object"}
+        }
+      }
+    },
+    "derived_estimates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["accession", "source_url", "source_sha256", "observation_date", "share_class", "public_float_usd", "disclosed_price_usd", "estimated_shares", "supporting_passage", "class_confirmed", "same_measurement_date", "same_share_basis"],
+        "properties": {
+          "accession": {"type": "string"},
+          "source_url": {"type": "string", "format": "uri"},
+          "source_sha256": {"$ref": "#/$defs/hash"},
+          "observation_date": {"type": "string", "format": "date"},
+          "share_class": {"type": "string", "minLength": 1},
+          "public_float_usd": {"$ref": "#/$defs/decimal"},
+          "disclosed_price_usd": {"$ref": "#/$defs/decimal"},
+          "estimated_shares": {"$ref": "#/$defs/decimal"},
+          "supporting_passage": {"type": "string", "minLength": 1},
+          "class_confirmed": {"const": true},
+          "same_measurement_date": {"const": true},
+          "same_share_basis": {"const": true}
+        }
+      }
+    }
+  },
+  "allOf": [{
+    "if": {"properties": {"status": {"const": "SEC_DERIVED_HISTORICAL_ESTIMATE"}}},
+    "then": {"properties": {"derived_estimates": {"minItems": 1}}}
+  }],
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "decimal": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"},
+    "source": {
+      "type": "object",
+      "required": ["url", "sha256", "status", "retrieved_at"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "sha256": {"$ref": "#/$defs/hash"},
+        "status": {"type": "integer"},
+        "retrieved_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}
