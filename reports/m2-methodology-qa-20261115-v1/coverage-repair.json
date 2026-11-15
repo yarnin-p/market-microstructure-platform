@@ -1,0 +1,110 @@
+{
+  "budget": {
+    "baseline_commit": "8a4903f",
+    "baseline_run": "m2-first-touch-3cycles-20261115-v1",
+    "change_m1": false,
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY",
+      "MASSIVE_CURRENT_FLOAT_PROXY",
+      "SEC_HISTORICAL_EVIDENCE_OVERLAP"
+    ],
+    "condition_policies": [
+      "LEGACY_BOTH",
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "confirmation_models": false,
+    "first_touch_definitions": [
+      "OBSERVED_SESSIONS_FIRST",
+      "PREFIX_FIRST",
+      "STRICT_FULL_CYCLE_FIRST"
+    ],
+    "fixed_mark_age_seconds": 60,
+    "freeze_original_selection": true,
+    "gap_sensitivities_seconds": [
+      300,
+      900,
+      null
+    ],
+    "holdout_access": false,
+    "max_decoded_bytes": 1073741824,
+    "max_new_trade_pages": 64,
+    "max_page_bytes": 33554432,
+    "max_pages": 80,
+    "max_quote_pages": 16,
+    "max_quote_windows": 8,
+    "max_requests": 96,
+    "max_window_pages": 64,
+    "methodology_version": "task-002-1-observed-sessions-v2",
+    "missing_pages_always_unknown": true,
+    "primary_condition_policy": "HIGH_LOW_ONLY",
+    "primary_gap_policy": "NO_MECHANICAL_GAP_CENSORING_IN_PAGINATION_COMPLETE_SESSIONS",
+    "quote_page_limit": 10000,
+    "repair_windows": [
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "ASTC"
+      },
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "BRTX"
+      },
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "SNGX"
+      }
+    ],
+    "run_id": "m2-methodology-qa-20261115-v1",
+    "strict_full_cycle_requires_overnight_coverage": true,
+    "trade_page_limit": 50000,
+    "unknown_prior_evidence_always_unverified": true
+  },
+  "coverage_claim": "Provider cursor exhaustion only, not independent consolidated-feed certification",
+  "new_decoded_bytes": 255244079,
+  "new_http_requests": 24,
+  "new_pages": 24,
+  "windows": [
+    {
+      "coverage_manifest": "data/runs/m2-methodology-qa-20261115-v1/repairs/2026-05-27/ASTC/coverage.json",
+      "coverage_sha256": "4fc47fcce292c8236165c9dcfd3a5b4705c9f12dcf89df97323570ad0bf049f7",
+      "cycle_id": "2026-05-27",
+      "error": null,
+      "new_pages": 20,
+      "original_complete": false,
+      "original_pages": 12,
+      "original_rows": 600000,
+      "repaired_complete": true,
+      "repaired_pages": 32,
+      "repaired_rows": 1563713,
+      "ticker": "ASTC"
+    },
+    {
+      "coverage_manifest": "data/runs/m2-methodology-qa-20261115-v1/repairs/2026-05-27/BRTX/coverage.json",
+      "coverage_sha256": "c21d9b8f1c053972cbe4af5bd136aca95e3108e0cb1532bd07d202b88dfbb3de",
+      "cycle_id": "2026-05-27",
+      "error": null,
+      "new_pages": 2,
+      "original_complete": false,
+      "original_pages": 12,
+      "original_rows": 600000,
+      "repaired_complete": true,
+      "repaired_pages": 14,
+      "repaired_rows": 684742,
+      "ticker": "BRTX"
+    },
+    {
+      "coverage_manifest": "data/runs/m2-methodology-qa-20261115-v1/repairs/2026-05-27/SNGX/coverage.json",
+      "coverage_sha256": "9cdafb81a59cbad3d6f81552e1bd3ce02a69ea70a7a3025d8d4b35e1b946bd59",
+      "cycle_id": "2026-05-27",
+      "error": null,
+      "new_pages": 2,
+      "original_complete": false,
+      "original_pages": 12,
+      "original_rows": 600000,
+      "repaired_complete": true,
+      "repaired_pages": 14,
+      "repaired_rows": 669564,
+      "ticker": "SNGX"
+    }
+  ]
+}

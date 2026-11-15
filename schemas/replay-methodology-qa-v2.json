@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Versioned first-touch methodology comparison v2",
+  "description": "Each event payload is keyed by variant, condition_policy, event_id. Raw trades and NBBO remain source-linked local evidence.",
+  "type": "object",
+  "required": ["event_id", "methodology_version", "variant", "condition_policy", "security_id", "cycle_id", "sample", "event_timestamp", "source_json", "observed_sessions_first_verified", "prefix_first_verified", "strict_full_cycle_first_verified", "first_touch_status"],
+  "properties": {
+    "methodology_version": {"const": "task-002-1-observed-sessions-v2"},
+    "variant": {"enum": ["QA_UNREPAIRED", "QA_REPAIRED"]},
+    "condition_policy": {"enum": ["LEGACY_BOTH", "HIGH_LOW_ONLY", "ODD_LOT_OBSERVATION_SENSITIVITY"]},
+    "sample": {"enum": ["SYSTEMATIC", "DIAGNOSTIC"]},
+    "event_id": {"type": "string"},
+    "security_id": {"type": "string"},
+    "cycle_id": {"type": "string", "format": "date"},
+    "event_timestamp": {"type": "integer"},
+    "source_json": {"type": "string"},
+    "first_touch_status": {"enum": ["OBSERVED_SESSIONS_FIRST_VERIFIED", "UNVERIFIED_TOUCH"]},
+    "observed_sessions_first_verified": {"type": "boolean"},
+    "prefix_first_verified": {"type": "boolean"},
+    "strict_full_cycle_first_verified": {"const": false},
+    "overnight_coverage": {"const": "UNOBSERVED_NOT_PROOF_OF_CLOSURE"}
+  },
+  "x-scope": {
+    "observed_sessions": "(previous RTH close, prior 20:00 ET), [04:00 ET, current RTH close]; PRE ends at 09:30 exclusive; RTH includes open and close",
+    "prefix_first": "AH-only proof before overnight interval; incomplete tails never certify complete opportunities",
+    "strict_full_cycle": "Requires all relevant intervals including overnight; denominator is zero in this pilot",
+    "outcome_primary_gap_policy": "No mechanical trade-gap censoring; missing pages, overnight, unknown evidence, invalidation and 60-second stale marks still censor",
+    "cohort_overlap": "Memberships overlap; never sum cohort event counts as independent events"
+  }
+}

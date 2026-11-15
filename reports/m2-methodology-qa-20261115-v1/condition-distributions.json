@@ -1,0 +1,8548 @@
+{
+  "condition_dictionary": [
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 1,
+      "name": "Acquisition",
+      "sip_mapping": {
+        "UTP": "A"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 2,
+      "name": "Average Price Trade",
+      "sip_mapping": {
+        "CTA": "B",
+        "FINRA_TDDS": "W",
+        "UTP": "W"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 3,
+      "name": "Automatic Execution",
+      "sip_mapping": {
+        "CTA": "E"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 4,
+      "name": "Bunched Trade",
+      "sip_mapping": {
+        "UTP": "B"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 5,
+      "name": "Bunched Sold Trade",
+      "sip_mapping": {
+        "UTP": "G"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 6,
+      "legacy": true,
+      "name": "CAP Election",
+      "sip_mapping": {
+        "CTA": "I"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 7,
+      "name": "Cash Sale",
+      "sip_mapping": {
+        "CTA": "C",
+        "FINRA_TDDS": "C",
+        "UTP": "C"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 8,
+      "name": "Closing Prints",
+      "sip_mapping": {
+        "UTP": "6"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 9,
+      "name": "Cross Trade",
+      "sip_mapping": {
+        "CTA": "X",
+        "UTP": "X"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 10,
+      "name": "Derivatively Priced",
+      "sip_mapping": {
+        "CTA": "4",
+        "UTP": "4"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 11,
+      "name": "Distribution",
+      "sip_mapping": {
+        "UTP": "D"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 12,
+      "name": "Form T/Extended Hours",
+      "sip_mapping": {
+        "CTA": "T",
+        "FINRA_TDDS": "T",
+        "UTP": "T"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 13,
+      "name": "Extended Hours (Sold Out Of Sequence)",
+      "sip_mapping": {
+        "CTA": "U",
+        "FINRA_TDDS": "U",
+        "UTP": "U"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 14,
+      "name": "Intermarket Sweep",
+      "sip_mapping": {
+        "CTA": "F",
+        "UTP": "F"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 15,
+      "name": "Market Center Official Close",
+      "sip_mapping": {
+        "CTA": "M",
+        "UTP": "M"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": false
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": false
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 16,
+      "name": "Market Center Official Open",
+      "sip_mapping": {
+        "CTA": "Q",
+        "UTP": "Q"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": false
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": false
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 17,
+      "name": "Market Center Opening Trade",
+      "sip_mapping": {
+        "CTA": "O"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 18,
+      "name": "Market Center Reopening Trade",
+      "sip_mapping": {
+        "CTA": "5"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 19,
+      "name": "Market Center Closing Trade",
+      "sip_mapping": {
+        "CTA": "6"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 20,
+      "name": "Next Day",
+      "sip_mapping": {
+        "CTA": "N",
+        "FINRA_TDDS": "N",
+        "UTP": "N"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 21,
+      "name": "Price Variation Trade",
+      "sip_mapping": {
+        "CTA": "H",
+        "UTP": "H"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 22,
+      "name": "Prior Reference Price",
+      "sip_mapping": {
+        "CTA": "P",
+        "FINRA_TDDS": "P",
+        "UTP": "P"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "exchange": 1,
+      "id": 23,
+      "name": "Rule 155 Trade (AMEX)",
+      "sip_mapping": {
+        "CTA": "K",
+        "UTP": "K"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "exchange": 10,
+      "id": 24,
+      "name": "Rule 127 (NYSE Only)",
+      "sip_mapping": {
+        "CTA": "K"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 25,
+      "name": "Opening Prints",
+      "sip_mapping": {
+        "UTP": "O"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 27,
+      "legacy": true,
+      "name": "Stopped Stock (Regular Trade)",
+      "sip_mapping": {
+        "UTP": "1"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 28,
+      "name": "Re-Opening Prints",
+      "sip_mapping": {
+        "UTP": "5"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 29,
+      "name": "Seller",
+      "sip_mapping": {
+        "CTA": "R",
+        "FINRA_TDDS": "R",
+        "UTP": "R"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 30,
+      "name": "Sold Last",
+      "sip_mapping": {
+        "CTA": "L",
+        "UTP": "L"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 31,
+      "legacy": true,
+      "name": "Sold Last and Stopped Stock",
+      "sip_mapping": {
+        "UTP": "2"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 32,
+      "name": "Sold (Out Of Sequence)",
+      "sip_mapping": {
+        "CTA": "Z",
+        "FINRA_TDDS": "Z",
+        "UTP": "Z"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 33,
+      "legacy": true,
+      "name": "Sold (Out of Sequence) and Stopped Stock",
+      "sip_mapping": {
+        "UTP": "3"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 34,
+      "name": "Split Trade",
+      "sip_mapping": {
+        "UTP": "S"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 35,
+      "legacy": true,
+      "name": "Stock Option",
+      "sip_mapping": {
+        "UTP": "V"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 36,
+      "name": "Yellow Flag Regular Trade",
+      "sip_mapping": {
+        "UTP": "Y"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 37,
+      "name": "Odd Lot Trade",
+      "sip_mapping": {
+        "CTA": "I",
+        "FINRA_TDDS": "I",
+        "UTP": "I"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 38,
+      "name": "Corrected Consolidated Close (per listing market)",
+      "sip_mapping": {
+        "CTA": "9",
+        "UTP": "9"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": false
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": false
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 41,
+      "name": "Trade Thru Exempt",
+      "sip_mapping": {
+        "CTA": "1",
+        "UTP": "X"
+      },
+      "type": "trade_thru_exempt",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 52,
+      "name": "Contingent Trade",
+      "sip_mapping": {
+        "CTA": "V",
+        "UTP": "V"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 53,
+      "name": "Qualified Contingent Trade",
+      "sip_mapping": {
+        "CTA": "7",
+        "UTP": "7"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": false,
+          "updates_open_close": false,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 55,
+      "legacy": true,
+      "name": "Opening Reopening Trade Detail",
+      "sip_mapping": {
+        "CTA": "G"
+      },
+      "type": "sale_condition",
+      "update_rules": {
+        "consolidated": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        },
+        "market_center": {
+          "updates_high_low": true,
+          "updates_open_close": true,
+          "updates_volume": true
+        }
+      }
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 57,
+      "name": "Short Sale Restriction Activated",
+      "sip_mapping": {
+        "CTA": "A"
+      },
+      "type": "short_sale_restriction_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 58,
+      "name": "Short Sale Restriction Continued",
+      "sip_mapping": {
+        "CTA": "C"
+      },
+      "type": "short_sale_restriction_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 59,
+      "name": "Short Sale Restriction Deactivated",
+      "sip_mapping": {
+        "CTA": "D"
+      },
+      "type": "short_sale_restriction_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 60,
+      "name": "Short Sale Restriction In Effect",
+      "sip_mapping": {
+        "CTA": "E"
+      },
+      "type": "short_sale_restriction_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 62,
+      "name": "Financial Status - Bankrupt",
+      "sip_mapping": {
+        "CTA": "1"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 63,
+      "name": "Financial Status - Deficient",
+      "sip_mapping": {
+        "CTA": "2"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 64,
+      "name": "Financial Status - Delinquent",
+      "sip_mapping": {
+        "CTA": "3"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 65,
+      "name": "Financial Status - Bankrupt and Deficient",
+      "sip_mapping": {
+        "CTA": "4"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 66,
+      "name": "Financial Status - Bankrupt and Delinquent",
+      "sip_mapping": {
+        "CTA": "5"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 67,
+      "name": "Financial Status - Deficient and Delinquent",
+      "sip_mapping": {
+        "CTA": "6"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 68,
+      "name": "Financial Status - Deficient, Delinquent, and Bankrupt",
+      "sip_mapping": {
+        "CTA": "7"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 69,
+      "name": "Financial Status - Liquidation",
+      "sip_mapping": {
+        "CTA": "A"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 70,
+      "name": "Financial Status - Creations Suspended",
+      "sip_mapping": {
+        "CTA": "8"
+      },
+      "type": "financial_status_indicator"
+    },
+    {
+      "asset_class": "stocks",
+      "data_types": [
+        "trade"
+      ],
+      "id": 71,
+      "name": "Financial Status - Redemptions Suspended",
+      "sip_mapping": {
+        "CTA": "9"
+      },
+      "type": "financial_status_indicator"
+    }
+  ],
+  "limitations": "Combination counts are disjoint; per-code totals overlap for multi-condition prints. Invalid/rejected prints remain in raw evidence.",
+  "rows": [
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1281126,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        22,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7786,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 296829,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 260882,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1041751,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 814,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 545,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [],
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1281126,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        22,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7786,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 296829,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 260882,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1041751,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 814,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 545,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1281126,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        22,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 7786,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 296829,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 260882,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1041751,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 814,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 545,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 136225,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 83125,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 7043,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 13156,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        13,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 22606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 33990,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "AH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 15953,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 341051,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 19294,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 374793,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 682,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 124736,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "PRE",
+      "trades": 86058,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 986314,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 115055,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 170512,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 496076,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 569,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 418,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 986314,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 115055,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 170512,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 496076,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 569,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 418,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 986314,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 12,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2780,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 56,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1033,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 115055,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 170512,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        18,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        32,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 496076,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 569,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "DIAGNOSTIC",
+      "session": "RTH",
+      "trades": 418,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "DIAGNOSTIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 22,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        8,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 839,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        22
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1087,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 325,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 310,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 79,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "AH",
+      "trades": 15,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 178,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 8160,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 312,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4612,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 2328,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "PRE",
+      "trades": 3455,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 31480,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        2
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 36,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        2,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 222,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 949,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        10,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        12,
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 20,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        14,
+        12,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 8292,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        14,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11719,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        16
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 64,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        9,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 19,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        17,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 27342,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        37,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "codes": [
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        53,
+        35,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "sample": "SYSTEMATIC",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        15
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "codes": [
+        38,
+        41
+      ],
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "sample": "SYSTEMATIC",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    }
+  ],
+  "scope": "SEPARATE_UNREPAIRED_AND_REPAIRED_WINDOWS; DEDUPLICATED_RESTORED_RECORDS"
+}

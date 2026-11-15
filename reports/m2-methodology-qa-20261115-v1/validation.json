@@ -1,0 +1,19 @@
+{
+  "all_revised_events_source_linked": 124,
+  "baseline_unchanged": true,
+  "complete_repaired_opportunities": 45,
+  "full_json_export_matches_parquet": true,
+  "legacy_events_exactly_reproduced": 20,
+  "legacy_outcomes_exactly_reproduced": 20,
+  "m1_unchanged": true,
+  "new_decoded_bytes": 255244079,
+  "new_pages": 24,
+  "new_requests": 24,
+  "original_published_audit_examples_verified": 3,
+  "outcome_records_checked": 372,
+  "raw_nbbo_examples_verified": 3,
+  "repaired_cursor_chain_pages": 60,
+  "status": "PASS",
+  "strict_full_cycle_opportunities": 0,
+  "validator_sha256": "2e65a53249c753cad2b99e24187123c3a5a08ff39e8ecc25739b7abde47215d8"
+}

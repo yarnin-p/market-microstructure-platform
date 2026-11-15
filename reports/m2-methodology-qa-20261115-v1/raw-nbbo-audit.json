@@ -1,0 +1,285 @@
+[
+  {
+    "conditions": [
+      12
+    ],
+    "cycle_id": "2026-05-27",
+    "event_timestamp": 1779883964279261084,
+    "executable_fill_claim": false,
+    "preceding_nbbo": {
+      "age_ns": 3357596,
+      "ask": "0.785",
+      "bid": "0.7746",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1779883964275903488,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/617902eddbed652703b17a1fdfd8d10fcf7f4960c9655a9224d784ab2902c800.json\", \"sha256\": \"4679cac4f2a71b19f8818c7cbd1111c923b999f37a315c99c8a3c4f835de64ee\", \"row\": 98}",
+      "status": "OK"
+    },
+    "quote_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/617902eddbed652703b17a1fdfd8d10fcf7f4960c9655a9224d784ab2902c800.json",
+      "row": 98,
+      "sha256": "4679cac4f2a71b19f8818c7cbd1111c923b999f37a315c99c8a3c4f835de64ee"
+    },
+    "quotes_after_touch_used_for_trigger": false,
+    "raw_quote": {
+      "ask_exchange": 8,
+      "ask_price": 0.785,
+      "ask_size": 3000,
+      "bid_exchange": 11,
+      "bid_price": 0.7746,
+      "bid_size": 400,
+      "conditions": [
+        1
+      ],
+      "participant_timestamp": 1779883964275727172,
+      "sequence_number": 3765232,
+      "sip_timestamp": 1779883964275903488,
+      "tape": 3
+    },
+    "raw_trade": {
+      "conditions": [
+        12
+      ],
+      "decimal_size": "10389.0",
+      "exchange": 4,
+      "id": "74",
+      "participant_timestamp": 1779883964277000000,
+      "price": 0.784,
+      "sequence_number": 834504,
+      "sip_timestamp": 1779883964279261084,
+      "size": 10389,
+      "tape": 3,
+      "trf_id": 202,
+      "trf_timestamp": 1779883964279243014
+    },
+    "relation": "WITHIN_NBBO",
+    "revised_touch_same_as_original": true,
+    "status": "RAW_TRADE_AND_NBBO_HASH_VERIFIED",
+    "subsequent_quote_checks": [
+      {
+        "ask": "0.785",
+        "bid": "0.7799",
+        "first_support_delay_ns": 54260664,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 1,
+        "records": 14,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/617902eddbed652703b17a1fdfd8d10fcf7f4960c9655a9224d784ab2902c800.json",
+          "row": 99,
+          "sha256": "4679cac4f2a71b19f8818c7cbd1111c923b999f37a315c99c8a3c4f835de64ee"
+        }
+      },
+      {
+        "ask": "0.785",
+        "bid": "0.7799",
+        "first_support_delay_ns": 54260664,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 5,
+        "records": 38,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/617902eddbed652703b17a1fdfd8d10fcf7f4960c9655a9224d784ab2902c800.json",
+          "row": 99,
+          "sha256": "4679cac4f2a71b19f8818c7cbd1111c923b999f37a315c99c8a3c4f835de64ee"
+        }
+      }
+    ],
+    "threshold": "0.77913000000000",
+    "ticker": "HOTH",
+    "touch_price": "0.784",
+    "trade_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/04779f7cb6cc478db71bde8d9f7661ad6b0f5fec0fed5bf16aa2d487832f403b.json",
+      "row": 364,
+      "sha256": "27c5dcf82c053b6cd5f516ce32ab7064b85e1654b7db2241d1afc374e7c7955d"
+    }
+  },
+  {
+    "conditions": [
+      14,
+      12,
+      41
+    ],
+    "cycle_id": "2026-05-27",
+    "event_timestamp": 1779825857153404927,
+    "executable_fill_claim": false,
+    "preceding_nbbo": {
+      "age_ns": 58129299,
+      "ask": "0.5656",
+      "bid": "0.565",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1779825857095275628,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e13b04d311f658681f628a49f413afdcb821eeb1715236f935cfe6e10128f6f7.json\", \"sha256\": \"26279445ae38b024f71e11981358e783a2e4ecaacbe829e46c1858429a80bc82\", \"row\": 89}",
+      "status": "OK"
+    },
+    "quote_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e13b04d311f658681f628a49f413afdcb821eeb1715236f935cfe6e10128f6f7.json",
+      "row": 89,
+      "sha256": "26279445ae38b024f71e11981358e783a2e4ecaacbe829e46c1858429a80bc82"
+    },
+    "quotes_after_touch_used_for_trigger": false,
+    "raw_quote": {
+      "ask_exchange": 11,
+      "ask_price": 0.5656,
+      "ask_size": 200,
+      "bid_exchange": 8,
+      "bid_price": 0.565,
+      "bid_size": 100,
+      "conditions": [
+        1
+      ],
+      "participant_timestamp": 1779825857095093774,
+      "sequence_number": 187514023,
+      "sip_timestamp": 1779825857095275628,
+      "tape": 3
+    },
+    "raw_trade": {
+      "conditions": [
+        14,
+        12,
+        41
+      ],
+      "decimal_size": "100.0",
+      "exchange": 8,
+      "id": "389",
+      "participant_timestamp": 1779825857153212532,
+      "price": 0.565,
+      "sequence_number": 13998459,
+      "sip_timestamp": 1779825857153404927,
+      "size": 100,
+      "tape": 3
+    },
+    "relation": "WITHIN_NBBO",
+    "revised_touch_same_as_original": true,
+    "status": "RAW_TRADE_AND_NBBO_HASH_VERIFIED",
+    "subsequent_quote_checks": [
+      {
+        "ask": "0.5656",
+        "bid": "0.563",
+        "first_support_delay_ns": 962,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 1,
+        "records": 7,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e13b04d311f658681f628a49f413afdcb821eeb1715236f935cfe6e10128f6f7.json",
+          "row": 90,
+          "sha256": "26279445ae38b024f71e11981358e783a2e4ecaacbe829e46c1858429a80bc82"
+        }
+      },
+      {
+        "ask": "0.5656",
+        "bid": "0.563",
+        "first_support_delay_ns": 962,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 5,
+        "records": 18,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e13b04d311f658681f628a49f413afdcb821eeb1715236f935cfe6e10128f6f7.json",
+          "row": 90,
+          "sha256": "26279445ae38b024f71e11981358e783a2e4ecaacbe829e46c1858429a80bc82"
+        }
+      }
+    ],
+    "threshold": "0.56430000000000",
+    "ticker": "SNGX",
+    "touch_price": "0.565",
+    "trade_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/f8bf245c8379e4f181d2152f3ba3ae140d57bc7d2f50afc8a430e61d95de6ca6.json",
+      "row": 189,
+      "sha256": "1b2860808f6a76510cae9e6ef0a74ff3879c3311be665bccb0ad072ce63f0c45"
+    }
+  },
+  {
+    "conditions": [],
+    "cycle_id": "2026-05-27",
+    "event_timestamp": 1779892639865143015,
+    "executable_fill_claim": false,
+    "preceding_nbbo": {
+      "age_ns": 1969,
+      "ask": "0.3198",
+      "bid": "0.3166",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1779892639865141046,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json\", \"sha256\": \"81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036\", \"row\": 36}",
+      "status": "OK"
+    },
+    "quote_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json",
+      "row": 36,
+      "sha256": "81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036"
+    },
+    "quotes_after_touch_used_for_trigger": false,
+    "raw_quote": {
+      "ask_exchange": 7,
+      "ask_price": 0.3198,
+      "ask_size": 900,
+      "bid_exchange": 11,
+      "bid_price": 0.3166,
+      "bid_size": 100,
+      "conditions": [
+        1
+      ],
+      "indicators": [
+        1
+      ],
+      "participant_timestamp": 1779892639864954905,
+      "sequence_number": 29000682,
+      "sip_timestamp": 1779892639865141046,
+      "tape": 3
+    },
+    "raw_trade": {
+      "decimal_size": "100.0",
+      "exchange": 7,
+      "id": "50",
+      "participant_timestamp": 1779892639864954905,
+      "price": 0.3198,
+      "sequence_number": 2006941,
+      "sip_timestamp": 1779892639865143015,
+      "size": 100,
+      "tape": 3
+    },
+    "relation": "WITHIN_NBBO",
+    "revised_touch_same_as_original": true,
+    "status": "RAW_TRADE_AND_NBBO_HASH_VERIFIED",
+    "subsequent_quote_checks": [
+      {
+        "ask": "0.3198",
+        "bid": "0.3162",
+        "first_support_delay_ns": 13692528,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 1,
+        "records": 4,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json",
+          "row": 37,
+          "sha256": "81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036"
+        }
+      },
+      {
+        "ask": "0.3198",
+        "bid": "0.3162",
+        "first_support_delay_ns": 13692528,
+        "price_inside_subsequent_nbbo": true,
+        "radius_seconds": 5,
+        "records": 5,
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json",
+          "row": 37,
+          "sha256": "81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036"
+        }
+      }
+    ],
+    "threshold": "0.31900000000000",
+    "ticker": "DBGI",
+    "touch_price": "0.3198",
+    "trade_source": {
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json",
+      "row": 1991,
+      "sha256": "d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097"
+    }
+  }
+]

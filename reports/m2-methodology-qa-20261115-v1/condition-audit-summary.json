@@ -1,0 +1,3133 @@
+{
+  "per_code_overlapping_counts": [
+    {
+      "accepted": false,
+      "code": 8,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 44,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114213,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 184549,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 22931,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 34300,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 30002,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 47529,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 8,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 44,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114213,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 184549,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 22931,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 34300,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 30002,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 47529,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 45,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 298762,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 57231,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 77531,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 439410,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127064,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 89513,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127854,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 90199,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 439410,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127064,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 89513,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127854,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 90199,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 946669,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 216577,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 218053,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 0,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1312606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 31,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 305121,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 273654,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 17,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 40,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1375043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 8735,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 305953,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 273197,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 0,
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1312606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 31,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 305121,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 273654,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 17,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 40,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1375043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 8735,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 305953,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 273197,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 0,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1312606,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 31,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 578775,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 44,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 7,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 8735,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1375043,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 9032,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 579147,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 8,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 44,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114213,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 184549,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 22931,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 34300,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 30002,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 47529,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 8,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 44,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114213,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 184549,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 22931,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 34300,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 30002,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 47529,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 8,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 45,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 32,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 7,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 298762,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 13,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 57231,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "AH",
+      "trades": 129,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 22,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "AH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "AH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "PARTICIPANT_AFTER_SIP",
+      "session": "AH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 114215,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "AH",
+      "trades": 27,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "AH",
+      "trades": 77531,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 439410,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127064,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 89513,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127854,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 90199,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 439410,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127064,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 89513,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "PRE",
+      "trades": 127854,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 90199,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 6,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 35743,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 946669,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 216577,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "PRE",
+      "trades": 19606,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 507259,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "PRE",
+      "trades": 218053,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1017794,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 123347,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 183284,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 17,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 40,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 647349,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 3729,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 123934,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 182698,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1017794,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 123347,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 183284,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 17,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 4,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 40,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 647349,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 3729,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 123934,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 182698,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "LEGACY_BOTH",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 0,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 1017794,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 50,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 2,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 223,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 9,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 29,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 10,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 12,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 34,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 14,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 306631,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 16,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 100,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 17,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 44,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 18,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 2,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 32,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 10,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 35,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "CORRECTION_OR_CANCEL_NOTICE",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "DELAYED_PRINT",
+      "session": "RTH",
+      "trades": 5,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 11,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 3729,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 37,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 647349,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "FORM_T_OUTSIDE_EXTENDED_SESSION",
+      "session": "RTH",
+      "trades": 26,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 3,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE",
+      "session": "RTH",
+      "trades": 4019,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": true,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "ELIGIBLE_OBSERVED_TRADE",
+      "session": "RTH",
+      "trades": 306629,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 53,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "NON_PRICE_FORMING_CONDITION",
+      "session": "RTH",
+      "trades": 1,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "HIGH_LOW_ONLY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "LEGACY_BOTH",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "LEGACY_BOTH",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 15,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "OUTSIDE_OBSERVED_SESSION",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 38,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "accepted": false,
+      "code": 41,
+      "policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "reason": "INVALID_PRICE_OR_SIZE",
+      "session": "UNOBSERVED_OVERNIGHT",
+      "trades": 9,
+      "variant": "QA_UNREPAIRED"
+    }
+  ],
+  "rule_notes": [
+    "High/low-only retains the explicit vetoes for 5/10/22/32 and other stale/reference conditions.",
+    "Form T is accepted only in AH/PRE; a second rejecting condition still rejects the whole print.",
+    "Odd lots are separate raw-observation sensitivity, not declared official last/high-low forming trades."
+  ],
+  "session_panels": [
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 184593,
+          "rejected": 114383
+        },
+        "LEGACY_BOTH": {
+          "accepted": 184593,
+          "rejected": 114383
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 298808,
+          "rejected": 168
+        }
+      },
+      "session": "AH",
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 439410,
+          "rejected": 543002
+        },
+        "LEGACY_BOTH": {
+          "accepted": 439410,
+          "rejected": 543002
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 946669,
+          "rejected": 35743
+        }
+      },
+      "session": "PRE",
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 1201545,
+          "rejected": 651566
+        },
+        "LEGACY_BOTH": {
+          "accepted": 1201545,
+          "rejected": 651566
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 1848894,
+          "rejected": 4217
+        }
+      },
+      "session": "RTH",
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 0,
+          "rejected": 18
+        },
+        "LEGACY_BOTH": {
+          "accepted": 0,
+          "rejected": 18
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 0,
+          "rejected": 18
+        }
+      },
+      "session": "UNOBSERVED_OVERNIGHT",
+      "variant": "QA_UNREPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 184593,
+          "rejected": 114383
+        },
+        "LEGACY_BOTH": {
+          "accepted": 184593,
+          "rejected": 114383
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 298808,
+          "rejected": 168
+        }
+      },
+      "session": "AH",
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 439410,
+          "rejected": 543002
+        },
+        "LEGACY_BOTH": {
+          "accepted": 439410,
+          "rejected": 543002
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 946669,
+          "rejected": 35743
+        }
+      },
+      "session": "PRE",
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 1586856,
+          "rejected": 1384274
+        },
+        "LEGACY_BOTH": {
+          "accepted": 1586856,
+          "rejected": 1384274
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 2961899,
+          "rejected": 9231
+        }
+      },
+      "session": "RTH",
+      "variant": "QA_REPAIRED"
+    },
+    {
+      "high_low_minus_both_accepted": 0,
+      "policy_counts": {
+        "HIGH_LOW_ONLY": {
+          "accepted": 0,
+          "rejected": 18
+        },
+        "LEGACY_BOTH": {
+          "accepted": 0,
+          "rejected": 18
+        },
+        "ODD_LOT_OBSERVATION_SENSITIVITY": {
+          "accepted": 0,
+          "rejected": 18
+        }
+      },
+      "session": "UNOBSERVED_OVERNIGHT",
+      "variant": "QA_REPAIRED"
+    }
+  ]
+}

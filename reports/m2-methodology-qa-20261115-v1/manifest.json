@@ -1,0 +1,133 @@
+{
+  "artifacts": {
+    "condition-audit-summary.json": {
+      "bytes": 75093,
+      "sha256": "c248ae1583a591b7149d09bdd4b9281e95aba352b0c9ff029192672d980825a5"
+    },
+    "condition-distributions.json": {
+      "bytes": 183404,
+      "sha256": "e29f2d3bbc47f6ac8c87214ff94eda89c382e357d65d8d0942ffe93465dcdaa2"
+    },
+    "coverage-repair.json": {
+      "bytes": 3370,
+      "sha256": "a0b8aa4493e0930bdcfe9e05272ffdca4d5456ab1b30567429bee2c31ead10c2"
+    },
+    "event-level-results.json": {
+      "bytes": 3223290,
+      "sha256": "bca4ffddb8d130926079a746892b9a2abe1200b0c74f2f2ce15664b0a6cd8022"
+    },
+    "first-touch-comparison.json": {
+      "bytes": 134682,
+      "sha256": "6aafe5994f41f6b024892ca457eb027d23461e1a0a7a76f24717b6c04afabbb9"
+    },
+    "gap-diagnostics.json": {
+      "bytes": 279543,
+      "sha256": "23e3ad1b0abef4977fc5a40fda43db74dc69926ad744b48f230a1cd9b668a59f"
+    },
+    "integrity.json": {
+      "bytes": 138,
+      "sha256": "5f47205f82090ec24c1b5d4e3e353d59b2ae9438ee4aa93ea58dc3286edee0ae"
+    },
+    "primary-cohort-results.json": {
+      "bytes": 53692,
+      "sha256": "a942ed1229c2cf41e1638c9b458ef673cbed1317ea794ac2e3f2237d6b9fbb04"
+    },
+    "raw-nbbo-audit.json": {
+      "bytes": 10661,
+      "sha256": "c2ac316082d094138f0eb8ce2762268939e17b26b208f706a55b401e24f9ece2"
+    },
+    "raw-versus-filtered-gaps.json": {
+      "bytes": 516794,
+      "sha256": "ae9f286b966afb89e146d2ce1d2a7cd39e364ed78033e2a3a574a75727e9a6a7"
+    },
+    "report.md": {
+      "bytes": 6710,
+      "sha256": "242bc375ce654753b7925a717b9ac128df45c751e2662cb91882df6c26243c15"
+    },
+    "requested-raw-nbbo-audit.json": {
+      "bytes": 8651,
+      "sha256": "5557092b6d37ed4cf2df7f09239156d8bdd7b420fb20c8a8cb542183453a64db"
+    },
+    "summary.json": {
+      "bytes": 273556,
+      "sha256": "e3039f9fb5e2967858d4efd7ed977e5dd75c9422394e4e993bd48b5c315c8853"
+    },
+    "tests.json": {
+      "bytes": 255,
+      "sha256": "658ad54f304c0987fc8d482494f3a17137ccc18aa3a6b0db6f5e1d35e57d6068"
+    },
+    "validation.json": {
+      "bytes": 653,
+      "sha256": "ca22b941685dbf36798680754366e7f54910b0bdc9aec1c34d2c9c138ecc4a53"
+    }
+  },
+  "baseline_commit": "8a4903f",
+  "config": {
+    "baseline_commit": "8a4903f",
+    "baseline_run": "m2-first-touch-3cycles-20261115-v1",
+    "change_m1": false,
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY",
+      "MASSIVE_CURRENT_FLOAT_PROXY",
+      "SEC_HISTORICAL_EVIDENCE_OVERLAP"
+    ],
+    "condition_policies": [
+      "LEGACY_BOTH",
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "confirmation_models": false,
+    "first_touch_definitions": [
+      "OBSERVED_SESSIONS_FIRST",
+      "PREFIX_FIRST",
+      "STRICT_FULL_CYCLE_FIRST"
+    ],
+    "fixed_mark_age_seconds": 60,
+    "freeze_original_selection": true,
+    "gap_sensitivities_seconds": [
+      300,
+      900,
+      null
+    ],
+    "holdout_access": false,
+    "max_decoded_bytes": 1073741824,
+    "max_new_trade_pages": 64,
+    "max_page_bytes": 33554432,
+    "max_pages": 80,
+    "max_quote_pages": 16,
+    "max_quote_windows": 8,
+    "max_requests": 96,
+    "max_window_pages": 64,
+    "methodology_version": "task-002-1-observed-sessions-v2",
+    "missing_pages_always_unknown": true,
+    "primary_condition_policy": "HIGH_LOW_ONLY",
+    "primary_gap_policy": "NO_MECHANICAL_GAP_CENSORING_IN_PAGINATION_COMPLETE_SESSIONS",
+    "quote_page_limit": 10000,
+    "repair_windows": [
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "ASTC"
+      },
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "BRTX"
+      },
+      {
+        "cycle_id": "2026-05-27",
+        "ticker": "SNGX"
+      }
+    ],
+    "run_id": "m2-methodology-qa-20261115-v1",
+    "strict_full_cycle_requires_overnight_coverage": true,
+    "trade_page_limit": 50000,
+    "unknown_prior_evidence_always_unverified": true
+  },
+  "full_evidence_root": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-methodology-qa-20261115-v1",
+  "methodology_document": {
+    "path": "docs/research/task-002-1-replay-methodology-qa.md",
+    "sha256": "7f45141328d6393d81ecaa30d634ee415d0c705310d32aaa21b68464bc39cc99"
+  },
+  "methodology_version": "task-002-1-observed-sessions-v2",
+  "publisher_sha256": "64d31d17cd6f073e9db4f1846305dbfe8868484d4bb6456623add8d1978a4489",
+  "run_id": "m2-methodology-qa-20261115-v1"
+}

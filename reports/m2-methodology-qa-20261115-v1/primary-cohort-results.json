@@ -1,0 +1,1584 @@
+{
+  "cohort_definitions": {
+    "EXCHANGE_PRICE_ONLY": "Frozen M1 non-float gates; original name is shorthand, not a change to those gates.",
+    "MASSIVE_CURRENT_FLOAT_PROXY": "Original frozen latest-float evidence/mapping; retrospective proxy, never PIT.",
+    "SEC_HISTORICAL_EVIDENCE_OVERLAP": "Security appears in original SEC pilot context, regardless of estimate usability; no carry-forward or historical float qualification."
+  },
+  "groups": [
+    {
+      "cohort": "EXCHANGE_PRICE_ONLY",
+      "complete_provider_windows": 29,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 7,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 5
+            },
+            "0.05/0.03": {
+              "CENSORED": 1,
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 3
+            },
+            "0.10/0.05": {
+              "CENSORED": 3,
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 3
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.05565978736710444,
+              "mean_observed_return": 0.0020148771065842184,
+              "min": -0.03090030518819939,
+              "uncensored": 4
+            },
+            "30m": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.04409005628517824,
+              "mean_observed_return": -0.012619551880900859,
+              "min": -0.0645958348040946,
+              "uncensored": 4
+            },
+            "5m": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.10193871169480925,
+              "mean_observed_return": 0.001336912752483763,
+              "min": -0.1039426523297491,
+              "uncensored": 5
+            },
+            "60m": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.054409005628517824,
+              "mean_observed_return": -0.02477385005802613,
+              "min": -0.10589481115425343,
+              "uncensored": 4
+            },
+            "cycle_end": {
+              "censored": 4,
+              "censoring_rate": 0.5714285714285714,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.06988391379745885,
+              "min": -0.169078715142958,
+              "uncensored": 3
+            },
+            "session_end": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.0592777530938884,
+              "min": -0.10577715025297094,
+              "uncensored": 4
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 5
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 4
+            },
+            "0.10/0.05": {
+              "CENSORED": 1,
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 4
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.05565978736710444,
+              "mean_observed_return": -0.005284650038870556,
+              "min": -0.034482758620689655,
+              "uncensored": 5
+            },
+            "30m": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.04409005628517824,
+              "mean_observed_return": -0.012619551880900859,
+              "min": -0.0645958348040946,
+              "uncensored": 4
+            },
+            "5m": {
+              "censored": 1,
+              "censoring_rate": 0.14285714285714285,
+              "event_denominator": 7,
+              "max": 0.10193871169480925,
+              "mean_observed_return": -0.0034836071890221518,
+              "min": -0.1039426523297491,
+              "uncensored": 6
+            },
+            "60m": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.054409005628517824,
+              "mean_observed_return": -0.01162860385594471,
+              "min": -0.10589481115425343,
+              "uncensored": 5
+            },
+            "cycle_end": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.0726502663532321,
+              "min": -0.169078715142958,
+              "uncensored": 5
+            },
+            "session_end": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.05878728184019009,
+              "min": -0.10577715025297094,
+              "uncensored": 5
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 5
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 4
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 2,
+              "NEITHER": 1,
+              "UPSIDE_FIRST": 4
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.05565978736710444,
+              "mean_observed_return": -0.005284650038870556,
+              "min": -0.034482758620689655,
+              "uncensored": 5
+            },
+            "30m": {
+              "censored": 3,
+              "censoring_rate": 0.42857142857142855,
+              "event_denominator": 7,
+              "max": 0.04409005628517824,
+              "mean_observed_return": -0.012619551880900859,
+              "min": -0.0645958348040946,
+              "uncensored": 4
+            },
+            "5m": {
+              "censored": 1,
+              "censoring_rate": 0.14285714285714285,
+              "event_denominator": 7,
+              "max": 0.10193871169480925,
+              "mean_observed_return": -0.0034836071890221518,
+              "min": -0.1039426523297491,
+              "uncensored": 6
+            },
+            "60m": {
+              "censored": 2,
+              "censoring_rate": 0.2857142857142857,
+              "event_denominator": 7,
+              "max": 0.054409005628517824,
+              "mean_observed_return": -0.01162860385594471,
+              "min": -0.10589481115425343,
+              "uncensored": 5
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.05072761935493507,
+              "min": -0.169078715142958,
+              "uncensored": 7
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 7,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.04082548755990505,
+              "min": -0.10577715025297094,
+              "uncensored": 7
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 29,
+      "observed_first_touch_denominator": 29,
+      "prefix_first_events": 0,
+      "sample": "SYSTEMATIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 7,
+      "zero_event_observed": 22
+    },
+    {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "complete_provider_windows": 11,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 3,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 3
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.3333333333333333,
+              "event_denominator": 3,
+              "max": 0.05565978736710444,
+              "mean_observed_return": 0.020009380863039397,
+              "min": -0.01564102564102564,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.04409005628517824,
+              "mean_observed_return": 0.004705875760163723,
+              "min": -0.017921146953405017,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.10193871169480925,
+              "mean_observed_return": 0.0006140710704046667,
+              "min": -0.1039426523297491,
+              "uncensored": 3
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.054409005628517824,
+              "mean_observed_return": 0.0022664703073829746,
+              "min": -0.053763440860215055,
+              "uncensored": 3
+            },
+            "cycle_end": {
+              "censored": 1,
+              "censoring_rate": 0.3333333333333333,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.18936522826766727,
+              "min": 0.10975609756097561,
+              "uncensored": 2
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.11429605420950817,
+              "min": -0.035842293906810034,
+              "uncensored": 3
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 3
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.3333333333333333,
+              "event_denominator": 3,
+              "max": 0.05565978736710444,
+              "mean_observed_return": 0.020009380863039397,
+              "min": -0.01564102564102564,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.04409005628517824,
+              "mean_observed_return": 0.004705875760163723,
+              "min": -0.017921146953405017,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.10193871169480925,
+              "mean_observed_return": 0.0006140710704046667,
+              "min": -0.1039426523297491,
+              "uncensored": 3
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.054409005628517824,
+              "mean_observed_return": 0.0022664703073829746,
+              "min": -0.053763440860215055,
+              "uncensored": 3
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.15850155002790722,
+              "min": 0.0967741935483871,
+              "uncensored": 3
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.11429605420950817,
+              "min": -0.035842293906810034,
+              "uncensored": 3
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 3
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 2
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.3333333333333333,
+              "event_denominator": 3,
+              "max": 0.05565978736710444,
+              "mean_observed_return": 0.020009380863039397,
+              "min": -0.01564102564102564,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.04409005628517824,
+              "mean_observed_return": 0.004705875760163723,
+              "min": -0.017921146953405017,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.10193871169480925,
+              "mean_observed_return": 0.0006140710704046667,
+              "min": -0.1039426523297491,
+              "uncensored": 3
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.054409005628517824,
+              "mean_observed_return": 0.0022664703073829746,
+              "min": -0.053763440860215055,
+              "uncensored": 3
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.15850155002790722,
+              "min": 0.0967741935483871,
+              "uncensored": 3
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 3,
+              "max": 0.26897435897435895,
+              "mean_observed_return": 0.11429605420950817,
+              "min": -0.035842293906810034,
+              "uncensored": 3
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 11,
+      "observed_first_touch_denominator": 11,
+      "prefix_first_events": 0,
+      "sample": "SYSTEMATIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 3,
+      "zero_event_observed": 8
+    },
+    {
+      "cohort": "SEC_HISTORICAL_EVIDENCE_OVERLAP",
+      "complete_provider_windows": 3,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 2,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            },
+            "0.05/0.03": {
+              "CENSORED": 1,
+              "DOWNSIDE_FIRST": 1
+            },
+            "0.10/0.05": {
+              "CENSORED": 2
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "30m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "5m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "60m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "cycle_end": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "session_end": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": -0.034482758620689655,
+              "mean_observed_return": -0.034482758620689655,
+              "min": -0.034482758620689655,
+              "uncensored": 1
+            },
+            "30m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "5m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": -0.027586206896551724,
+              "mean_observed_return": -0.027586206896551724,
+              "min": -0.027586206896551724,
+              "uncensored": 1
+            },
+            "60m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": 0.040952380952380955,
+              "mean_observed_return": 0.040952380952380955,
+              "min": 0.040952380952380955,
+              "uncensored": 1
+            },
+            "cycle_end": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": 0.05682539682539683,
+              "mean_observed_return": 0.05682539682539683,
+              "min": 0.05682539682539683,
+              "uncensored": 1
+            },
+            "session_end": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": 0.05682539682539683,
+              "mean_observed_return": 0.05682539682539683,
+              "min": 0.05682539682539683,
+              "uncensored": 1
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": -0.034482758620689655,
+              "mean_observed_return": -0.034482758620689655,
+              "min": -0.034482758620689655,
+              "uncensored": 1
+            },
+            "30m": {
+              "censored": 2,
+              "censoring_rate": 1.0,
+              "event_denominator": 2,
+              "max": null,
+              "mean_observed_return": null,
+              "min": null,
+              "uncensored": 0
+            },
+            "5m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": -0.027586206896551724,
+              "mean_observed_return": -0.027586206896551724,
+              "min": -0.027586206896551724,
+              "uncensored": 1
+            },
+            "60m": {
+              "censored": 1,
+              "censoring_rate": 0.5,
+              "event_denominator": 2,
+              "max": 0.040952380952380955,
+              "mean_observed_return": 0.040952380952380955,
+              "min": 0.040952380952380955,
+              "uncensored": 1
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.05682539682539683,
+              "mean_observed_return": 0.009964422550629449,
+              "min": -0.03689655172413793,
+              "uncensored": 2
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.05682539682539683,
+              "mean_observed_return": 0.009964422550629449,
+              "min": -0.03689655172413793,
+              "uncensored": 2
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 3,
+      "observed_first_touch_denominator": 3,
+      "prefix_first_events": 0,
+      "sample": "SYSTEMATIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 2,
+      "zero_event_observed": 1
+    },
+    {
+      "cohort": "EXCHANGE_PRICE_ONLY",
+      "complete_provider_windows": 16,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 13,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "CENSORED": 2,
+              "DOWNSIDE_FIRST": 5,
+              "UPSIDE_FIRST": 6
+            },
+            "0.05/0.03": {
+              "CENSORED": 2,
+              "DOWNSIDE_FIRST": 6,
+              "UPSIDE_FIRST": 5
+            },
+            "0.10/0.05": {
+              "CENSORED": 2,
+              "DOWNSIDE_FIRST": 7,
+              "UPSIDE_FIRST": 4
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 1,
+              "censoring_rate": 0.07692307692307693,
+              "event_denominator": 13,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.02396383314312467,
+              "min": -0.2631578947368421,
+              "uncensored": 12
+            },
+            "30m": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.05600714076399704,
+              "min": -0.14,
+              "uncensored": 10
+            },
+            "5m": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.19469026548672566,
+              "mean_observed_return": 0.011170252066353194,
+              "min": -0.18166666666666667,
+              "uncensored": 10
+            },
+            "60m": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.10198236691932172,
+              "min": -0.03481178567683758,
+              "uncensored": 10
+            },
+            "cycle_end": {
+              "censored": 7,
+              "censoring_rate": 0.5384615384615384,
+              "event_denominator": 13,
+              "max": 0.596875,
+              "mean_observed_return": 0.2646984476938809,
+              "min": -0.1064516129032258,
+              "uncensored": 6
+            },
+            "session_end": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.5646017699115045,
+              "mean_observed_return": 0.10867830378167358,
+              "min": -0.1064516129032258,
+              "uncensored": 10
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 6,
+              "UPSIDE_FIRST": 7
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 7,
+              "UPSIDE_FIRST": 6
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 7,
+              "UPSIDE_FIRST": 6
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 13,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.020816680398086394,
+              "min": -0.2631578947368421,
+              "uncensored": 13
+            },
+            "30m": {
+              "censored": 2,
+              "censoring_rate": 0.15384615384615385,
+              "event_denominator": 13,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.04912720695385722,
+              "min": -0.14,
+              "uncensored": 11
+            },
+            "5m": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.19469026548672566,
+              "mean_observed_return": 0.011170252066353194,
+              "min": -0.18166666666666667,
+              "uncensored": 10
+            },
+            "60m": {
+              "censored": 2,
+              "censoring_rate": 0.15384615384615385,
+              "event_denominator": 13,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.0973337388018487,
+              "min": -0.03481178567683758,
+              "uncensored": 11
+            },
+            "cycle_end": {
+              "censored": 4,
+              "censoring_rate": 0.3076923076923077,
+              "event_denominator": 13,
+              "max": 0.7346938775510204,
+              "mean_observed_return": 0.2672242766449874,
+              "min": -0.22295081967213115,
+              "uncensored": 9
+            },
+            "session_end": {
+              "censored": 1,
+              "censoring_rate": 0.07692307692307693,
+              "event_denominator": 13,
+              "max": 0.5646017699115045,
+              "mean_observed_return": 0.12637149562615616,
+              "min": -0.1064516129032258,
+              "uncensored": 12
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 6,
+              "UPSIDE_FIRST": 7
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 7,
+              "UPSIDE_FIRST": 6
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 7,
+              "UPSIDE_FIRST": 6
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 13,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.020816680398086394,
+              "min": -0.2631578947368421,
+              "uncensored": 13
+            },
+            "30m": {
+              "censored": 2,
+              "censoring_rate": 0.15384615384615385,
+              "event_denominator": 13,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.04912720695385722,
+              "min": -0.14,
+              "uncensored": 11
+            },
+            "5m": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 0.19469026548672566,
+              "mean_observed_return": 0.011170252066353194,
+              "min": -0.18166666666666667,
+              "uncensored": 10
+            },
+            "60m": {
+              "censored": 1,
+              "censoring_rate": 0.07692307692307693,
+              "event_denominator": 13,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.06388146329740615,
+              "min": -0.30409356725146197,
+              "uncensored": 12
+            },
+            "cycle_end": {
+              "censored": 3,
+              "censoring_rate": 0.23076923076923078,
+              "event_denominator": 13,
+              "max": 3.0321637426900585,
+              "mean_observed_return": 0.5437182232494945,
+              "min": -0.22295081967213115,
+              "uncensored": 10
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 13,
+              "max": 1.1637426900584795,
+              "mean_observed_return": 0.20616927981325797,
+              "min": -0.1064516129032258,
+              "uncensored": 13
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 16,
+      "observed_first_touch_denominator": 16,
+      "prefix_first_events": 3,
+      "sample": "DIAGNOSTIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 13,
+      "zero_event_observed": 3
+    },
+    {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "complete_provider_windows": 4,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 4,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.09165916573820877,
+              "min": -0.2631578947368421,
+              "uncensored": 4
+            },
+            "30m": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.14294049945214723,
+              "min": -0.060531309297912714,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.07076483202287348,
+              "mean_observed_return": -0.024579964644832416,
+              "min": -0.18166666666666667,
+              "uncensored": 4
+            },
+            "60m": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.10546941337195842,
+              "min": -0.02120957580848383,
+              "uncensored": 3
+            },
+            "cycle_end": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.5296640457469621,
+              "mean_observed_return": 0.13813086974673613,
+              "min": -0.1064516129032258,
+              "uncensored": 3
+            },
+            "session_end": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.4392423159399571,
+              "mean_observed_return": 0.10799029314440112,
+              "min": -0.1064516129032258,
+              "uncensored": 3
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.09165916573820877,
+              "min": -0.2631578947368421,
+              "uncensored": 4
+            },
+            "30m": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.14294049945214723,
+              "min": -0.060531309297912714,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.07076483202287348,
+              "mean_observed_return": -0.024579964644832416,
+              "min": -0.18166666666666667,
+              "uncensored": 4
+            },
+            "60m": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.10546941337195842,
+              "min": -0.02120957580848383,
+              "uncensored": 3
+            },
+            "cycle_end": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.5296640457469621,
+              "mean_observed_return": 0.13813086974673613,
+              "min": -0.1064516129032258,
+              "uncensored": 3
+            },
+            "session_end": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.4392423159399571,
+              "mean_observed_return": 0.10799029314440112,
+              "min": -0.1064516129032258,
+              "uncensored": 3
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "DOWNSIDE_FIRST": 2,
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 3,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.7834167262330236,
+              "mean_observed_return": 0.09165916573820877,
+              "min": -0.2631578947368421,
+              "uncensored": 4
+            },
+            "30m": {
+              "censored": 1,
+              "censoring_rate": 0.25,
+              "event_denominator": 4,
+              "max": 0.4996426018584703,
+              "mean_observed_return": 0.14294049945214723,
+              "min": -0.060531309297912714,
+              "uncensored": 3
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.07076483202287348,
+              "mean_observed_return": -0.024579964644832416,
+              "min": -0.18166666666666667,
+              "uncensored": 4
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 0.33666904932094355,
+              "mean_observed_return": 0.0030786682161033263,
+              "min": -0.30409356725146197,
+              "uncensored": 4
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 3.0321637426900585,
+              "mean_observed_return": 0.8616390879825667,
+              "min": -0.1064516129032258,
+              "uncensored": 4
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 4,
+              "max": 1.1637426900584795,
+              "mean_observed_return": 0.37192839237292075,
+              "min": -0.1064516129032258,
+              "uncensored": 4
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 4,
+      "observed_first_touch_denominator": 4,
+      "prefix_first_events": 0,
+      "sample": "DIAGNOSTIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 4,
+      "zero_event_observed": 0
+    },
+    {
+      "cohort": "SEC_HISTORICAL_EVIDENCE_OVERLAP",
+      "complete_provider_windows": 3,
+      "condition_policy": "HIGH_LOW_ONLY",
+      "events": 2,
+      "gap_sensitivities": {
+        "GAP_300_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.07171945701357466,
+              "mean_observed_return": 0.0073441035067873285,
+              "min": -0.05703125,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.034765625,
+              "mean_observed_return": 0.018514034219457014,
+              "min": 0.0022624434389140274,
+              "uncensored": 2
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.007421875,
+              "mean_observed_return": -0.009750600961538462,
+              "min": -0.026923076923076925,
+              "uncensored": 2
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.18984375,
+              "mean_observed_return": 0.12591735011312216,
+              "min": 0.061990950226244346,
+              "uncensored": 2
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.596875,
+              "mean_observed_return": 0.3045460972850679,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.051171875,
+              "mean_observed_return": 0.031694534785067875,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            }
+          }
+        },
+        "GAP_900_SECONDS": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.07171945701357466,
+              "mean_observed_return": 0.0073441035067873285,
+              "min": -0.05703125,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.034765625,
+              "mean_observed_return": 0.018514034219457014,
+              "min": 0.0022624434389140274,
+              "uncensored": 2
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.007421875,
+              "mean_observed_return": -0.009750600961538462,
+              "min": -0.026923076923076925,
+              "uncensored": 2
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.18984375,
+              "mean_observed_return": 0.12591735011312216,
+              "min": 0.061990950226244346,
+              "uncensored": 2
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.596875,
+              "mean_observed_return": 0.3045460972850679,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.051171875,
+              "mean_observed_return": 0.031694534785067875,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            }
+          }
+        },
+        "NO_MECHANICAL_GAP": {
+          "barriers": {
+            "0.03/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.05/0.03": {
+              "UPSIDE_FIRST": 2
+            },
+            "0.10/0.05": {
+              "DOWNSIDE_FIRST": 1,
+              "UPSIDE_FIRST": 1
+            }
+          },
+          "forward": {
+            "15m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.07171945701357466,
+              "mean_observed_return": 0.0073441035067873285,
+              "min": -0.05703125,
+              "uncensored": 2
+            },
+            "30m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.034765625,
+              "mean_observed_return": 0.018514034219457014,
+              "min": 0.0022624434389140274,
+              "uncensored": 2
+            },
+            "5m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.007421875,
+              "mean_observed_return": -0.009750600961538462,
+              "min": -0.026923076923076925,
+              "uncensored": 2
+            },
+            "60m": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.18984375,
+              "mean_observed_return": 0.12591735011312216,
+              "min": 0.061990950226244346,
+              "uncensored": 2
+            },
+            "cycle_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.596875,
+              "mean_observed_return": 0.3045460972850679,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            },
+            "session_end": {
+              "censored": 0,
+              "censoring_rate": 0.0,
+              "event_denominator": 2,
+              "max": 0.051171875,
+              "mean_observed_return": 0.031694534785067875,
+              "min": 0.012217194570135747,
+              "uncensored": 2
+            }
+          }
+        }
+      },
+      "historical_quality_eligible_opportunities": 3,
+      "observed_first_touch_denominator": 3,
+      "prefix_first_events": 0,
+      "sample": "DIAGNOSTIC",
+      "strict_full_cycle_denominator": 0,
+      "strict_full_cycle_first_events": 0,
+      "variant": "QA_REPAIRED",
+      "verified_observed_first_events": 2,
+      "zero_event_observed": 1
+    }
+  ],
+  "opportunity_exclusions": [
+    {
+      "cohorts": [],
+      "cycle_id": "2026-05-28",
+      "float_proxy": {
+        "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+        "effective_date": "2026-10-26",
+        "endpoint": "/stocks/vX/float",
+        "field": "free_float",
+        "historical_security_id": "BBG001S8LVC4",
+        "identity_source": {
+          "bytes": 1725,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/3c87ce1a17adb82caeecd2a6688a25803cc4ea36a9fbbeb032dd217acc33a178.json",
+          "provider_request_id": "c157df442a5ff998cbd46258879db1c1",
+          "request": {
+            "params": {},
+            "url": "https://api.massive.com/v3/reference/tickers/ASTC"
+          },
+          "retrieved_at": "2026-11-15T04:04:08.398971+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "0ae76948136e51ae19e3c094f2ce8d677856943e88f5c7160918ae78d0ba3302",
+          "transport": "REST"
+        },
+        "is_verified_pit": false,
+        "original_ticker": "ASTC",
+        "reason": "LATEST_FREE_FLOAT_RETROSPECTIVE_PROXY",
+        "resolved_security_id": "BBG001S8LVC4",
+        "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+        "source": {
+          "bytes": 170,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/1b8a20f9a5579bf678c95f6f9a40e99b661ed8c3ed60d4905b13f50ca35e75cd.json",
+          "provider_request_id": "6c814e036ed6474eab5c0a2f6aee5ea0",
+          "request": {
+            "params": {
+              "limit": 10,
+              "ticker": "ASTC"
+            },
+            "url": "https://api.massive.com/stocks/vX/float"
+          },
+          "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "e18a54c16180fe811481b292b08961fb9f2eae7f8b84d17759cefa5e14b4281c",
+          "transport": "REST"
+        },
+        "status": "ELIGIBLE",
+        "value": 1862504
+      },
+      "reason": "MISSING_OR_FAILED_HISTORICAL_NON_FLOAT_GATES",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001S8LVC4",
+      "source_m1": {
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-universe-120-20261115-v2/universe/cycle=2026-05-28/snapshot.parquet",
+        "sha256": "6b03a6f32fd8274288ffc55bbb07e40113d6d1bbc93b056fe6e85c172ed6540b"
+      },
+      "status": "HISTORICAL_QUALITY_EXCLUDED",
+      "ticker": "ASTC",
+      "variant": "HISTORICAL_EXCLUDED_UNCHANGED"
+    },
+    {
+      "cohorts": [],
+      "cycle_id": "2026-05-29",
+      "float_proxy": {
+        "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+        "effective_date": "2026-09-22",
+        "endpoint": "/stocks/vX/float",
+        "field": "free_float",
+        "historical_security_id": "BBG01ZPFWWC1",
+        "identity_source": {
+          "bytes": 1736,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/202167640084118da18d346be243c7b4fe1056ef4652d47e3ae8228fcc2267c8.json",
+          "provider_request_id": "ed02b779c3e4f9bd3f0dae407c67b84c",
+          "request": {
+            "params": {},
+            "url": "https://api.massive.com/v3/reference/tickers/PLYX"
+          },
+          "retrieved_at": "2026-11-15T04:04:02.638027+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "eaedb229b5bc575755e9a098e8582caf6e38e99900a18ee8fbab3d41d15a4e87",
+          "transport": "REST"
+        },
+        "is_verified_pit": false,
+        "original_ticker": "PLYX",
+        "reason": "LATEST_FREE_FLOAT_RETROSPECTIVE_PROXY",
+        "resolved_security_id": "BBG01ZPFWWC1",
+        "retrieved_at": "2026-11-15T04:04:03.041058+00:00",
+        "source": {
+          "bytes": 171,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e4b6217833cecf7a1e93eb7573e6b016b6f2ba890945e01416fad13c77d7775a.json",
+          "provider_request_id": "f080df37aa904c278930e211504a51c0",
+          "request": {
+            "params": {
+              "limit": 10,
+              "ticker": "PLYX"
+            },
+            "url": "https://api.massive.com/stocks/vX/float"
+          },
+          "retrieved_at": "2026-11-15T04:04:03.041058+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "66321bfa200c1d712ba3b0fa6a67d172ba498761be620fb83a75246a2eda762a",
+          "transport": "REST"
+        },
+        "status": "ELIGIBLE",
+        "value": 14988690
+      },
+      "reason": "MISSING_OR_FAILED_HISTORICAL_NON_FLOAT_GATES",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG01ZPFWWC1",
+      "source_m1": {
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-universe-120-20261115-v2/universe/cycle=2026-05-29/snapshot.parquet",
+        "sha256": "0d191ec89768c6a182eaf82df4b74804d99ab05caef2ac8b016c45327ea81e4a"
+      },
+      "status": "HISTORICAL_QUALITY_EXCLUDED",
+      "ticker": "PLYX",
+      "variant": "HISTORICAL_EXCLUDED_UNCHANGED"
+    },
+    {
+      "cohorts": [],
+      "cycle_id": "2026-05-29",
+      "float_proxy": {
+        "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+        "effective_date": "2026-10-26",
+        "endpoint": "/stocks/vX/float",
+        "field": "free_float",
+        "historical_security_id": "BBG001S8LVC4",
+        "identity_source": {
+          "bytes": 1725,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/3c87ce1a17adb82caeecd2a6688a25803cc4ea36a9fbbeb032dd217acc33a178.json",
+          "provider_request_id": "c157df442a5ff998cbd46258879db1c1",
+          "request": {
+            "params": {},
+            "url": "https://api.massive.com/v3/reference/tickers/ASTC"
+          },
+          "retrieved_at": "2026-11-15T04:04:08.398971+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "0ae76948136e51ae19e3c094f2ce8d677856943e88f5c7160918ae78d0ba3302",
+          "transport": "REST"
+        },
+        "is_verified_pit": false,
+        "original_ticker": "ASTC",
+        "reason": "LATEST_FREE_FLOAT_RETROSPECTIVE_PROXY",
+        "resolved_security_id": "BBG001S8LVC4",
+        "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+        "source": {
+          "bytes": 170,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/1b8a20f9a5579bf678c95f6f9a40e99b661ed8c3ed60d4905b13f50ca35e75cd.json",
+          "provider_request_id": "6c814e036ed6474eab5c0a2f6aee5ea0",
+          "request": {
+            "params": {
+              "limit": 10,
+              "ticker": "ASTC"
+            },
+            "url": "https://api.massive.com/stocks/vX/float"
+          },
+          "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "e18a54c16180fe811481b292b08961fb9f2eae7f8b84d17759cefa5e14b4281c",
+          "transport": "REST"
+        },
+        "status": "ELIGIBLE",
+        "value": 1862504
+      },
+      "reason": "MISSING_OR_FAILED_HISTORICAL_NON_FLOAT_GATES",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001S8LVC4",
+      "source_m1": {
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m1-universe-120-20261115-v2/universe/cycle=2026-05-29/snapshot.parquet",
+        "sha256": "0d191ec89768c6a182eaf82df4b74804d99ab05caef2ac8b016c45327ea81e4a"
+      },
+      "status": "HISTORICAL_QUALITY_EXCLUDED",
+      "ticker": "ASTC",
+      "variant": "HISTORICAL_EXCLUDED_UNCHANGED"
+    }
+  ],
+  "sample_frame": {
+    "DIAGNOSTIC": 6,
+    "SYSTEMATIC": 10
+  }
+}
