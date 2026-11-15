@@ -159,3 +159,20 @@ nonresponse in that run, never silently upgraded or counted as zero events.
 Per-page tick partitions retain raw evidence, while DuckDB extracts remain bounded
 and report full matching counts. The current free-float field is an exploratory proxy,
 not historical eligibility proof. STRICT_FULL_CYCLE_FIRST remains unavailable.
+
+## TASK 003.2 NBBO feasibility probe
+
+[Actual probe and conditional expansion recommendation](docs/research/task-003-2-nbbo-probe.md)
+uses exactly ten frozen missing windows from the TASK 003.1 queue. It preserves
+confirmation policies and distinguishes complete-empty responses, stale/corrected
+quotes and fresh-valid ask-entry/bid-exit market marks. These marks are not fills or P&L.
+
+```sh
+.venv/bin/python -m market_lab.nbbo_probe freeze
+.venv/bin/python -m market_lab.nbbo_probe run --env-file /path/to/local/.env
+.venv/bin/python -m market_lab.nbbo_probe validate
+```
+
+A completed run resumes from saved results without HTTP requests. Hard budgets,
+selection and source-code hashes are pinned before acquisition; changes require a
+new run ID. Full evidence remains local; compact reports contain source locators.

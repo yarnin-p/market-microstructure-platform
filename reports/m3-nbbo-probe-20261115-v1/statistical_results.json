@@ -1,0 +1,50 @@
+{
+  "confidence_intervals": "NOT_ESTIMATED_DETERMINISTIC_PROBE",
+  "pnl_claim": false,
+  "population_inference": false,
+  "quote_age_seconds_all_selected_predecessors": {
+    "max": 345.278597073,
+    "mean": 158.19821314044444,
+    "median": 244.916954628,
+    "min": 6.9029e-05,
+    "n": 9,
+    "p25": 1.234913655,
+    "p75": 272.710374258
+  },
+  "quote_age_seconds_selected_fresh": {
+    "max": 1.376472312,
+    "mean": 0.8704849986666666,
+    "median": 1.234913655,
+    "min": 6.9029e-05,
+    "n": 3,
+    "p25": 0.617491342,
+    "p75": 1.3056929835
+  },
+  "spread_distribution_fresh_pair_entries": {
+    "max": 0.04,
+    "mean": 0.016014285714285714,
+    "median": 0.01,
+    "min": 0.0021,
+    "n": 7,
+    "p25": 0.01,
+    "p75": 0.019999999999999997
+  },
+  "spread_distribution_fresh_pair_exits": {
+    "max": 0.01,
+    "mean": 0.0054,
+    "median": 0.0054,
+    "min": 0.0008,
+    "n": 2,
+    "p25": 0.0031,
+    "p75": 0.0077
+  },
+  "spread_distribution_selected_fresh": {
+    "max": 0.03,
+    "mean": 0.0136,
+    "median": 0.01,
+    "min": 0.0008,
+    "n": 3,
+    "p25": 0.0054,
+    "p75": 0.019999999999999997
+  }
+}

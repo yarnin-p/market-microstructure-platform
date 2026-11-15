@@ -1,0 +1,78 @@
+{
+  "additional_run_storage_bytes": 1011194,
+  "attempted_windows": 10,
+  "budget_stops": [],
+  "candidate_clock_pairs": 31,
+  "complete_matched_quote_mark_pairs": 4,
+  "complete_windows": 10,
+  "decoded_bytes": 24495,
+  "empty_complete_windows": 6,
+  "execution_wall_seconds": 6.704554080963135,
+  "fresh_valid_pair_entry_marks": 7,
+  "fresh_valid_pair_exit_marks": 2,
+  "fresh_valid_selected_entry_targets": 1,
+  "fresh_valid_selected_exit_targets": 2,
+  "fresh_valid_selected_targets": 3,
+  "observation_quality": {
+    "corrected": 4,
+    "invalid_or_corrected": 4,
+    "valid_observations": 90
+  },
+  "quote_age_seconds_all_selected_predecessors": {
+    "max": 345.278597073,
+    "mean": 158.19821314044444,
+    "median": 244.916954628,
+    "min": 6.9029e-05,
+    "n": 9,
+    "p25": 1.234913655,
+    "p75": 272.710374258
+  },
+  "quote_age_seconds_selected_fresh": {
+    "max": 1.376472312,
+    "mean": 0.8704849986666666,
+    "median": 1.234913655,
+    "min": 6.9029e-05,
+    "n": 3,
+    "p25": 0.617491342,
+    "p75": 1.3056929835
+  },
+  "quote_observations": 94,
+  "recommendation": "QUOTE_EXPANSION_CONDITIONALLY_FEASIBLE",
+  "request_attempts": 10,
+  "requested_windows": 10,
+  "selected_mark_statuses": {
+    "FLAGGED": 6,
+    "MISSING": 1,
+    "OK": 3
+  },
+  "spread_distribution_fresh_pair_entries": {
+    "max": 0.04,
+    "mean": 0.016014285714285714,
+    "median": 0.01,
+    "min": 0.0021,
+    "n": 7,
+    "p25": 0.01,
+    "p75": 0.019999999999999997
+  },
+  "spread_distribution_fresh_pair_exits": {
+    "max": 0.01,
+    "mean": 0.0054,
+    "median": 0.0054,
+    "min": 0.0008,
+    "n": 2,
+    "p25": 0.0031,
+    "p75": 0.0077
+  },
+  "spread_distribution_selected_fresh": {
+    "max": 0.03,
+    "mean": 0.0136,
+    "median": 0.01,
+    "min": 0.0008,
+    "n": 3,
+    "p25": 0.0054,
+    "p75": 0.019999999999999997
+  },
+  "statistical_scope": "DETERMINISTIC_FEASIBILITY_QUEUE_NOT_RETURN_SELECTED_NOT_POPULATION_INFERENCE",
+  "successful_pages": 10,
+  "unique_securities_with_supported_pairs": 2
+}

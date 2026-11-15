@@ -1,0 +1,23 @@
+{
+  "run_id": "m3-nbbo-probe-20261115-v1",
+  "baseline_commit": "48a69aa",
+  "plan": "reports/m3-confirmation-qa-20261115-v1/quote-top-up-plan.json",
+  "qa_results": "reports/m3-confirmation-qa-20261115-v1/event-level-results.json",
+  "source_run": "m2-systematic-10cycles-20261115-v2",
+  "max_windows": 10,
+  "max_requests": 40,
+  "max_pages": 40,
+  "max_pages_per_window": 4,
+  "max_decoded_bytes": 67108864,
+  "max_page_bytes": 8388608,
+  "max_storage_bytes": 268435456,
+  "total_wall_seconds": 600,
+  "connect_timeout_seconds": 5,
+  "read_timeout_seconds": 20,
+  "minimum_request_spacing_seconds": 0.25,
+  "max_quote_age_seconds": 5,
+  "page_limit": 10000,
+  "feasibility_rule": "FEASIBLE if >=8 complete windows, >=8 fresh-valid selected targets, >=3 distinct supported clock pairs and no resource stop; CONDITIONALLY_FEASIBLE if any complete window and fresh-valid selected target; otherwise NOT_JUSTIFIED. Never use return sign.",
+  "holdout_access": false,
+  "signal_changes": false
+}

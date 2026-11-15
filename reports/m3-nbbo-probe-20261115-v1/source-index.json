@@ -1,0 +1,258 @@
+{
+  "pairs_parquet": {
+    "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/pairs.parquet",
+    "sha256": "41087e881d426e31488fd9ea25fb591147d9fe0bb4f9c5f702b381a6ad57b449"
+  },
+  "windows": [
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/00/coverage.json",
+      "coverage_sha256": "a9cea7e9128282f88f7f494157ebebecdfdbeedb1ab7529a053b7606d67a5eff",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/00/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c1132c04ec83a159b74d327bf04dadfce5b63ff9d93bd2cf84d2fc90f61953af.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1779894831791908920,
+              "timestamp.lte": 1779894836791908921
+            },
+            "url": "https://api.massive.com/v3/quotes/NNBR"
+          },
+          "retrieved_at": "2026-11-15T13:16:42.949859+00:00",
+          "sha256": "210cf24eed3aa971360b648427b4431b6ea82de3984902a0b8043a4c85d35b62"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/01/coverage.json",
+      "coverage_sha256": "999ee7e619d5c99d334ce1d097bb48dffbb1acc8c32811a53e615b39afb253d4",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/01/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/19619f660bb76cd8def04196de04d62ba28395c65d2e3fe4ab90699e043c2b16.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1779959886456054420,
+              "timestamp.lte": 1779959891456054421
+            },
+            "url": "https://api.massive.com/v3/quotes/BIVI"
+          },
+          "retrieved_at": "2026-11-15T13:16:43.586451+00:00",
+          "sha256": "51ea15f975f95f48d16b7038c9c93676cd52065e18d3fd0938898f357fc09d84"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/02/coverage.json",
+      "coverage_sha256": "1e4bdc08a38ffa902c6944d69444a94e19a568c26c4031fc3f38328d70eac4cb",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/02/quotes.parquet",
+      "normalized_sha256": "85e6577f7d223b5242edda73443ea112b983de28e5f1341d5132994827e5bd2b",
+      "pages": [
+        {
+          "decoded_bytes": 1099,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c0502301f64ce1089dd9d83cac6e5f662abe27508c35261efa230aa40200208e.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780084302717879502,
+              "timestamp.lte": 1780084307717879503
+            },
+            "url": "https://api.massive.com/v3/quotes/ATNM"
+          },
+          "retrieved_at": "2026-11-15T13:16:44.168448+00:00",
+          "sha256": "133a8ac6418d0c0cb307162e855c1877268fb039a16d9dbeff701defc4e651d6"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/03/coverage.json",
+      "coverage_sha256": "974d6423acbf2d76da708b8666fd602e68e58acb2a765afe7bdbddddb706cbbe",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/03/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c21d9d02135356234ebdf6cf1acf3957d158bb2019d954effa9c42afa73fdc5d.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780093365246521910,
+              "timestamp.lte": 1780093370246521911
+            },
+            "url": "https://api.massive.com/v3/quotes/AREN"
+          },
+          "retrieved_at": "2026-11-15T13:16:44.751997+00:00",
+          "sha256": "662d94049cd78323534ddede6f0a1a41c713dcf700d3d913febb15f37afdb3e8"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/04/coverage.json",
+      "coverage_sha256": "9dee4f6b7e7ff82621a8c497d9fdd9d073e76aea43644d4beffa4a56b1286467",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/04/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/ab6cbd4446faf967fb8776eb142172576dbf33fd408a158f92570547a6472d41.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780411930589108615,
+              "timestamp.lte": 1780411935589108616
+            },
+            "url": "https://api.massive.com/v3/quotes/XWEL"
+          },
+          "retrieved_at": "2026-11-15T13:16:45.336500+00:00",
+          "sha256": "ef883918640a224488e57de4dfab3c8e693d41272201807cf4e7d16b5abb11fe"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/05/coverage.json",
+      "coverage_sha256": "87f199fbd4792a26e3a11cf54664e81188e3491f838257e8dd34763a577c64a4",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/05/quotes.parquet",
+      "normalized_sha256": "2db79d2bcf24d4154dce5a07cab7ed3f47337daed8c60adb1796fccae564ccc0",
+      "pages": [
+        {
+          "decoded_bytes": 20250,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/d932ab4149f2ee1ff7828dfcc53698f0c3fabdb9e1e2034cff5ec2730a65887f.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780498462708687173,
+              "timestamp.lte": 1780498467708687174
+            },
+            "url": "https://api.massive.com/v3/quotes/EVTV"
+          },
+          "retrieved_at": "2026-11-15T13:16:45.926953+00:00",
+          "sha256": "de2ff8edde6e6c7d1b32333b3cc7ed3e3a38f8e9ca0a007d462039b7e1f51e3d"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/06/coverage.json",
+      "coverage_sha256": "81eb3d3936b3877cd3f89ad9520919021cab8af24103d06740472073f7127889",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/06/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/e7fa2be1a7c69926f552e3188c7d9d3bc293e091b7b0d63eb4cd6dba93bf9130.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780527256769731184,
+              "timestamp.lte": 1780527261769731185
+            },
+            "url": "https://api.massive.com/v3/quotes/BGI"
+          },
+          "retrieved_at": "2026-11-15T13:16:46.546046+00:00",
+          "sha256": "6c83838c4ead55543797a98a152da1da1c885c0467d88174c1aabc164e0f952e"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/07/coverage.json",
+      "coverage_sha256": "58bb9793c5f8626498d8fc369f4d89b031946f54d960020044293518221c2fe5",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/07/quotes.parquet",
+      "normalized_sha256": "92f5c024824906a71fe92da0ba4232cbef83042e0f9dc478d690434c7cdbd664",
+      "pages": [
+        {
+          "decoded_bytes": 76,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/e729ac3d38366df057ebff24d4657e7989b16953bd545978cfbb9abeba9a1a68.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780674291698764188,
+              "timestamp.lte": 1780674296698764189
+            },
+            "url": "https://api.massive.com/v3/quotes/BNBX"
+          },
+          "retrieved_at": "2026-11-15T13:16:47.122707+00:00",
+          "sha256": "f8f32693a24821c8a7fa0e2c37dc222d8368b5bdf2b4a30c28695a4fdedf0cdb"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/08/coverage.json",
+      "coverage_sha256": "638d9e7131cd1296091073f50690452de1349c8962e031503199b42894a85c5d",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/08/quotes.parquet",
+      "normalized_sha256": "4adae2524c06e7369d529b21cfab00dfb2cc9c9aa5c8ef0d0093202c7aedf361",
+      "pages": [
+        {
+          "decoded_bytes": 1103,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c47a954b3d44c239b8125d5a8ea20b62cb20688f4e4b3e267ef794e3f2fae48f.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1780940221536245826,
+              "timestamp.lte": 1780940226536245827
+            },
+            "url": "https://api.massive.com/v3/quotes/FFAI"
+          },
+          "retrieved_at": "2026-11-15T13:16:47.745479+00:00",
+          "sha256": "32fdf629c5b0f4d5e872df23d810423bdb3dc9156573db53b63754835d7770e4"
+        }
+      ]
+    },
+    {
+      "coverage_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/09/coverage.json",
+      "coverage_sha256": "ca80b6366117dcd96480913968cb900a42e482d7f0742cd943f07fa558d68fdf",
+      "normalized_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/windows/09/quotes.parquet",
+      "normalized_sha256": "09f74cd4cf168836aab73734472ba867101d1a211cb64503d46fdf96bcf2b91e",
+      "pages": [
+        {
+          "decoded_bytes": 1587,
+          "http_status": 200,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/7a5e5da58af5bca3bdbe422dca776a99ef10b32136b6947d8070444a92c05a59.json",
+          "request": {
+            "params": {
+              "limit": 10000,
+              "order": "asc",
+              "sort": "timestamp",
+              "timestamp.gt": 1781015852142923083,
+              "timestamp.lte": 1781015857142923084
+            },
+            "url": "https://api.massive.com/v3/quotes/QRHC"
+          },
+          "retrieved_at": "2026-11-15T13:16:48.333410+00:00",
+          "sha256": "0c1322ad18f523d6ddaa37ee529e62b9f31565a0f6744cddf7298fa303aa505d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "plan_sha256": "08433deb9e2c0e45a3464430c01d5d4be0a7d47c9f24000f3078a3ae60c2bf24",
+  "windows": [
+    {
+      "cycle_id": "2026-05-27",
+      "end_ns": 1779894836791908921,
+      "endpoint": "/v3/quotes/NNBR",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1779894831791908920,
+        "timestamp.lte": 1779894836791908921
+      },
+      "security_id": "BBG001S7RDF7",
+      "start_ns": 1779894831791908920,
+      "target_ns": 1779894836791908921,
+      "ticker": "NNBR",
+      "uses": [
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL_D60"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND"
+        },
+        {
+          "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND_D60"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-05-28",
+      "end_ns": 1779959891456054421,
+      "endpoint": "/v3/quotes/BIVI",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1779959886456054420,
+        "timestamp.lte": 1779959891456054421
+      },
+      "security_id": "BBG00548BTF4",
+      "start_ns": 1779959886456054420,
+      "target_ns": 1779959891456054421,
+      "ticker": "BIVI",
+      "uses": [
+        {
+          "initial_event_id": "a5f58bb5e5ae595efd21924639f00dc79c1d0322debf3421ce334825786433b2",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "a5f58bb5e5ae595efd21924639f00dc79c1d0322debf3421ce334825786433b2",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-05-29",
+      "end_ns": 1780084307717879503,
+      "endpoint": "/v3/quotes/ATNM",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780084302717879502,
+        "timestamp.lte": 1780084307717879503
+      },
+      "security_id": "BBG001SV3L17",
+      "start_ns": 1780084302717879502,
+      "target_ns": 1780084307717879503,
+      "ticker": "ATNM",
+      "uses": [
+        {
+          "initial_event_id": "eee772798482130422234f8f6449246d83e8eabf7f3ade92b13aaa87cda5234a",
+          "kind": "ENTRY",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "eee772798482130422234f8f6449246d83e8eabf7f3ade92b13aaa87cda5234a",
+          "kind": "ENTRY",
+          "policy": "C1_SESSION_BOUND"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-01",
+      "end_ns": 1780093370246521911,
+      "endpoint": "/v3/quotes/AREN",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780093365246521910,
+        "timestamp.lte": 1780093370246521911
+      },
+      "security_id": "BBG001S9BDW1",
+      "start_ns": 1780093365246521910,
+      "target_ns": 1780093370246521911,
+      "ticker": "AREN",
+      "uses": [
+        {
+          "initial_event_id": "f7e849c4dfac507bcdebd68707cc58ff9cd4b2f770f79c960b56bb10f72cfdc7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "f7e849c4dfac507bcdebd68707cc58ff9cd4b2f770f79c960b56bb10f72cfdc7",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-02",
+      "end_ns": 1780411935589108616,
+      "endpoint": "/v3/quotes/XWEL",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780411930589108615,
+        "timestamp.lte": 1780411935589108616
+      },
+      "security_id": "BBG001T90NF9",
+      "start_ns": 1780411930589108615,
+      "target_ns": 1780411935589108616,
+      "ticker": "XWEL",
+      "uses": [
+        {
+          "initial_event_id": "96424967e4f7a3fc38e3f63516c5c1ee1a078667f223503753fa646fbe5e8dee",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "96424967e4f7a3fc38e3f63516c5c1ee1a078667f223503753fa646fbe5e8dee",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-03",
+      "end_ns": 1780498467708687174,
+      "endpoint": "/v3/quotes/EVTV",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780498462708687173,
+        "timestamp.lte": 1780498467708687174
+      },
+      "security_id": "BBG007J7HYV1",
+      "start_ns": 1780498462708687173,
+      "target_ns": 1780498467708687174,
+      "ticker": "EVTV",
+      "uses": [
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C2_FROZEN"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL_D60"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND"
+        },
+        {
+          "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND_D60"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-04",
+      "end_ns": 1780527261769731185,
+      "endpoint": "/v3/quotes/BGI",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780527256769731184,
+        "timestamp.lte": 1780527261769731185
+      },
+      "security_id": "BBG001S6PN78",
+      "start_ns": 1780527256769731184,
+      "target_ns": 1780527261769731185,
+      "ticker": "BGI",
+      "uses": [
+        {
+          "initial_event_id": "3c2b30dfa30a1bb07d460ddef5f6752fe9736f9c15ef6e736b68ff69a879983d",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "3c2b30dfa30a1bb07d460ddef5f6752fe9736f9c15ef6e736b68ff69a879983d",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-05",
+      "end_ns": 1780674296698764189,
+      "endpoint": "/v3/quotes/BNBX",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780674291698764188,
+        "timestamp.lte": 1780674296698764189
+      },
+      "security_id": "BBG001SDFYK5",
+      "start_ns": 1780674291698764188,
+      "target_ns": 1780674296698764189,
+      "ticker": "BNBX",
+      "uses": [
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL_D60"
+        },
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND"
+        },
+        {
+          "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND_D60"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-08",
+      "end_ns": 1780940226536245827,
+      "endpoint": "/v3/quotes/FFAI",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1780940221536245826,
+        "timestamp.lte": 1780940226536245827
+      },
+      "security_id": "BBG00W4M4LN0",
+      "start_ns": 1780940221536245826,
+      "target_ns": 1780940226536245827,
+      "ticker": "FFAI",
+      "uses": [
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "OWN_EXIT_5",
+          "policy": "C0_FROZEN"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_COUNTED_ORIGINAL_D60"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND"
+        },
+        {
+          "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+          "kind": "COMMON_EXIT_5",
+          "policy": "C1_SESSION_BOUND_D60"
+        }
+      ]
+    },
+    {
+      "cycle_id": "2026-06-09",
+      "end_ns": 1781015857142923084,
+      "endpoint": "/v3/quotes/QRHC",
+      "params": {
+        "limit": 10000,
+        "order": "asc",
+        "sort": "timestamp",
+        "timestamp.gt": 1781015852142923083,
+        "timestamp.lte": 1781015857142923084
+      },
+      "security_id": "BBG001S74P56",
+      "start_ns": 1781015852142923083,
+      "target_ns": 1781015857142923084,
+      "ticker": "QRHC",
+      "uses": [
+        {
+          "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+          "kind": "ENTRY",
+          "policy": "C1_COUNTED_ORIGINAL"
+        },
+        {
+          "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+          "kind": "ENTRY",
+          "policy": "C1_OBSERVED_ACCEPTANCE"
+        },
+        {
+          "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+          "kind": "ENTRY",
+          "policy": "C1_SESSION_BOUND"
+        }
+      ]
+    }
+  ]
+}

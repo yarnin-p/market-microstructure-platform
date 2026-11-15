@@ -1,0 +1,8 @@
+{
+  "deterministic_results_equal": true,
+  "hard_budgets_pass": true,
+  "no_future_quote_evidence": true,
+  "pages_checked": 10,
+  "protected_files_unchanged": 4003,
+  "status": "PASS"
+}

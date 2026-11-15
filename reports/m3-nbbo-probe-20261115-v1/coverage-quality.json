@@ -1,0 +1,690 @@
+[
+  {
+    "after": {
+      "age_ns": 244916954628,
+      "ask": "3.02",
+      "bid": "3.01",
+      "complete": true,
+      "flags": [
+        "STALE_NBBO"
+      ],
+      "record_id": "33e8b30370af53a69cc8d0fea3c51a1f7153c77057be073b6b0ee2b7d3db6f44",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/3e76d0a7284ae4548e9e6ee1a00b5130bb5d18c4b0ee8b43e21de1ee1cd87c23.json\", \"sha256\": \"803f1af2bca311e17be490982a0ccfc3574b3c10e2e514f3093a484c646e0e98\", \"row\": 428}",
+      "status": "FLAGGED",
+      "target_ns": 1779894836791908921,
+      "timestamp": 1779894591874954293
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 244916954628,
+      "ask": "3.02",
+      "bid": "3.01",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "33e8b30370af53a69cc8d0fea3c51a1f7153c77057be073b6b0ee2b7d3db6f44",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/3e76d0a7284ae4548e9e6ee1a00b5130bb5d18c4b0ee8b43e21de1ee1cd87c23.json\", \"sha256\": \"803f1af2bca311e17be490982a0ccfc3574b3c10e2e514f3093a484c646e0e98\", \"row\": 428}",
+      "status": "FLAGGED",
+      "target_ns": 1779894836791908921,
+      "timestamp": 1779894591874954293
+    },
+    "complete": true,
+    "cycle_id": "2026-05-27",
+    "empty": true,
+    "error": null,
+    "index": 0,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG001S7RDF7",
+    "target_ns": 1779894836791908921,
+    "ticker": "NNBR",
+    "uses": [
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL_D60"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND"
+      },
+      {
+        "initial_event_id": "3d129ae87609a672ecbacef72b1da43bec7e1e4039b040d8a11a93450c2c2255",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND_D60"
+      }
+    ]
+  },
+  {
+    "after": {
+      "complete": true,
+      "flags": [
+        "NO_PRECEDING_NBBO"
+      ],
+      "status": "MISSING",
+      "target_ns": 1779959891456054421
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "complete": false,
+      "flags": [
+        "NO_PRECEDING_NBBO"
+      ],
+      "status": "MISSING",
+      "target_ns": 1779959891456054421
+    },
+    "complete": true,
+    "cycle_id": "2026-05-28",
+    "empty": true,
+    "error": null,
+    "index": 1,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG00548BTF4",
+    "target_ns": 1779959891456054421,
+    "ticker": "BIVI",
+    "uses": [
+      {
+        "initial_event_id": "a5f58bb5e5ae595efd21924639f00dc79c1d0322debf3421ce334825786433b2",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "a5f58bb5e5ae595efd21924639f00dc79c1d0322debf3421ce334825786433b2",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 7720336,
+      "ask": "1.27",
+      "bid": "1.26",
+      "complete": true,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "NON_REGULAR_QUOTE_CONDITION"
+      ],
+      "record_id": "f11e887bf383f24461236cd7b94f87813d1b8f60ba30ff1b67d6fa4d698d425c",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c0502301f64ce1089dd9d83cac6e5f662abe27508c35261efa230aa40200208e.json\", \"sha256\": \"133a8ac6418d0c0cb307162e855c1877268fb039a16d9dbeff701defc4e651d6\", \"row\": 3}",
+      "status": "FLAGGED",
+      "target_ns": 1780084307717879503,
+      "timestamp": 1780084307710159167
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 80013870791,
+      "ask": "1.26",
+      "bid": "1.25",
+      "complete": false,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "INCOMPLETE_QUOTE_WINDOW",
+        "NON_REGULAR_QUOTE_CONDITION",
+        "STALE_NBBO"
+      ],
+      "record_id": "25d23318f08f14f0b96f2e4317697beb669c27566d8fbe854389f3c57004fcdc",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/236babdee6fa8b9212fcd638dea63ffde68212b4c2b3e4d20c10ccc95ac98ea1.json\", \"sha256\": \"1d0cb6cf79a581ea81de3956e2bd106ea94c1c0617d61e5f6c15de1a32194001\", \"row\": 8}",
+      "status": "FLAGGED",
+      "target_ns": 1780084307717879503,
+      "timestamp": 1780084227704008712
+    },
+    "complete": true,
+    "cycle_id": "2026-05-29",
+    "empty": false,
+    "error": null,
+    "index": 2,
+    "pages": 1,
+    "raw_rows": 4,
+    "security_id": "BBG001SV3L17",
+    "target_ns": 1780084307717879503,
+    "ticker": "ATNM",
+    "uses": [
+      {
+        "initial_event_id": "eee772798482130422234f8f6449246d83e8eabf7f3ade92b13aaa87cda5234a",
+        "kind": "ENTRY",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "eee772798482130422234f8f6449246d83e8eabf7f3ade92b13aaa87cda5234a",
+        "kind": "ENTRY",
+        "policy": "C1_SESSION_BOUND"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 272710374258,
+      "ask": "1.56",
+      "bid": "1.51",
+      "complete": true,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "NON_REGULAR_QUOTE_CONDITION",
+        "STALE_NBBO"
+      ],
+      "record_id": "518ba2951a685299c871c9f639b221db3f39f3b670c7aeb7c3cf95208ed0a0e6",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/81bf7705cf61037692c7f5dfe73cd754019879352a7107ea14c7a986a0849aa9.json\", \"sha256\": \"90e2dd3d85dee43556a478a2709ec7603ac05ed71f132fb416c6ab9aa452b926\", \"row\": 8}",
+      "status": "FLAGGED",
+      "target_ns": 1780093370246521911,
+      "timestamp": 1780093097536147653
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 272710374258,
+      "ask": "1.56",
+      "bid": "1.51",
+      "complete": false,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "INCOMPLETE_QUOTE_WINDOW",
+        "NON_REGULAR_QUOTE_CONDITION",
+        "STALE_NBBO"
+      ],
+      "record_id": "518ba2951a685299c871c9f639b221db3f39f3b670c7aeb7c3cf95208ed0a0e6",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/81bf7705cf61037692c7f5dfe73cd754019879352a7107ea14c7a986a0849aa9.json\", \"sha256\": \"90e2dd3d85dee43556a478a2709ec7603ac05ed71f132fb416c6ab9aa452b926\", \"row\": 8}",
+      "status": "FLAGGED",
+      "target_ns": 1780093370246521911,
+      "timestamp": 1780093097536147653
+    },
+    "complete": true,
+    "cycle_id": "2026-06-01",
+    "empty": true,
+    "error": null,
+    "index": 3,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG001S9BDW1",
+    "target_ns": 1780093370246521911,
+    "ticker": "AREN",
+    "uses": [
+      {
+        "initial_event_id": "f7e849c4dfac507bcdebd68707cc58ff9cd4b2f770f79c960b56bb10f72cfdc7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "f7e849c4dfac507bcdebd68707cc58ff9cd4b2f770f79c960b56bb10f72cfdc7",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 301632583671,
+      "ask": "1.39",
+      "bid": "1.35",
+      "complete": true,
+      "flags": [
+        "STALE_NBBO"
+      ],
+      "record_id": "d2204d237cf77c377491789ae61363a60e3b7e29ca459b5b1ba8a0fc91307faf",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/465b4ce00f7d7cb7724c1c696b2521aa417c65811e326325f705fbd8f6994587.json\", \"sha256\": \"aeb59628ab5512a19a475a90ad174f2e1749ea000a6e35a285ae808f3ee472af\", \"row\": 2}",
+      "status": "FLAGGED",
+      "target_ns": 1780411935589108616,
+      "timestamp": 1780411633956524945
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 301632583671,
+      "ask": "1.39",
+      "bid": "1.35",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "d2204d237cf77c377491789ae61363a60e3b7e29ca459b5b1ba8a0fc91307faf",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/465b4ce00f7d7cb7724c1c696b2521aa417c65811e326325f705fbd8f6994587.json\", \"sha256\": \"aeb59628ab5512a19a475a90ad174f2e1749ea000a6e35a285ae808f3ee472af\", \"row\": 2}",
+      "status": "FLAGGED",
+      "target_ns": 1780411935589108616,
+      "timestamp": 1780411633956524945
+    },
+    "complete": true,
+    "cycle_id": "2026-06-02",
+    "empty": true,
+    "error": null,
+    "index": 4,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG001T90NF9",
+    "target_ns": 1780411935589108616,
+    "ticker": "XWEL",
+    "uses": [
+      {
+        "initial_event_id": "96424967e4f7a3fc38e3f63516c5c1ee1a078667f223503753fa646fbe5e8dee",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "96424967e4f7a3fc38e3f63516c5c1ee1a078667f223503753fa646fbe5e8dee",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 1234913655,
+      "ask": "1.96",
+      "bid": "1.95",
+      "complete": true,
+      "flags": [],
+      "record_id": "209315b74ede31a940168b357349e5d498924dbaca979ea4daed216986f07717",
+      "relative_spread": "0.005115089514066496163682864450",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/d932ab4149f2ee1ff7828dfcc53698f0c3fabdb9e1e2034cff5ec2730a65887f.json\", \"sha256\": \"de2ff8edde6e6c7d1b32333b3cc7ed3e3a38f8e9ca0a007d462039b7e1f51e3d\", \"row\": 79}",
+      "spread": "0.01",
+      "status": "OK",
+      "target_ns": 1780498467708687174,
+      "timestamp": 1780498466473773519
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 240244902079,
+      "ask": "2",
+      "bid": "1.99",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "70facd5c6e4fd1f8729d3ffb4fe5949848fe17a8e91b5d01200722dcaab5155a",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/cb13ad75af650e9992e76015507d79176f1ae424bb9b6503b1bb51556622005a.json\", \"sha256\": \"0b993fd58c52c043085d244b0dada7a01fc0612c2089a8f9a15d6f692efbd166\", \"row\": 365}",
+      "status": "FLAGGED",
+      "target_ns": 1780498467708687174,
+      "timestamp": 1780498227463785095
+    },
+    "complete": true,
+    "cycle_id": "2026-06-03",
+    "empty": false,
+    "error": null,
+    "index": 5,
+    "pages": 1,
+    "raw_rows": 80,
+    "security_id": "BBG007J7HYV1",
+    "target_ns": 1780498467708687174,
+    "ticker": "EVTV",
+    "uses": [
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C2_FROZEN"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL_D60"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND"
+      },
+      {
+        "initial_event_id": "2de06597417ab83c6ec922f82688acb723cd2e959b40457a09e3e844f69470ce",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND_D60"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 345278597073,
+      "ask": "0.6767",
+      "bid": "0.62",
+      "complete": true,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "NON_REGULAR_QUOTE_CONDITION",
+        "STALE_NBBO"
+      ],
+      "record_id": "8fc86d9118c6a6d6f37465f3d75588662f30ef45482f846fe6606c625874695a",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/5a15322dee93898e3502aef85f3df07102757bc6a4d9808ead0b43e42b80f348.json\", \"sha256\": \"3eb62034325e702f04bfe7ee706865f4723f7de536c31b976e409be8d66a3d18\", \"row\": 1}",
+      "status": "FLAGGED",
+      "target_ns": 1780527261769731185,
+      "timestamp": 1780526916491134112
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 345278597073,
+      "ask": "0.6767",
+      "bid": "0.62",
+      "complete": false,
+      "flags": [
+        "CORRECTED_QUOTE_NOT_ORIGINAL_PIT",
+        "INCOMPLETE_QUOTE_WINDOW",
+        "NON_REGULAR_QUOTE_CONDITION",
+        "STALE_NBBO"
+      ],
+      "record_id": "8fc86d9118c6a6d6f37465f3d75588662f30ef45482f846fe6606c625874695a",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/5a15322dee93898e3502aef85f3df07102757bc6a4d9808ead0b43e42b80f348.json\", \"sha256\": \"3eb62034325e702f04bfe7ee706865f4723f7de536c31b976e409be8d66a3d18\", \"row\": 1}",
+      "status": "FLAGGED",
+      "target_ns": 1780527261769731185,
+      "timestamp": 1780526916491134112
+    },
+    "complete": true,
+    "cycle_id": "2026-06-04",
+    "empty": true,
+    "error": null,
+    "index": 6,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG001S6PN78",
+    "target_ns": 1780527261769731185,
+    "ticker": "BGI",
+    "uses": [
+      {
+        "initial_event_id": "3c2b30dfa30a1bb07d460ddef5f6752fe9736f9c15ef6e736b68ff69a879983d",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "3c2b30dfa30a1bb07d460ddef5f6752fe9736f9c15ef6e736b68ff69a879983d",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 256626233302,
+      "ask": "0.57",
+      "bid": "0.5366",
+      "complete": true,
+      "flags": [
+        "STALE_NBBO"
+      ],
+      "record_id": "29a01d2520dd6a7329fa4eb3a948010dce4f4f733bdc6138cd375b2e588f8c7c",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/b3ada53ab40e604e0772dbed3127fd9f6daaee4e3976beed76b7d7dfff2ef15b.json\", \"sha256\": \"aeac8947c499cf6f58b0e04587685833759383b0363fc30dac732edb88a0db4b\", \"row\": 73}",
+      "status": "FLAGGED",
+      "target_ns": 1780674296698764189,
+      "timestamp": 1780674040072530887
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 256626233302,
+      "ask": "0.57",
+      "bid": "0.5366",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "29a01d2520dd6a7329fa4eb3a948010dce4f4f733bdc6138cd375b2e588f8c7c",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/b3ada53ab40e604e0772dbed3127fd9f6daaee4e3976beed76b7d7dfff2ef15b.json\", \"sha256\": \"aeac8947c499cf6f58b0e04587685833759383b0363fc30dac732edb88a0db4b\", \"row\": 73}",
+      "status": "FLAGGED",
+      "target_ns": 1780674296698764189,
+      "timestamp": 1780674040072530887
+    },
+    "complete": true,
+    "cycle_id": "2026-06-05",
+    "empty": true,
+    "error": null,
+    "index": 7,
+    "pages": 1,
+    "raw_rows": 0,
+    "security_id": "BBG001SDFYK5",
+    "target_ns": 1780674296698764189,
+    "ticker": "BNBX",
+    "uses": [
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL_D60"
+      },
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND"
+      },
+      {
+        "initial_event_id": "b548c8b47dcdf79401358060d78c0bc0f066723e5417844845f58fa9c7fb78c7",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND_D60"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 1376472312,
+      "ask": "0.3329",
+      "bid": "0.3321",
+      "complete": true,
+      "flags": [],
+      "record_id": "25f2d30aafa5fe24dc4763458dc44cdcbcfc2a05ed9783c9f12a7feb70758b66",
+      "relative_spread": "0.002406015037593984962406015038",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/c47a954b3d44c239b8125d5a8ea20b62cb20688f4e4b3e267ef794e3f2fae48f.json\", \"sha256\": \"32fdf629c5b0f4d5e872df23d810423bdb3dc9156573db53b63754835d7770e4\", \"row\": 3}",
+      "spread": "0.0008",
+      "status": "OK",
+      "target_ns": 1780940226536245827,
+      "timestamp": 1780940225159773515
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 241247572257,
+      "ask": "0.3335",
+      "bid": "0.3329",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "338cf6635f85af6136c98517170802f0eba8e8cfd3eb26d6c0cc430a74da6b69",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/08a5fe1c8af3c010829bc0cfca40b0661d23ad28d84c0daa7f71fb88a1469d63.json\", \"sha256\": \"7e3fc26486b9e319bee8e295fbc49f000a5e5dc024fad6651e05e3d52ae9edf1\", \"row\": 61}",
+      "status": "FLAGGED",
+      "target_ns": 1780940226536245827,
+      "timestamp": 1780939985288673570
+    },
+    "complete": true,
+    "cycle_id": "2026-06-08",
+    "empty": false,
+    "error": null,
+    "index": 8,
+    "pages": 1,
+    "raw_rows": 4,
+    "security_id": "BBG00W4M4LN0",
+    "target_ns": 1780940226536245827,
+    "ticker": "FFAI",
+    "uses": [
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "OWN_EXIT_5",
+        "policy": "C0_FROZEN"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_COUNTED_ORIGINAL_D60"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_OBSERVED_ACCEPTANCE_D60"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND"
+      },
+      {
+        "initial_event_id": "dff8dd3fe7eba4437b79be0c505933c63bf484dcc8b33faf23b5da1828903575",
+        "kind": "COMMON_EXIT_5",
+        "policy": "C1_SESSION_BOUND_D60"
+      }
+    ]
+  },
+  {
+    "after": {
+      "age_ns": 69029,
+      "ask": "1.47",
+      "bid": "1.44",
+      "complete": true,
+      "flags": [],
+      "record_id": "0d60c5dc6d96bf79ed8789329fdea34c57b2ef9f029b3d2b4f24fa06905ea478",
+      "relative_spread": "0.02061855670103092783505154639",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m3-nbbo-probe-20261115-v1/raw/7a5e5da58af5bca3bdbe422dca776a99ef10b32136b6947d8070444a92c05a59.json\", \"sha256\": \"0c1322ad18f523d6ddaa37ee529e62b9f31565a0f6744cddf7298fa303aa505d\", \"row\": 5}",
+      "spread": "0.03",
+      "status": "OK",
+      "target_ns": 1781015857142923084,
+      "timestamp": 1781015857142854055
+    },
+    "audit": {
+      "exact_duplicates": 0,
+      "invalid_timestamps": 0
+    },
+    "before": {
+      "age_ns": 39670168532,
+      "ask": "1.47",
+      "bid": "1.41",
+      "complete": false,
+      "flags": [
+        "STALE_NBBO",
+        "INCOMPLETE_QUOTE_WINDOW"
+      ],
+      "record_id": "8b173bc3acd45a966acc5d29251170477281c821aac1e5be189009d4dc67dcfa",
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/97df59195687b4f04112b9a3a5c2184a282b149b327dcf9c787c418faaf98abd.json\", \"sha256\": \"a85fcc11eb0ab9966926bc3e57950fed667d9c0a1ef7ee81285703184838320a\", \"row\": 103}",
+      "status": "FLAGGED",
+      "target_ns": 1781015857142923084,
+      "timestamp": 1781015817472754552
+    },
+    "complete": true,
+    "cycle_id": "2026-06-09",
+    "empty": false,
+    "error": null,
+    "index": 9,
+    "pages": 1,
+    "raw_rows": 6,
+    "security_id": "BBG001S74P56",
+    "target_ns": 1781015857142923084,
+    "ticker": "QRHC",
+    "uses": [
+      {
+        "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+        "kind": "ENTRY",
+        "policy": "C1_COUNTED_ORIGINAL"
+      },
+      {
+        "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+        "kind": "ENTRY",
+        "policy": "C1_OBSERVED_ACCEPTANCE"
+      },
+      {
+        "initial_event_id": "93837980affaa8143700cdd0d3afa7e0d65d2a22f97369f8deb7a9bc5df643d3",
+        "kind": "ENTRY",
+        "policy": "C1_SESSION_BOUND"
+      }
+    ]
+  }
+]

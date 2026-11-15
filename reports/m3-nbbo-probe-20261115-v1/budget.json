@@ -1,0 +1,207 @@
+{
+  "ledger": {
+    "attempts": [
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1779894831791908920,
+            "timestamp.lte": 1779894836791908921
+          },
+          "url": "https://api.massive.com/v3/quotes/NNBR"
+        },
+        "started_at": "2026-11-15T13:16:41.991848+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1779959886456054420,
+            "timestamp.lte": 1779959891456054421
+          },
+          "url": "https://api.massive.com/v3/quotes/BIVI"
+        },
+        "started_at": "2026-11-15T13:16:43.235241+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 1099,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780084302717879502,
+            "timestamp.lte": 1780084307717879503
+          },
+          "url": "https://api.massive.com/v3/quotes/ATNM"
+        },
+        "started_at": "2026-11-15T13:16:43.850748+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780093365246521910,
+            "timestamp.lte": 1780093370246521911
+          },
+          "url": "https://api.massive.com/v3/quotes/AREN"
+        },
+        "started_at": "2026-11-15T13:16:44.436592+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780411930589108615,
+            "timestamp.lte": 1780411935589108616
+          },
+          "url": "https://api.massive.com/v3/quotes/XWEL"
+        },
+        "started_at": "2026-11-15T13:16:45.015025+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 20250,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780498462708687173,
+            "timestamp.lte": 1780498467708687174
+          },
+          "url": "https://api.massive.com/v3/quotes/EVTV"
+        },
+        "started_at": "2026-11-15T13:16:45.599320+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780527256769731184,
+            "timestamp.lte": 1780527261769731185
+          },
+          "url": "https://api.massive.com/v3/quotes/BGI"
+        },
+        "started_at": "2026-11-15T13:16:46.197915+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 76,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780674291698764188,
+            "timestamp.lte": 1780674296698764189
+          },
+          "url": "https://api.massive.com/v3/quotes/BNBX"
+        },
+        "started_at": "2026-11-15T13:16:46.811545+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 1103,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1780940221536245826,
+            "timestamp.lte": 1780940226536245827
+          },
+          "url": "https://api.massive.com/v3/quotes/FFAI"
+        },
+        "started_at": "2026-11-15T13:16:47.389973+00:00",
+        "status": "OK"
+      },
+      {
+        "bytes": 1587,
+        "http_status": 200,
+        "request": {
+          "params": {
+            "limit": 10000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gt": 1781015852142923083,
+            "timestamp.lte": 1781015857142923084
+          },
+          "url": "https://api.massive.com/v3/quotes/QRHC"
+        },
+        "started_at": "2026-11-15T13:16:48.012830+00:00",
+        "status": "OK"
+      }
+    ],
+    "deadline_epoch": 1794749201.733811,
+    "decoded_bytes": 24495,
+    "execution_wall_seconds": 6.704554080963135,
+    "pages": 10,
+    "started_epoch": 1794748601.733811,
+    "windows": [
+      "5783b47199f2a804bf5a604f54f0362fce612cfcc78172ca7926ab5b1b2d569c",
+      "f0af7b2486d108fb02ee5a5d84e8f97d4a7f0751a853430cf657619011b9b20d",
+      "d095af821b07293fad05f75d0f65e136b99606275a9af4a7d34ec8488bd19a03",
+      "eb4e7e5c8c36e0c708663ecec981ee0da8e4e1be819657c1c1b57c3016a646df",
+      "77c9ba28cefc770cfe50271a2264dc70ae3cf5982142ac8505c0ba7af74d8455",
+      "f9604740f889181b0f721b7636d366624921c58acf5deef0a6354e5f48b9f5a7",
+      "e36e6c5f6c59f7f9cac6748a8fef731acad7e9523e4eeb5af95f093c15d4222c",
+      "2a0a981a613aa01d79a2053436bb4fe8f8f0a040b79c6326e76ccd31a78e4d22",
+      "7499a6dab30c1dc6416a7d991f7c058fb1440c0be2be8fa0d2f9a4f4a8244025",
+      "88c3d965d8ecfdc3106f32a0dff4e541d3bc994b22acfc705e7cd30482bef095"
+    ]
+  },
+  "limits": {
+    "baseline_commit": "48a69aa",
+    "connect_timeout_seconds": 5,
+    "feasibility_rule": "FEASIBLE if >=8 complete windows, >=8 fresh-valid selected targets, >=3 distinct supported clock pairs and no resource stop; CONDITIONALLY_FEASIBLE if any complete window and fresh-valid selected target; otherwise NOT_JUSTIFIED. Never use return sign.",
+    "holdout_access": false,
+    "max_decoded_bytes": 67108864,
+    "max_page_bytes": 8388608,
+    "max_pages": 40,
+    "max_pages_per_window": 4,
+    "max_quote_age_seconds": 5,
+    "max_requests": 40,
+    "max_storage_bytes": 268435456,
+    "max_windows": 10,
+    "minimum_request_spacing_seconds": 0.25,
+    "page_limit": 10000,
+    "plan": "reports/m3-confirmation-qa-20261115-v1/quote-top-up-plan.json",
+    "qa_results": "reports/m3-confirmation-qa-20261115-v1/event-level-results.json",
+    "read_timeout_seconds": 20,
+    "run_id": "m3-nbbo-probe-20261115-v1",
+    "signal_changes": false,
+    "source_run": "m2-systematic-10cycles-20261115-v2",
+    "total_wall_seconds": 600
+  },
+  "run_storage_bytes": 1011194
+}

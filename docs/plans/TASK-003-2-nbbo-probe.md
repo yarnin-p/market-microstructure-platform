@@ -1,0 +1,11 @@
+# TASK 003.2 — authorized bounded NBBO probe
+
+Use exactly `pilot_queue == full_missing_window_queue[:10]` from the immutable TASK 003.1 plan. Verify historical ticker/security/initial-event identities before acquisition. No new cycles, signal calculations, confirmation changes, holdout analysis or return-based selection.
+
+Freeze `configs/task-003-2-nbbo-probe-v1.json`, code hashes, selected windows, baseline exports and protected prior artifacts before the first HTTP request. Resource limits are 10 windows, 40 attempts/pages, 4 pages/window, 64 MiB decoded total, 8 MiB response, 256 MiB additional storage and 600 seconds. The shared persistent deadline cannot restart on resume; a POSIX watchdog interrupts blocking work before the ceiling. Empty terminal results are complete-empty, not missing pages. Partial/error raw bytes and page hashes remain auditable.
+
+Use original target parameters verbatim: ascending `/v3/quotes/{historical_ticker}`, `(T−5s−1ns,T]`, limit 10,000. Record raw and normalized data separately. Combine only existing cached quotes and these selected windows for read-only marks. Require complete preceding five-second lookback, last quote at or before target, freshness <=5s, positive uncrossed prices, positive displayed sizes, regular conditions and no correction flag/condition 81. Never replace a latest invalid quote with an earlier valid quote.
+
+Evaluate only candidate clock pairs touching at least one selected target. Reuse frozen confirmed signal timestamps, common landmarks and own-signal outcome timestamps; no new signal evaluation. Deduplicate by security/cycle/entry/exit timestamps, preserving all policy uses. Compute exit bid minus entry ask and exit bid / entry ask - 1 only for supported endpoints; compare with available baseline observed trade marks without a fill/P&L claim.
+
+Preregistered decision: FEASIBLE needs >=8 complete windows, >=8 fresh-valid selected targets, >=3 distinct supported clock pairs and no resource stop. CONDITIONALLY_FEASIBLE needs at least one complete window and one fresh-valid selected target. Otherwise NOT_JUSTIFIED. This engineering gate is independent of returns and is not a population statistical test. Report all denominators, empty/invalid/corrected/stale/incomplete cases, spread/age distributions and resource usage.
