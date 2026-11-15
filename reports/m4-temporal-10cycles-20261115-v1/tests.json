@@ -1,0 +1,20 @@
+{
+  "passed": 223,
+  "status": "PASS",
+  "test_source_hashes": {
+    "tests/test_bundle.py": "e5fee8e256405e3f4951bf637df8554747af483df876011a6d1ef3d0aa5b8ac9",
+    "tests/test_confirmation.py": "97501d45c3bebec4da04443e209310baaa43a5741013ebf28ab2ab95fff0acc2",
+    "tests/test_confirmation_qa.py": "da0bc3af78274d8bd36c6d1005a10960c9126daaa03f1aa55b2e998ede3d897c",
+    "tests/test_m1_integrity.py": "e6e986d444d7db34699a32af49b684a60e7801e3f89da75c9dc6393e9c2d5d91",
+    "tests/test_m2.py": "7ecff121a5147b18e7d25b5162c69a20d5c285e06cdeeff49a440adba718b21e",
+    "tests/test_nbbo_probe.py": "e5a875de80a1c00e211eea96c8f19fa391577541eeba9440b856f6627b6276fa",
+    "tests/test_ortex_probe.py": "66faa1ddb2aa86fadef231f9a941c952579827063eca93fb2ffeb6f3d2f266b0",
+    "tests/test_replay_methodology_qa.py": "60cb7bef1ff56c6dc9ffc267e8d9cf2e693f1f105cdee1935a934b960490e65d",
+    "tests/test_results_contract.py": "415c68dc3cd15c8858498121d811d7286d79e877d2363c83cf44ad1fb1ff1546",
+    "tests/test_sec_float_pilot.py": "4206d2c7a65278fc0e3e2e4061e35626a18b1c673246fdeea96242acc96050d8",
+    "tests/test_systematic_pilot.py": "32ed919f39dfd42172502f227d42fa23a20f6c1ef641963afa580c990631ffe7",
+    "tests/test_temporal.py": "5f38c7d516b8702901955e195b63b879a0d487003ff753cc0e0036a8f9a5af6e",
+    "tests/test_universe.py": "dc8d4d061a1989d241f3d37bcf8f504ee5fe252646b147c3de3d1796992b411c"
+  },
+  "warnings": 84
+}

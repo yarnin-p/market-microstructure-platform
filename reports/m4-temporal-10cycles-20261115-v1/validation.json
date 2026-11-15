@@ -1,0 +1,30 @@
+{
+  "confirmation_risk_set": 31,
+  "coverage_pages_checked": 333,
+  "holdout_analyzed": false,
+  "planned_dates": 30,
+  "planned_securities": 720,
+  "policy_counts": {
+    "('HIGH_LOW_ONLY', 'C0_FROZEN')": 31,
+    "('HIGH_LOW_ONLY', 'C1_COUNTED_ORIGINAL')": 31,
+    "('HIGH_LOW_ONLY', 'C1_COUNTED_ORIGINAL_D60')": 31,
+    "('HIGH_LOW_ONLY', 'C1_OBSERVED_ACCEPTANCE')": 31,
+    "('HIGH_LOW_ONLY', 'C1_OBSERVED_ACCEPTANCE_D60')": 31,
+    "('HIGH_LOW_ONLY', 'C1_SESSION_BOUND')": 31,
+    "('HIGH_LOW_ONLY', 'C1_SESSION_BOUND_D60')": 31,
+    "('HIGH_LOW_ONLY', 'C2_FROZEN')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C0_FROZEN')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_COUNTED_ORIGINAL')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_COUNTED_ORIGINAL_D60')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_OBSERVED_ACCEPTANCE')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_OBSERVED_ACCEPTANCE_D60')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_SESSION_BOUND')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C1_SESSION_BOUND_D60')": 31,
+    "('ODD_LOT_OBSERVATION_SENSITIVITY', 'C2_FROZEN')": 31
+  },
+  "protected_files_unchanged": 8035,
+  "raw_signal_references_checked": 705,
+  "reserved_20_dates_untouched": true,
+  "selected_initial_batch_opportunities": 240,
+  "status": "PASS"
+}

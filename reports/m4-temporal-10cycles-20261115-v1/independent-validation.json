@@ -1,0 +1,13 @@
+{
+  "checker_sha256": "f08480ee3a90ce9caf58d660f3331548167ecba80ca9bdf14c4b38cb403ba4d9",
+  "common_mark_matches_checked": 1984,
+  "date_selection_reproduced": 30,
+  "deterministic_first_touch_replay_requested": true,
+  "deterministic_first_touch_replays": 240,
+  "frozen_20_reserved_dates_not_analyzed": true,
+  "ingest_dependencies_checked": 240,
+  "security_selection_reproduced": 720,
+  "selection_precedes_first_http": true,
+  "status": "PASS",
+  "verified_initial_confirmation_events": 31
+}

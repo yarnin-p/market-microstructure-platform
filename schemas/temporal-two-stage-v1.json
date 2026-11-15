@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frozen temporal and security sampling design v1",
+  "type": "object",
+  "required": ["calendar", "date_strata", "selected", "security_strata", "historical_sources", "frame_sha256", "tick_outcomes_examined_before_selection"],
+  "properties": {
+    "calendar": {"type": "array", "minItems": 30, "maxItems": 30},
+    "selected": {"type": "array", "minItems": 720, "maxItems": 720},
+    "tick_outcomes_examined_before_selection": {"const": false}
+  },
+  "x-inclusion": {
+    "date_plan": "n30_month/N_remaining_month",
+    "date_initial_batch_conditional": "n10_month/n30_month",
+    "date_initial_batch_marginal": "n10_month/N_remaining_month",
+    "security": "12/N_historical_date_stratum",
+    "joint": "date_initial_batch_marginal * security",
+    "joint_weight": "1/joint"
+  },
+  "x-scope": "Only first ten ordered selected dates may execute. Reserved twenty and forty holdout dates remain unanalyzed. Current float is retrospective proxy."
+}

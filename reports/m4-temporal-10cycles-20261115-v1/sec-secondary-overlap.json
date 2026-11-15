@@ -1,0 +1,66 @@
+{
+  "carry_forward": false,
+  "classifications": {
+    "INSUFFICIENT_PRICE_BASIS": 2,
+    "SEC_DERIVED_HISTORICAL_ESTIMATE": 1,
+    "SEC_REPORTED_SHARE_COUNT_ONLY": 1
+  },
+  "historical_float_gate_changed": false,
+  "rows": [
+    {
+      "cycle_id": "2026-09-02",
+      "evidence": {
+        "carry_forward": false,
+        "classification": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/sec-pilot-20261115-v2/results-reviewed-v1.json",
+          "sha256": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+        }
+      },
+      "security_id": "BBG001S876N3",
+      "ticker": "AIV"
+    },
+    {
+      "cycle_id": "2026-06-18",
+      "evidence": {
+        "carry_forward": false,
+        "classification": "SEC_REPORTED_SHARE_COUNT_ONLY",
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/sec-pilot-20261115-v2/results-reviewed-v1.json",
+          "sha256": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+        }
+      },
+      "security_id": "BBG001SZYYL4",
+      "ticker": "AMC"
+    },
+    {
+      "cycle_id": "2026-06-26",
+      "evidence": {
+        "carry_forward": false,
+        "classification": "INSUFFICIENT_PRICE_BASIS",
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/sec-pilot-20261115-v2/results-reviewed-v1.json",
+          "sha256": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+        }
+      },
+      "security_id": "BBG01Q0T3FL7",
+      "ticker": "APUS"
+    },
+    {
+      "cycle_id": "2026-08-06",
+      "evidence": {
+        "carry_forward": false,
+        "classification": "INSUFFICIENT_PRICE_BASIS",
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/sec-pilot-20261115-v2/results-reviewed-v1.json",
+          "sha256": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+        }
+      },
+      "security_id": "BBG00Z17HFQ5",
+      "ticker": "AEON"
+    }
+  ],
+  "selected_opportunity_overlap": 4,
+  "verified_pit_claim": false,
+  "verified_primary_event_overlap": 1
+}

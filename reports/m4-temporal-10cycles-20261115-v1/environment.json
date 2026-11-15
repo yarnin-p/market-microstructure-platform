@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "duckdb": "2.0.0",
+    "exchange-calendars": "4.13.2",
+    "pyarrow": "26.0.1",
+    "pytest": "9.2.0",
+    "requests": "2.34.2"
+  },
+  "machine": "arm64",
+  "python": "3.13.18 (main, Oct 25 2026, 18:31:23) [Clang 21.0.0 (clang-2100.3.34.2)]"
+}
