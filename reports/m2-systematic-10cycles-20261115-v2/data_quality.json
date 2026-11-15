@@ -1,0 +1,34 @@
+{
+  "api_errors": [],
+  "context_errors": {
+    "conditions": null,
+    "current_identity": null,
+    "float": null
+  },
+  "coverage_scope": "TERMINAL_PROVIDER_PAGINATION_IN_AH_PRE_RTH; not independent consolidated-feed or overnight certification",
+  "float_status_counts": {
+    "ELIGIBLE": 120,
+    "INELIGIBLE": 102,
+    "UNRESOLVED": 18
+  },
+  "incomplete_opportunities": [],
+  "normalized_trade_rows": 2722278,
+  "primary_nbbo_relations": {
+    "ABOVE_PRECEDING_ASK": 1,
+    "NBBO_UNAVAILABLE_OR_INVALID": 7,
+    "WITHIN_NBBO": 32
+  },
+  "quote_scope": "BOUNDED_EVENT_WINDOWS_ONLY",
+  "raw_trade_rows": 2722278,
+  "reject_counts": {
+    "CORRECTION_OR_CANCEL_NOTICE": 2,
+    "DELAYED_PRINT": 16219,
+    "FORM_T_OUTSIDE_EXTENDED_SESSION": 59,
+    "INVALID_PRICE_OR_SIZE": 156,
+    "NON_PRICE_FORMING_CONDITION": 1184862,
+    "OUTSIDE_OBSERVED_SESSION": 36,
+    "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE": 27714,
+    "PARTICIPANT_AFTER_SIP": 1129
+  },
+  "sec_overlap_opportunities": 8
+}

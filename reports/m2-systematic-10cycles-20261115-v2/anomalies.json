@@ -1,0 +1,324 @@
+{
+  "events": [
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-05-27",
+      "event_id": "145b2845eac5466781b4a8bd08945a2e118fa70de9f68a5cf0a9563e9de48f04",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/9f3e7d35f7d37b5e69304758c41543c626f0637dcbe2a4b98e58960941043193.json\", \"sha256\": \"7df60008c046d2a77fe1fd07de0b9cf80753b677f714e098ba1bf6d52abf0cbc\", \"row\": 465}",
+      "ticker": "AUID"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-05-27",
+      "event_id": "6f0d77e0f1ea8a9e68f1bdf88a22137f7faf9e230c8afbf313033d356eb8e6b5",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/9f3e7d35f7d37b5e69304758c41543c626f0637dcbe2a4b98e58960941043193.json\", \"sha256\": \"7df60008c046d2a77fe1fd07de0b9cf80753b677f714e098ba1bf6d52abf0cbc\", \"row\": 458}",
+      "ticker": "AUID"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-01",
+      "event_id": "860a9d81c96dbdcd5e74c97548ac8c77f5c6ffb95f9c75b211622912dda9acbb",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/501cfa30eeeb8c2387a142e509185a29b95107869c84387c48b1d92a79ac59c0.json\", \"sha256\": \"dab3f5d12634ea733b89f56e3fe9e923d4c444d8a668e96380447ae7c559b8b0\", \"row\": 10}",
+      "ticker": "FLNT"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-01",
+      "event_id": "92894699b0d3db23155d94e2a16e4ab67158f47e56a7bb1a543669eba05345ab",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/501cfa30eeeb8c2387a142e509185a29b95107869c84387c48b1d92a79ac59c0.json\", \"sha256\": \"dab3f5d12634ea733b89f56e3fe9e923d4c444d8a668e96380447ae7c559b8b0\", \"row\": 10}",
+      "ticker": "FLNT"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-01",
+      "event_id": "f7e849c4dfac507bcdebd68707cc58ff9cd4b2f770f79c960b56bb10f72cfdc7",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/9715b2d1773ed02c424940064b01996e36bda6fc4ddea15653429d583f0bcf10.json\", \"sha256\": \"b917c9bda3b9026016aba94819af9d3c3f96589cbe1f5315720bd52d3c05cad3\", \"row\": 20}",
+      "ticker": "AREN"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-01",
+      "event_id": "a6074afe1a1ddb09f897dea0b17ff8eabbc20efb3206f5b34307b00d251920ec",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/9715b2d1773ed02c424940064b01996e36bda6fc4ddea15653429d583f0bcf10.json\", \"sha256\": \"b917c9bda3b9026016aba94819af9d3c3f96589cbe1f5315720bd52d3c05cad3\", \"row\": 17}",
+      "ticker": "AREN"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-04",
+      "event_id": "eefa55900d263689d0c81284a906b131edd08e467e8d464209624033a3926d84",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/c8454a51ec37c3f3d0dcd850aa9f581e1316989f401a14436c9956deb5d677d8.json\", \"sha256\": \"44a0e255dc7386882ab86f1e29bd53c3b315d258e8a06d8e81bd78c4486b1616\", \"row\": 217}",
+      "ticker": "XWEL"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-01",
+      "event_id": "adfd5b98c9011422848610063fc8ed97f10ebe261a93e11dbc06e6a90375d646",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/810c412ac79977e899241f262c898ca1239af144ed3afbcb53afa46b5229e5b7.json\", \"sha256\": \"f99c76ede841bfa17309ef916fb12efdaed0c9c93bbe9ea1666de7eefc813fb1\", \"row\": 84}",
+      "ticker": "AIDX"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-01",
+      "event_id": "32f72a7ca8d12de85ff96a3aa0faae9cdce418f458a70906462b916c68149eeb",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/810c412ac79977e899241f262c898ca1239af144ed3afbcb53afa46b5229e5b7.json\", \"sha256\": \"f99c76ede841bfa17309ef916fb12efdaed0c9c93bbe9ea1666de7eefc813fb1\", \"row\": 84}",
+      "ticker": "AIDX"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-05",
+      "event_id": "2c1459f82cd133e99cd65a85823945b0c7336a2440fc172ab64c2cbddde1d9ac",
+      "quote": {
+        "age_ns": 719027253,
+        "ask": "0.5",
+        "bid": "0.4925",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1780603481652421833,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/d84ee668f2f3feadad46913ef2befe24c3849a22bbf7b5931fc91fa52400fc9b.json\", \"sha256\": \"2c3e568c1c4f75f6b0b295e6c268377159981a2a03632ebd505ffdd993bd908e\", \"row\": 14}",
+        "status": "OK",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "ABOVE_PRECEDING_ASK",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/072ae723e1445ef44a6c6e28b81582f67799da6dc873321928933470d1577dd8.json\", \"sha256\": \"cd1ad8fa2848360015842d25e9d7b9d4c2caba760d21ac99dbd6ebf45c07badc\", \"row\": 136}",
+      "ticker": "DEVS"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-05",
+      "event_id": "213d342e1ef4c7384db617084c8e5fd2eaac6757752f00942828c80f18ecd45d",
+      "quote": {
+        "age_ns": 719027253,
+        "ask": "0.5",
+        "bid": "0.4925",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1780603481652421833,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/d84ee668f2f3feadad46913ef2befe24c3849a22bbf7b5931fc91fa52400fc9b.json\", \"sha256\": \"2c3e568c1c4f75f6b0b295e6c268377159981a2a03632ebd505ffdd993bd908e\", \"row\": 14}",
+        "status": "OK",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "ABOVE_PRECEDING_ASK",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/072ae723e1445ef44a6c6e28b81582f67799da6dc873321928933470d1577dd8.json\", \"sha256\": \"cd1ad8fa2848360015842d25e9d7b9d4c2caba760d21ac99dbd6ebf45c07badc\", \"row\": 136}",
+      "ticker": "DEVS"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-05-28",
+      "event_id": "5b01b7d4ed4fdd9b740f6e04f4171ebf9920487b98cd69ce78b61dcfa96c3f57",
+      "quote": {
+        "age_ns": 22101826417,
+        "ask": "1.11",
+        "bid": "0.98",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "STALE_NBBO"
+        ],
+        "sip_timestamp": 1779967367664136625,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/38ad552d9272624da626346c78d093a2ba1d1ebf030e3fc721ec1de8f0bbe729.json\", \"sha256\": \"4e4b1a61bfac9075b9e2b1953362b479edde88e7c4cbcb3e3379e5d516e0ef6b\", \"row\": 0}",
+        "status": "FLAGGED",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "ABOVE_PRECEDING_ASK",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/e1a52cb78d24a91fd7e84fcf0e027534c4d02f2051f5edc4eb7bfb6d94a48502.json\", \"sha256\": \"a0dfd384df88d052c8014040b0b22d5a8526cdb6ffb24578dbfa213d64081fb4\", \"row\": 14}",
+      "ticker": "CABR"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-05-27",
+      "event_id": "8a8f7b313dd737c48b4897f76947b365c2a8c9f0ccd7a4c67659734147be0c55",
+      "quote": {
+        "age_ns": 32355,
+        "ask": "0.7815",
+        "bid": "0.7636",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779882173301702749,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/19f5ab10e72f17cb24c91d80ce928ab68ade97dc23ec473ede3a3ac1cbf1a24d.json\", \"sha256\": \"c351b301f2b4c2402ac02f805e68dcb33024da7f7e6dd3dd41e35710a4f5e72d\", \"row\": 86}",
+        "status": "OK",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "ABOVE_PRECEDING_ASK",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/be70b4f600c92e68ab06cc794fa224c924fd7a81d4c2edff64c084bcd5960c1e.json\", \"sha256\": \"de81501747a9dce28c5481a6d77c393e00d2f3ca91d8a862d7219c3cba59ea6d\", \"row\": 425}",
+      "ticker": "LABT"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-05-28",
+      "event_id": "a5f58bb5e5ae595efd21924639f00dc79c1d0322debf3421ce334825786433b2",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/a785f59d70f1da9ca140dcbaa1d1a8be8fd4badafe07b4fd0fd0aa7f79fd726f.json\", \"sha256\": \"32d994530162ded08fb309e9e9fce7586b96d8947e77d3a3aa3ecdff999922bf\", \"row\": 14}",
+      "ticker": "BIVI"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-05-28",
+      "event_id": "8499b6205ae0f8c7a5180c2af67a41c2fd857b732c7077c8fd7af0247184ead0",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/a785f59d70f1da9ca140dcbaa1d1a8be8fd4badafe07b4fd0fd0aa7f79fd726f.json\", \"sha256\": \"32d994530162ded08fb309e9e9fce7586b96d8947e77d3a3aa3ecdff999922bf\", \"row\": 8}",
+      "ticker": "BIVI"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-05-27",
+      "event_id": "b5d0f1d2a85b0d987b4ff0bb6d270c1b3027ea1b6cfa876e1ea8f671f7fcb3ee",
+      "quote": {
+        "age_ns": 10466038379,
+        "ask": "0.388",
+        "bid": "0.381",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "STALE_NBBO"
+        ],
+        "sip_timestamp": 1779831351122934810,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/bed16b2d775088de2605b401a7076336ffc35bd6de87785b110269dd6eb6f16a.json\", \"sha256\": \"8c174eadc2392071c1c87581b3f308fdb7a8f0a2448bb4765a8690d8b1d41938\", \"row\": 80}",
+        "status": "FLAGGED",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "ABOVE_PRECEDING_ASK",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/8eaf55effeaad3ce17f874e58509604b7be9b0c19509efa231c7b1610f1ab765.json\", \"sha256\": \"052872cb2d88692c4196b951ed3f117690cca06c511e6650d3e206c38870b822\", \"row\": 4238}",
+      "ticker": "OTLK"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-01",
+      "event_id": "e9def16e2a67102f9bb9579a0b717aab4d1bea5905d215fd8dc2c3510c551bcd",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/321655a7fdcdb30f27e5208feb5e5de1e21f76f41540901e86242d97edc82b68.json\", \"sha256\": \"5e4c448356e37feb6a15ca6783976a8ac223926318655ba906b32f2599e9412c\", \"row\": 12}",
+      "ticker": "SMXT"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-01",
+      "event_id": "ecafc44047b8e7a73a86601ccad6a3a1c6567e3b6578547adb33f5475505d8dc",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/321655a7fdcdb30f27e5208feb5e5de1e21f76f41540901e86242d97edc82b68.json\", \"sha256\": \"5e4c448356e37feb6a15ca6783976a8ac223926318655ba906b32f2599e9412c\", \"row\": 5}",
+      "ticker": "SMXT"
+    },
+    {
+      "condition_policy": "HIGH_LOW_ONLY",
+      "cycle_id": "2026-06-02",
+      "event_id": "c8c7f721b0af15a22b0ee623ea13ea2fb40d71736108fc7971a29c97ac186d2a",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/df2833a64e0291b0c70c973ce991af04eb79d2f73825152e440bce3d9534d8d1.json\", \"sha256\": \"aea948b363313164f8304d2629ab15dc1e182f12dfbadaa3f3a51159d42daca0\", \"row\": 122}",
+      "ticker": "HSCS"
+    },
+    {
+      "condition_policy": "ODD_LOT_OBSERVATION_SENSITIVITY",
+      "cycle_id": "2026-06-02",
+      "event_id": "df4406c3963e6d1beba4389803d5573d08f4ebe54d858307c81813d71fa9569a",
+      "quote": {
+        "coverage_complete": true,
+        "status": "MISSING",
+        "trade_discarded_for_nbbo_relation": false,
+        "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+        "used_for_trigger": false
+      },
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2/raw/pages/df2833a64e0291b0c70c973ce991af04eb79d2f73825152e440bce3d9534d8d1.json\", \"sha256\": \"aea948b363313164f8304d2629ab15dc1e182f12dfbadaa3f3a51159d42daca0\", \"row\": 87}",
+      "ticker": "HSCS"
+    }
+  ],
+  "policy": "Retained, never discarded for trade-above-ask; quotes are context not trigger inputs"
+}

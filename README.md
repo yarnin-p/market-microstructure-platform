@@ -136,3 +136,26 @@ Queries support run, cycle, security, ticker, event and session filters. Focused
 report total matching counts and explicit truncation; underlying evidence is never truncated.
 DuckDB queries cap memory at 256 MB; pilot ingestion is page-budgeted, not a TB-scale
 throughput benchmark. Research MCP integration remains deferred.
+
+## TASK 002.2 systematic expansion
+
+[Sampling and frozen resource policy](docs/plans/TASK-002-2-systematic-expansion.md)
+adds 24 opportunities from each of ten daily historical M1 populations. Two disjoint
+sampling strata retain inclusion probabilities and design weights; analytical control
+and proxy cohorts overlap. No diagnostic or holdout samples enter this experiment.
+
+```sh
+.venv/bin/python -m market_lab.systematic_pilot prepare --env-file /path/to/local/.env
+.venv/bin/python -m market_lab.systematic_pilot run --env-file /path/to/local/.env
+.venv/bin/python -m market_lab.systematic_pilot run --offline
+.venv/bin/python -m market_lab.systematic_pilot validate --offline
+.venv/bin/python scripts/query_systematic_pilot.py --kind events --session PRE
+.venv/bin/python scripts/query_systematic_pilot.py --kind population --cycle-id 2026-06-01 --limit 10
+```
+
+Run IDs/configuration are frozen in `configs/task-002-2-systematic-v1.json`;
+code/config changes require a new run. Checkpointed partial windows remain explicit
+nonresponse in that run, never silently upgraded or counted as zero events.
+Per-page tick partitions retain raw evidence, while DuckDB extracts remain bounded
+and report full matching counts. The current free-float field is an exploratory proxy,
+not historical eligibility proof. STRICT_FULL_CYCLE_FIRST remains unavailable.

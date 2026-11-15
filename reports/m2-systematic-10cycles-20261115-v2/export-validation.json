@@ -1,0 +1,10 @@
+{
+  "event_policy_records": 83,
+  "full_json_equals_parquet": true,
+  "historical_opportunities_checked": 240,
+  "outcomes": 249,
+  "policy_opportunities": 480,
+  "status": "PASS",
+  "zero_event_denominators_preserved": true,
+  "zip_and_manifest_hashes_verified": true
+}

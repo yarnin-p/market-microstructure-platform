@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "complete_windows": 302,
+    "events_replayed": 83,
+    "opportunities_replayed": 240,
+    "outcomes_replayed": 249
+  },
+  "holdout_analyzed": false,
+  "protected_files_unchanged": 1917,
+  "raw_tick_pages_checked": 334,
+  "source_code_hashes_match": true,
+  "status": "PASS"
+}

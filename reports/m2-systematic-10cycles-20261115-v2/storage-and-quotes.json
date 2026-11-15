@@ -1,0 +1,13 @@
+{
+  "complete_quote_windows": 62,
+  "quote_records": 7316,
+  "quote_windows": 62,
+  "run_storage_bytes": 912704542,
+  "scope": "BOUNDED_EVENT_WINDOWS_ONLY",
+  "supplemental_source_hashes": {
+    "scripts/compact_systematic_reports.py": "b64f04a6b923d6e66b5eafb792ca4ab9950b1e1f84b302054d9700c0b33d54b7",
+    "scripts/query_systematic_pilot.py": "3cfa7bbf9be03c177ffb7d479e6f81180b3c9357508a5eb018c9e9f7b17e89f6",
+    "scripts/systematic_denominators.py": "00f6e54fe9bf6cedfcd8ddea184fb2b74680cfddcf830d2273dd7d2b0db541f7",
+    "scripts/validate_systematic_export.py": "6d40e5f39c90b73b19b24457f1e630b6e6ccd65dcf29fc34cd62b8043d030ef4"
+  }
+}

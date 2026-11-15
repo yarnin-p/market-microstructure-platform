@@ -1,0 +1,161 @@
+{
+  "artifacts": {
+    "anomalies.json": {
+      "bytes": 18055,
+      "sha256": "b87c45b0d9498a32cc506d95a02f21ae1d867bed1b73b83497bc5b0dd53e3723"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 15529,
+      "sha256": "518a44aafb94c7f3964f287dd82e55ea9575780bff7701c6daa9c6831169ed1b"
+    },
+    "cycle_metrics.json": {
+      "bytes": 13492,
+      "sha256": "49c6ff48387c9abe1ec42b785eba74abd923bd2a441780072145cb081351f398"
+    },
+    "cycle_metrics.parquet": {
+      "bytes": 11066,
+      "sha256": "1fcb5f832bde360f135684049d962b6a4192c910b385083b2c8213b14ee213d0"
+    },
+    "data_quality.json": {
+      "bytes": 984,
+      "sha256": "54573c6639a8da2bb2a3f6963473759f2105750241937f2752103386cbfc6948"
+    },
+    "denominators.json": {
+      "bytes": 103725,
+      "sha256": "9ac27892d8b0e1e1c8e67d81051a90908c4595e28b0c1a9a6a8d882c73a304d9"
+    },
+    "denominators.parquet": {
+      "bytes": 7066,
+      "sha256": "49eeb0c3409add654eaba211d5805589446327a5b2501e7b1e9bd3833b096133"
+    },
+    "distributions.parquet": {
+      "bytes": 51265,
+      "sha256": "fd9ba64b4f288efbf1f6a82cf102e0bab1e947fac8167bd62b50c0896fe27c3a"
+    },
+    "event-level-results.json": {
+      "bytes": 3013703,
+      "sha256": "f854758bd02758658f67886fe62906c46fcd22dad74990fdfb2c096695b9eaf1"
+    },
+    "event_results.parquet": {
+      "bytes": 70984,
+      "sha256": "73f768387e31f4553bb9567047139957754c4a369ead3823adaf2e383c3572e9"
+    },
+    "export-validation.json": {
+      "bytes": 271,
+      "sha256": "e8b4556455662afc72ac60397331689fbfc6eef03eb6b8276c1fb525b9baa6ad"
+    },
+    "preparation-data-quality.json": {
+      "bytes": 1270,
+      "sha256": "924afc77a4141dc63557a1ae6ee95c4e1151667f26c7d66a06eb630daadaa962"
+    },
+    "report.md": {
+      "bytes": 25627,
+      "sha256": "71cdf0c21b5dff0fa9bd28e32fd467427c08d4668ed24707d74c7b074b13cfe4"
+    },
+    "research-brief-th.md": {
+      "bytes": 11944,
+      "sha256": "1c91152533c4f1555642f52b3952a1e5b2ca5f1ddb21b0274dff5f102fb4683d"
+    },
+    "resume-validation.json": {
+      "bytes": 570,
+      "sha256": "5e8104b2b0e9a62e8163deff01d538c27a401160ea933ce8fe65c3166f3b0672"
+    },
+    "sampling.json": {
+      "bytes": 6058,
+      "sha256": "0d0f8b527fe972dc6770f244cfae7b723b42e5928c6a91bed2f34053b741f7a9"
+    },
+    "security_variation.json": {
+      "bytes": 184681,
+      "sha256": "3cf718d6bed809abc9c593e3ef4ef72d498250a9b2bb7035d0db7793d1e084c7"
+    },
+    "statistical_results.json": {
+      "bytes": 83316,
+      "sha256": "3d2a30d5fb7c19389cedf53e93aa4e8677a2e88ecef91cad8aea3690f7c1ee90"
+    },
+    "storage-and-quotes.json": {
+      "bytes": 641,
+      "sha256": "0c8fe31c6f071d3d7f13bdc963136f5cec86ff6daaca13731364dff38c87ea0f"
+    },
+    "summary.json": {
+      "bytes": 1067,
+      "sha256": "12842a1859c57d61336d097e93077708363ac5cc9bc7d224524c4684932c197b"
+    },
+    "test-results.json": {
+      "bytes": 2199,
+      "sha256": "0d95e6127d900402a584abf586db192f9f88b8084ac802d386f3dfae0185ee1d"
+    },
+    "validation.json": {
+      "bytes": 297,
+      "sha256": "a4ec660ac06bc8611cfb9f978c589d3ef56d1528b6d813c4a16b7315e2fd6e84"
+    }
+  },
+  "config": {
+    "barriers": [
+      [
+        "0.03",
+        "0.03"
+      ],
+      [
+        "0.05",
+        "0.03"
+      ],
+      [
+        "0.10",
+        "0.05"
+      ]
+    ],
+    "baseline_commit": "21ed2f8",
+    "condition_policies": [
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "confirmation_models": false,
+    "cycle_count": 10,
+    "float_max": 15000000,
+    "float_min": 100000,
+    "forward_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "gap_sensitivities_seconds": [
+      null,
+      300,
+      900
+    ],
+    "holdout_access": false,
+    "intertrade_gap_seconds": 300,
+    "master_seed": 202611150022,
+    "max_decoded_bytes": 2147483648,
+    "max_mark_age_seconds": 60,
+    "max_page_bytes": 33554432,
+    "max_pages": 850,
+    "max_participant_lag_seconds": 10,
+    "max_quote_age_seconds": 5,
+    "max_quote_windows": 160,
+    "max_reference_pages": 40,
+    "max_requests": 900,
+    "max_storage_bytes": 6442450944,
+    "max_window_pages": 64,
+    "methodology": "OBSERVED_SESSIONS_FIRST / HIGH_LOW_ONLY / NO_MECHANICAL_GAP",
+    "per_stratum": 12,
+    "population_inference": false,
+    "preparation_cache_source": "m2-systematic-10cycles-20261115-v1",
+    "quote_page_limit": 10000,
+    "quote_radius_seconds": 60,
+    "run_id": "m2-systematic-10cycles-20261115-v2",
+    "source_m1_run": "m1-universe-120-20261115-v2",
+    "strata": [
+      "PROXY_FLOAT_IN_RANGE",
+      "OTHER_EXCHANGE_PRICE_ELIGIBLE"
+    ],
+    "trade_page_limit": 50000,
+    "trigger_multiplier": "1.10"
+  },
+  "execution_sha256": "73decbfb01417b6e03fa4db56997a5b324fd1bbbf23ef204fc13ede5388362db",
+  "raw_evidence_root": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v2",
+  "run_id": "m2-systematic-10cycles-20261115-v2",
+  "selection_sha256": "4c8f27c44972f718319c249d20aa8770813de025abee72120cb2df53ade0e6ae",
+  "statistics_scope": "FULL_SELECTED_SAMPLE_NOT_FULL_UNIVERSE"
+}

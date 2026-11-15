@@ -1,0 +1,31 @@
+{
+  "additional_reference_requests_after_schema_repair": 0,
+  "reason": "Provider bulk float row lacked ticker; stopped before selection or tick outcomes",
+  "reused_reference_http_requests": 17,
+  "superseded_preparation_run": "m2-systematic-10cycles-20261115-v1",
+  "unmapped_float_records": [
+    {
+      "provider_record": {
+        "_source": {
+          "bytes": 192204,
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/0102063452e345c9a65ed7d14ee3144c88bb473c03fba81d3ac1d0659253d9eb.json",
+          "provider_request_id": "9cc5c1ed3abb4377b29269d258b61cc4",
+          "request": {
+            "params": {
+              "cursor": "AAIAAAECAAEB-4gTAAIBDwJQTQEJ-2Sh"
+            },
+            "url": "https://api.massive.com/stocks/vX/float"
+          },
+          "retrieved_at": "2026-11-15T08:58:02.531699+00:00",
+          "sanitized_access_tokens": false,
+          "sha256": "4841514da4d3aff3168658b9a5e086000ff9ed21441eaf69d30b267c59d7e7b6",
+          "transport": "REST"
+        },
+        "effective_date": "2026-01-29",
+        "free_float": 3950100,
+        "free_float_percent": 20.5
+      },
+      "reason": "MISSING_TICKER_CANNOT_RESOLVE_SECURITY"
+    }
+  ]
+}
