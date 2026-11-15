@@ -147,7 +147,8 @@ def publish(config):
             'SEC_HISTORICAL_EVIDENCE_OVERLAP':'Security appears in original SEC pilot context, regardless of estimate usability; no carry-forward or historical float qualification.'}})
     manifest={'run_id':config['run_id'],'baseline_commit':config['baseline_commit'],'methodology_version':config['methodology_version'],
         'config':config,'full_evidence_root':str(root.resolve()),'publisher_sha256':file_hash(__file__),
-        'artifacts':{p.name:{'sha256':file_hash(p),'bytes':p.stat().st_size} for p in dest.iterdir() if p.is_file() and p.name!='manifest.json'}}
+        'artifacts':{p.name:{'sha256':file_hash(p),'bytes':p.stat().st_size} for p in dest.iterdir()
+                     if p.is_file() and p.name not in {'manifest.json','research_bundle.zip','bundle-validation.json'}}}
     write_json(dest/'manifest.json',manifest)
     print(json.dumps({'event_records':len(events),'outcome_records':len(outcomes),'gap_intervals':gaps['eligible_gaps_over_300'],
                       'requested_audit_examples':[(a['ticker'],a['cycle_id'],a['relation']) for a in requested]},indent=2))

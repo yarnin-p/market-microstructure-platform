@@ -108,6 +108,7 @@ python -m market_lab.replay_qa analyze
 python -m scripts.report_replay_qa
 python -m scripts.validate_replay_qa
 python -m pytest -q
+python -m scripts.bundle_replay_qa
 ```
 
 Use `repair --offline` for cached replay. Freeze refuses code/config drift under the same run ID; new methodology/input changes require a new run ID. Run from the repository root. The original pilot raw/normalized cache is a prerequisite; it is not fabricated or downloaded by the QA command. Resuming reuses cached pages within the shared request ledger. Credentials stay in the local environment file; API URLs are sanitized before persistence. No credential file is committed.
@@ -116,6 +117,8 @@ Versioned inputs/code/schema and compact evidence/results are committed. Full ra
 
 `event-level-results.json` exports all 124 event-policy-variant records, 372 gap-policy outcomes and 273 opportunity records including exclusions. These are repeated analyses of a small fixed pilot, not 124 independent market events. `summary.json` retains the full before/after grid; `first-touch-comparison.json` contains pair-level differences. The event contract is `schemas/replay-methodology-qa-v2.json`.
 
-Validation passes: all original artifacts/M1 unchanged; original 20 legacy events and outcomes exactly reproduced; 60 original-plus-tail cursor pages checked; all 124 event sources verified; 372 outcome references checked; exact original three audit examples verified; full JSON export equals Parquet. **149 tests pass** (84 pre-existing pandas warnings). Regression coverage includes condition combinations/session exceptions, unknown prior evidence, observed/prefix/strict proof, stale marks vs gaps, overnight/missing pages, unknown paths, bounded resumable pagination and exact published-audit selection.
+Validation passes: all original artifacts/M1 unchanged; original 20 legacy events and outcomes exactly reproduced; 60 original-plus-tail cursor pages checked; all 124 event sources verified; 372 outcome references checked; exact original three audit examples verified; full JSON export equals Parquet. **150 tests pass** (84 pre-existing pandas warnings). Regression coverage includes condition combinations/session exceptions, unknown prior evidence, observed/prefix/strict proof, stale marks vs gaps, overnight/missing pages, unknown paths, bounded resumable pagination and exact published-audit selection.
 
 Next research decision: use explicitly named observed-session first touches for this population; keep strict full-cycle claims unavailable until separately validated overnight evidence exists. Retain condition and gap sensitivities with denominators. Investigate the HOTH quote discrepancy and external halt/feed quality only within a separately bounded scope before expanding the sample. This pilot establishes neither executable profitability nor verified historical low-float eligibility.
+
+The consolidated local deliverable is `reports/m2-methodology-qa-20261115-v1/research_bundle.zip` (ignored by Git, matching the original pilot). It contains all three processed cycles, all 124 event-policy-variant payloads with their three gap outcomes, 39 cycle/config/sample metric rows, 36 cohort groups, 2,976 distribution observations and the complete reports. Bundle validation checks ZIP integrity, every artifact checksum and Parquet row counts. Results can be read without raw ticks; raw-source revalidation still requires the local evidence cache. `bundle-validation.json` is committed as the compact packaging receipt.

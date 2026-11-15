@@ -1,8 +1,8 @@
 {
   "command": ".venv/bin/python -m pytest -q",
-  "passed": 149,
+  "passed": 150,
   "status": "PASS",
-  "test_file_sha256": "417e25f8c901093bea76e74170027abdb9402c29ae70e231c987ea8a40c6dda9",
+  "test_file_sha256": "60cb7bef1ff56c6dc9ffc267e8d9cf2e693f1f105cdee1935a934b960490e65d",
   "warning_context": "Existing pandas deprecation warnings",
   "warnings": 84
 }

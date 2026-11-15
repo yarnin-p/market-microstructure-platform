@@ -1,0 +1,18 @@
+{
+  "all_processed_cycles_included": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "bytes": 288590,
+  "members": 23,
+  "raw_ticks_included": false,
+  "record_counts": {
+    "cohort_metrics.parquet": 36,
+    "cycle_metrics.parquet": 39,
+    "distributions.parquet": 2976,
+    "event_results.parquet": 124
+  },
+  "sha256": "bcfc811ace795be6b7e9b2642b8f6c01fd0e0ef2a0e37288c904db719ef561b6",
+  "status": "PASS"
+}

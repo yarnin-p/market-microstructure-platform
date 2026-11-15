@@ -1,4 +1,6 @@
 import json
+import shutil
+import zipfile
 from copy import deepcopy
 from pathlib import Path
 
@@ -11,6 +13,26 @@ from market_lab.replay_qa import repair_window
 from market_lab.storage import file_hash, write_json
 from market_lab.tick_replay import eligible_trade, ns, SECOND
 from test_m2 import CYCLE, CONFIG, OPP, tick
+
+
+def test_full_bundle_preserves_all_events_and_three_gap_outcomes(tmp_path):
+    from scripts.bundle_replay_qa import package
+    source = Path('reports/m2-methodology-qa-20261115-v1')
+    for p in source.iterdir():
+        if p.suffix in {'.json', '.md'}:
+            shutil.copyfile(p, tmp_path / p.name)
+    config = json.loads(Path('configs/task-002-1-qa-v1.json').read_text())
+    result = package(tmp_path, config)
+    assert result['status'] == 'PASS'
+    assert result['record_counts']['event_results.parquet'] == 124
+    assert result['all_processed_cycles_included'] == ['2026-05-27', '2026-05-28', '2026-05-29']
+    import pyarrow.parquet as pq
+    with zipfile.ZipFile(tmp_path / 'research_bundle.zip') as archive:
+        assert 'data_quality.json' in archive.namelist()
+        assert not any('/raw/' in name for name in archive.namelist())
+        with archive.open('event_results.parquet') as stream:
+            rows = pq.read_table(stream).to_pylist()
+        assert all(len(json.loads(r['payload_json'])['outcomes']) == 3 for r in rows)
 
 
 def test_requested_audit_matches_published_cycle_not_first_event_for_ticker():

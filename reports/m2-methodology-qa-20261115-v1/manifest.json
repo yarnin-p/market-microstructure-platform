@@ -1,5 +1,13 @@
 {
   "artifacts": {
+    "anomalies.json": {
+      "bytes": 9304,
+      "sha256": "fc7121ed734ec7c75d858dcfa06f696fbaba68d3eec6f3d2b28fe2b3902d5a43"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 8689,
+      "sha256": "def022076dd9441b32f49ada1a5b4fcf79f2bbb18fd100c4f3dd3108eb16da5f"
+    },
     "condition-audit-summary.json": {
       "bytes": 75093,
       "sha256": "c248ae1583a591b7149d09bdd4b9281e95aba352b0c9ff029192672d980825a5"
@@ -12,9 +20,25 @@
       "bytes": 3370,
       "sha256": "a0b8aa4493e0930bdcfe9e05272ffdca4d5456ab1b30567429bee2c31ead10c2"
     },
+    "cycle_metrics.parquet": {
+      "bytes": 4160,
+      "sha256": "944a74f2d623c125776d2e177b70910bce4600fdf184567e5779bed85760c6d2"
+    },
+    "data_quality.json": {
+      "bytes": 299160,
+      "sha256": "73190f7ff29d1abfe9e0b1bec75c06c2925e5d7de7c818cda6d4b4c1da3ec2da"
+    },
+    "distributions.parquet": {
+      "bytes": 8073,
+      "sha256": "efa0754d4b355630ce8e4720436d7121bc35e27f8b219e584083bd67b395d2e2"
+    },
     "event-level-results.json": {
       "bytes": 3223290,
       "sha256": "bca4ffddb8d130926079a746892b9a2abe1200b0c74f2f2ce15664b0a6cd8022"
+    },
+    "event_results.parquet": {
+      "bytes": 47694,
+      "sha256": "1cb25a818b192697706b405adb7fda5794b1503f3d8a31a7f82a161898c695c1"
     },
     "first-touch-comparison.json": {
       "bytes": 134682,
@@ -41,12 +65,16 @@
       "sha256": "ae9f286b966afb89e146d2ce1d2a7cd39e364ed78033e2a3a574a75727e9a6a7"
     },
     "report.md": {
-      "bytes": 6710,
-      "sha256": "242bc375ce654753b7925a717b9ac128df45c751e2662cb91882df6c26243c15"
+      "bytes": 7134,
+      "sha256": "06aa67d392afb4a3793240da10d06966d0c2be98b69e989c64be82823191786c"
     },
     "requested-raw-nbbo-audit.json": {
       "bytes": 8651,
       "sha256": "5557092b6d37ed4cf2df7f09239156d8bdd7b420fb20c8a8cb542183453a64db"
+    },
+    "statistical_tests.json": {
+      "bytes": 352,
+      "sha256": "76872345b404e91f38c99b1310ca58b05259d149583acb9f5e702bee54dea234"
     },
     "summary.json": {
       "bytes": 273556,
@@ -54,7 +82,7 @@
     },
     "tests.json": {
       "bytes": 255,
-      "sha256": "658ad54f304c0987fc8d482494f3a17137ccc18aa3a6b0db6f5e1d35e57d6068"
+      "sha256": "7621d4f5a4943a504b3801226488c48d4f18ed66ea63ddfb5568d2e32ca5941b"
     },
     "validation.json": {
       "bytes": 653,
@@ -62,6 +90,9 @@
     }
   },
   "baseline_commit": "8a4903f",
+  "build_git_commit": "6a5f86c1817946e5e369d9e692dfc11d2de95454",
+  "bundle_builder_sha256": "f41ef3660e9d1651239218fc9626d7baaf057ad92906b0c0488037077a583553",
+  "completed_at": "2026-11-15T08:06:29.595416+00:00",
   "config": {
     "baseline_commit": "8a4903f",
     "baseline_run": "m2-first-touch-3cycles-20261115-v1",
@@ -122,12 +153,35 @@
     "trade_page_limit": 50000,
     "unknown_prior_evidence_always_unverified": true
   },
+  "dataset": "m2-first-touch-3cycles-20261115-v1",
+  "event_definition": "First eligible >=110% previous RTH close in explicitly defined observed sessions; strict full-cycle unverified",
+  "execution_status": "QA_PILOT_COMPLETE_WITH_UNRESOLVED_OVERNIGHT_AND_HISTORICAL_FLOAT",
   "full_evidence_root": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-methodology-qa-20261115-v1",
   "methodology_document": {
     "path": "docs/research/task-002-1-replay-methodology-qa.md",
-    "sha256": "7f45141328d6393d81ecaa30d634ee415d0c705310d32aaa21b68464bc39cc99"
+    "sha256": "88d385e8a8aadd40579f1b77909aa4134fbd17296cc511636c1aa94554e0d89d"
   },
   "methodology_version": "task-002-1-observed-sessions-v2",
-  "publisher_sha256": "64d31d17cd6f073e9db4f1846305dbfe8868484d4bb6456623add8d1978a4489",
-  "run_id": "m2-methodology-qa-20261115-v1"
+  "missing_cycles": [],
+  "outcome_definition": "Eligible observed-trade path; 300/900/no mechanical gap sensitivity; 60-second mark age",
+  "processed_cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "publisher_sha256": "e126e559b0aa3d0b64e5b01b08e7ea6eb4d540f09bee42d9390e12250b850954",
+  "record_counts": {
+    "cohort_metrics.parquet": 36,
+    "cycle_metrics.parquet": 39,
+    "distributions.parquet": 2976,
+    "event_results.parquet": 124
+  },
+  "requested_cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "run_id": "m2-methodology-qa-20261115-v1",
+  "schema": "schemas/replay-methodology-qa-v2.json",
+  "timezone": "America/New_York sessions; integer SIP nanoseconds UTC"
 }

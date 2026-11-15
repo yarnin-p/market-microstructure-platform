@@ -1,0 +1,9 @@
+{
+  "confidence_intervals": "NOT_ESTIMATED",
+  "event_policy_variant_records": 124,
+  "independent_security_cycle_event_pairs": 22,
+  "reason": "Small clustered fixed selection; diagnostic selection bias; variants and cohorts overlap.",
+  "significance_claim": false,
+  "status": "DESCRIPTIVE_PILOT_ONLY",
+  "systematic_and_diagnostic_pooled": false
+}

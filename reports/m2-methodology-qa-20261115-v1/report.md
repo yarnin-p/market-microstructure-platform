@@ -53,8 +53,10 @@ Run `m2-methodology-qa-20261115-v1`; methodology `task-002-1-observed-sessions-v
 - Current-float proxy: systematic 3/11, diagnostic 4/4; SEC evidence overlap: systematic 2/3, diagnostic 2/3. SEC overlap ไม่ได้แปลว่า historical float ผ่าน PIT gate
 - ตรวจ original published examples จาก raw/hash: SNGX 2026-05-28 ที่ 0.9537 และ DBGI 2026-05-27 ที่ 0.3198 อยู่ที่ preceding ask; HOTH 2026-05-28 ที่ 1.50 สูงกว่า preceding ask 1.49 และไม่พบ NBBO รองรับใน 5 วินาทีถัดมา ไม่ได้ยืนยันว่าราคาใด executable
 - ผลเดิม 20 events/20 outcomes ตรงทุก record; original artifacts และ M1 ไม่เปลี่ยน; M1 ยัง `BLOCKED_DATA`
-- Regression tests: 149 passed, 84 existing pandas warnings; independent validation PASS ทั้ง source hashes, cursor chains, exports และ audit examples
+- Regression tests: 150 passed, 84 existing pandas warnings; independent validation PASS ทั้ง source hashes, cursor chains, exports และ audit examples
 
 รายละเอียดวิธี ขอบเขตเวลา condition distributions, repair records, cohort denominators, reproduction และข้อจำกัด raw-cache อยู่ใน [methodology report](../../docs/research/task-002-1-replay-methodology-qa.md). หลักฐานของตัวอย่างเดิมอยู่ใน `requested-raw-nbbo-audit.json`; generic `raw-nbbo-audit.json` เป็นข้อมูลเสริมซึ่งอาจเป็นคนละวัน
 
 Raw/Parquet อยู่ใน local ignored data cache; Git มีผล event-level ครบและ source hashes แต่ fresh checkout ที่ไม่มี cache จะตรวจ raw ซ้ำไม่ได้ทันที ไม่มี credential ถูก commit ไม่มีการขยาย 120-cycle universe หรือสร้าง confirmation model และผลนี้ไม่ใช่การทดสอบ executable profitability
+
+Consolidated output: `research_bundle.zip` (local, ไม่เข้า Git ตาม convention เดิม); สร้างซ้ำด้วย `python -m scripts.bundle_replay_qa`. รวมผลทั้งสาม cycle, event payload ครบพร้อมสาม gap policies, cycle/cohort metrics และ distributions; ตรวจ ZIP/checksums/row counts แล้ว ดู `bundle-validation.json`
