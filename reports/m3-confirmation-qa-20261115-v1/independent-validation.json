@@ -1,0 +1,10 @@
+{
+  "all_policy_risk_sets": 40,
+  "c0_common_marks_equal_original_own_marks": 320,
+  "c1_qualifying_raw_evidence_checked": 912,
+  "checker_sha256": "01b6f3f55a33f5ff014f8cc3918ca8f11b0c45e2b554ad3503b0fbf6da05b440",
+  "full_json_equals_parquet": true,
+  "original_weights_and_frozen_signals_unchanged": true,
+  "paired_landmarks_checked": 2240,
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "additional_quote_requests": 0,
+  "all_640_event_records_exported": true,
+  "event_schema_sha256": "6be1303a2c3381a3ebc5aa613e166e880ae91a6cf5ee7a6f2b74e47b1b07cbd6",
+  "methodology_sha256": "f7af224dba5744f5cdb763c959d15df3202238935af3dff043ce8faa0e2838ed",
+  "publisher_sha256": "01b6f3f55a33f5ff014f8cc3918ca8f11b0c45e2b554ad3503b0fbf6da05b440",
+  "quote_plan_document_sha256": "b6b00cea83c4d62174b69b6b4fcfbe52e57138d77892862448c4867c6a93005c",
+  "status": "PASS",
+  "threshold_optimization": false
+}

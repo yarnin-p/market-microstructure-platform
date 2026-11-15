@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Confirmation methodology QA event v1",
+  "type": "object",
+  "required": ["event_id", "initial_event_id", "policy", "condition_policy", "signal", "sampling_weight", "common_landmarks", "pre_confirmation", "own_signal_outcomes"],
+  "properties": {
+    "policy": {"enum": ["C0_FROZEN", "C2_FROZEN", "C1_COUNTED_ORIGINAL", "C1_COUNTED_ORIGINAL_D60", "C1_OBSERVED_ACCEPTANCE", "C1_OBSERVED_ACCEPTANCE_D60", "C1_SESSION_BOUND", "C1_SESSION_BOUND_D60"]},
+    "condition_policy": {"enum": ["HIGH_LOW_ONLY", "ODD_LOT_OBSERVATION_SENSITIVITY"]},
+    "deadline_seconds": {"enum": [null, 60]},
+    "common_landmarks": {"type": "array", "minItems": 4, "maxItems": 4},
+    "first_touch_anchor_unchanged": {"const": true}
+  },
+  "x-risk-set": "Exactly 40 original events per policy/condition; all 640 rows are dependent analyses",
+  "x-common-clock": "Exit UTC SIP nanoseconds = original touch + 5/15/30/60 minutes",
+  "x-pre-confirmation": "Observed trade path before signal or operational cutoff; absence of a below-threshold trade is not independent continuity proof"
+}

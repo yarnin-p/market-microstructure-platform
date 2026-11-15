@@ -1,0 +1,13 @@
+{
+  "baseline_signal_condition_records_exactly_reproduced": 240,
+  "c2_audits": 40,
+  "event_rows": 640,
+  "holdout_analyzed": false,
+  "http_requests": 0,
+  "initial_events_per_policy": 40,
+  "original_insufficient_cases_audited": 10,
+  "protected_files_unchanged": 7883,
+  "source_pages_checked": 79,
+  "source_references_checked": 8741,
+  "status": "PASS"
+}

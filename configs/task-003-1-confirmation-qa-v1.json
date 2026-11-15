@@ -1,0 +1,32 @@
+{
+  "run_id": "m3-confirmation-qa-20261115-v1",
+  "methodology_version": "task-003-1-confirmation-qa-v1",
+  "baseline_commit": "423dead",
+  "baseline_run": "m3-confirmation-10cycles-20261115-v1",
+  "source_run": "m2-systematic-10cycles-20261115-v2",
+  "initial_events": 40,
+  "c1_definitions": ["C1_COUNTED_ORIGINAL", "C1_OBSERVED_ACCEPTANCE", "C1_SESSION_BOUND"],
+  "deadline_seconds": [null, 60],
+  "c1_min_observations": 3,
+  "c1_min_span_seconds": 30,
+  "condition_policies": ["HIGH_LOW_ONLY", "ODD_LOT_OBSERVATION_SENSITIVITY"],
+  "landmarks_minutes": [5, 15, 30, 60],
+  "gap_sensitivities_seconds": [null, 300, 900],
+  "max_http_requests": 0,
+  "holdout_access": false,
+  "top_up_plan": {
+    "status": "PROPOSED_NOT_AUTHORIZED_NOT_EXECUTED",
+    "max_windows": 10,
+    "max_requests": 40,
+    "max_pages": 40,
+    "max_pages_per_window": 4,
+    "page_limit": 10000,
+    "max_decoded_bytes": 67108864,
+    "max_page_bytes": 8388608,
+    "max_storage_bytes": 268435456,
+    "connect_timeout_seconds": 5,
+    "read_timeout_seconds": 20,
+    "total_wall_seconds": 600,
+    "minimum_request_spacing_seconds": 0.25
+  }
+}
