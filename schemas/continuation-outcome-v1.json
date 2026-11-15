@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "format": "Parquet",
+  "compression": "ZSTD",
+  "fields": {
+    "event_id": "string",
+    "run_id": "string",
+    "security_id": "string",
+    "cycle_id": "string",
+    "ticker": "string",
+    "sample": "string",
+    "session": "string",
+    "payload_json": "full lossless outcome JSON: forward[], barriers[], observed_mfe/mae decimal strings; UTC ns timestamps; censor flags"
+  }
+}

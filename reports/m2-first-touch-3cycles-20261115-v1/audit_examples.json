@@ -1,0 +1,712 @@
+[
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY",
+      "MASSIVE_CURRENT_FLOAT_PROXY"
+    ],
+    "conditions_json": "[]",
+    "correction": null,
+    "cycle_id": "2026-05-27",
+    "event_id": "26dfbbc88022d59d7658e4d2d667d71b3b736ac76b5a2406c31066a63e15c3bb",
+    "event_timestamp": 1779892639865143015,
+    "first_touch_status": "FIRST_TOUCH_UNVERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "effective_date": "2026-09-22",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG00S90Q1N2",
+      "identity_source": {
+        "bytes": 1599,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/8c82747562e38ae060337989aeb6144a459e40c22e8eafc6ee499d65450e4e6e.json",
+        "provider_request_id": "1bf06fa265672fa193247db48322d265",
+        "request": {
+          "params": {},
+          "url": "https://api.massive.com/v3/reference/tickers/DBGI"
+        },
+        "retrieved_at": "2026-11-15T04:04:01.791906+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "25539d28f93b10510e3523b900b6fbfedc31f70d7c90ac7f2172b3fe6766f225",
+        "transport": "REST"
+      },
+      "is_verified_pit": false,
+      "original_ticker": "DBGI",
+      "reason": "LATEST_FREE_FLOAT_RETROSPECTIVE_PROXY",
+      "resolved_security_id": "BBG00S90Q1N2",
+      "retrieved_at": "2026-11-15T04:04:02.198661+00:00",
+      "source": {
+        "bytes": 169,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/77f74fb5c54142a9c11d9f5be0f502acef8d6014d51e33217d386ce521eec5c8.json",
+        "provider_request_id": "93e1de834b7949ed932129f31db764b4",
+        "request": {
+          "params": {
+            "limit": 10,
+            "ticker": "DBGI"
+          },
+          "url": "https://api.massive.com/stocks/vX/float"
+        },
+        "retrieved_at": "2026-11-15T04:04:02.198661+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "ae66a04a6a68c927bb1536f78cc31c12b00ac326fa29c49bbbfefdd544f210c6",
+        "transport": "REST"
+      },
+      "status": "ELIGIBLE",
+      "value": 903450
+    },
+    "later_invalidated": false,
+    "observed_window_first_verified": true,
+    "outcomes": {
+      "barriers": [
+        {
+          "down": "0.03",
+          "down_price": "0.310206",
+          "elapsed_ns": 37476457393,
+          "first_passage_ns": 1779892677341600408,
+          "flags": [],
+          "observed_direction": "UPSIDE_FIRST",
+          "outcome": "UPSIDE_FIRST",
+          "up": "0.03",
+          "up_price": "0.329394"
+        },
+        {
+          "down": "0.03",
+          "down_price": "0.310206",
+          "elapsed_ns": 45620358955,
+          "first_passage_ns": 1779892685485501970,
+          "flags": [],
+          "observed_direction": "UPSIDE_FIRST",
+          "outcome": "UPSIDE_FIRST",
+          "up": "0.05",
+          "up_price": "0.335790"
+        },
+        {
+          "down": "0.05",
+          "down_price": "0.303810",
+          "elapsed_ns": 132815108635,
+          "first_passage_ns": 1779892772680251650,
+          "flags": [],
+          "observed_direction": "UPSIDE_FIRST",
+          "outcome": "UPSIDE_FIRST",
+          "up": "0.10",
+          "up_price": "0.351780"
+        }
+      ],
+      "cycle_id": "2026-05-27",
+      "event_id": "26dfbbc88022d59d7658e4d2d667d71b3b736ac76b5a2406c31066a63e15c3bb",
+      "excursion_censored": false,
+      "flags": [],
+      "forward": [
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "5m",
+          "mark_age_ns": 3019119524,
+          "mark_ns": 1779892936846023491,
+          "observed_mark_price": "0.3524",
+          "relative_to_p0": "0.215172413793103448275862069",
+          "return": "0.101938711694809255784865541",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 2997}",
+          "target_ns": 1779892939865143015
+        },
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "15m",
+          "mark_age_ns": 10357233414,
+          "mark_ns": 1779893529507909601,
+          "observed_mark_price": "0.3376",
+          "relative_to_p0": "0.164137931034482758620689655",
+          "return": "0.055659787367104440275171982",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 4045}",
+          "target_ns": 1779893539865143015
+        },
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "30m",
+          "mark_age_ns": 10660937425,
+          "mark_ns": 1779894429204205590,
+          "observed_mark_price": "0.3339",
+          "relative_to_p0": "0.151379310344827586206896552",
+          "return": "0.044090056285178236397748593",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 4564}",
+          "target_ns": 1779894439865143015
+        },
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "60m",
+          "mark_age_ns": 37189721277,
+          "mark_ns": 1779896202675421738,
+          "observed_mark_price": "0.3372",
+          "relative_to_p0": "0.162758620689655172413793103",
+          "return": "0.054409005628517823639774859",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 5150}",
+          "target_ns": 1779896239865143015
+        },
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "session_end",
+          "mark_age_ns": 1078653709,
+          "mark_ns": 1779911998921346291,
+          "observed_mark_price": "0.3549",
+          "relative_to_p0": "0.223793103448275862068965517",
+          "return": "0.109756097560975609756097561",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 8699}",
+          "target_ns": 1779912000000000000
+        },
+        {
+          "censored": false,
+          "clock": "WALL_CLOCK",
+          "flags": [],
+          "horizon": "cycle_end",
+          "mark_age_ns": 1078653709,
+          "mark_ns": 1779911998921346291,
+          "observed_mark_price": "0.3549",
+          "relative_to_p0": "0.223793103448275862068965517",
+          "return": "0.109756097560975609756097561",
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 8699}",
+          "target_ns": 1779912000000000000
+        }
+      ],
+      "mae_ns": 1779900306553667097,
+      "mfe_ns": 1779892782949983384,
+      "observed_mae": "-0.0572232645403377110694183865",
+      "observed_mfe": "0.130393996247654784240150094",
+      "observed_price_count": 5283,
+      "performance_basis": "GROSS_OBSERVED_PRICE_NOT_EXECUTION",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG00S90Q1N2",
+      "session": "RTH",
+      "ticker": "DBGI",
+      "window_end_ns": 1779912000000000000,
+      "window_start_ns": 1779892639865143015
+    },
+    "previous_rth_close": "0.290000000000",
+    "quality_flags": [
+      "UNOBSERVED_OVERNIGHT",
+      "RETROSPECTIVE_P0",
+      "HALT_HISTORY_NOT_CERTIFIED"
+    ],
+    "quote": {
+      "age_ns": 1969,
+      "ask": "0.3198",
+      "bid": "0.3166",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1779892639865141046,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json\", \"sha256\": \"81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036\", \"row\": 36}",
+      "status": "OK"
+    },
+    "raw_first_crossing": {
+      "price": "0.3198",
+      "record_id": "c92d67ccb883cdc00d5f3b2b5cb035eedfa8176eaa650cd8371409a8d6208e76",
+      "sip_timestamp": 1779892639865143015,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 1991}"
+    },
+    "record_id": "c92d67ccb883cdc00d5f3b2b5cb035eedfa8176eaa650cd8371409a8d6208e76",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m2-first-touch-3cycles-20261115-v1",
+    "sample": "SYSTEMATIC",
+    "sec_evidence": [],
+    "security_id": "BBG00S90Q1N2",
+    "session": "RTH",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/aa489d5f18fba94ba9262c7809d20226d12e7a9243435b23270afcc2b280e656.json\", \"sha256\": \"d9d7b418b05518bcd623c7302c13c5e37b74165909f58afaf0ff59262ca8d097\", \"row\": 1991}",
+    "threshold_price": "0.31900000000000",
+    "ticker": "DBGI",
+    "touch_price": "0.3198",
+    "trade_exchange": 7,
+    "trade_size": "100.0"
+  },
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY"
+    ],
+    "conditions_json": "[17, 41]",
+    "correction": null,
+    "cycle_id": "2026-05-27",
+    "event_id": "60c08dba59844dbebaed06c7d8a65ba78589e92169ca2388e938746346a6c08f",
+    "event_timestamp": 1779888600165759103,
+    "first_touch_status": "FIRST_TOUCH_UNVERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG01J7XRSC3",
+      "is_verified_pit": false,
+      "original_ticker": "HCWC",
+      "reason": "HTTP_404",
+      "status": "UNRESOLVED",
+      "value": null
+    },
+    "later_invalidated": false,
+    "observed_window_first_verified": true,
+    "outcomes": {
+      "barriers": [
+        {
+          "down": "0.03",
+          "down_price": "0.2813",
+          "elapsed_ns": 262522275,
+          "first_passage_ns": 1779888600428281378,
+          "flags": [],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "DOWNSIDE_FIRST",
+          "up": "0.03",
+          "up_price": "0.2987"
+        },
+        {
+          "down": "0.03",
+          "down_price": "0.2813",
+          "elapsed_ns": 262522275,
+          "first_passage_ns": 1779888600428281378,
+          "flags": [],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "DOWNSIDE_FIRST",
+          "up": "0.05",
+          "up_price": "0.3045"
+        },
+        {
+          "down": "0.05",
+          "down_price": "0.2755",
+          "elapsed_ns": 1933421762304,
+          "first_passage_ns": 1779890533587521407,
+          "flags": [
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "CENSORED",
+          "up": "0.10",
+          "up_price": "0.3190"
+        }
+      ],
+      "cycle_id": "2026-05-27",
+      "event_id": "60c08dba59844dbebaed06c7d8a65ba78589e92169ca2388e938746346a6c08f",
+      "excursion_censored": true,
+      "flags": [
+        "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+      ],
+      "forward": [
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "5m",
+          "mark_age_ns": 27313432878,
+          "mark_ns": 1779888872852326225,
+          "observed_mark_price": "0.282",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 99}",
+          "target_ns": 1779888900165759103
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "15m",
+          "mark_age_ns": 5330464169,
+          "mark_ns": 1779889494835294934,
+          "observed_mark_price": "0.28",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 106}",
+          "target_ns": 1779889500165759103
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "MISSING_OR_STALE_MARK",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "30m",
+          "mark_age_ns": 477157605596,
+          "mark_ns": 1779889923008153507,
+          "observed_mark_price": "0.2798",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 111}",
+          "target_ns": 1779890400165759103
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "MISSING_OR_STALE_MARK",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "60m",
+          "mark_age_ns": 286170264581,
+          "mark_ns": 1779891913995494522,
+          "observed_mark_price": "0.2743",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 130}",
+          "target_ns": 1779892200165759103
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "session_end",
+          "mark_age_ns": 14700953406,
+          "mark_ns": 1779911985299046594,
+          "observed_mark_price": "0.2793",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 499}",
+          "target_ns": 1779912000000000000
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "cycle_end",
+          "mark_age_ns": 14700953406,
+          "mark_ns": 1779911985299046594,
+          "observed_mark_price": "0.2793",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 499}",
+          "target_ns": 1779912000000000000
+        }
+      ],
+      "mae_ns": 1779893628270905751,
+      "mfe_ns": 1779888677374054652,
+      "observed_mae": "-0.0682758620689655172413793103",
+      "observed_mfe": "0.009655172413793103448275862",
+      "observed_price_count": 335,
+      "performance_basis": "GROSS_OBSERVED_PRICE_NOT_EXECUTION",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG01J7XRSC3",
+      "session": "RTH",
+      "ticker": "HCWC",
+      "window_end_ns": 1779912000000000000,
+      "window_start_ns": 1779888600165759103
+    },
+    "previous_rth_close": "0.261700000000",
+    "quality_flags": [
+      "UNOBSERVED_OVERNIGHT",
+      "RETROSPECTIVE_P0",
+      "HALT_HISTORY_NOT_CERTIFIED"
+    ],
+    "quote": {
+      "age_ns": 2004542772,
+      "ask": "0.279",
+      "bid": "0.2669",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [
+        "NON_REGULAR_QUOTE_CONDITION"
+      ],
+      "sip_timestamp": 1779888598161216331,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/58d28df4c84ab2453dba6b8805a3895bdbdf41d40827bad5bbd901f1e72d8416.json\", \"sha256\": \"d517496f60e91b8329a3331e5977aa2c542024050d34099b78113df5c0c0b9a6\", \"row\": 0}",
+      "status": "FLAGGED"
+    },
+    "raw_first_crossing": {
+      "price": "0.29",
+      "record_id": "c43a1991c2d7a29127d544091c5c59f993522800cbb3aea6b0b0b912dd9217b7",
+      "sip_timestamp": 1779888600165759103,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 33}"
+    },
+    "record_id": "c43a1991c2d7a29127d544091c5c59f993522800cbb3aea6b0b0b912dd9217b7",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m2-first-touch-3cycles-20261115-v1",
+    "sample": "SYSTEMATIC",
+    "sec_evidence": [
+      {
+        "carry_forward": false,
+        "classification": "INSUFFICIENT_PRICE_BASIS",
+        "corporate_actions": [],
+        "derived_estimates": [],
+        "source": {
+          "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/sec-pilot-20261115-v2/results-reviewed-v1.json",
+          "sha256": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+        }
+      }
+    ],
+    "security_id": "BBG01J7XRSC3",
+    "session": "RTH",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/17df138f1046141f96dc4061195742424873db69affa286246727c3977baff10.json\", \"sha256\": \"d691a0be02b4cef38421b34af0d0838a069713cc783d21113a712d367b62ad9c\", \"row\": 33}",
+    "threshold_price": "0.28787000000000",
+    "ticker": "HCWC",
+    "touch_price": "0.29",
+    "trade_exchange": 1,
+    "trade_size": "20492.0"
+  },
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY",
+      "MASSIVE_CURRENT_FLOAT_PROXY"
+    ],
+    "conditions_json": "[12]",
+    "correction": null,
+    "cycle_id": "2026-05-27",
+    "event_id": "9bc4b8386c55816d78101b7dcc487461a634091f4c9605ff47c78b3d15fb4f00",
+    "event_timestamp": 1779875117006650438,
+    "first_touch_status": "FIRST_TOUCH_UNVERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "effective_date": "2026-10-26",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG001S8LVC4",
+      "identity_source": {
+        "bytes": 1725,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/3c87ce1a17adb82caeecd2a6688a25803cc4ea36a9fbbeb032dd217acc33a178.json",
+        "provider_request_id": "c157df442a5ff998cbd46258879db1c1",
+        "request": {
+          "params": {},
+          "url": "https://api.massive.com/v3/reference/tickers/ASTC"
+        },
+        "retrieved_at": "2026-11-15T04:04:08.398971+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "0ae76948136e51ae19e3c094f2ce8d677856943e88f5c7160918ae78d0ba3302",
+        "transport": "REST"
+      },
+      "is_verified_pit": false,
+      "original_ticker": "ASTC",
+      "reason": "LATEST_FREE_FLOAT_RETROSPECTIVE_PROXY",
+      "resolved_security_id": "BBG001S8LVC4",
+      "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+      "source": {
+        "bytes": 170,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/1b8a20f9a5579bf678c95f6f9a40e99b661ed8c3ed60d4905b13f50ca35e75cd.json",
+        "provider_request_id": "6c814e036ed6474eab5c0a2f6aee5ea0",
+        "request": {
+          "params": {
+            "limit": 10,
+            "ticker": "ASTC"
+          },
+          "url": "https://api.massive.com/stocks/vX/float"
+        },
+        "retrieved_at": "2026-11-15T04:04:08.805702+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "e18a54c16180fe811481b292b08961fb9f2eae7f8b84d17759cefa5e14b4281c",
+        "transport": "REST"
+      },
+      "status": "ELIGIBLE",
+      "value": 1862504
+    },
+    "later_invalidated": false,
+    "observed_window_first_verified": false,
+    "outcomes": {
+      "barriers": [
+        {
+          "down": "0.03",
+          "down_price": "3.3174",
+          "elapsed_ns": 34293494428,
+          "first_passage_ns": 1779875151300144866,
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW"
+          ],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "CENSORED",
+          "up": "0.03",
+          "up_price": "3.5226"
+        },
+        {
+          "down": "0.03",
+          "down_price": "3.3174",
+          "elapsed_ns": 34293494428,
+          "first_passage_ns": 1779875151300144866,
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW"
+          ],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "CENSORED",
+          "up": "0.05",
+          "up_price": "3.5910"
+        },
+        {
+          "down": "0.05",
+          "down_price": "3.2490",
+          "elapsed_ns": 34293494428,
+          "first_passage_ns": 1779875151300144866,
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW"
+          ],
+          "observed_direction": "DOWNSIDE_FIRST",
+          "outcome": "CENSORED",
+          "up": "0.10",
+          "up_price": "3.7620"
+        }
+      ],
+      "cycle_id": "2026-05-27",
+      "event_id": "9bc4b8386c55816d78101b7dcc487461a634091f4c9605ff47c78b3d15fb4f00",
+      "excursion_censored": true,
+      "flags": [
+        "INCOMPLETE_TRADE_WINDOW",
+        "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+      ],
+      "forward": [
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW"
+          ],
+          "horizon": "5m",
+          "mark_age_ns": 652139890,
+          "mark_ns": 1779875416354510548,
+          "observed_mark_price": "2.7987",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 1516}",
+          "target_ns": 1779875417006650438
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW"
+          ],
+          "horizon": "15m",
+          "mark_age_ns": 3432827549,
+          "mark_ns": 1779876013573822889,
+          "observed_mark_price": "2.52",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 2056}",
+          "target_ns": 1779876017006650438
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW",
+            "MISSING_OR_STALE_MARK",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "30m",
+          "mark_age_ns": 145568697000,
+          "mark_ns": 1779876771437953438,
+          "observed_mark_price": "2.4",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 2329}",
+          "target_ns": 1779876917006650438
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "60m",
+          "mark_age_ns": 21455924595,
+          "mark_ns": 1779878695550725843,
+          "observed_mark_price": "2.38",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 2394}",
+          "target_ns": 1779878717006650438
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "session_end",
+          "mark_age_ns": 721382888,
+          "mark_ns": 1779888599278617112,
+          "observed_mark_price": "7.4",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e1f39480c1b5c8eab67eba27e75a3d09c607c2bc18b7e0ce2da820e9db061002.json\", \"sha256\": \"df9586c32cc12aec249d6dab9e8bbcc322749ac7ce318d2f1ff5b018869061d8\", \"row\": 32456}",
+          "target_ns": 1779888600000000000
+        },
+        {
+          "censored": true,
+          "clock": "WALL_CLOCK",
+          "flags": [
+            "INCOMPLETE_TRADE_WINDOW",
+            "MISSING_OR_STALE_MARK",
+            "UNOBSERVED_INTERVAL_OR_TRADE_GAP"
+          ],
+          "horizon": "cycle_end",
+          "mark_age_ns": 19285442826589,
+          "mark_ns": 1779892714557173411,
+          "observed_mark_price": "6.88",
+          "relative_to_p0": null,
+          "return": null,
+          "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fcb2929ac557a416358b3e7839bc3376f15126593d3d7b0f18ccd983a5b6c9fd.json\", \"sha256\": \"bf213c972a3f3db46c80cfad38693277cde12efc6359f0fd44b1d25b3cb1942e\", \"row\": 49995}",
+          "target_ns": 1779912000000000000
+        }
+      ],
+      "mae_ns": 1779883484678211856,
+      "mfe_ns": 1779887750383231402,
+      "observed_mae": "-0.3508771929824561403508771930",
+      "observed_mfe": "1.418099415204678362573099415",
+      "observed_price_count": 176416,
+      "performance_basis": "GROSS_OBSERVED_PRICE_NOT_EXECUTION",
+      "run_id": "m2-first-touch-3cycles-20261115-v1",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001S8LVC4",
+      "session": "PRE",
+      "ticker": "ASTC",
+      "window_end_ns": 1779912000000000000,
+      "window_start_ns": 1779875117006650438
+    },
+    "previous_rth_close": "2.470000000000",
+    "quality_flags": [
+      "UNOBSERVED_OVERNIGHT",
+      "RETROSPECTIVE_P0",
+      "HALT_HISTORY_NOT_CERTIFIED",
+      "INCOMPLETE_TRADE_PAGINATION"
+    ],
+    "quote": {
+      "age_ns": 3496744913,
+      "ask": "3.47",
+      "bid": "2.47",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1779875113509905525,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e0133eea353653c0f68aa973916add0452043525a597de88ff9d71022ec2c10b.json\", \"sha256\": \"9056753c5b07f23e40a8e843df35e7934f1baa383bb89fcd28a315dc6bfa34cf\", \"row\": 37}",
+      "status": "OK"
+    },
+    "raw_first_crossing": {
+      "price": "2.83",
+      "record_id": "b165e15b4fee9c5a3ddbf23d56d2a3ee067d89f640e4959178f459af9f6ab5b5",
+      "sip_timestamp": 1779875049262247732,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 16}"
+    },
+    "record_id": "c49537edb3d16a555fe675ab6d7e32246dc6dcc678b8a6958c908c221f1ce2e1",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m2-first-touch-3cycles-20261115-v1",
+    "sample": "DIAGNOSTIC",
+    "sec_evidence": [],
+    "security_id": "BBG001S8LVC4",
+    "session": "PRE",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7aa69f9cb8076867c08e3d70fdb76720d751a95ccd5b70a6b89044714208e49f.json\", \"sha256\": \"9a8d08cd461a63537c9f5ad218d18018e07411de5e86cb95946d8c8172e51d68\", \"row\": 55}",
+    "threshold_price": "2.71700000000000",
+    "ticker": "ASTC",
+    "touch_price": "3.42",
+    "trade_exchange": 12,
+    "trade_size": "437.0"
+  }
+]

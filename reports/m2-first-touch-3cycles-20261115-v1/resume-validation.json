@@ -1,0 +1,11 @@
+{
+  "additional_api_requests": 0,
+  "offline": true,
+  "status": "PASS",
+  "unchanged_hashes": {
+    "data/runs/m2-first-touch-3cycles-20261115-v1/events/events.parquet": true,
+    "data/runs/m2-first-touch-3cycles-20261115-v1/opportunities/opportunities.parquet": true,
+    "data/runs/m2-first-touch-3cycles-20261115-v1/outcomes/outcomes.parquet": true,
+    "data/runs/m2-first-touch-3cycles-20261115-v1/raw/request-ledger.json": true
+  }
+}

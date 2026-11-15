@@ -1,0 +1,82 @@
+{
+  "api_errors": 2,
+  "cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "decoded_bytes": 715846178,
+  "events": 20,
+  "float_proxy_status_counts": {
+    "ELIGIBLE": 6,
+    "INELIGIBLE": 8,
+    "UNRESOLVED": 2
+  },
+  "observed_window_first_verified": 17,
+  "pages": 148,
+  "requests": 150,
+  "run_id": "m2-first-touch-3cycles-20261115-v1",
+  "sample_cohort_counts": [
+    {
+      "cohort": "EXCHANGE_PRICE_ONLY",
+      "complete_windows": 29,
+      "events": 7,
+      "opportunities": 29,
+      "sample": "SYSTEMATIC",
+      "session_counts_json": "{\"RTH\": 5, \"PRE\": 2}",
+      "verified_first_touches": 0,
+      "zero_event_observed": 22
+    },
+    {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "complete_windows": 11,
+      "events": 3,
+      "opportunities": 11,
+      "sample": "SYSTEMATIC",
+      "session_counts_json": "{\"RTH\": 2, \"PRE\": 1}",
+      "verified_first_touches": 0,
+      "zero_event_observed": 8
+    },
+    {
+      "cohort": "EXCHANGE_PRICE_ONLY",
+      "complete_windows": 13,
+      "events": 13,
+      "opportunities": 16,
+      "sample": "DIAGNOSTIC",
+      "session_counts_json": "{\"PRE\": 6, \"AH\": 3, \"RTH\": 4}",
+      "verified_first_touches": 2,
+      "zero_event_observed": 3
+    },
+    {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "complete_windows": 2,
+      "events": 4,
+      "opportunities": 4,
+      "sample": "DIAGNOSTIC",
+      "session_counts_json": "{\"PRE\": 2, \"RTH\": 2}",
+      "verified_first_touches": 0,
+      "zero_event_observed": 0
+    }
+  ],
+  "sec_overlap_events": 4,
+  "security_cycle_opportunities": 48,
+  "selected_securities": 16,
+  "session_counts": {
+    "AH": 3,
+    "PRE": 8,
+    "RTH": 9
+  },
+  "statistics_scope": "FULL_PILOT_SAMPLE_NOT_FULL_UNIVERSE",
+  "statuses": {
+    "DATA_COVERAGE_VALIDATED": false,
+    "ENGINEERING_VALIDATED": true,
+    "PILOT_RESULTS_AVAILABLE": true,
+    "RESEARCH_STATISTICALLY_VALIDATED": false
+  },
+  "verified_first_touches": 2,
+  "window_status_counts": {
+    "HISTORICAL_QUALITY_EXCLUDED": 3,
+    "INCOMPLETE": 3,
+    "PROCESSED": 42
+  }
+}

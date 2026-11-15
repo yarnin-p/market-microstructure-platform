@@ -1,0 +1,50 @@
+{
+  "candidate_counts": {
+    "REJECTED": 1127207,
+    "SUBSEQUENT_CROSSING": 1248
+  },
+  "cycles": [
+    {
+      "complete": 13,
+      "cycle": "2026-05-27",
+      "eligible": 16,
+      "excluded": 0,
+      "incomplete": 3,
+      "selected": 16
+    },
+    {
+      "complete": 15,
+      "cycle": "2026-05-28",
+      "eligible": 15,
+      "excluded": 1,
+      "incomplete": 0,
+      "selected": 16
+    },
+    {
+      "complete": 14,
+      "cycle": "2026-05-29",
+      "eligible": 14,
+      "excluded": 2,
+      "incomplete": 0,
+      "selected": 16
+    }
+  ],
+  "ticks": {
+    "quotes": {
+      "complete": 20,
+      "duplicates": 0,
+      "invalid_ts": 0,
+      "normalized": 7323,
+      "raw": 7323,
+      "windows": 20
+    },
+    "trades": {
+      "complete": 42,
+      "duplicates": 0,
+      "invalid_ts": 0,
+      "normalized": 3134517,
+      "raw": 3134517,
+      "windows": 45
+    }
+  }
+}

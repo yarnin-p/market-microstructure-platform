@@ -1,0 +1,259 @@
+{
+  "artifacts": {
+    "anomalies.json": {
+      "bytes": 17270,
+      "sha256": "e9423f158d3f696382a7d3b717ffdf3c7f6a9dd65fbb4b1498446ebea9b16226"
+    },
+    "audit_examples.json": {
+      "bytes": 31543,
+      "sha256": "a7fcb194decde3c14527c9866dc06d07f4156e4aa1219390ac1196b9f1ec1ce6"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 3027,
+      "sha256": "8052bfe442d20e1518f8cfad0ff808b956bd1ed21034aa7b6f8edc1db9183470"
+    },
+    "cohort_outcomes.json": {
+      "bytes": 47099,
+      "sha256": "156f223df3bb4bdc2072f0266f31a925a82ed4c2410a415b07b4d2eb2f91ff68"
+    },
+    "cycle_metrics.parquet": {
+      "bytes": 1509,
+      "sha256": "06fe140ad2d6afcb04a7590de3c35d7a39d2fcd1e070ae53f0c42626b06503f2"
+    },
+    "data_quality.json": {
+      "bytes": 1837,
+      "sha256": "27c10745ea06d0324210b5e59dd97835e780ff98c95c622a9d4e78ec5342a295"
+    },
+    "distributions.parquet": {
+      "bytes": 3531,
+      "sha256": "a9b7e4f712d77ff44861903141df7da1024e3fc912015f45fcf0333b588119e4"
+    },
+    "event_results.parquet": {
+      "bytes": 25304,
+      "sha256": "d3571d91700231944f6907c867a292e4d68a39b388a2d64a1fd6a7e75f2ba750"
+    },
+    "execution-counts.json": {
+      "bytes": 895,
+      "sha256": "eafda1402a8fef32b37efcb0fa1fdb8ba20d4a01d82e54e3a0c9a5b088c8ed36"
+    },
+    "report.md": {
+      "bytes": 5104,
+      "sha256": "90dfea648221c9e984d4c56d806d3bfb6138851ac2016deb11745e3a8dccc21e"
+    },
+    "resume-validation.json": {
+      "bytes": 442,
+      "sha256": "1536dcd5e538c6125cfccb5d3c60e65c62651b8327e6a61418735abcf39016d1"
+    },
+    "statistical_results.json": {
+      "bytes": 3069,
+      "sha256": "c4cc532355c683a0cf6e33098870922616aaa3d5c2ac78b8c7fec54f39d001e1"
+    },
+    "statistical_tests.json": {
+      "bytes": 3069,
+      "sha256": "c4cc532355c683a0cf6e33098870922616aaa3d5c2ac78b8c7fec54f39d001e1"
+    },
+    "summary.json": {
+      "bytes": 2088,
+      "sha256": "21df8068de08d4dd4840f45a23ec0bbe5a2714cbf957d848f243dcff173d437c"
+    },
+    "validation.json": {
+      "bytes": 1239,
+      "sha256": "9bf1433b2bcb5a590edf8bc59f50ff15165ef95e1dada0bf24b31cea276d679c"
+    },
+    "verified-audit-examples.json": {
+      "bytes": 30422,
+      "sha256": "f6a5d0e3d45efbde721db24db6df6be70acf2508dd6bc6be5f85e2eae9a889f0"
+    }
+  },
+  "config": {
+    "barriers": [
+      [
+        "0.03",
+        "0.03"
+      ],
+      [
+        "0.05",
+        "0.03"
+      ],
+      [
+        "0.10",
+        "0.05"
+      ]
+    ],
+    "confirmation_models": false,
+    "cycles": [
+      "2026-05-27",
+      "2026-05-28",
+      "2026-05-29"
+    ],
+    "diagnostic_securities": 6,
+    "float_max": 15000000,
+    "float_min": 100000,
+    "float_policy": "float-proxy-v0.2",
+    "forward_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "holdout_access": false,
+    "intertrade_gap_seconds": 300,
+    "max_decoded_bytes": 1073741824,
+    "max_mark_age_seconds": 60,
+    "max_page_bytes": 33554432,
+    "max_pages": 280,
+    "max_participant_lag_seconds": 10,
+    "max_quote_age_seconds": 5,
+    "max_quote_windows": 48,
+    "max_requests": 300,
+    "max_window_pages": 12,
+    "policy_version": "m2-first-touch-pilot-v1",
+    "quote_page_limit": 10000,
+    "quote_radius_seconds": 60,
+    "replay_policy": "sip-first-touch-v1",
+    "seed": 20261115,
+    "selection": "systematic: seeded random sample from first-cycle non-float M1 quality gates; diagnostic: first pilot day aggregate high/P0 descending, independent of tick continuation outcomes; disjoint samples",
+    "source_m1_run": "m1-universe-120-20261115-v2",
+    "systematic_securities": 10,
+    "trade_page_limit": 50000,
+    "trigger_multiplier": "1.10"
+  },
+  "full_evidence_root": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1",
+  "policy_hash": "9a98a72c17ee90a3f12f06452d044062935d517ac901907d5315f0f1af6d0b5f",
+  "run_id": "m2-first-touch-3cycles-20261115-v1",
+  "selection": [
+    {
+      "m1_record_id": "5314afce4b607851052d866649a9c112c95a1f9e8fd80623c80053a87feb45e0",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG002D1DZR7",
+      "selection_p0": "0.411000000000",
+      "selection_score": null,
+      "ticker": "SILO"
+    },
+    {
+      "m1_record_id": "30be6a5b9358707d88ea3bd243ab43173f378aa6c214cb29e9d186891827e7f8",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG001S5ZQG2",
+      "selection_p0": "2.790000000000",
+      "selection_score": null,
+      "ticker": "NEXM"
+    },
+    {
+      "m1_record_id": "6202e9ee1e4490bb73c3513d266d0c8272c2d06dc51be6b0baacc6c1dbe2c058",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG00S90Q1N2",
+      "selection_p0": "0.290000000000",
+      "selection_score": null,
+      "ticker": "DBGI"
+    },
+    {
+      "m1_record_id": "a4b907fd1bfd65bb63b8d6268361a2c8efc27fc914599b5dc5f64917bea2d143",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG01ZPFWWC1",
+      "selection_p0": "2.580000000000",
+      "selection_score": null,
+      "ticker": "PLYX"
+    },
+    {
+      "m1_record_id": "1543fe16533a6b7cf6e647d229f08a328aaf6cf0840d5e545bd5d9dd5034df37",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG01J7XRSC3",
+      "selection_p0": "0.261700000000",
+      "selection_score": null,
+      "ticker": "HCWC"
+    },
+    {
+      "m1_record_id": "03bf8505961567fd4ead118f33ae66f4870dfa21a2b86060e7cb04f8668ba549",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG013GDWXJ8",
+      "selection_p0": "0.692100000000",
+      "selection_score": null,
+      "ticker": "TNON"
+    },
+    {
+      "m1_record_id": "1e07864d656b17c0d2532a8aea751535febaff1c9ae6ed9b1cdceeaf125bb68f",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG001SJV0D6",
+      "selection_p0": "0.755000000000",
+      "selection_score": null,
+      "ticker": "DYAI"
+    },
+    {
+      "m1_record_id": "380cf577d257c108e3584f323f295d8ed57bb4fce6e8e8ba7ca125f1ce84de09",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG007NJLS48",
+      "selection_p0": "2.090000000000",
+      "selection_score": null,
+      "ticker": "VERI"
+    },
+    {
+      "m1_record_id": "5e2415ad71dd1efe4248a56ff87ae95282383f7351f5c3fbb8283eb09763c51b",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG001SL7YQ0",
+      "selection_p0": "0.462600000000",
+      "selection_score": null,
+      "ticker": "CTSO"
+    },
+    {
+      "m1_record_id": "eca680564500e1bc2951036590d79271891df6daf9fa017bea6746ea519f7d0b",
+      "sample": "SYSTEMATIC",
+      "security_id": "BBG01W287KW1",
+      "selection_p0": "2.720000000000",
+      "selection_score": null,
+      "ticker": "PEW"
+    },
+    {
+      "m1_record_id": "9301c8d4ed273286eec32f6b5384a0f9da529b173d5d4b28e88e3c7f7d4430ce",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001S8LVC4",
+      "selection_p0": "2.470000000000",
+      "selection_score": "7.995951417004048582995951417",
+      "ticker": "ASTC"
+    },
+    {
+      "m1_record_id": "bba4fb39c35f9cae07cc7ad327bd607bb497731926970d033ebaa6e0427edf06",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001S90FP6",
+      "selection_p0": "0.249800000000",
+      "selection_score": "2.722177742193755004003202562",
+      "ticker": "BRTX"
+    },
+    {
+      "m1_record_id": "08488263431d69f35ec7ddda9a32e20be15ee31f5b306815bef583ff16a8565e",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001SB9J29",
+      "selection_p0": "0.232700000000",
+      "selection_score": "2.578427159432746024924795875",
+      "ticker": "AIM"
+    },
+    {
+      "m1_record_id": "8647150eba243fcceb508810beba4411401171f7d31a05f5d558ea23b4fbfbc4",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG001SBZ0D9",
+      "selection_p0": "0.513000000000",
+      "selection_score": "2.202729044834307992202729045",
+      "ticker": "SNGX"
+    },
+    {
+      "m1_record_id": "3167bb450ff6f75f4026315ddbdd96c288d592e1a7f5f06c18c7c3d436a6d8a8",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG00H0HZ8T7",
+      "selection_p0": "0.708300000000",
+      "selection_score": "2.188338274742340816038401807",
+      "ticker": "HOTH"
+    },
+    {
+      "m1_record_id": "a0adc82ca6bae4f759cefd7c4980c430efc8f1931403660b81658b85d834619a",
+      "sample": "DIAGNOSTIC",
+      "security_id": "BBG01P7MQM19",
+      "selection_p0": "1.060000000000",
+      "selection_score": "1.698113207547169811320754717",
+      "ticker": "TOPP"
+    }
+  ],
+  "statistics_scope": "FULL_PILOT_SAMPLE",
+  "storage_bytes": {
+    "compact_uncompressed": 185106,
+    "run": 1046949198
+  }
+}

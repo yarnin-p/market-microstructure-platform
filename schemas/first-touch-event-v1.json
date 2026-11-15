@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "format": "Parquet",
+  "compression": "ZSTD",
+  "fields": {
+    "event_id": "string",
+    "run_id": "string",
+    "security_id": "string",
+    "cycle_id": "string",
+    "ticker": "string",
+    "sample": "string",
+    "session": "string",
+    "payload_json": "full lossless event JSON: event_timestamp int64 UTC ns; prices decimal strings; source_json raw path/hash/row; cohorts; float_proxy; sec_evidence; quality flags"
+  }
+}

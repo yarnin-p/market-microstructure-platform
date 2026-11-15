@@ -1,0 +1,13 @@
+{
+  "version": "float-proxy-v0.2",
+  "cohorts": ["MASSIVE_CURRENT_FLOAT_PROXY", "EXCHANGE_PRICE_ONLY"],
+  "endpoint": "/stocks/vX/float",
+  "field": "free_float",
+  "units": "freely_tradable_shares",
+  "range_inclusive": [100000, 15000000],
+  "identity_match": "historical security ID must match current share-class or composite FIGI before attaching a ticker-keyed float",
+  "historical_truth": false,
+  "missing_or_identity_mismatch": "UNRESOLVED",
+  "SEC": "independent evidence only; never forward-filled or used to replace current proxy eligibility",
+  "risks": ["survivorship", "float changes", "dilution", "reverse splits", "share-class and ticker changes", "historical misclassification"]
+}

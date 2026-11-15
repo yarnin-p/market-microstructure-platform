@@ -1,0 +1,132 @@
+{
+  "barriers": {
+    "DIAGNOSTIC": {
+      "0.03/0.03": {
+        "CENSORED": 5,
+        "DOWNSIDE_FIRST": 4,
+        "UPSIDE_FIRST": 4
+      },
+      "0.05/0.03": {
+        "CENSORED": 5,
+        "DOWNSIDE_FIRST": 4,
+        "UPSIDE_FIRST": 4
+      },
+      "0.10/0.05": {
+        "CENSORED": 5,
+        "DOWNSIDE_FIRST": 6,
+        "UPSIDE_FIRST": 2
+      }
+    },
+    "SYSTEMATIC": {
+      "0.03/0.03": {
+        "DOWNSIDE_FIRST": 2,
+        "UPSIDE_FIRST": 5
+      },
+      "0.05/0.03": {
+        "CENSORED": 1,
+        "DOWNSIDE_FIRST": 3,
+        "UPSIDE_FIRST": 3
+      },
+      "0.10/0.05": {
+        "CENSORED": 3,
+        "DOWNSIDE_FIRST": 1,
+        "UPSIDE_FIRST": 3
+      }
+    }
+  },
+  "confidence_intervals": {
+    "reason": "Tiny clustered selected sample and diagnostic selection bias",
+    "status": "NOT_ESTIMATED"
+  },
+  "forward": {
+    "DIAGNOSTIC": {
+      "15m": {
+        "censored": 4,
+        "max": 0.07171945701357466,
+        "mean": -0.029197925483767415,
+        "min": -0.11309297912713473,
+        "n": 9
+      },
+      "30m": {
+        "censored": 5,
+        "max": 0.1584705882352941,
+        "mean": -0.004747284233064693,
+        "min": -0.14,
+        "n": 8
+      },
+      "5m": {
+        "censored": 6,
+        "max": 0.05880102040816326,
+        "mean": 0.003987727117228495,
+        "min": -0.026923076923076925,
+        "n": 7
+      },
+      "60m": {
+        "censored": 5,
+        "max": 0.2525294117647059,
+        "mean": 0.06304919474067136,
+        "min": -0.03481178567683758,
+        "n": 8
+      },
+      "cycle_end": {
+        "censored": 8,
+        "max": 0.596875,
+        "mean": 0.21170532808326464,
+        "min": -0.1064516129032258,
+        "n": 5
+      },
+      "session_end": {
+        "censored": 5,
+        "max": 0.16,
+        "mean": 0.010367368995659291,
+        "min": -0.1064516129032258,
+        "n": 8
+      }
+    },
+    "SYSTEMATIC": {
+      "15m": {
+        "censored": 3,
+        "max": 0.05565978736710444,
+        "mean": 0.0020148771065842184,
+        "min": -0.03090030518819939,
+        "n": 4
+      },
+      "30m": {
+        "censored": 3,
+        "max": 0.04409005628517824,
+        "mean": -0.012619551880900859,
+        "min": -0.0645958348040946,
+        "n": 4
+      },
+      "5m": {
+        "censored": 2,
+        "max": 0.10193871169480925,
+        "mean": 0.001336912752483763,
+        "min": -0.1039426523297491,
+        "n": 5
+      },
+      "60m": {
+        "censored": 3,
+        "max": 0.054409005628517824,
+        "mean": -0.02477385005802613,
+        "min": -0.10589481115425343,
+        "n": 4
+      },
+      "cycle_end": {
+        "censored": 4,
+        "max": 0.26897435897435895,
+        "mean": 0.06988391379745885,
+        "min": -0.169078715142958,
+        "n": 3
+      },
+      "session_end": {
+        "censored": 3,
+        "max": 0.26897435897435895,
+        "mean": 0.0592777530938884,
+        "min": -0.10577715025297094,
+        "n": 4
+      }
+    }
+  },
+  "scope": "Descriptive, full selected pilot population only; no significance or profitability claim"
+}

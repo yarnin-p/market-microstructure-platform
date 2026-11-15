@@ -1,0 +1,14 @@
+{
+  "version": "sip-first-touch-v1",
+  "clock": "sip_timestamp_utc_ns",
+  "tie_break": ["sip_timestamp", "sequence_number", "exchange", "trade_id", "raw_record_hash"],
+  "primary_events": "one per security-cycle, shared across cohort memberships",
+  "trade_rules": "all price-bearing conditions must permit high/low and open/close; regular empty/0 allowed; condition 12 allowed only AH/PRE; explicit stale/out-of-sequence/administrative conditions rejected",
+  "correction_rules": "7/8 original rows remain observable before later 11/10 notices; restore original fields for 1 from matching later 12 if uniquely reconstructable; otherwise unresolved. Notices are not new price signals. Later invalidation never erases an observed event.",
+  "first_touch_scope": "first eligible observed provider-window touch; full-cycle overnight completeness is never asserted",
+  "forward_clock": "wall clock; last eligible mark at/before target; no interpolation; stale/missing/gap marks censored",
+  "excursions": "observed eligible prices from touch through cycle end, including zero at touch; retain gap/censoring flags",
+  "barrier_horizon": "cycle end; gaps before first passage censor ordering; both barriers at same SIP timestamp are ambiguous",
+  "performance": "gross observed price movement, not executable entry or trading P&L",
+  "statistics": "descriptive pilot only, samples separate; repeated security/cycle observations are not independent trials"
+}

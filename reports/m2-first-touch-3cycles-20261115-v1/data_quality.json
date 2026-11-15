@@ -1,0 +1,71 @@
+{
+  "api_errors": [
+    {
+      "bytes": 0,
+      "http_status": 404,
+      "path": "/v3/reference/tickers/HCWC",
+      "request_hash": "e3cb81bca3aa44baad44de134b3f6f999f8098e35da18fc70f730b5418ed8bab",
+      "started_at": "2026-11-15T04:04:03.042464+00:00",
+      "status": "HTTP_404"
+    },
+    {
+      "bytes": 0,
+      "http_status": 404,
+      "path": "/v3/reference/tickers/HOTH",
+      "request_hash": "812ddde8638850b9e2db3959d1a065fab5d903163bcda5e04e4e52a4a287191d",
+      "started_at": "2026-11-15T04:04:11.158660+00:00",
+      "status": "HTTP_404"
+    }
+  ],
+  "context_errors": [
+    {
+      "error": "HTTP_404",
+      "stage": "float",
+      "ticker": "HCWC"
+    },
+    {
+      "error": "HTTP_404",
+      "stage": "float",
+      "ticker": "HOTH"
+    }
+  ],
+  "halt_history": "NOT_CERTIFIED; long trade gaps censored; bounded NBBO halt indicators retained",
+  "incomplete_windows": [
+    {
+      "cycle": "2026-05-27",
+      "error": "WINDOW_PAGE_BUDGET",
+      "ticker": "ASTC"
+    },
+    {
+      "cycle": "2026-05-27",
+      "error": "WINDOW_PAGE_BUDGET",
+      "ticker": "BRTX"
+    },
+    {
+      "cycle": "2026-05-27",
+      "error": "WINDOW_PAGE_BUDGET",
+      "ticker": "SNGX"
+    }
+  ],
+  "integrity": {
+    "holdout_accessed": false,
+    "m1_unchanged": true
+  },
+  "quote_scope": "EVENT_PLUS_MINUS_60_SECONDS_ONLY",
+  "rejected_trades": {
+    "CORRECTION_OR_CANCEL_NOTICE": 3,
+    "DELAYED_PRINT": 35755,
+    "FORM_T_OUTSIDE_EXTENDED_SESSION": 34,
+    "INVALID_PRICE_OR_SIZE": 36,
+    "NON_PRICE_FORMING_CONDITION": 1269103,
+    "OUTSIDE_OBSERVED_SESSION": 9,
+    "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE": 4022,
+    "PARTICIPANT_AFTER_SIP": 7
+  },
+  "unobserved_interval": "20:00-04:00 America/New_York",
+  "window_status_counts": {
+    "HISTORICAL_QUALITY_EXCLUDED": 3,
+    "INCOMPLETE": 3,
+    "PROCESSED": 42
+  }
+}

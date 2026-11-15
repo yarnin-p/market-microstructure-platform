@@ -1,0 +1,404 @@
+{
+  "crossing_candidates_path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/candidates/candidates.parquet",
+  "events": [
+    {
+      "event_id": "26dfbbc88022d59d7658e4d2d667d71b3b736ac76b5a2406c31066a63e15c3bb",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 1969,
+        "ask": "0.3198",
+        "bid": "0.3166",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779892639865141046,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/fba1edd45e1e400858b0635a9ef7e751e50d210d3d3c971cedcb685a5b0ed4d5.json\", \"sha256\": \"81d290d567953c43737951726643579127683ead8147d9da7946bb4d27e0a036\", \"row\": 36}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "60c08dba59844dbebaed06c7d8a65ba78589e92169ca2388e938746346a6c08f",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 2004542772,
+        "ask": "0.279",
+        "bid": "0.2669",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1779888598161216331,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/58d28df4c84ab2453dba6b8805a3895bdbdf41d40827bad5bbd901f1e72d8416.json\", \"sha256\": \"d517496f60e91b8329a3331e5977aa2c542024050d34099b78113df5c0c0b9a6\", \"row\": 0}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "9bc4b8386c55816d78101b7dcc487461a634091f4c9605ff47c78b3d15fb4f00",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED",
+        "INCOMPLETE_TRADE_PAGINATION"
+      ],
+      "quote": {
+        "age_ns": 3496744913,
+        "ask": "3.47",
+        "bid": "2.47",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779875113509905525,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e0133eea353653c0f68aa973916add0452043525a597de88ff9d71022ec2c10b.json\", \"sha256\": \"9056753c5b07f23e40a8e843df35e7934f1baa383bb89fcd28a315dc6bfa34cf\", \"row\": 37}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "d18655517dd3e667cde6769c10c5f41931ce5454c3d1985d409d97ea1bbabee0",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED",
+        "INCOMPLETE_TRADE_PAGINATION"
+      ],
+      "quote": {
+        "age_ns": 1864,
+        "ask": "0.2798",
+        "bid": "0.2703",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779882300299741964,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/7def997f3b1b76de635098971d9002dcd5e1a69e8bc6c4832aa91cb43e707f04.json\", \"sha256\": \"ec4535b66af36b60996172c05bc8be1b4627cd361ef002a1fc488efc476c1b17\", \"row\": 33}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "c619ad227cf0dce16b0423e3424da8aec25122e1cccf5edb4d5b1f5df148f5a0",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 6907404,
+        "ask": "0.256",
+        "bid": "0.2536",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1779887816560139980,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/2c9f4da65144b2dedac100f037dc52c4c71b58f2f8f8c1163c7cddf04a75a8e9.json\", \"sha256\": \"b89665d2faee8c1dce3866ce81ea1574965648575d27e439d46d05bb88fa1ed6\", \"row\": 74}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "21bdbe507f6834242423faa5d4b416261d0670ef4859e877e1936fbfe98c8825",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED",
+        "INCOMPLETE_TRADE_PAGINATION"
+      ],
+      "quote": {
+        "age_ns": 58129299,
+        "ask": "0.5656",
+        "bid": "0.565",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779825857095275628,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/e13b04d311f658681f628a49f413afdcb821eeb1715236f935cfe6e10128f6f7.json\", \"sha256\": \"26279445ae38b024f71e11981358e783a2e4ecaacbe829e46c1858429a80bc82\", \"row\": 89}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "c64271df9f7f1153dae7dec24be2fad06862876be5844cf5d1c5f5c96a15df72",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 3357596,
+        "ask": "0.785",
+        "bid": "0.7746",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779883964275903488,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/617902eddbed652703b17a1fdfd8d10fcf7f4960c9655a9224d784ab2902c800.json\", \"sha256\": \"4679cac4f2a71b19f8818c7cbd1111c923b999f37a315c99c8a3c4f835de64ee\", \"row\": 98}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "6252dbf28cf6598c43ee5fd050a7947ab2defc4c289475d60218b28f0fab19b8",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 80,
+        "ask": "1.19",
+        "bid": "1.11",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1779890646945469414,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/de9a0800bbfd3402b63c54a9b7077b0b312ffcd24dbd0e65e2bbeec92d4cfb6c.json\", \"sha256\": \"953565b0cba5a79536bbb2eb79c0bea4636197f558f83b1f018d0790c95d9485\", \"row\": 9}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "a1e36e355d4e665fb5220d9d48c49abf4fa5577c840e428883819e1e32856dc6",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 917135,
+        "ask": "0.39",
+        "bid": "0.3844",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779982313477191435,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/c40480fdc985ad704b8dfb7bf2de6adccad3c5150d5516547d4cc10e48d642e3.json\", \"sha256\": \"8ac51920c71888113baedbdb1d997dcf9dd8e2e091e9ef0507fb8f37f2fc3145\", \"row\": 50}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "f6b91613d29e46921d081991e2be2ef73c38dd8e458307f6fa0c749a01783da3",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 5255169506,
+        "ask": "2.8",
+        "bid": "2.6",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "STALE_NBBO"
+        ],
+        "sip_timestamp": 1779971485161518345,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/ca97a965b893b9bbf72ff81a81380fb4b80835a9add7ced2b936c073465b3f82.json\", \"sha256\": \"7cdb0cb3d09fcc5209290258d93a6c47560e8ba3c43fe3526f628aae5a796c2e\", \"row\": 25}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "24453fcefe954df5e9616dec858d7c66b87bfada32cde90c8ea87e9ad768249d",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 4433098344,
+        "ask": "0.88",
+        "bid": "0.7162",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779967500095478864,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/1568f07f53244034763556ceca2cadd60ef69df2e04d91ab3cb5dcdc68b72f12.json\", \"sha256\": \"280dbe7f5677554ca41b533326ef3e2695cd866d7e4702fb0133bb22329e6eec\", \"row\": 7}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "d43698d5b69a1bd2fdf4ae1f78461005651022bc119b14e22260f4e4bea431dc",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 107584,
+        "ask": "0.4762",
+        "bid": "0.4715",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779975128478266228,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/f756e46b007ba70458980d7c7670aaa64eda3a1f252e124b3b7dc36bb419124a.json\", \"sha256\": \"3ffd9b42b140e138949e8e63c2562a078992bc35659cca4648eef0d4e2e6561c\", \"row\": 407}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "d5bde42f040b0686a6f7123c5991aeda505f478cfeebf10536a6913aecb32c38",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 18045,
+        "ask": "0.442",
+        "bid": "0.4409",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1779980857643172052,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/bcd51b184205a63cd647582fbf2a7e7ad7e66eb7b60659995eef13096eed5928.json\", \"sha256\": \"5df9e97988c5fdfe10fb1cedd9f123a9cb2c9e4990d6dc519eea1acf4640db5d\", \"row\": 508}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "ee7d8b79516cf3776daf04afa96c05c2d715335fd4821f87ed50b87cbffabdf2",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 3356917,
+        "ask": "0.9537",
+        "bid": "0.9519",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779917676225669069,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/88432c21789f5e86373ddb617894d0060f464f0c21cc10b95f36ef68795ec9a1.json\", \"sha256\": \"c49037478bf8d47117c9701b059af079105d0d7779a00096d4c748462b913908\", \"row\": 241}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "2ce81f9c6a84080fc646f7cb5de5b84dda3fe7596839f81bb7c17f20786ad2d7",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 5239561,
+        "ask": "1.49",
+        "bid": "1.48",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1779912264357868340,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/754ed83712bc58906d0b3a47c7fabe422a5c15d2c2cd35783ac00f37512e546c.json\", \"sha256\": \"6b9d2bc15bab01579ac49ec67a04e74b5d9d606bfe4b5575dafdb2d5ba5b93ce\", \"row\": 532}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "aa5bc9871b41727fdb44bd6eb71afe9ae9ad37708b2747cc2525740899e34cab",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 14252,
+        "ask": "1.7",
+        "bid": "1.65",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1779974214178350410,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/9ad914cdb2070742608272d04db79bb042324216152cf021d74ee99e4fd61652.json\", \"sha256\": \"a6f7eb8cb9d20a8295d8800bbac1846f374a193bde065ebc181a7ead6fba9b84\", \"row\": 6}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "c0888b55191e1d0f293c03f184cb621b4ef85d0f1be31c78a0b47dc1377e1338",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 9231,
+        "ask": "0.3162",
+        "bid": "0.31",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1780071511238815393,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/dd63dcdab24068b2127608381cccf47bd149acc56d4793a04f136b2aad7a708a.json\", \"sha256\": \"3b6d2573622e302eb3608f56739b9eb00310501c9be383f27ff70a6b4bc560e8\", \"row\": 1}",
+        "status": "FLAGGED"
+      }
+    },
+    {
+      "event_id": "284f2d6db4b3755052285274d864b50b54eb52b1ca42b3929aef8c846ec69c9d",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 297196,
+        "ask": "0.79",
+        "bid": "0.7828",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1780066858536215678,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/daf6bc266885a89e77c963890bdda957f6552861737b719cc887eb6b9c7ca41c.json\", \"sha256\": \"70669c768e99bed3cdb5f6cc7b8ecf5efd323b90239f2330bdd5da6d77aa7c88\", \"row\": 9}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "ebcd67262b5b6fa136e1b1bacb1323e50264a6528cec4a652513e8243a1e6544",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 37996,
+        "ask": "0.527",
+        "bid": "0.5239",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [],
+        "sip_timestamp": 1780064823165545601,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/5075a49e3bc6533314f573a648d4ac0e9ff1f2908603b2aab2a10c00459ee321.json\", \"sha256\": \"a9cb8fbf86dcc0d50ce84b5923e85ec61c55e8fef54a6dc1460c60799eff66aa\", \"row\": 43}",
+        "status": "OK"
+      }
+    },
+    {
+      "event_id": "6b7574b214d3d5a085e1b0176b5352cc10c6ec84cb00361dfdabbccdad2c4ecb",
+      "flags": [
+        "UNOBSERVED_OVERNIGHT",
+        "RETROSPECTIVE_P0",
+        "HALT_HISTORY_NOT_CERTIFIED"
+      ],
+      "quote": {
+        "age_ns": 442433,
+        "ask": "3.05",
+        "bid": "3.02",
+        "coverage_complete": true,
+        "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+        "flags": [
+          "NON_REGULAR_QUOTE_CONDITION"
+        ],
+        "sip_timestamp": 1780048598356099787,
+        "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-first-touch-3cycles-20261115-v1/raw/pages/622d8bddd7383d1f35da4e4a0fa5915d81dfe0bdb0c88f32468ccfce05667389.json\", \"sha256\": \"ea0ce6ddd7caf9e8e49e1df1a917f50a39fcef696885580cb93be8958b53fb62\", \"row\": 2}",
+        "status": "FLAGGED"
+      }
+    }
+  ]
+}

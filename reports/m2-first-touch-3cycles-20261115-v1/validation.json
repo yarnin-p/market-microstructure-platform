@@ -1,0 +1,9 @@
+{
+  "code_hashes_match": true,
+  "events_replayed": 20,
+  "m1_unchanged": true,
+  "raw_event_price_and_quote_checks": 20,
+  "raw_pages_hash_checked": 148,
+  "status": "PASS",
+  "tests": "........................................................................ [ 53%]\n...............................................................          [100%]\n=============================== warnings summary ===============================\ntests/test_bundle.py: 12 warnings\ntests/test_m1_integrity.py: 28 warnings\ntests/test_universe.py: 44 warnings\n  /Users/yarnin/Documents/yarnin-p/market-microstructure-platform/.venv/lib/python3.13/site-packages/pandas/core/series.py:848: Pandas4Warning: Series.values returning an ndarray that drops timezone information for DatetimeTZDtype is deprecated. In a future version, this will return the underlying DatetimeArray instead. Use 'Series.dt.tz_convert(None).to_numpy()' to get a NumPy array of UTC values, or 'Series.array' to get the ExtensionArray.\n  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#whatsnew-310-deprecations-values for more details.\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n135 passed, 84 warnings in 2.35s\n"
+}

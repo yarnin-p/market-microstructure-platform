@@ -11,3 +11,5 @@ data/
 *.tmp
 research/runs/*/research_bundle.zip
 reports/live-smoke/
+
+reports/*/research_bundle.zip

@@ -112,3 +112,27 @@ Full population counts span every stored partition. Query `--limit` bounds only 
 Consolidated ZIP export is **optional** under the approved master plan. Use `build --export-bundle` or `export --run-id RUN` when required. Existing export format remains available; empty event tables explicitly mean `NOT_IMPLEMENTED`, not zero market events. Earlier v1 outputs are preserved; the current validator targets v2 runs.
 
 See [M1 implementation evidence](docs/M1_IMPLEMENTATION.md), [approved decision](docs/decisions/2026-11-15-m1-authorization.md), [implementation plan](docs/plans/task-001-m1-v0.1/README.md), and [original master specification](docs/specs/master-research-engineering-plan-v0.1.md).
+
+## M2 bounded historical tick pilot
+
+M2 adds a separate exploratory current-float cohort, full selected-window trade ingestion,
+bounded event NBBO windows, SIP replay, first-touch observations and censored continuation
+outcomes. Strict M1 data and eligibility remain unchanged. See
+[TASK 002 policy and limits](docs/plans/TASK-002-tick-replay.md).
+
+```sh
+.venv/bin/python -m market_lab.m2_pilot select --run-id NEW_M2_RUN
+.venv/bin/python -m market_lab.m2_pilot run --run-id NEW_M2_RUN --env-file /path/to/local/.env
+.venv/bin/python scripts/validate_m2_pilot.py NEW_M2_RUN
+.venv/bin/python scripts/m2_query.py --run-id NEW_M2_RUN --kind events --session AH
+.venv/bin/python scripts/m2_query.py --run-id NEW_M2_RUN --kind trades --ticker SYMBOL --cycle-id 2026-05-27 --limit 100 --output data/extracts/new-extract.json
+```
+
+New immutable run IDs are mandatory when research code or frozen policies change.
+Resume an unchanged run using the same `run` command; `--offline` reuses verified cached
+pages without network. Evidence is in `data/runs/RUN`; compact reports and a local
+`research_bundle.zip` are in `reports/RUN`. Parquet/ZIP/raw ticks are excluded from Git.
+Queries support run, cycle, security, ticker, event and session filters. Focused extracts
+report total matching counts and explicit truncation; underlying evidence is never truncated.
+DuckDB queries cap memory at 256 MB; pilot ingestion is page-budgeted, not a TB-scale
+throughput benchmark. Research MCP integration remains deferred.
