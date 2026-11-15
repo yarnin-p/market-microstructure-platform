@@ -1,0 +1,21 @@
+{
+  "complete_quote_windows": 52,
+  "empty_quote_windows": 8,
+  "first_touch_quote_statuses": {
+    "FLAGGED": 10,
+    "MISSING": 8,
+    "OK": 12
+  },
+  "float_proxy_statuses": {
+    "ELIGIBLE": 120,
+    "INELIGIBLE": 105,
+    "UNRESOLVED": 15
+  },
+  "historical_float": "UNRESOLVED; current float retrospective only",
+  "incomplete": [],
+  "quote_rows": 4237,
+  "quote_scope": "Bounded +/-60 seconds around first touches; not exhaustive execution coverage",
+  "quote_windows": 52,
+  "sec_evidence_separate": true,
+  "unverified_touch_candidates": 0
+}

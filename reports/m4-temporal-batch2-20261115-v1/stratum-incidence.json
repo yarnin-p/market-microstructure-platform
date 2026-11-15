@@ -1,0 +1,32 @@
+{
+  "OTHER_EXCHANGE_PRICE_ELIGIBLE": {
+    "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+    "complete_denominator": 120,
+    "date_clusters": 10,
+    "estimated_finite_population_denominator": 30131.666666666668,
+    "incomplete": 0,
+    "kish_effective_n": 101.25412520417593,
+    "observed_events": 15,
+    "security_clusters": 109,
+    "selected_denominator": 120,
+    "two_stage_taylor_se": 0.03720567721281289,
+    "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+    "weight_sum": 30131.666666666668,
+    "weighted_incidence": 0.1264459686192083
+  },
+  "PROXY_FLOAT_IN_RANGE": {
+    "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+    "complete_denominator": 120,
+    "date_clusters": 10,
+    "estimated_finite_population_denominator": 21214.666666666664,
+    "incomplete": 0,
+    "kish_effective_n": 100.8349400983255,
+    "observed_events": 15,
+    "security_clusters": 110,
+    "selected_denominator": 120,
+    "two_stage_taylor_se": 0.024222623043811113,
+    "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+    "weight_sum": 21214.666666666668,
+    "weighted_incidence": 0.1269941654620493
+  }
+}

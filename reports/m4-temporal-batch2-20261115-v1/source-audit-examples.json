@@ -1,0 +1,323 @@
+[
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY",
+      "MASSIVE_CURRENT_FLOAT_PROXY"
+    ],
+    "condition_policy": "HIGH_LOW_ONLY",
+    "conditions_json": "[]",
+    "cycle_id": "2026-06-16",
+    "date_inclusion_probability": 0.14285714285714285,
+    "event_id": "2bfe195958afca505ec9a8b69bf096bab3b6b50eeb530c9b1920ca23f066efd6",
+    "event_timestamp": 1781625759097093940,
+    "first_touch_definition": "OBSERVED_SESSIONS_FIRST",
+    "first_touch_status": "OBSERVED_SESSIONS_FIRST_VERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "effective_date": "2026-10-23",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG01QK923R1",
+      "identity_source": {
+        "bytes": 294225,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/0851ef14b8a09c64e50bb9f81757b3952fdba1442bb7817e83cc4d1c90482774.json",
+        "provider_request_id": "cc30211d492a9f97a6d1067fa556ead4",
+        "request": {
+          "params": {
+            "cursor": "YWN0aXZlPXRydWUmYXA9JTVCJTIyQ0FQUyUyMiUyQyUyMjIwMjYtMTEtMTMlMjIlNUQmYXM9JTVCJTIyQ0FQUzAwMDA4ODcxNTElMjIlNUQmbGltaXQ9MTAwMCZtYXJrZXQ9c3RvY2tzJm9yZGVyPWFzYyZzb3J0PXRpY2tlcg"
+          },
+          "url": "https://api.massive.com/v3/reference/tickers"
+        },
+        "retrieved_at": "2026-11-15T08:57:56.642322+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "83dd65884de2d4c3f1752c8960c3cd9dae0db4926ab74e96bf7b384bd568d502",
+        "transport": "REST"
+      },
+      "is_verified_pit": false,
+      "original_ticker": "CJMB",
+      "reason": "CURRENT_FLOAT_RETROSPECTIVE_PROXY",
+      "resolved_security_id": "BBG01QK923R1",
+      "resolved_ticker": "CJMB",
+      "retrieved_at": "2026-11-15T08:58:02.118696+00:00",
+      "source": {
+        "bytes": 480619,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/a542eaf73295b863a958ac523b7939a7fadde2a40669dbb6d88da7e79a1b104d.json",
+        "provider_request_id": "fef9edb09b474eebbcabafc05964771e",
+        "request": {
+          "params": {
+            "limit": 5000,
+            "sort": "ticker.asc"
+          },
+          "url": "https://api.massive.com/stocks/vX/float"
+        },
+        "retrieved_at": "2026-11-15T08:58:02.118696+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "3ca63fea8a4b0656dbdfe3f39c9eb3067d87f48416ce27c388a8a62e6e139796",
+        "transport": "REST"
+      },
+      "status": "ELIGIBLE",
+      "value": 7032865
+    },
+    "joint_inclusion_probability": 0.005752636625119846,
+    "joint_sampling_weight": 173.83333333333334,
+    "later_invalidated": false,
+    "methodology_version": "task-002-1-observed-sessions-v2",
+    "month": "2026-06",
+    "observed_sessions_first_verified": true,
+    "overnight_coverage": "UNOBSERVED_NOT_PROOF_OF_CLOSURE",
+    "overnight_interval_ns": [
+      1781568000000000000,
+      1781596800000000000
+    ],
+    "population_N": 298,
+    "prefix_first_verified": false,
+    "previous_rth_close": "0.702000000000",
+    "prior_evidence_unknown": false,
+    "quote": {
+      "age_ns": 816924,
+      "ask": "0.777",
+      "bid": "0.7669",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1781625759096277016,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m4-temporal-batch2-20261115-v1/raw/pages/ab73761be50f14cf5d35ada59b23aff622974ced92796d3b67532df9cb6c2649.json\", \"sha256\": \"ddc94ce15fa0539cbf4a013d9306a4236a5ad197a862849f3591bc02ce3b34e5\", \"row\": 9}",
+      "status": "OK",
+      "trade_discarded_for_nbbo_relation": false,
+      "trade_relation": "WITHIN_NBBO",
+      "used_for_trigger": false
+    },
+    "record_id": "c627ea24ff44768600671f6dc9562a42a0cbb00b75ba27c67fd33a0e1b83eefa",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m4-temporal-batch2-20261115-v1",
+    "sample": "SYSTEMATIC",
+    "sample_n": 12,
+    "sampling_weight": 24.833333333333332,
+    "sec_evidence": null,
+    "security_id": "BBG01QK923R1",
+    "selection_probability": 0.040268456375838924,
+    "session": "RTH",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m4-temporal-batch2-20261115-v1/raw/pages/70076669c0ad4fb7687123249c03e1d5bc4d0fc01df08c2c7d110784ec29857b.json\", \"sha256\": \"ca23a8ad412271c9474210481ef2138152c63329983a8618c63e918e864413c2\", \"row\": 315}",
+    "stratum": "PROXY_FLOAT_IN_RANGE",
+    "strict_full_cycle_first_verified": false,
+    "strict_full_cycle_opportunity_eligible": false,
+    "threshold_price": "0.77220000000000",
+    "ticker": "CJMB",
+    "touch_price": "0.777",
+    "trade_exchange": 11,
+    "trade_size": "1321.0"
+  },
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY"
+    ],
+    "condition_policy": "HIGH_LOW_ONLY",
+    "conditions_json": "[12]",
+    "cycle_id": "2026-06-12",
+    "date_inclusion_probability": 0.14285714285714285,
+    "event_id": "dabc6fac3e17613b9d4e846f120576511a943530c11902af2f8eb406fd7e2970",
+    "event_timestamp": 1781208668322195928,
+    "first_touch_definition": "OBSERVED_SESSIONS_FIRST",
+    "first_touch_status": "OBSERVED_SESSIONS_FIRST_VERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "effective_date": "2026-10-02",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG001S8GYP0",
+      "identity_source": {
+        "bytes": 293352,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/5853ae9800c0ac61a19fc627e347ea1ea2a91100638a7318f1e4fd5427725bb8.json",
+        "provider_request_id": "d946ca2c729cf5325fed7f23ce5b3083",
+        "request": {
+          "params": {
+            "cursor": "YWN0aXZlPXRydWUmYXA9JTVCJTIyU1FGVFclMjIlMkMlMjIyMDI2LTExLTEzJTIyJTVEJmFzPSU1QiUyMlNRRlRXMDAwMTA4MDY1NyUyMiU1RCZsaW1pdD0xMDAwJm1hcmtldD1zdG9ja3Mmb3JkZXI9YXNjJnNvcnQ9dGlja2Vy"
+          },
+          "url": "https://api.massive.com/v3/reference/tickers"
+        },
+        "retrieved_at": "2026-11-15T08:58:00.537456+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "f20fc0a3e688abecf874a0817ac63fa43f6e6ff3df0460715f27d5e833ee93dd",
+        "transport": "REST"
+      },
+      "is_verified_pit": false,
+      "original_ticker": "STKE",
+      "reason": "CURRENT_FLOAT_RETROSPECTIVE_PROXY",
+      "resolved_security_id": "BBG001S8GYP0",
+      "resolved_ticker": "STKE",
+      "retrieved_at": "2026-11-15T08:58:02.531699+00:00",
+      "source": {
+        "bytes": 192204,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/0102063452e345c9a65ed7d14ee3144c88bb473c03fba81d3ac1d0659253d9eb.json",
+        "provider_request_id": "9cc5c1ed3abb4377b29269d258b61cc4",
+        "request": {
+          "params": {
+            "cursor": "AAIAAAECAAEB-4gTAAIBDwJQTQEJ-2Sh"
+          },
+          "url": "https://api.massive.com/stocks/vX/float"
+        },
+        "retrieved_at": "2026-11-15T08:58:02.531699+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "4841514da4d3aff3168658b9a5e086000ff9ed21441eaf69d30b267c59d7e7b6",
+        "transport": "REST"
+      },
+      "status": "INELIGIBLE",
+      "value": 21911384
+    },
+    "joint_inclusion_probability": 0.003835091083413231,
+    "joint_sampling_weight": 260.75,
+    "later_invalidated": false,
+    "methodology_version": "task-002-1-observed-sessions-v2",
+    "month": "2026-06",
+    "observed_sessions_first_verified": true,
+    "overnight_coverage": "UNOBSERVED_NOT_PROOF_OF_CLOSURE",
+    "overnight_interval_ns": [
+      1781222400000000000,
+      1781251200000000000
+    ],
+    "population_N": 447,
+    "prefix_first_verified": true,
+    "previous_rth_close": "1.210000000000",
+    "prior_evidence_unknown": false,
+    "quote": {
+      "coverage_complete": true,
+      "status": "MISSING",
+      "trade_discarded_for_nbbo_relation": false,
+      "trade_relation": "NBBO_UNAVAILABLE_OR_INVALID",
+      "used_for_trigger": false
+    },
+    "record_id": "8c1d8b896b6182871ce72eeec8ca3eb5e242e29664ded280980d8218df7c1592",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m4-temporal-batch2-20261115-v1",
+    "sample": "SYSTEMATIC",
+    "sample_n": 12,
+    "sampling_weight": 37.25,
+    "sec_evidence": null,
+    "security_id": "BBG001S8GYP0",
+    "selection_probability": 0.026845637583892617,
+    "session": "AH",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m4-temporal-batch2-20261115-v1/raw/pages/3aebdd11f15c38eacb448f9bb06dc34ffca97e821a8d317cfa2fb530e863fd1d.json\", \"sha256\": \"3705828efa8a3ec6eb92109da02c64af2a81a82666d69e1cd039033cab4d1f57\", \"row\": 46}",
+    "stratum": "OTHER_EXCHANGE_PRICE_ELIGIBLE",
+    "strict_full_cycle_first_verified": false,
+    "strict_full_cycle_opportunity_eligible": false,
+    "threshold_price": "1.33100000000000",
+    "ticker": "STKE",
+    "touch_price": "1.5",
+    "trade_exchange": 17,
+    "trade_size": "100.0"
+  },
+  {
+    "cohorts": [
+      "EXCHANGE_PRICE_ONLY"
+    ],
+    "condition_policy": "HIGH_LOW_ONLY",
+    "conditions_json": "[12]",
+    "cycle_id": "2026-09-08",
+    "date_inclusion_probability": 0.15384615384615385,
+    "event_id": "390d8b66100476e0a872dcaddfc70747477b918e09a3743d130cfd82d16b427b",
+    "event_timestamp": 1788552588452724581,
+    "first_touch_definition": "OBSERVED_SESSIONS_FIRST",
+    "first_touch_status": "OBSERVED_SESSIONS_FIRST_VERIFIED",
+    "float_proxy": {
+      "cohort": "MASSIVE_CURRENT_FLOAT_PROXY",
+      "effective_date": "2026-08-14",
+      "endpoint": "/stocks/vX/float",
+      "field": "free_float",
+      "historical_security_id": "BBG00Z6F0ML0",
+      "identity_source": {
+        "bytes": 292157,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/0e242ed32db67d65cc74a951d72ce4853e0c8f4b8bc078c1e466d4dc0128ba6b.json",
+        "provider_request_id": "e77ca14161dea892be4f2e21daf75675",
+        "request": {
+          "params": {
+            "active": "true",
+            "limit": 1000,
+            "market": "stocks",
+            "order": "asc",
+            "sort": "ticker"
+          },
+          "url": "https://api.massive.com/v3/reference/tickers"
+        },
+        "retrieved_at": "2026-11-15T08:57:55.787310+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "859fc8cf530e0106580c4a6de54d148cbe64cbe3de57b0ec14cd971b7a789025",
+        "transport": "REST"
+      },
+      "is_verified_pit": false,
+      "original_ticker": "ALTI",
+      "reason": "CURRENT_FLOAT_RETROSPECTIVE_PROXY",
+      "resolved_security_id": "BBG00Z6F0ML0",
+      "resolved_ticker": "ALTI",
+      "retrieved_at": "2026-11-15T08:58:02.118696+00:00",
+      "source": {
+        "bytes": 480619,
+        "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m2-systematic-10cycles-20261115-v1/raw/pages/a542eaf73295b863a958ac523b7939a7fadde2a40669dbb6d88da7e79a1b104d.json",
+        "provider_request_id": "fef9edb09b474eebbcabafc05964771e",
+        "request": {
+          "params": {
+            "limit": 5000,
+            "sort": "ticker.asc"
+          },
+          "url": "https://api.massive.com/stocks/vX/float"
+        },
+        "retrieved_at": "2026-11-15T08:58:02.118696+00:00",
+        "sanitized_access_tokens": false,
+        "sha256": "3ca63fea8a4b0656dbdfe3f39c9eb3067d87f48416ce27c388a8a62e6e139796",
+        "transport": "REST"
+      },
+      "status": "INELIGIBLE",
+      "value": 54071234
+    },
+    "joint_inclusion_probability": 0.004395604395604396,
+    "joint_sampling_weight": 227.5,
+    "later_invalidated": false,
+    "methodology_version": "task-002-1-observed-sessions-v2",
+    "month": "2026-09",
+    "observed_sessions_first_verified": true,
+    "overnight_coverage": "UNOBSERVED_NOT_PROOF_OF_CLOSURE",
+    "overnight_interval_ns": [
+      1788566400000000000,
+      1788854400000000000
+    ],
+    "population_N": 420,
+    "prefix_first_verified": true,
+    "previous_rth_close": "3.000000000000",
+    "prior_evidence_unknown": false,
+    "quote": {
+      "age_ns": 1723625794,
+      "ask": "3.3",
+      "bid": "3.15",
+      "coverage_complete": true,
+      "coverage_scope": "BOUNDED_EVENT_WINDOW_ONLY",
+      "flags": [],
+      "sip_timestamp": 1788552586729098787,
+      "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m4-temporal-batch2-20261115-v1/raw/pages/1c6113113e4e2c7c663334fac4dcb8f1a18621c2636312a45598b0f18ec67307.json\", \"sha256\": \"fb2bf069d2227ba43baef27ef75d5095b3cd5961fdb8f1298dc96afd66ab8328\", \"row\": 7}",
+      "status": "OK",
+      "trade_discarded_for_nbbo_relation": false,
+      "trade_relation": "WITHIN_NBBO",
+      "used_for_trigger": false
+    },
+    "record_id": "03bd828472009a910abf9d8b279ba86d47d3fc44c3eaf4741c8c397c3d2942cc",
+    "restoration_source": null,
+    "restoration_status": "AS_RECORDED",
+    "run_id": "m4-temporal-batch2-20261115-v1",
+    "sample": "SYSTEMATIC",
+    "sample_n": 12,
+    "sampling_weight": 35.0,
+    "sec_evidence": null,
+    "security_id": "BBG00Z6F0ML0",
+    "selection_probability": 0.02857142857142857,
+    "session": "AH",
+    "source_json": "{\"path\": \"/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/m4-temporal-batch2-20261115-v1/raw/pages/b53f87a21a2f9781a1a2c54ddd5eedbf03d76e4a5c60baac55a9330b15a06623.json\", \"sha256\": \"41db3d4f959928ed44046f89d60a47559408810137d327645e76a95b680e60cd\", \"row\": 51}",
+    "stratum": "OTHER_EXCHANGE_PRICE_ELIGIBLE",
+    "strict_full_cycle_first_verified": false,
+    "strict_full_cycle_opportunity_eligible": false,
+    "threshold_price": "3.30000000000000",
+    "ticker": "ALTI",
+    "touch_price": "3.3",
+    "trade_exchange": 4,
+    "trade_size": "979.0"
+  }
+]

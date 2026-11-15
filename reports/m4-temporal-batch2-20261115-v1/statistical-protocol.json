@@ -1,0 +1,82 @@
+{
+  "analysis_weights": "Separate derived weights N_month / observed planned dates in month times original security sampling_weight. Batch2 allocation 3/2/2/3; cumulative20 allocation5/5/5/5. No source fields overwritten.",
+  "batch3": "NOT_ACQUIRED_NOT_ANALYZED",
+  "batch_positions": [
+    11,
+    20
+  ],
+  "budget": {
+    "analysis_wall_seconds": 5400,
+    "baseline_commit": "4f3fb66",
+    "batch_cycles": 10,
+    "batch_index": 2,
+    "bootstrap_replicates": 500,
+    "bootstrap_seed": 202611150041,
+    "condition_policies": [
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "connect_timeout_seconds": 5,
+    "development_run": "m2-systematic-10cycles-20261115-v2",
+    "gap_sensitivities_seconds": [
+      null,
+      300,
+      900
+    ],
+    "holdout_access": false,
+    "master_seed": 202611150004,
+    "max_decoded_bytes": 3221225472,
+    "max_page_bytes": 33554432,
+    "max_pages": 1150,
+    "max_quote_windows": 160,
+    "max_requests": 1200,
+    "max_storage_bytes": 10737418240,
+    "max_window_pages": 96,
+    "minimum_request_spacing_seconds": 0.1,
+    "per_stratum": 12,
+    "plan_cycles": 30,
+    "quote_page_limit": 10000,
+    "quote_radius_seconds": 60,
+    "read_timeout_seconds": 30,
+    "reference_snapshot": "FROZEN_DEVELOPMENT_CURRENT_FLOAT_SNAPSHOT_NOT_HISTORICAL_PIT",
+    "run_id": "m4-temporal-batch2-20261115-v1",
+    "source_m1_run": "m1-universe-120-20261115-v2",
+    "source_temporal_run": "m4-temporal-10cycles-20261115-v1",
+    "strata": [
+      "PROXY_FLOAT_IN_RANGE",
+      "OTHER_EXCHANGE_PRICE_ELIGIBLE"
+    ],
+    "threshold_optimization": false,
+    "total_wall_seconds": 1800,
+    "trade_page_limit": 50000
+  },
+  "dates": [
+    "2026-06-12",
+    "2026-09-08",
+    "2026-06-16",
+    "2026-07-09",
+    "2026-08-27",
+    "2026-09-15",
+    "2026-06-15",
+    "2026-07-01",
+    "2026-08-31",
+    "2026-09-03"
+  ],
+  "development": "Separate descriptive comparison; never pooled into temporal inference",
+  "estimands": [
+    "first-touch incidence",
+    "incidence by float stratum",
+    "conditional forward continuation",
+    "first-passage outcome buckets",
+    "confirmation incidence on initial risk set",
+    "paired common-landmark differences versus C0",
+    "censoring and missingness"
+  ],
+  "frozen_before_acquisition": true,
+  "holdout": "UNTOUCHED",
+  "missingness": "Retain all selected opportunities and initial events; conditional means report observed denominators; unknown never a zero.",
+  "original_weights": "Preserved byte-for-value in selected records; original probabilities describe batch 1 allocation.",
+  "source_selection_path": "data/runs/m4-temporal-10cycles-20261115-v1/selection.json",
+  "source_selection_sha256": "7ac27180f7d2b9cc0681d78691e2910d8b23b5a6755deab1454af6ca88a79bef",
+  "uncertainty": "Two-stage finite-population Taylor incidence SE with full response only; date/security crossed cluster score sensitivity for other estimands; month-stratified date and globally repeated-security bootstrap for incidence. No iid event intervals, calibrated CI or significance claims."
+}

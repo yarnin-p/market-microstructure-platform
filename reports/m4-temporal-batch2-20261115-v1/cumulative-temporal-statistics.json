@@ -1,0 +1,72 @@
+{
+  "cluster_sensitivity": {
+    "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+    "confidence_interval": null,
+    "date_clusters": 20,
+    "intersection_clusters": 480,
+    "n": 480,
+    "ratio": 0.11938162176333607,
+    "security_clusters": 369,
+    "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+    "two_way_se": 0.015954521925312107,
+    "two_way_variance": 0.00025454676986526477
+  },
+  "incidence": {
+    "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+    "complete_denominator": 480,
+    "date_clusters": 20,
+    "estimated_finite_population_denominator": 51874.399999999994,
+    "incomplete": 0,
+    "kish_effective_n": 443.34808796291816,
+    "observed_events": 61,
+    "security_clusters": 369,
+    "selected_denominator": 480,
+    "two_stage_taylor_se": 0.01491570162830099,
+    "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+    "weight_sum": 51874.4,
+    "weighted_incidence": 0.11938162176333607
+  },
+  "month_date_crossed_security_resampling": {
+    "limitations": "20 sampled date clusters; repeated securities reweighted globally. Illustrative month-stratified crossed-cluster range, not calibrated two-stage CI; serial dependence unresolved.",
+    "median": 0.11823801319759777,
+    "p025": 0.07505544258178712,
+    "p975": 0.17124505152962838,
+    "replicates": 500,
+    "seed": 202611150041,
+    "status": "ILLUSTRATIVE_CROSSED_CLUSTER_RESAMPLING_RANGE_NOT_CALIBRATED_CI"
+  },
+  "significance_claim": false,
+  "strata": {
+    "OTHER_EXCHANGE_PRICE_ELIGIBLE": {
+      "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+      "complete_denominator": 240,
+      "date_clusters": 20,
+      "estimated_finite_population_denominator": 30374.799999999996,
+      "incomplete": 0,
+      "kish_effective_n": 228.45769183106296,
+      "observed_events": 22,
+      "security_clusters": 192,
+      "selected_denominator": 240,
+      "two_stage_taylor_se": 0.01792266533676019,
+      "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+      "weight_sum": 30374.8,
+      "weighted_incidence": 0.08924283726422343
+    },
+    "PROXY_FLOAT_IN_RANGE": {
+      "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+      "complete_denominator": 240,
+      "date_clusters": 20,
+      "estimated_finite_population_denominator": 21499.600000000006,
+      "incomplete": 0,
+      "kish_effective_n": 227.57661574594493,
+      "observed_events": 39,
+      "security_clusters": 177,
+      "selected_denominator": 240,
+      "two_stage_taylor_se": 0.023904033311420995,
+      "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+      "weight_sum": 21499.600000000002,
+      "weighted_incidence": 0.16196192797385375
+    }
+  },
+  "weight_definition": "Derived batch-specific month/date inclusion probability; original frozen weights retained in event-level outputs"
+}

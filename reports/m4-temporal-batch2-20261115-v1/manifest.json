@@ -1,0 +1,273 @@
+{
+  "baseline_commit": "4f3fb66",
+  "code_hashes": {
+    "market_lab/__init__.py": "18e5ad7320ce25cc27f1fd2e326e5e3b8e53939d156f6a563d57c7e269faeb2d",
+    "market_lab/api.py": "82e9f6d7d856a3acd7517249db487e9424d556f0a962a593d634ec442f09e8c0",
+    "market_lab/audit.py": "01d8dfb23d0b3614da03dd8f2343bc0efb30c398cce53ea7b8f0e7495e3a8d9c",
+    "market_lab/bundle.py": "64d256c4ce9d48abede275b25c88562e5f6c52e6212e9073c5b648f0d9953c08",
+    "market_lab/calendar.py": "8a5183bcdf66fdc43391c0ab22ac55e418f945742f6e29341d8ae37056d19e9b",
+    "market_lab/cli.py": "6d930b0c94742f2fbe787109c5180e378801cca8014b23499129a38faa8ae616",
+    "market_lab/confirmation.py": "dfcec946522131a2de39e7e4f92bb8204a02a16f7535b349729a0a440f8522ec",
+    "market_lab/confirmation_pilot.py": "9243839123cc64931abafdc1d4e87c643320a6bf6e0f742186f647a318c81f41",
+    "market_lab/confirmation_qa.py": "17338fb17127f9ac10a5c5136a4e9ab378d02615eae58fc70bd88c2edbf9109d",
+    "market_lab/confirmation_qa_run.py": "aba8e909ec5790b7bd09c7848901fd8197a7a4ad83e6d94a81a89390ded12734",
+    "market_lab/corporate_actions.py": "8e7df33285e930555436edc70606b9d70678ecd64ac87420e8c9f06d4c2c0e49",
+    "market_lab/datasets.py": "5a6236e27fae054f05cae0a7ce0dd8ea7ca20c0cbe0bb34f05123e82f7ccb090",
+    "market_lab/eligibility.py": "41a0177ab582a82b2cbb0f1e5f15c75f491160f82ba809236b95168a793b7447",
+    "market_lab/m2_pilot.py": "a5f406f35cc311823741aef71de3bf87102a3e87e573dd9b6025829001fdcfe7",
+    "market_lab/m2_report.py": "2a41781ceed9a71c7862be52a946f5984042efb4e5dad38f303bbdb400a2e9d7",
+    "market_lab/nbbo_probe.py": "142a277f2cfcb399a06fdcd9814e271f58e80813aabc588d2bb1a3207771e9e3",
+    "market_lab/pipeline.py": "3561032ccd881adcd0afa6274791f1554fafefd8fb1c62eb9d8ee814a8408cd0",
+    "market_lab/replay_methodology.py": "25ff1afc6427f7d1fbb1174b9a49210765e41da68e1870e0c7abc01d639575b1",
+    "market_lab/replay_qa.py": "09b4803e714c7ae2906b11cd54359ed978397dc0e2e4e222c1f2f1194f44bb01",
+    "market_lab/results.py": "9d1f9c2103097c34d7ec7e303b77c0c6b81233de586deaafbf26f3b998c82f6f",
+    "market_lab/storage.py": "87b801420a7269a9ed1418f630d560279375a57091fdd13f4953a75401cd64b6",
+    "market_lab/systematic_pilot.py": "357eb1ffec5fad877c83e2f081c7fb98fa4f49538dbb13a6701b3e174e23628b",
+    "market_lab/systematic_report.py": "3ae0c142dc4b539367bed5fb232672c6aac5768d231cb44903dd33854ed21313",
+    "market_lab/temporal_batch.py": "ec5bdf569a93b8f9e6b85e7070bb5dd1da194c2b411036b6e446a948f0fc45b1",
+    "market_lab/temporal_client.py": "be3f286a78de824c3a1306d3af848f2f444cbc0e709ee419832690248a2560d3",
+    "market_lab/temporal_design.py": "3293189f2f6d1831b690199c601ccc769f33332dc5903474cbebc2464c547eab",
+    "market_lab/temporal_pilot.py": "44f7a7d414817a21d381ace70fef2d61727f8fe7f37f06469e5697c804b0fcc1",
+    "market_lab/temporal_statistics.py": "40813b7125306f72da7f611838469419951b7712524f1725ada0250b172421f4",
+    "market_lab/tick_ingest.py": "1d053432d91fe78f09759f501f32ad103ebf097d7c34cdaa7076b93300143362",
+    "market_lab/tick_replay.py": "7370ccf1d0b9f1bd259d70ec8104b49fbfc3326fbd3a8e9fc7759addc2de939d"
+  },
+  "completed_at": "2026-11-15T15:26:29.379051+00:00",
+  "configuration_hash": "028bc9b2623b6b5ec4383f03960c7a53ba5444cbac24ce37e5e9e9e2eaf780ae",
+  "contract_version": "research-bundle-v1",
+  "event_definitions": "Frozen observed-session first touch and unchanged TASK 003.1 policies",
+  "event_population": "Frozen temporal batch 2 only: positions 11-20; development and batch1 reported separately",
+  "execution_status": "COMPLETE",
+  "experiment_id": "m4-temporal-batch2-20261115-v1",
+  "files": {
+    "anomalies.json": {
+      "bytes": 5250,
+      "sha256": "6444f0553f72b39bbbb96e78a2bacc0bcfeb31298d1867ca51b930555041953e"
+    },
+    "cohort_metrics.json": {
+      "bytes": 799399,
+      "sha256": "c36cef3a6c4bb1938ea4ef88fedbaa16ed5aae4d9df9dacfbe019ed50f76b042"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 88545,
+      "sha256": "b1c18d708143cd28fb0fff30059400204e1d22c6e391bb033d4ff7c5101eeaba"
+    },
+    "common-landmark-pairs.json": {
+      "bytes": 2836739,
+      "sha256": "cc602ac82c472d11ee2b259752aedba1eb3bb49c83fcab9432e23aabb144b4fe"
+    },
+    "cumulative-temporal-estimands.json": {
+      "bytes": 122572,
+      "sha256": "da490ad41a7d0018164bfd13cd418333408d23054dbeed6e76e10322ca9ef1a4"
+    },
+    "cumulative-temporal-statistics.json": {
+      "bytes": 3322,
+      "sha256": "f611253894fb447206907a6786171556963e831cb44f0af54987a9b61917c08c"
+    },
+    "cycle_metrics.json": {
+      "bytes": 1687,
+      "sha256": "56590f01126538884ebea483d5fcc9553d1fe365b834ad506caca53e860b1c0e"
+    },
+    "cycle_metrics.parquet": {
+      "bytes": 3162,
+      "sha256": "fe46907de2aa36620feea2567ee25e2df90ce7c99cb2277ca45ba2e1633a9329"
+    },
+    "data_quality.json": {
+      "bytes": 552,
+      "sha256": "267893c1fa5137bf284ae254201ead002109e61868de37dc21e49e43912ffc12"
+    },
+    "design-weighted-policy-metrics.json": {
+      "bytes": 377595,
+      "sha256": "ab342ce94cb2edb7cb0fb152ad379e959da27b5815a72d541f87bb6ac7f9fcf5"
+    },
+    "distributions.parquet": {
+      "bytes": 41109,
+      "sha256": "1932c8a9d6d7149422e9425ef7e1bc5dc847adca4307914ebffad7cdfcd3aa99"
+    },
+    "event-level-results.json": {
+      "bytes": 11347294,
+      "sha256": "83825cf94a4e5481b69691e753ab08a0fe5a78afec75abdfde6fabf9def4a6ab"
+    },
+    "event_results.parquet": {
+      "bytes": 198760,
+      "sha256": "7601bb488d9f76e37d164403325bdc08b2fa4f7753d53460c14db352f017ab25"
+    },
+    "finalization.json": {
+      "bytes": 218,
+      "sha256": "bd41a29d07987301913fca6e62f6c04784f091aa2bf50fb8f9402ebac0ebaa41"
+    },
+    "frozen-selection.json": {
+      "bytes": 1953475,
+      "sha256": "63c46b717dd2b8de1409447f1d8ce81efa367c80c0da6f79f2598e1b1073e2fb"
+    },
+    "independent-validation.json": {
+      "bytes": 392,
+      "sha256": "11a033bffc03333d25dffbf299d7c442c4b322b988f862b03559a836a32207f5"
+    },
+    "methodology.md": {
+      "bytes": 2211,
+      "sha256": "e575dd8684f33c32aed8d5722c4c954827b051d2de6a0da3a4ec4808bb4bcada"
+    },
+    "odd-lot-sensitivity.json": {
+      "bytes": 75,
+      "sha256": "6c71ed6c42fdaf8240ab59e0958ed98c00ec6be77fbb16ba0fe884bcb4e2e7bb"
+    },
+    "offline-resume-validation.json": {
+      "bytes": 87,
+      "sha256": "1ab657a2ab0a22180ce15fa20d4d994528750371a6e4f66b3a58305521e0fc70"
+    },
+    "original-weight-stratum-incidence.json": {
+      "bytes": 1019,
+      "sha256": "08578b5f54eb764d5424db124d31cea9ea4baea389801fe3ab50c59fb70c486f"
+    },
+    "original-weight-warning.json": {
+      "bytes": 297,
+      "sha256": "870c00c087cdbf53ef972c1793d0d23ca9c3ea961d25351b2fe5b206dc2ecf78"
+    },
+    "remaining-frozen-batch.json": {
+      "bytes": 829117,
+      "sha256": "87daf4b43ee476a53db470edf9bd03b78ad072048affb6242664f3941affb58f"
+    },
+    "report.md": {
+      "bytes": 4674,
+      "sha256": "006e16ea451b0236bd0868a0cc23e7d445d2da6463711ed6688f3d52ccf68e86"
+    },
+    "sec-secondary-overlap.json": {
+      "bytes": 125,
+      "sha256": "47c80ed2bce239528f499727c7681ba1d660f114b5c6c0a7298df9de3c70eca1"
+    },
+    "session-risk-sets.json": {
+      "bytes": 585,
+      "sha256": "0a2bec4b2b93afc94f719025c422f99c2b7bdc2c5934608ebee4a684e94d6856"
+    },
+    "source-audit-examples.json": {
+      "bytes": 14184,
+      "sha256": "89f686b38f408d29d3a580cf8fcdfd107f45a7faa94abf7bab6fb3c320944ca5"
+    },
+    "statistical-preparation.json": {
+      "bytes": 3340,
+      "sha256": "b6811d89aab50a481c50499f9398d16f8bcdd232416e2ea7f098115d29cf457f"
+    },
+    "statistical-protocol.json": {
+      "bytes": 3084,
+      "sha256": "39dd4bbb303fe3a9081efe0a01473b8d21ef2be146f51dafac64235eca0112ef"
+    },
+    "statistical_results.json": {
+      "bytes": 123672,
+      "sha256": "e96f731936a82b2df539537b1fb10bd1080fceeed2d7e2a404118167132aacbb"
+    },
+    "statistical_tests.json": {
+      "bytes": 132,
+      "sha256": "121e2381890b6fbca34525047fb8ee6634d4e28a74b0992713e12f23211b0bfa"
+    },
+    "storage.json": {
+      "bytes": 60,
+      "sha256": "766b7373933914866b731fb1292319c4146b2ede1f55b81e5788afb506e75776"
+    },
+    "stratum-incidence.json": {
+      "bytes": 1446,
+      "sha256": "94efda8fbde5bcc55e9c5e67d39153b70cde6a62ba963191a076362ac11bad4b"
+    },
+    "summary.json": {
+      "bytes": 2877,
+      "sha256": "dffcabbcab9200fc37a36558ed70d45937ea026f8189829222cf56f292d18067"
+    },
+    "temporal-comparison.json": {
+      "bytes": 9724,
+      "sha256": "4577ecfc727a5b640e291f1bea6df46df3321178b5b5361fd841ec8baeb0e405"
+    },
+    "tests.json": {
+      "bytes": 1489,
+      "sha256": "af7f668b8a89c16482f1111873687fa233b9675143c06ecc53963be1b1e79a4c"
+    },
+    "validation.json": {
+      "bytes": 1377,
+      "sha256": "dfecfdadcaa9fb73196f9e9f134381ce6c1d26235ee3c390aded983adc7ce295"
+    }
+  },
+  "outcome_definitions": "Own and common touch-anchored landmarks; all missingness retained",
+  "processed_trading_cycles": [
+    "2026-06-12",
+    "2026-06-15",
+    "2026-06-16",
+    "2026-07-01",
+    "2026-07-09",
+    "2026-08-27",
+    "2026-08-31",
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-15"
+  ],
+  "raw_ticks_included": false,
+  "record_counts": {
+    "cohort_metrics.parquet": 192,
+    "cycle_metrics.parquet": 10,
+    "distributions.parquet": 195,
+    "event_results.parquet": 480
+  },
+  "requested_trading_cycles": [
+    "2026-06-12",
+    "2026-09-08",
+    "2026-06-16",
+    "2026-07-09",
+    "2026-08-27",
+    "2026-09-15",
+    "2026-06-15",
+    "2026-07-01",
+    "2026-08-31",
+    "2026-09-03"
+  ],
+  "research_configuration": {
+    "analysis_wall_seconds": 5400,
+    "baseline_commit": "4f3fb66",
+    "batch_cycles": 10,
+    "batch_index": 2,
+    "bootstrap_replicates": 500,
+    "bootstrap_seed": 202611150041,
+    "condition_policies": [
+      "HIGH_LOW_ONLY",
+      "ODD_LOT_OBSERVATION_SENSITIVITY"
+    ],
+    "connect_timeout_seconds": 5,
+    "development_run": "m2-systematic-10cycles-20261115-v2",
+    "gap_sensitivities_seconds": [
+      null,
+      300,
+      900
+    ],
+    "holdout_access": false,
+    "master_seed": 202611150004,
+    "max_decoded_bytes": 3221225472,
+    "max_page_bytes": 33554432,
+    "max_pages": 1150,
+    "max_quote_windows": 160,
+    "max_requests": 1200,
+    "max_storage_bytes": 10737418240,
+    "max_window_pages": 96,
+    "minimum_request_spacing_seconds": 0.1,
+    "per_stratum": 12,
+    "plan_cycles": 30,
+    "quote_page_limit": 10000,
+    "quote_radius_seconds": 60,
+    "read_timeout_seconds": 30,
+    "reference_snapshot": "FROZEN_DEVELOPMENT_CURRENT_FLOAT_SNAPSHOT_NOT_HISTORICAL_PIT",
+    "run_id": "m4-temporal-batch2-20261115-v1",
+    "source_m1_run": "m1-universe-120-20261115-v2",
+    "source_temporal_run": "m4-temporal-10cycles-20261115-v1",
+    "strata": [
+      "PROXY_FLOAT_IN_RANGE",
+      "OTHER_EXCHANGE_PRICE_ELIGIBLE"
+    ],
+    "threshold_optimization": false,
+    "total_wall_seconds": 1800,
+    "trade_page_limit": 50000
+  },
+  "schema_versions": {
+    "event": "confirmation-qa-v1",
+    "sampling": "temporal-two-stage-v1"
+  },
+  "selection_sha256": "45792a88f24c3d887ed72b8ecc9cff22c8943f6ed28824773249ddc41145c7a2",
+  "size_policy": "Full records, no raw ticks, no truncation",
+  "source_selection_sha256": "7ac27180f7d2b9cc0681d78691e2910d8b23b5a6755deab1454af6ca88a79bef",
+  "timezone": "America/New_York; UTC SIP nanoseconds"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "complete": 120,
+    "events": 15,
+    "selected": 120,
+    "statistics": {
+      "complete_denominator": 120,
+      "date_clusters": 10,
+      "incomplete": 0,
+      "kish_effective_n": 119.81293437940772,
+      "observed_events": 15,
+      "security_clusters": 110,
+      "selected_denominator": 120,
+      "uncertainty_status": "INSUFFICIENT_DATE_STRATUM_RESPONSE",
+      "weight_sum": 20989.5,
+      "weighted_incidence": 0.12697949503852457
+    },
+    "stratum": "PROXY_FLOAT_IN_RANGE"
+  },
+  {
+    "complete": 120,
+    "events": 15,
+    "selected": 120,
+    "statistics": {
+      "complete_denominator": 120,
+      "date_clusters": 10,
+      "incomplete": 0,
+      "kish_effective_n": 119.69121838326788,
+      "observed_events": 15,
+      "security_clusters": 109,
+      "selected_denominator": 120,
+      "uncertainty_status": "INSUFFICIENT_DATE_STRATUM_RESPONSE",
+      "weight_sum": 29885.0,
+      "weighted_incidence": 0.1267999553845296
+    },
+    "stratum": "OTHER_EXCHANGE_PRICE_ELIGIBLE"
+  }
+]

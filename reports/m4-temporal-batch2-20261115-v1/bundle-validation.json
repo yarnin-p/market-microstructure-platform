@@ -1,0 +1,12 @@
+{
+  "bytes": 1216803,
+  "raw_ticks_included": false,
+  "record_counts": {
+    "cohort_metrics.parquet": 192,
+    "cycle_metrics.parquet": 10,
+    "distributions.parquet": 195,
+    "event_results.parquet": 480
+  },
+  "sha256": "4b6639d9ea03eaf80fe31660d25db29e8282f4f0fc51f6fc0540f81e5bc1d22d",
+  "status": "PASS"
+}

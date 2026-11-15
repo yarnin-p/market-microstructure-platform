@@ -1,0 +1,3180 @@
+{
+  "barriers": {
+    "+10/-5": {
+      "counts": {
+        "CENSORED": 2,
+        "DOWNSIDE_FIRST": 20,
+        "NEITHER": 5,
+        "UPSIDE_FIRST": 3
+      },
+      "initial_n": 30,
+      "weighted_outcome_fractions": {
+        "CENSORED": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.041434977578475335,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.03258796699028299,
+            "two_way_variance": 0.001061975592559774
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.06666666666666667,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        },
+        "DOWNSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.6575571215033098,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.04262148659372446,
+            "two_way_variance": 0.001816591119459034
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.6666666666666666,
+            "median": 1.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 1.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        },
+        "NEITHER": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.20651718983557546,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.050808203723173746,
+            "two_way_variance": 0.0025814735655755264
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.16666666666666666,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        },
+        "UPSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.09449071108263932,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.039980851609771474,
+            "two_way_variance": 0.0015984684954425663
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.1,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        }
+      }
+    },
+    "+3/-3": {
+      "counts": {
+        "DOWNSIDE_FIRST": 25,
+        "UPSIDE_FIRST": 5
+      },
+      "initial_n": 30,
+      "weighted_outcome_fractions": {
+        "DOWNSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.8404484304932736,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.07302421613552741,
+            "two_way_variance": 0.0053325361422082215
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.8333333333333334,
+            "median": 1.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 1.0,
+            "p75": 1.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        },
+        "UPSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.15955156950672644,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.07302421613552741,
+            "two_way_variance": 0.0053325361422082215
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.16666666666666666,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        }
+      }
+    },
+    "+5/-3": {
+      "counts": {
+        "DOWNSIDE_FIRST": 25,
+        "UPSIDE_FIRST": 5
+      },
+      "initial_n": 30,
+      "weighted_outcome_fractions": {
+        "DOWNSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.8404484304932736,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.07302421613552741,
+            "two_way_variance": 0.0053325361422082215
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.8333333333333334,
+            "median": 1.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 1.0,
+            "p75": 1.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        },
+        "UPSIDE_FIRST": {
+          "cluster_sensitivity": {
+            "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+            "confidence_interval": null,
+            "date_clusters": 9,
+            "intersection_clusters": 30,
+            "n": 30,
+            "ratio": 0.15955156950672644,
+            "security_clusters": 30,
+            "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+            "two_way_se": 0.07302421613552741,
+            "two_way_variance": 0.0053325361422082215
+          },
+          "distribution": {
+            "max": 1.0,
+            "mean": 0.16666666666666666,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 30,
+            "p25": 0.0,
+            "p75": 0.0
+          },
+          "initial_n": 30,
+          "missing_n": 0,
+          "observed_n": 30,
+          "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+        }
+      }
+    }
+  },
+  "confidence_intervals": null,
+  "confirmation": {
+    "C0_FROZEN": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 14,
+              "n": 14,
+              "ratio": 0.0,
+              "security_clusters": 14,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0,
+              "two_way_variance": 0.0
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "n": 14,
+              "p25": 0.0,
+              "p75": 0.0
+            },
+            "initial_n": 30,
+            "missing_n": 16,
+            "observed_n": 14,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 14,
+              "n": 14,
+              "ratio": -0.0535232253272775,
+              "security_clusters": 14,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.012592502223426625,
+              "two_way_variance": 0.00015857111224700448
+            },
+            "distribution": {
+              "max": 0.024242424242424242,
+              "mean": -0.061054209710999986,
+              "median": -0.0428765630166681,
+              "min": -0.16666666666666666,
+              "n": 14,
+              "p25": -0.12001650346572781,
+              "p75": -0.010506170910795188
+            },
+            "initial_n": 30,
+            "missing_n": 16,
+            "observed_n": 14,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 16,
+            "OBSERVED": 14
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.0,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0,
+              "two_way_variance": 0.0
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "n": 11,
+              "p25": 0.0,
+              "p75": 0.0
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": -0.02174521850716793,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01450409897535181,
+              "two_way_variance": 0.00021036888708680142
+            },
+            "distribution": {
+              "max": 0.07531125396696232,
+              "mean": -0.02804212158697926,
+              "median": -0.011609498680738786,
+              "min": -0.1259016393442623,
+              "n": 11,
+              "p25": -0.08531801117776999,
+              "p75": 0.015736141906873613
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 19,
+            "OBSERVED": 11
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 15,
+              "n": 15,
+              "ratio": 0.0,
+              "security_clusters": 15,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0,
+              "two_way_variance": 0.0
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "n": 15,
+              "p25": 0.0,
+              "p75": 0.0
+            },
+            "initial_n": 30,
+            "missing_n": 15,
+            "observed_n": 15,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 15,
+              "n": 15,
+              "ratio": -0.049240432580082226,
+              "security_clusters": 15,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.013480939295837378,
+              "two_way_variance": 0.0001817357242980524
+            },
+            "distribution": {
+              "max": 0.03278688524590164,
+              "mean": -0.047417482141969974,
+              "median": -0.03238052702099151,
+              "min": -0.16666666666666666,
+              "n": 15,
+              "p25": -0.08050428477257746,
+              "p75": -0.01028561355371014
+            },
+            "initial_n": 30,
+            "missing_n": 15,
+            "observed_n": 15,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 15,
+            "OBSERVED": 15
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 13,
+              "n": 13,
+              "ratio": 0.0,
+              "security_clusters": 13,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0,
+              "two_way_variance": 0.0
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "n": 13,
+              "p25": 0.0,
+              "p75": 0.0
+            },
+            "initial_n": 30,
+            "missing_n": 17,
+            "observed_n": 13,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 13,
+              "n": 13,
+              "ratio": -0.01084032028872672,
+              "security_clusters": 13,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.02284504807991705,
+              "two_way_variance": 0.0005218962217737216
+            },
+            "distribution": {
+              "max": 0.10464643176824803,
+              "mean": -0.02299992566116296,
+              "median": -0.013513513513513514,
+              "min": -0.13377049180327868,
+              "n": 13,
+              "p25": -0.09959803483698079,
+              "p75": 0.02023121387283237
+            },
+            "initial_n": 30,
+            "missing_n": 17,
+            "observed_n": 13,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 17,
+            "OBSERVED": 13
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 1.0,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.0,
+          "two_way_variance": 0.0
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "n": 30,
+          "p25": 1.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 30
+      }
+    },
+    "C1_COUNTED_ORIGINAL": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": 0.008937959088433037,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.005980020414775319,
+              "two_way_variance": 3.576064416112958e-05
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.0083721098553996,
+              "median": 0.00172708270403213,
+              "min": -0.024910771501252496,
+              "n": 12,
+              "p25": -0.006593745941662342,
+              "p75": 0.009179754602948363
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": -0.03515254112010374,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011883001398646733,
+              "two_way_variance": 0.0001412057222402402
+            },
+            "distribution": {
+              "max": 0.019088016967126194,
+              "mean": -0.04220981903976448,
+              "median": -0.03880560413329308,
+              "min": -0.12648221343873517,
+              "n": 12,
+              "p25": -0.07178617780661908,
+              "p75": -0.007760564194462108
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 8,
+            "NOT_YET_CONFIRMED": 4,
+            "OBSERVED": 12,
+            "UNCONFIRMED": 6
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.0008727033950259626,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0034451425023626654,
+              "two_way_variance": 1.1869006861585687e-05
+            },
+            "distribution": {
+              "max": 0.024774774774774785,
+              "mean": -0.0008651151289964372,
+              "median": 5.98116700921969e-05,
+              "min": -0.024863390100394206,
+              "n": 11,
+              "p25": -0.006103567931422107,
+              "p75": 0.003714810011943334
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": -0.020872515112141967,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.013167409918771989,
+              "two_way_variance": 0.00017338068396897493
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.028907236715975695,
+              "median": -0.013888888888888888,
+              "min": -0.12187088274044795,
+              "n": 11,
+              "p25": -0.08536231884057971,
+              "p75": 0.011356459118633604
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 10,
+            "NOT_YET_CONFIRMED": 3,
+            "OBSERVED": 11,
+            "UNCONFIRMED": 6
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": 0.009212856703772658,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.006074028674280558,
+              "two_way_variance": 3.689382433598244e-05
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.009097668976537738,
+              "median": 0.001504341497957343,
+              "min": -0.02566295123987805,
+              "n": 12,
+              "p25": -0.0016511266511266501,
+              "p75": 0.006658426160767595
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": -0.027926586435068436,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011519640249409198,
+              "two_way_variance": 0.00013270211147580838
+            },
+            "distribution": {
+              "max": 0.037549407114624504,
+              "mean": -0.026627895064490578,
+              "median": -0.022550628497968316,
+              "min": -0.0700709682682111,
+              "n": 12,
+              "p25": -0.059157608695652175,
+              "p75": -0.00035135060895989147
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 5,
+            "NOT_YET_CONFIRMED": 7,
+            "OBSERVED": 12,
+            "UNCONFIRMED": 6
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.0018087933390777131,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.004051562622799911,
+              "two_way_variance": 1.64151596864693e-05
+            },
+            "distribution": {
+              "max": 0.027402402402402402,
+              "mean": -2.0420103657109532e-05,
+              "median": 5.897631157135083e-05,
+              "min": -0.023880226032584426,
+              "n": 11,
+              "p25": -0.006030327485972455,
+              "p75": 0.0037643724308189
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.004084427741094497,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.02117446394707279,
+              "two_way_variance": 0.0004483579234458854
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.01474700562850765,
+              "median": 0.002640845070422535,
+              "min": -0.1297760210803689,
+              "n": 11,
+              "p25": -0.08374792703150913,
+              "p75": 0.040286215901403265
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 10,
+            "NOT_YET_CONFIRMED": 3,
+            "OBSERVED": 11,
+            "UNCONFIRMED": 6
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.7853897074524877,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.0346975623638078,
+          "two_way_variance": 0.0012039208339903315
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.8,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 1.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 24,
+        "UNCONFIRMED": 6
+      }
+    },
+    "C1_COUNTED_ORIGINAL_D60": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 8,
+              "n": 8,
+              "ratio": 0.007621305544081023,
+              "security_clusters": 8,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01147001356466407,
+              "two_way_variance": 0.00013156121117357777
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.007903913868631124,
+              "median": 2.8602675753585e-05,
+              "min": -0.024910771501252496,
+              "n": 8,
+              "p25": -0.007984932100812574,
+              "p75": 0.0035501175024061585
+            },
+            "initial_n": 30,
+            "missing_n": 22,
+            "observed_n": 8,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 8,
+              "n": 8,
+              "ratio": -0.025162788433894627,
+              "security_clusters": 8,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.015494474533310282,
+              "two_way_variance": 0.00024007874106340087
+            },
+            "distribution": {
+              "max": 0.019088016967126194,
+              "mean": -0.03849960592371292,
+              "median": -0.024707463439407707,
+              "min": -0.12648221343873517,
+              "n": 8,
+              "p25": -0.07178617780661908,
+              "p75": -0.004766552218414204
+            },
+            "initial_n": 30,
+            "missing_n": 22,
+            "observed_n": 8,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 3,
+            "OBSERVED": 8,
+            "UNCONFIRMED": 19
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.0031699389912350235,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0034015509571043764,
+              "two_way_variance": 1.1570548913777699e-05
+            },
+            "distribution": {
+              "max": 0.004030756603814342,
+              "mean": -0.004977634481418572,
+              "median": 0.0,
+              "min": -0.024863390100394206,
+              "n": 7,
+              "p25": -0.008734741481757333,
+              "p75": 0.0017293375450822615
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.005685689730128124,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0156340957488675,
+              "two_way_variance": 0.0002444249498847569
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.014011092360904202,
+              "median": 0.003053892215568862,
+              "min": -0.12187088274044795,
+              "n": 7,
+              "p25": -0.05183078730904818,
+              "p75": 0.027200459308323016
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 4,
+            "OBSERVED": 7,
+            "UNCONFIRMED": 19
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": 0.009540245504769179,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.012719997743626735,
+              "two_way_variance": 0.00016179834259786923
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.010734502027177592,
+              "median": 5.763973793800753e-05,
+              "min": -0.02566295123987805,
+              "n": 7,
+              "p25": -0.0033089735889173452,
+              "p75": 0.003931142653914414
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.027792541877859307,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01918523125109309,
+              "two_way_variance": 0.00036807309815791903
+            },
+            "distribution": {
+              "max": 0.037549407114624504,
+              "mean": -0.02564784453206392,
+              "median": -0.029783970343857855,
+              "min": -0.0700709682682111,
+              "n": 7,
+              "p25": -0.06260382868267358,
+              "p75": 0.003989138569172098
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 4,
+            "OBSERVED": 7,
+            "UNCONFIRMED": 19
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 4,
+              "intersection_clusters": 6,
+              "n": 6,
+              "ratio": -0.003290957559493257,
+              "security_clusters": 6,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.004587570712769377,
+              "two_way_variance": 2.1045805044659332e-05
+            },
+            "distribution": {
+              "max": 0.0039944707229097876,
+              "mean": -0.0047470945113292145,
+              "median": -0.0026985860279334795,
+              "min": -0.023880226032584426,
+              "n": 6,
+              "p25": -0.006414472472730853,
+              "p75": 0.002665449681938847
+            },
+            "initial_n": 30,
+            "missing_n": 24,
+            "observed_n": 6,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 4,
+              "intersection_clusters": 6,
+              "n": 6,
+              "ratio": 0.006125697562826282,
+              "security_clusters": 6,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.035929352618998246,
+              "two_way_variance": 0.0012909183796203164
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.014379064439397604,
+              "median": 0.003753685147167986,
+              "min": -0.1297760210803689,
+              "n": 6,
+              "p25": -0.09580440062469085,
+              "p75": 0.05028422875990304
+            },
+            "initial_n": 30,
+            "missing_n": 24,
+            "observed_n": 6,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 5,
+            "OBSERVED": 6,
+            "UNCONFIRMED": 19
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.33843262865684387,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.12935030594135452,
+          "two_way_variance": 0.01673150164712201
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.36666666666666664,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 11,
+        "UNCONFIRMED": 19
+      }
+    },
+    "C1_OBSERVED_ACCEPTANCE": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.004950996654237194,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01395569476279027,
+              "two_way_variance": 0.00019476141631217178
+            },
+            "distribution": {
+              "max": 0.09259259259259259,
+              "mean": -0.00151258140353908,
+              "median": -0.006122556883602207,
+              "min": -0.06195413042763148,
+              "n": 10,
+              "p25": -0.010123131043171191,
+              "p75": 0.006234504885518448
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.036936374839562566,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.010539072239314452,
+              "two_way_variance": 0.00011107204366548855
+            },
+            "distribution": {
+              "max": 0.015015015015015015,
+              "mean": -0.04454547366231356,
+              "median": -0.03880560413329308,
+              "min": -0.14091350826044705,
+              "n": 10,
+              "p25": -0.06712132393482115,
+              "p75": -0.012131096613855235
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 7,
+            "NOT_YET_CONFIRMED": 5,
+            "OBSERVED": 10,
+            "UNCONFIRMED": 8
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 9,
+              "n": 9,
+              "ratio": -0.018681289766965557,
+              "security_clusters": 9,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.010244228937530377,
+              "two_way_variance": 0.00010494422652453476
+            },
+            "distribution": {
+              "max": 0.0008700620610204764,
+              "mean": -0.018431693337370356,
+              "median": -0.009146055146055146,
+              "min": -0.06198884418037248,
+              "n": 9,
+              "p25": -0.03389911976031672,
+              "p75": -0.005311253966962318
+            },
+            "initial_n": 30,
+            "missing_n": 21,
+            "observed_n": 9,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 9,
+              "n": 9,
+              "ratio": -0.02327403204269193,
+              "security_clusters": 9,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0118029690798991,
+              "two_way_variance": 0.00013931007910105418
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.02752466120738649,
+              "median": -0.01627027027027027,
+              "min": -0.13637836086815677,
+              "n": 9,
+              "p25": -0.04697986577181208,
+              "p75": 0.006066066066066066
+            },
+            "initial_n": 30,
+            "missing_n": 21,
+            "observed_n": 9,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 9,
+            "NOT_YET_CONFIRMED": 4,
+            "OBSERVED": 9,
+            "UNCONFIRMED": 8
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.004652944795587753,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.013333663055782768,
+              "two_way_variance": 0.00017778657048514625
+            },
+            "distribution": {
+              "max": 0.09259259259259259,
+              "mean": -0.001161924644943954,
+              "median": -0.0030191147963445075,
+              "min": -0.05653382589249971,
+              "n": 10,
+              "p25": -0.010938528279905314,
+              "p75": 0.0
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.03407094074346129,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.022689856493503267,
+              "two_way_variance": 0.0005148295876957723
+            },
+            "distribution": {
+              "max": 0.02040816326530612,
+              "mean": -0.030353712815289258,
+              "median": -0.016147614340671083,
+              "min": -0.12970455759981678,
+              "n": 10,
+              "p25": -0.05797332792819433,
+              "p75": 0.0031639765223771092
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 4,
+            "NOT_YET_CONFIRMED": 8,
+            "OBSERVED": 10,
+            "UNCONFIRMED": 8
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.015817390808503234,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011310414456697794,
+              "two_way_variance": 0.00012792547518227843
+            },
+            "distribution": {
+              "max": 0.013513513513513514,
+              "mean": -0.014969088065774145,
+              "median": -0.006298655811020024,
+              "min": -0.06445847973251853,
+              "n": 10,
+              "p25": -0.027014596182876688,
+              "p75": -0.0016159957117407898
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 10,
+              "n": 10,
+              "ratio": -0.007307862201258079,
+              "security_clusters": 10,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.020085500610498033,
+              "two_way_variance": 0.0004034273347743168
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.019316480291257883,
+              "median": -0.0038552561264218643,
+              "min": -0.14415289925494007,
+              "n": 10,
+              "p25": -0.0686319465832552,
+              "p75": 0.011436073336571151
+            },
+            "initial_n": 30,
+            "missing_n": 20,
+            "observed_n": 10,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 10,
+            "NOT_YET_CONFIRMED": 2,
+            "OBSERVED": 10,
+            "UNCONFIRMED": 8
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.7006662395900064,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.04775013135098922,
+          "two_way_variance": 0.0022800750440367234
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.7333333333333333,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.25,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 22,
+        "UNCONFIRMED": 8
+      }
+    },
+    "C1_OBSERVED_ACCEPTANCE_D60": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.00900336486849162,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.009660714028226982,
+              "two_way_variance": 9.332939553518161e-05
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": -0.013507168098687745,
+              "median": -0.006557784021672557,
+              "min": -0.03396372027439068,
+              "n": 3,
+              "p25": -0.020260752148031618,
+              "p75": -0.0032788920108362783
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.03506749352290039,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.024462591629870335,
+              "two_way_variance": 0.0005984183892498022
+            },
+            "distribution": {
+              "max": -0.010810810810810811,
+              "mean": -0.048040016521665695,
+              "median": -0.0386041160680046,
+              "min": -0.09470512268618166,
+              "n": 3,
+              "p25": -0.06665461937709313,
+              "p75": -0.024707463439407707
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 2,
+            "OBSERVED": 3,
+            "UNCONFIRMED": 25
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.008510066815024907,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.008829046636762906,
+              "two_way_variance": 7.795206451413438e-05
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": -0.013070124575759678,
+              "median": -0.005311253966962318,
+              "min": -0.03389911976031672,
+              "n": 3,
+              "p25": -0.019605186863639518,
+              "p75": -0.002655626983481159
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.013029624840972491,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.03256449673053599,
+              "two_way_variance": 0.0010604464473130894
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.014232434759339621,
+              "median": -0.01627027027027027,
+              "min": -0.0964270340077486,
+              "n": 3,
+              "p25": -0.056348652139009435,
+              "p75": 0.026864864864864866
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 2,
+            "OBSERVED": 3,
+            "UNCONFIRMED": 25
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.009251237392942148,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.00994690406716725,
+              "two_way_variance": 9.89409005214284e-05
+            },
+            "distribution": {
+              "max": 0.0,
+              "mean": -0.013869066871049891,
+              "median": -0.0066179471778346904,
+              "min": -0.03498925343531498,
+              "n": 3,
+              "p25": -0.020803600306574837,
+              "p75": -0.0033089735889173452
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 3,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.014350450672197064,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.023925551204927606,
+              "two_way_variance": 0.0005724320004596128
+            },
+            "distribution": {
+              "max": 0.010810810810810811,
+              "mean": -0.02878097999645118,
+              "median": -0.029783970343857855,
+              "min": -0.0673697804563065,
+              "n": 3,
+              "p25": -0.048576875400082174,
+              "p75": -0.009486579766523524
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 2,
+            "OBSERVED": 3,
+            "UNCONFIRMED": 25
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.015281242949307192,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.012098005299930997,
+              "two_way_variance": 0.0001463617322371585
+            },
+            "distribution": {
+              "max": -0.00545614836743831,
+              "mean": -0.0149162404339606,
+              "median": -0.0067339138411617,
+              "min": -0.03255865909328179,
+              "n": 3,
+              "p25": -0.019646286467221746,
+              "p75": -0.006095031104300005
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 3,
+              "n": 3,
+              "ratio": -0.011270697872878278,
+              "security_clusters": 3,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.08464688289051281,
+              "two_way_variance": 0.00716509478308019
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.015249743473173536,
+              "median": -0.01278281989006775,
+              "min": -0.13215669393026258,
+              "n": 3,
+              "p25": -0.07246975691016516,
+              "p75": 0.04320373175537099
+            },
+            "initial_n": 30,
+            "missing_n": 27,
+            "observed_n": 3,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 2,
+            "OBSERVED": 3,
+            "UNCONFIRMED": 25
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.14671364509929533,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.08333325214286698,
+          "two_way_variance": 0.006944430912706644
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.16666666666666666,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 5,
+        "UNCONFIRMED": 25
+      }
+    },
+    "C1_SESSION_BOUND": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": 0.008937959088433037,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.005980020414775319,
+              "two_way_variance": 3.576064416112958e-05
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.0083721098553996,
+              "median": 0.00172708270403213,
+              "min": -0.024910771501252496,
+              "n": 12,
+              "p25": -0.006593745941662342,
+              "p75": 0.009179754602948363
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": -0.03515254112010374,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011883001398646733,
+              "two_way_variance": 0.0001412057222402402
+            },
+            "distribution": {
+              "max": 0.019088016967126194,
+              "mean": -0.04220981903976448,
+              "median": -0.03880560413329308,
+              "min": -0.12648221343873517,
+              "n": 12,
+              "p25": -0.07178617780661908,
+              "p75": -0.007760564194462108
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 8,
+            "NOT_YET_CONFIRMED": 2,
+            "OBSERVED": 12,
+            "UNCONFIRMED": 8
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.0008727033950259626,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0034451425023626654,
+              "two_way_variance": 1.1869006861585687e-05
+            },
+            "distribution": {
+              "max": 0.024774774774774785,
+              "mean": -0.0008651151289964372,
+              "median": 5.98116700921969e-05,
+              "min": -0.024863390100394206,
+              "n": 11,
+              "p25": -0.006103567931422107,
+              "p75": 0.003714810011943334
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 8,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": -0.020872515112141967,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.013167409918771989,
+              "two_way_variance": 0.00017338068396897493
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.028907236715975695,
+              "median": -0.013888888888888888,
+              "min": -0.12187088274044795,
+              "n": 11,
+              "p25": -0.08536231884057971,
+              "p75": 0.011356459118633604
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 10,
+            "NOT_YET_CONFIRMED": 1,
+            "OBSERVED": 11,
+            "UNCONFIRMED": 8
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": 0.009212856703772658,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.006074028674280558,
+              "two_way_variance": 3.689382433598244e-05
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.009097668976537738,
+              "median": 0.001504341497957343,
+              "min": -0.02566295123987805,
+              "n": 12,
+              "p25": -0.0016511266511266501,
+              "p75": 0.006658426160767595
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 12,
+              "n": 12,
+              "ratio": -0.027926586435068436,
+              "security_clusters": 12,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011519640249409198,
+              "two_way_variance": 0.00013270211147580838
+            },
+            "distribution": {
+              "max": 0.037549407114624504,
+              "mean": -0.026627895064490578,
+              "median": -0.022550628497968316,
+              "min": -0.0700709682682111,
+              "n": 12,
+              "p25": -0.059157608695652175,
+              "p75": -0.00035135060895989147
+            },
+            "initial_n": 30,
+            "missing_n": 18,
+            "observed_n": 12,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 5,
+            "NOT_YET_CONFIRMED": 5,
+            "OBSERVED": 12,
+            "UNCONFIRMED": 8
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.0018087933390777131,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.004051562622799911,
+              "two_way_variance": 1.64151596864693e-05
+            },
+            "distribution": {
+              "max": 0.027402402402402402,
+              "mean": -2.0420103657109532e-05,
+              "median": 5.897631157135083e-05,
+              "min": -0.023880226032584426,
+              "n": 11,
+              "p25": -0.006030327485972455,
+              "p75": 0.0037643724308189
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 11,
+              "n": 11,
+              "ratio": 0.004084427741094497,
+              "security_clusters": 11,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.02117446394707279,
+              "two_way_variance": 0.0004483579234458854
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.01474700562850765,
+              "median": 0.002640845070422535,
+              "min": -0.1297760210803689,
+              "n": 11,
+              "p25": -0.08374792703150913,
+              "p75": 0.040286215901403265
+            },
+            "initial_n": 30,
+            "missing_n": 19,
+            "observed_n": 11,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 10,
+            "NOT_YET_CONFIRMED": 1,
+            "OBSERVED": 11,
+            "UNCONFIRMED": 8
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.6985009609224856,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.04002456922212018,
+          "two_way_variance": 0.00160196614141629
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.7333333333333333,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.25,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 22,
+        "UNCONFIRMED": 8
+      }
+    },
+    "C1_SESSION_BOUND_D60": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 8,
+              "n": 8,
+              "ratio": 0.007621305544081023,
+              "security_clusters": 8,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01147001356466407,
+              "two_way_variance": 0.00013156121117357777
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.007903913868631124,
+              "median": 2.8602675753585e-05,
+              "min": -0.024910771501252496,
+              "n": 8,
+              "p25": -0.007984932100812574,
+              "p75": 0.0035501175024061585
+            },
+            "initial_n": 30,
+            "missing_n": 22,
+            "observed_n": 8,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 7,
+              "intersection_clusters": 8,
+              "n": 8,
+              "ratio": -0.025162788433894627,
+              "security_clusters": 8,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.015494474533310282,
+              "two_way_variance": 0.00024007874106340087
+            },
+            "distribution": {
+              "max": 0.019088016967126194,
+              "mean": -0.03849960592371292,
+              "median": -0.024707463439407707,
+              "min": -0.12648221343873517,
+              "n": 8,
+              "p25": -0.07178617780661908,
+              "p75": -0.004766552218414204
+            },
+            "initial_n": 30,
+            "missing_n": 22,
+            "observed_n": 8,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 3,
+            "OBSERVED": 8,
+            "UNCONFIRMED": 19
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.0031699389912350235,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0034015509571043764,
+              "two_way_variance": 1.1570548913777699e-05
+            },
+            "distribution": {
+              "max": 0.004030756603814342,
+              "mean": -0.004977634481418572,
+              "median": 0.0,
+              "min": -0.024863390100394206,
+              "n": 7,
+              "p25": -0.008734741481757333,
+              "p75": 0.0017293375450822615
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.005685689730128124,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.0156340957488675,
+              "two_way_variance": 0.0002444249498847569
+            },
+            "distribution": {
+              "max": 0.07,
+              "mean": -0.014011092360904202,
+              "median": 0.003053892215568862,
+              "min": -0.12187088274044795,
+              "n": 7,
+              "p25": -0.05183078730904818,
+              "p75": 0.027200459308323016
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 4,
+            "OBSERVED": 7,
+            "UNCONFIRMED": 19
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": 0.009540245504769179,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.012719997743626735,
+              "two_way_variance": 0.00016179834259786923
+            },
+            "distribution": {
+              "max": 0.09950248756218905,
+              "mean": 0.010734502027177592,
+              "median": 5.763973793800753e-05,
+              "min": -0.02566295123987805,
+              "n": 7,
+              "p25": -0.0033089735889173452,
+              "p75": 0.003931142653914414
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 6,
+              "intersection_clusters": 7,
+              "n": 7,
+              "ratio": -0.027792541877859307,
+              "security_clusters": 7,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01918523125109309,
+              "two_way_variance": 0.00036807309815791903
+            },
+            "distribution": {
+              "max": 0.037549407114624504,
+              "mean": -0.02564784453206392,
+              "median": -0.029783970343857855,
+              "min": -0.0700709682682111,
+              "n": 7,
+              "p25": -0.06260382868267358,
+              "p75": 0.003989138569172098
+            },
+            "initial_n": 30,
+            "missing_n": 23,
+            "observed_n": 7,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 4,
+            "OBSERVED": 7,
+            "UNCONFIRMED": 19
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 4,
+              "intersection_clusters": 6,
+              "n": 6,
+              "ratio": -0.003290957559493257,
+              "security_clusters": 6,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.004587570712769377,
+              "two_way_variance": 2.1045805044659332e-05
+            },
+            "distribution": {
+              "max": 0.0039944707229097876,
+              "mean": -0.0047470945113292145,
+              "median": -0.0026985860279334795,
+              "min": -0.023880226032584426,
+              "n": 6,
+              "p25": -0.006414472472730853,
+              "p75": 0.002665449681938847
+            },
+            "initial_n": 30,
+            "missing_n": 24,
+            "observed_n": 6,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 4,
+              "intersection_clusters": 6,
+              "n": 6,
+              "ratio": 0.006125697562826282,
+              "security_clusters": 6,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.035929352618998246,
+              "two_way_variance": 0.0012909183796203164
+            },
+            "distribution": {
+              "max": 0.09919028340080972,
+              "mean": -0.014379064439397604,
+              "median": 0.003753685147167986,
+              "min": -0.1297760210803689,
+              "n": 6,
+              "p25": -0.09580440062469085,
+              "p75": 0.05028422875990304
+            },
+            "initial_n": 30,
+            "missing_n": 24,
+            "observed_n": 6,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 5,
+            "OBSERVED": 6,
+            "UNCONFIRMED": 19
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.33843262865684387,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.12935030594135452,
+          "two_way_variance": 0.01673150164712201
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.36666666666666664,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 11,
+        "UNCONFIRMED": 19
+      }
+    },
+    "C2_FROZEN": {
+      "common_landmarks": {
+        "15": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.024627007963411093,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.010373883206226063,
+              "two_way_variance": 0.00010761745277641915
+            },
+            "distribution": {
+              "max": -0.00707774652437923,
+              "mean": -0.019534008016686765,
+              "median": -0.019534008016686765,
+              "min": -0.0319902695089943,
+              "n": 2,
+              "p25": -0.02576213876284053,
+              "p75": -0.013305877270533
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.03152668539597711,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.021453539759502885,
+              "two_way_variance": 0.00046025436821257117
+            },
+            "distribution": {
+              "max": -0.016299212598425195,
+              "mean": -0.0420591807672977,
+              "median": -0.0420591807672977,
+              "min": -0.0678191489361702,
+              "n": 2,
+              "p25": -0.05493916485173395,
+              "p75": -0.029179196682861445
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 1,
+            "INSUFFICIENT_DATA": 7,
+            "OBSERVED": 2,
+            "UNCONFIRMED": 20
+          }
+        },
+        "30": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.02463565572925682,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.01038695304982247,
+              "two_way_variance": 0.0001078887936592163
+            },
+            "distribution": {
+              "max": -0.007064284334128396,
+              "mean": -0.019536239215908704,
+              "median": -0.019536239215908704,
+              "min": -0.03200819409768901,
+              "n": 2,
+              "p25": -0.02577221665679886,
+              "p75": -0.01330026177501855
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.03166246477925321,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.022421378237219167,
+              "two_way_variance": 0.0005027182020564452
+            },
+            "distribution": {
+              "max": -0.015748031496062992,
+              "mean": -0.042670115038811636,
+              "median": -0.042670115038811636,
+              "min": -0.06959219858156028,
+              "n": 2,
+              "p25": -0.05613115681018596,
+              "p75": -0.02920907326743731
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 1,
+            "INSUFFICIENT_DATA": 7,
+            "OBSERVED": 2,
+            "UNCONFIRMED": 20
+          }
+        },
+        "5": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.022718602618871177,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.009119437236405568,
+              "two_way_variance": 8.316413550874041e-05
+            },
+            "distribution": {
+              "max": -0.007291458794611322,
+              "mean": -0.01824146590585185,
+              "median": -0.01824146590585185,
+              "min": -0.02919147301709238,
+              "n": 2,
+              "p25": -0.023716469461472114,
+              "p75": -0.012766462350231586
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.0838331910849448,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.02610498380811642,
+              "two_way_variance": 0.0006814701796220205
+            },
+            "distribution": {
+              "max": -0.039671985815602835,
+              "mean": -0.07101709527000614,
+              "median": -0.07101709527000614,
+              "min": -0.10236220472440945,
+              "n": 2,
+              "p25": -0.0866896499972078,
+              "p75": -0.05534454054280449
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 1,
+            "INSUFFICIENT_DATA": 7,
+            "OBSERVED": 2,
+            "UNCONFIRMED": 20
+          }
+        },
+        "60": {
+          "paired_difference_vs_c0": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.02545139304601423,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.011034285638133043,
+              "two_way_variance": 0.00012175545954390911
+            },
+            "distribution": {
+              "max": -0.006784943886423464,
+              "mean": -0.0200341722184822,
+              "median": -0.0200341722184822,
+              "min": -0.03328340055054094,
+              "n": 2,
+              "p25": -0.02665878638451157,
+              "p75": -0.013409558052452832
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "return": {
+            "cluster_sensitivity": {
+              "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+              "confidence_interval": null,
+              "date_clusters": 2,
+              "intersection_clusters": 2,
+              "n": 2,
+              "ratio": -0.014913779586879087,
+              "security_clusters": 2,
+              "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+              "two_way_se": 0.05407012666065185,
+              "two_way_variance": 0.002923578597098934
+            },
+            "distribution": {
+              "max": 0.02346456692913386,
+              "mean": -0.0414592058971352,
+              "median": -0.0414592058971352,
+              "min": -0.10638297872340426,
+              "n": 2,
+              "p25": -0.07392109231026972,
+              "p75": -0.008997319484000663
+            },
+            "initial_n": 30,
+            "missing_n": 28,
+            "observed_n": 2,
+            "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+          },
+          "status_counts": {
+            "CENSORED": 1,
+            "INSUFFICIENT_DATA": 7,
+            "OBSERVED": 2,
+            "UNCONFIRMED": 20
+          }
+        }
+      },
+      "confirmation_incidence": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.09832585949177877,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.06236745618434847,
+          "two_way_variance": 0.003889699590906626
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.1,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "status_counts": {
+        "CONFIRMED": 3,
+        "INSUFFICIENT_DATA": 7,
+        "UNCONFIRMED": 20
+      }
+    }
+  },
+  "design_weighted_incidence": {
+    "cluster_sensitivity": {
+      "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+      "confidence_interval": null,
+      "date_clusters": 10,
+      "intersection_clusters": 240,
+      "n": 240,
+      "ratio": 0.12667246606378904,
+      "security_clusters": 219,
+      "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+      "two_way_se": 0.03176323722900734,
+      "two_way_variance": 0.0010089032392661978
+    },
+    "incidence": {
+      "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+      "complete_denominator": 240,
+      "date_clusters": 10,
+      "estimated_finite_population_denominator": 51346.333333333336,
+      "incomplete": 0,
+      "kish_effective_n": 196.30911608276793,
+      "observed_events": 30,
+      "security_clusters": 219,
+      "selected_denominator": 240,
+      "two_stage_taylor_se": 0.029784288539393577,
+      "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+      "weight_sum": 51346.333333333336,
+      "weighted_incidence": 0.12667246606378904
+    },
+    "month_date_crossed_security_resampling": {
+      "limitations": "10 sampled date clusters; repeated securities reweighted globally. Illustrative month-stratified crossed-cluster range, not calibrated two-stage CI; serial dependence unresolved.",
+      "median": 0.12490422089555528,
+      "p025": 0.06093056185529913,
+      "p975": 0.20133341977457905,
+      "replicates": 500,
+      "seed": 202611150041,
+      "status": "ILLUSTRATIVE_CROSSED_CLUSTER_RESAMPLING_RANGE_NOT_CALIBRATED_CI"
+    },
+    "significance_claim": false,
+    "strata": {
+      "OTHER_EXCHANGE_PRICE_ELIGIBLE": {
+        "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+        "complete_denominator": 120,
+        "date_clusters": 10,
+        "estimated_finite_population_denominator": 30131.666666666668,
+        "incomplete": 0,
+        "kish_effective_n": 101.25412520417593,
+        "observed_events": 15,
+        "security_clusters": 109,
+        "selected_denominator": 120,
+        "two_stage_taylor_se": 0.03720567721281289,
+        "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+        "weight_sum": 30131.666666666668,
+        "weighted_incidence": 0.1264459686192083
+      },
+      "PROXY_FLOAT_IN_RANGE": {
+        "assumptions": "Fixed finite-population randomized month/date and security draws; full response required. Actual planned monthly allocation, no iid CI and no stationarity claim.",
+        "complete_denominator": 120,
+        "date_clusters": 10,
+        "estimated_finite_population_denominator": 21214.666666666664,
+        "incomplete": 0,
+        "kish_effective_n": 100.8349400983255,
+        "observed_events": 15,
+        "security_clusters": 110,
+        "selected_denominator": 120,
+        "two_stage_taylor_se": 0.024222623043811113,
+        "uncertainty_status": "EXPLORATORY_TWO_STAGE_DESIGN_LINEARIZATION_NOT_SIGNIFICANCE",
+        "weight_sum": 21214.666666666668,
+        "weighted_incidence": 0.1269941654620493
+      }
+    },
+    "weight_definition": "Derived batch-specific month/date inclusion probability; original frozen weights retained in event-level outputs"
+  },
+  "excursion_censoring": {
+    "cluster_sensitivity": {
+      "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+      "confidence_interval": null,
+      "date_clusters": 9,
+      "intersection_clusters": 30,
+      "n": 30,
+      "ratio": 0.3115396113602391,
+      "security_clusters": 30,
+      "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+      "two_way_se": 0.10496846017157915,
+      "two_way_variance": 0.0110183776307924
+    },
+    "distribution": {
+      "max": 1.0,
+      "mean": 0.4,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 30,
+      "p25": 0.0,
+      "p75": 1.0
+    },
+    "initial_n": 30,
+    "missing_n": 0,
+    "observed_n": 30,
+    "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+  },
+  "first_touch_n": 30,
+  "forward": {
+    "15m": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.5182276318599188,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.09103874375142143,
+          "two_way_variance": 0.008288052863836975
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.5333333333333333,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 14,
+          "n": 14,
+          "ratio": 0.16568120772647085,
+          "security_clusters": 14,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.11131160975055988,
+          "two_way_variance": 0.012390274465260937
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.14285714285714285,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 14,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "initial_n": 30,
+        "missing_n": 16,
+        "observed_n": 14,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 14,
+          "n": 14,
+          "ratio": -0.0535232253272775,
+          "security_clusters": 14,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.012592502223426625,
+          "two_way_variance": 0.00015857111224700448
+        },
+        "distribution": {
+          "max": 0.024242424242424242,
+          "mean": -0.061054209710999986,
+          "median": -0.0428765630166681,
+          "min": -0.16666666666666666,
+          "n": 14,
+          "p25": -0.12001650346572781,
+          "p75": -0.010506170910795188
+        },
+        "initial_n": 30,
+        "missing_n": 16,
+        "observed_n": 14,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    },
+    "30m": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.6157762118300234,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.08252785722200193,
+          "two_way_variance": 0.006810847217655135
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.6333333333333333,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 11,
+          "n": 11,
+          "ratio": 0.3446857701798457,
+          "security_clusters": 11,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.17750122530657372,
+          "two_way_variance": 0.03150668498533505
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.36363636363636365,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 11,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 19,
+        "observed_n": 11,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 11,
+          "n": 11,
+          "ratio": -0.02174521850716793,
+          "security_clusters": 11,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.01450409897535181,
+          "two_way_variance": 0.00021036888708680142
+        },
+        "distribution": {
+          "max": 0.07531125396696232,
+          "mean": -0.02804212158697926,
+          "median": -0.011609498680738786,
+          "min": -0.1259016393442623,
+          "n": 11,
+          "p25": -0.08531801117776999,
+          "p75": 0.015736141906873613
+        },
+        "initial_n": 30,
+        "missing_n": 19,
+        "observed_n": 11,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    },
+    "5m": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.49304292120435617,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.05241416456010773,
+          "two_way_variance": 0.002747244646534053
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.5,
+          "median": 0.5,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 15,
+          "n": 15,
+          "ratio": 0.1558329963606955,
+          "security_clusters": 15,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.1111318063349586,
+          "two_way_variance": 0.012350278379270746
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.13333333333333333,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 15,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "initial_n": 30,
+        "missing_n": 15,
+        "observed_n": 15,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 15,
+          "n": 15,
+          "ratio": -0.049240432580082226,
+          "security_clusters": 15,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.013480939295837378,
+          "two_way_variance": 0.0001817357242980524
+        },
+        "distribution": {
+          "max": 0.03278688524590164,
+          "mean": -0.047417482141969974,
+          "median": -0.03238052702099151,
+          "min": -0.16666666666666666,
+          "n": 15,
+          "p25": -0.08050428477257746,
+          "p75": -0.01028561355371014
+        },
+        "initial_n": 30,
+        "missing_n": 15,
+        "observed_n": 15,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    },
+    "60m": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.578214819560111,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.05384853931931103,
+          "two_way_variance": 0.002899665186823386
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.5666666666666667,
+          "median": 1.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 13,
+          "n": 13,
+          "ratio": 0.5006227154443555,
+          "security_clusters": 13,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.19888454232118857,
+          "two_way_variance": 0.03955506117430865
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.38461538461538464,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 13,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 17,
+        "observed_n": 13,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 13,
+          "n": 13,
+          "ratio": -0.01084032028872672,
+          "security_clusters": 13,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.02284504807991705,
+          "two_way_variance": 0.0005218962217737216
+        },
+        "distribution": {
+          "max": 0.10464643176824803,
+          "mean": -0.02299992566116296,
+          "median": -0.013513513513513514,
+          "min": -0.13377049180327868,
+          "n": 13,
+          "p25": -0.09959803483698079,
+          "p75": 0.02023121387283237
+        },
+        "initial_n": 30,
+        "missing_n": 17,
+        "observed_n": 13,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    },
+    "cycle_end": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.3115396113602391,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.10496846017157915,
+          "two_way_variance": 0.0110183776307924
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.4,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 18,
+          "n": 18,
+          "ratio": 0.20637953387964242,
+          "security_clusters": 18,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.08550370268113948,
+          "two_way_variance": 0.007310883172184698
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.2222222222222222,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 18,
+          "p25": 0.0,
+          "p75": 0.0
+        },
+        "initial_n": 30,
+        "missing_n": 12,
+        "observed_n": 18,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 8,
+          "intersection_clusters": 18,
+          "n": 18,
+          "ratio": -0.04674390675444622,
+          "security_clusters": 18,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.01798115981708693,
+          "two_way_variance": 0.0003233221083676217
+        },
+        "distribution": {
+          "max": 0.08633737488811132,
+          "mean": -0.04558663185440825,
+          "median": -0.0329294267998296,
+          "min": -0.20589529256489222,
+          "n": 18,
+          "p25": -0.10398135524622942,
+          "p75": -0.00752717913329337
+        },
+        "initial_n": 30,
+        "missing_n": 12,
+        "observed_n": 18,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    },
+    "session_end": {
+      "censoring": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 9,
+          "intersection_clusters": 30,
+          "n": 30,
+          "ratio": 0.4170104633781764,
+          "security_clusters": 30,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.08898044990794421,
+          "two_way_variance": 0.00791752046582017
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.43333333333333335,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 30,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 0,
+        "observed_n": 30,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "positive_return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 17,
+          "n": 17,
+          "ratio": 0.28956024233189503,
+          "security_clusters": 17,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.12346466662679687,
+          "two_way_variance": 0.015243523905266086
+        },
+        "distribution": {
+          "max": 1.0,
+          "mean": 0.29411764705882354,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 17,
+          "p25": 0.0,
+          "p75": 1.0
+        },
+        "initial_n": 30,
+        "missing_n": 13,
+        "observed_n": 17,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      },
+      "return": {
+        "cluster_sensitivity": {
+          "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+          "confidence_interval": null,
+          "date_clusters": 7,
+          "intersection_clusters": 17,
+          "n": 17,
+          "ratio": -0.026256863874993486,
+          "security_clusters": 17,
+          "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+          "two_way_se": 0.02337108516578206,
+          "two_way_variance": 0.0005462076218262383
+        },
+        "distribution": {
+          "max": 0.08633737488811132,
+          "mean": -0.03195623374226641,
+          "median": -0.024450307827616535,
+          "min": -0.2165925925925926,
+          "n": 17,
+          "p25": -0.07053034445051941,
+          "p75": 0.03268983268983269
+        },
+        "initial_n": 30,
+        "missing_n": 13,
+        "observed_n": 17,
+        "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+      }
+    }
+  },
+  "mfe_mae_scope": "Observed path only; censored excursions are not complete-path extremes",
+  "observed_mae": {
+    "cluster_sensitivity": {
+      "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+      "confidence_interval": null,
+      "date_clusters": 9,
+      "intersection_clusters": 30,
+      "n": 30,
+      "ratio": -0.1056634883630283,
+      "security_clusters": 30,
+      "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+      "two_way_se": 0.015484062526292523,
+      "two_way_variance": 0.00023975619231813642
+    },
+    "distribution": {
+      "max": -0.017341040462427744,
+      "mean": -0.1125507086703546,
+      "median": -0.10257976108493308,
+      "min": -0.32222222222222224,
+      "n": 30,
+      "p25": -0.14479237531774322,
+      "p75": -0.046006024763199926
+    },
+    "initial_n": 30,
+    "missing_n": 0,
+    "observed_n": 30,
+    "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+  },
+  "observed_mfe": {
+    "cluster_sensitivity": {
+      "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+      "confidence_interval": null,
+      "date_clusters": 9,
+      "intersection_clusters": 30,
+      "n": 30,
+      "ratio": 0.07986622614242095,
+      "security_clusters": 30,
+      "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+      "two_way_se": 0.03355871792868309,
+      "two_way_variance": 0.0011261875490169158
+    },
+    "distribution": {
+      "max": 1.1608391608391608,
+      "mean": 0.08559031226437448,
+      "median": 0.013629723408702785,
+      "min": 0.0,
+      "n": 30,
+      "p25": 0.0,
+      "p75": 0.08047324148463936
+    },
+    "initial_n": 30,
+    "missing_n": 0,
+    "observed_n": 30,
+    "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+  },
+  "opportunity_missingness": {
+    "cluster_sensitivity": {
+      "caveat": "Date + security - intersection score variance; not a calibrated small-sample significance test.",
+      "confidence_interval": null,
+      "date_clusters": 10,
+      "intersection_clusters": 240,
+      "n": 240,
+      "ratio": 0.0,
+      "security_clusters": 219,
+      "status": "ILLUSTRATIVE_SMALL_CLUSTER_SENSITIVITY",
+      "two_way_se": 0.0,
+      "two_way_variance": 0.0
+    },
+    "distribution": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 240,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "initial_n": 240,
+    "missing_n": 0,
+    "observed_n": 240,
+    "uncertainty": "Date/security crossed cluster sensitivity only, not iid CI; subset selection and serial dependence remain limitations"
+  },
+  "significance_claim": false,
+  "weights": "Batch-specific derived analytical weights; all original frozen weights preserved in source/event tables"
+}

@@ -1,0 +1,8 @@
+{
+  "files": [
+    "cohort_metrics.json",
+    "cohort_metrics.parquet",
+    "original-weight-stratum-incidence.json"
+  ],
+  "scope": "Original frozen batch1 weight metadata retained for audit; use statistical_results/statistical-preparation/design-weighted-policy-metrics for batch2 inference."
+}
