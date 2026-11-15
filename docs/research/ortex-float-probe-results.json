@@ -1,0 +1,341 @@
+{
+  "outcome": "DEMO_RESTRICTED_OR_INCONCLUSIVE",
+  "checked_at_bangkok": "2026-11-15",
+  "api_calls": 5,
+  "http_statuses": [
+    200,
+    200,
+    429,
+    200,
+    200
+  ],
+  "endpoint": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+  "requests": [
+    {
+      "name": "documented_pit",
+      "url": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+      "params": {
+        "from_date": "2017-06-01",
+        "point_in_time": "true",
+        "split_adjusted": "false"
+      },
+      "started_at": "2026-11-15T02:44:20.982520+00:00",
+      "status": "RESPONSE_CAPTURED",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sun, 15 Nov 2026 02:44:21 GMT",
+        "Content-Type": "application/json",
+        "Ortex-Request-Id": "8406079e-4eb5-4bee-b7e6-cb3e35b1f24a",
+        "Ortex-Total-Rows": "9",
+        "X-Total-Rows": "9",
+        "Ortex-Rows-This-Page": "9",
+        "X-Rows-This-Page": "9",
+        "Ortex-Credits-Used": "0.0",
+        "X-Credits-Used": "0.0",
+        "Ortex-From-Date": "2026-05-19",
+        "X-From-Date": "2026-05-19",
+        "Ortex-To-Date": "2026-10-16",
+        "X-To-Date": "2026-10-16",
+        "RateLimit-Limit": "1",
+        "RateLimit-Remaining": "0",
+        "RateLimit-Reset": "1",
+        "ETag": "W/\"74217f24667aa7a92998dbbd7e19bef5\"",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "body_sha256": "93d89601564f46cdffbe33dc8c12e10a6c5b88b0da2a54ac84f27c1453e93986",
+      "body_bytes": 1799,
+      "response_file": "documented_pit.json",
+      "top_level_keys": [
+        "request",
+        "instrument",
+        "resolved",
+        "pagination",
+        "data",
+        "meta"
+      ],
+      "rows": 9,
+      "elapsed_seconds": 0.745
+    },
+    {
+      "name": "documented_non_pit",
+      "url": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+      "params": {
+        "from_date": "2017-06-01",
+        "point_in_time": "false",
+        "split_adjusted": "false"
+      },
+      "started_at": "2026-11-15T02:44:21.728076+00:00",
+      "status": "RESPONSE_CAPTURED",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sun, 15 Nov 2026 02:44:21 GMT",
+        "Content-Type": "application/json",
+        "Ortex-Request-Id": "9f35f0a3-0202-4183-95f7-f0b3fcff7ace",
+        "Ortex-Total-Rows": "9",
+        "X-Total-Rows": "9",
+        "Ortex-Rows-This-Page": "9",
+        "X-Rows-This-Page": "9",
+        "Ortex-Credits-Used": "0.0",
+        "X-Credits-Used": "0.0",
+        "Ortex-From-Date": "2026-05-19",
+        "X-From-Date": "2026-05-19",
+        "Ortex-To-Date": "2026-10-16",
+        "X-To-Date": "2026-10-16",
+        "RateLimit-Limit": "1",
+        "RateLimit-Remaining": "0",
+        "RateLimit-Reset": "1",
+        "ETag": "W/\"ebb5a94dc703ab8cd453bcace4fcabff\"",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "body_sha256": "d43435b91f77c9f0a4f3b0e96b2c77dbaa03d37aba14d68d31e59d4f5d4e3fba",
+      "body_bytes": 1769,
+      "response_file": "documented_non_pit.json",
+      "top_level_keys": [
+        "request",
+        "instrument",
+        "resolved",
+        "pagination",
+        "data",
+        "meta"
+      ],
+      "rows": 9,
+      "elapsed_seconds": 0.346
+    },
+    {
+      "name": "documented_adjusted",
+      "url": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+      "params": {
+        "from_date": "2017-06-01",
+        "point_in_time": "true",
+        "split_adjusted": "true"
+      },
+      "started_at": "2026-11-15T02:44:22.074656+00:00",
+      "status": "RESPONSE_CAPTURED",
+      "http_status": 429,
+      "headers": {
+        "Date": "Sun, 15 Nov 2026 02:44:22 GMT",
+        "Content-Type": "application/json",
+        "Retry-After": "1",
+        "RateLimit-Limit": "1",
+        "RateLimit-Remaining": "0",
+        "RateLimit-Reset": "1",
+        "Ortex-Request-Id": "940b63e0-0450-4fa4-af61-0a87ddc2c4de",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "body_sha256": "74f650fd991c4d366888f0aa0518fcc89edc9b33096a14c1f308af205edf435f",
+      "body_bytes": 382,
+      "response_file": "documented_adjusted.json",
+      "top_level_keys": [
+        "error"
+      ],
+      "rows": 0,
+      "elapsed_seconds": 0.239
+    },
+    {
+      "name": "documented_adjusted",
+      "url": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+      "params": {
+        "from_date": "2017-06-01",
+        "point_in_time": "true",
+        "split_adjusted": "true"
+      },
+      "started_at": "2026-11-15T02:44:47.858862+00:00",
+      "status": "RESPONSE_CAPTURED",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sun, 15 Nov 2026 02:44:48 GMT",
+        "Content-Type": "application/json",
+        "Ortex-Request-Id": "fd70e875-d024-47ea-9913-456be5478638",
+        "Ortex-Total-Rows": "9",
+        "X-Total-Rows": "9",
+        "Ortex-Rows-This-Page": "9",
+        "X-Rows-This-Page": "9",
+        "Ortex-Credits-Used": "0.0",
+        "X-Credits-Used": "0.0",
+        "Ortex-From-Date": "2026-05-19",
+        "X-From-Date": "2026-05-19",
+        "Ortex-To-Date": "2026-10-16",
+        "X-To-Date": "2026-10-16",
+        "RateLimit-Limit": "1",
+        "RateLimit-Remaining": "0",
+        "RateLimit-Reset": "1",
+        "ETag": "W/\"f174131f737df7a25b2036b0e897cd35\"",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "body_sha256": "5a1176dd200f97653e5257216dbe844c67c92d2b4d12dcc1e932df533b512581",
+      "body_bytes": 1797,
+      "response_file": "04-documented_adjusted.json",
+      "top_level_keys": [
+        "request",
+        "instrument",
+        "resolved",
+        "pagination",
+        "data",
+        "meta"
+      ],
+      "rows": 9,
+      "elapsed_seconds": 0.735
+    },
+    {
+      "name": "m1_window_pit",
+      "url": "https://api.ortex.com/api/v11/stock/NYSE/AMC/reference/free_float/",
+      "params": {
+        "from_date": "2026-05-27",
+        "to_date": "2026-11-13",
+        "point_in_time": "true",
+        "split_adjusted": "false"
+      },
+      "started_at": "2026-11-15T02:44:50.598873+00:00",
+      "status": "RESPONSE_CAPTURED",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sun, 15 Nov 2026 02:44:50 GMT",
+        "Content-Type": "application/json",
+        "Ortex-Request-Id": "5c433ea1-0b33-495a-aedb-ef10694f0ccb",
+        "Ortex-Total-Rows": "9",
+        "X-Total-Rows": "9",
+        "Ortex-Rows-This-Page": "9",
+        "X-Rows-This-Page": "9",
+        "Ortex-Credits-Used": "0.0",
+        "X-Credits-Used": "0.0",
+        "Ortex-From-Date": "2026-05-19",
+        "X-From-Date": "2026-05-19",
+        "Ortex-To-Date": "2026-10-16",
+        "X-To-Date": "2026-10-16",
+        "RateLimit-Limit": "1",
+        "RateLimit-Remaining": "0",
+        "RateLimit-Reset": "1",
+        "ETag": "W/\"f34da5413cb0d083c7a31f8ca8bb2cc4\"",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "body_sha256": "96328b439f20d7f7c043f90b9670b0536b3faafeb0043a01aedb09a49e4e3026",
+      "body_bytes": 1799,
+      "response_file": "05-m1_window_pit.json",
+      "top_level_keys": [
+        "request",
+        "instrument",
+        "resolved",
+        "pagination",
+        "data",
+        "meta"
+      ],
+      "rows": 9,
+      "elapsed_seconds": 0.337
+    }
+  ],
+  "instrument": {
+    "exchange_symbol": "NYSE",
+    "ticker": "AMC",
+    "companyName": "AMC Entertainment Holdings, Inc.",
+    "ortexCid": 1140353,
+    "ortexSid": 3075032,
+    "ortexTid": 6777647,
+    "isin": "US00165C3025",
+    "figi": "BBG000TDCWW0",
+    "mic": "XNYS",
+    "operatingMic": "XNYS"
+  },
+  "sample_records": [
+    {
+      "date": "2026-05-19",
+      "sharesOutstanding": 754171721,
+      "freeFloatShares": 693452303,
+      "freeFloatPct": 91.94886
+    },
+    {
+      "date": "2026-05-28",
+      "sharesOutstanding": 754171721,
+      "freeFloatShares": 693202303,
+      "freeFloatPct": 91.915711
+    },
+    {
+      "date": "2026-06-26",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 831635220,
+      "freeFloatPct": 93.169493
+    },
+    {
+      "date": "2026-06-30",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 835347607,
+      "freeFloatPct": 93.585398
+    },
+    {
+      "date": "2026-08-07",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 828147706,
+      "freeFloatPct": 92.778781
+    },
+    {
+      "date": "2026-08-08",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 827496166,
+      "freeFloatPct": 92.705788
+    },
+    {
+      "date": "2026-08-11",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 827495995,
+      "freeFloatPct": 92.705769
+    },
+    {
+      "date": "2026-08-12",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 831635220,
+      "freeFloatPct": 93.169493
+    },
+    {
+      "date": "2026-08-16",
+      "sharesOutstanding": 892604638,
+      "freeFloatShares": 835347607,
+      "freeFloatPct": 93.585398
+    }
+  ],
+  "metadata": {
+    "credits": {
+      "used": 0.0,
+      "remaining": null
+    },
+    "testKeyNote": "TEST key active \u2014 date range, page, and result count are system-controlled and cannot be overridden.",
+    "responseGeneratedAt": "2026-11-15T02:44:21Z"
+  },
+  "pit_true_false_data_equal": true,
+  "split_true_false_data_equal": true,
+  "m1_window_returns_same_sample": true,
+  "target_request_echo": {
+    "namespace": "NYSE",
+    "identifier": "AMC",
+    "point_in_time": "true",
+    "split_adjusted": false
+  },
+  "target_resolved": {
+    "from_date": "2026-05-19",
+    "to_date": "2026-10-16",
+    "page": 1,
+    "page_size": 10,
+    "point_in_time": true,
+    "min_lag_days": 0,
+    "split_adjusted": false,
+    "defaultedFields": [
+      "from_date",
+      "min_lag_days",
+      "page",
+      "page_size",
+      "to_date"
+    ]
+  },
+  "massive_current_sample_identity": {
+    "ticker": "AMC",
+    "share_class_figi": "BBG001SZYYL4",
+    "composite_figi": "BBG000TDCVT6",
+    "primary_exchange": "XNYS"
+  },
+  "m1_status": "BLOCKED_DATA",
+  "verified_pit_admitted": false,
+  "source_capture_manifest_sha256": "7fdfcba13a201abe5d24a73b0d2a635f6ebe71696e5c5bf6d216df9273935614"
+}
