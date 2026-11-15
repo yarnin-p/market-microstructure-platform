@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import os
 import re
 import time
 from datetime import date, datetime, timezone
@@ -226,9 +227,13 @@ def parse_filing(body):
     result = parser.result()
     # Only cover-page public-float passages; snippets are candidates for review.
     result["float_passages"] = []
-    for match in re.finditer(r"non[\s-]*affiliates", result["text"][:80000], re.I):
+    for match in re.finditer(r"non[\s-]*affiliates", result["text"], re.I):
         start, end = max(0, match.start() - 650), min(len(result["text"]), match.end() + 1100)
-        result["float_passages"].append({"start": start, "end": end, "text": result["text"][start:end]})
+        passage = result["text"][start:end]
+        if re.search(r"aggregate market value|public float", passage, re.I):
+            result["float_passages"].append({"start": start, "end": end, "text": passage})
+        if len(result["float_passages"]) == 8:
+            break
     result["facts"] = [r for r in result["facts"] if r["name"] and
                        (r["name"].split(":")[-1] in {"EntityPublicFloat", "EntityCommonStockSharesOutstanding", "CommonStockSharesOutstanding", "CommonStockSharesIssued"})]
     return result
@@ -352,14 +357,32 @@ def apply_reviews(result_path, review_path, cache_root, output):
         passage = review["supporting_passage"]
         if passage not in parsed["text"] or not review.get("reviewer") or not review.get("basis_rationale"):
             raise ValueError("review must identify source passage, reviewer and basis rationale")
+        if review.get("kind") == "CLASSIFICATION_ONLY":
+            if review["status"] not in {"AMBIGUOUS_SHARE_CLASS", "INSUFFICIENT_PRICE_BASIS", "SEC_REPORTED_SHARE_COUNT_ONLY"}:
+                raise ValueError("invalid reviewed classification")
+            row["status"] = review["status"]
+            row["classification_review"] = review
+            validate_record(row)
+            continue
         date_text = review["observation_date"]
         possible = [f for f in parsed["facts"] if f["name"].split(":")[-1] == "EntityPublicFloat"
                     and inline_value(f) is not None
                     and Decimal(inline_value(f)) == Decimal(review["public_float_usd"])
                     and parsed["units"].get(f["unit_ref"], "").strip().lower() == "iso4217:usd"
-                    and date_text in parsed["contexts"].get(f["context_ref"], {}).get("text", "")]
+                    and date_text in parsed["contexts"].get(f["context_ref"], {}).get("text", "")
+                    and any(token.isdigit() and int(token) == int(row["security"]["cik"])
+                            for token in parsed["contexts"].get(f["context_ref"], {}).get("text", "").split())]
         if not possible:
             raise ValueError("public-float amount/date not corroborated by original inline XBRL")
+        if review.get("kind") == "REPORTED_NONAFFILIATE_COUNT":
+            counts = re.findall(r"([0-9][0-9,]*)\s+(?:Class\s+[A-Z]\s+common\s+stock\s+)?shares", passage, re.I)
+            if not review.get("class_confirmed") or not any(Decimal(c.replace(",", "")) == Decimal(review["reported_shares"]) for c in counts):
+                raise ValueError("reported non-affiliate shares not corroborated")
+            row["reported_nonaffiliate_share_counts"] = [{**review, "source_url": document["url"],
+                "acceptance_at": document["acceptance_at"], "available_at": None, "verified_pit": False}]
+            row["status"] = "SEC_REPORTED_SHARE_COUNT_ONLY"
+            validate_record(row)
+            continue
         # Require a literal dollar quote in the reviewed passage. An arbitrary
         # daily market price cannot enter through this interface.
         amounts = re.findall(r"\$\s*([0-9][0-9,]*(?:\.[0-9]+)?)", passage)
@@ -404,7 +427,7 @@ def summarize(result_path, sample_path, output):
             candidates = [f for f in floated if f.get("acceptance_at") and
                           datetime.fromisoformat(f["acceptance_at"]) <= datetime.fromisoformat(cycle["anchor_at"])]
             if candidates:
-                latest = max(candidates, key=lambda f: (f["acceptance_at"], f["observation_date"]))
+                latest = max(candidates, key=lambda f: (f["observation_date"], f["acceptance_at"]))
                 state = availability(cycle["anchor_at"], latest["acceptance_at"], latest["observation_date"])
                 ages.append(state["measurement_age_days"])
                 temporal_counts[state["status"]] += 1
@@ -424,6 +447,7 @@ def summarize(result_path, sample_path, output):
         "split_flagged_securities": sum(r["security"]["has_split"] for r in records),
         "change_flagged_securities": sum(r["security"]["change_flag"] for r in records),
         "confirmed_delisted_or_renamed": None,
+        "sec_historical_issuer_name_changes": sum(bool(r.get("sec_identity",{}).get("formerNames")) for r in records),
         "cik_mapping": {"structurally_present": sum(bool(r["security"].get("cik")) for r in records),
                         "denominator": len(records), "issuer_metadata_corroborated": sum(source_ok(r,"submissions") for r in records),
                         "share_class_mapping_verified": 0},
@@ -437,20 +461,26 @@ def summarize(result_path, sample_path, output):
         "public_float_disclosures": {"securities_observed": len(public_rows),
                                     "coverage_rate": None if not any(source_ok(r,"companyfacts") for r in records) else len(public_rows)/len(records)},
         "defensible_estimates_observed": sum(len(r["derived_estimates"]) for r in records),
+        "direct_nonaffiliate_share_count_observations": sum(len(r.get("reported_nonaffiliate_share_counts", [])) for r in records),
         "earliest_observed_acceptance_at": min(accepted) if accepted else None,
+        "acceptance_scope": "All retrieved concepts with matched submission metadata, not only public float",
         "earliest_known_publication_at": None,
         "status_counts": dict(Counter(r["status"] for r in records)),
         "cycle_coverage": {"requested_cycles": 120, "sample_security_cycle_pairs": len(records)*120,
                            "validated_float_share_pairs": 0, "whole_universe_estimated_coverage": None,
                            "staleness_by_security": available_anchors},
-        "reverse_split_quality": "UNASSESSED_NO_RECONSTRUCTED_FLOAT_SHARE_BASIS",
-        "massive_current_float_comparison": {"status": "NOT_PERFORMED_NO_COMPARABLE_HISTORICAL_ESTIMATES", "current_float_substitution": False},
+        "reverse_split_quality": "MEASUREMENT_DATE_ONLY_NO_POST_SPLIT_OR_DILUTION_CARRY_FORWARD" if any(r['derived_estimates'] for r in records) else "UNASSESSED_NO_RECONSTRUCTED_FLOAT_SHARE_BASIS",
+        "massive_current_float_comparison": {"status": "NOT_PERFORMED_NO_FREE_CURRENT_FLOAT_CAPTURE_FOR_SAMPLE", "current_float_substitution": False},
         "request_evidence": network_scope,
         "securities": [{"ticker": r["security"]["ticker"], "security_id": r["security"]["security_id"],
                          "cik": r["security"].get("cik"), "exchange": r["security"]["exchange"],
                          "selection_cycle": r["security"]["selection_cycle"], "previous_rth_close": r["security"]["previous_rth_close"],
                          "has_split": r["security"]["has_split"], "change_flag": r["security"]["change_flag"],
                          "status": r["status"], "errors": r["errors"], "historical_symbols": r["security"]["historical_symbols"],
+                         "latest_public_float_fact": next(iter(sorted([f for f in r['facts'] if f['concept']=='dei:EntityPublicFloat'], key=lambda f:(f['observation_date'],f['filing_date']),reverse=True)),None),
+                         "derived_estimates": r["derived_estimates"],
+                         "reported_nonaffiliate_share_counts": r.get("reported_nonaffiliate_share_counts",[]),
+                         "classification_review": r.get("classification_review"),
                          "source_snapshot_sha256": r["security"]["source_snapshot_sha256"]} for r in records],
         "source_hashes": {"sample": sha(Path(sample_path).read_bytes()), "results": sha(Path(result_path).read_bytes())}}
     save(output, compact)
@@ -548,7 +578,7 @@ if __name__ == "__main__":
     probe.add_argument("--sample", required=True)
     probe.add_argument("--root", required=True)
     probe.add_argument("--output", required=True)
-    probe.add_argument("--user-agent", default=UA)
+    probe.add_argument("--user-agent", default=os.getenv("SEC_USER_AGENT", UA), help="Identified project contact; alternatively set SEC_USER_AGENT privately")
     probe.add_argument("--offline", action="store_true")
     summary = sub.add_parser("summarize")
     summary.add_argument("--results", required=True)

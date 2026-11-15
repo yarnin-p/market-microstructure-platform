@@ -1,0 +1,2795 @@
+{
+  "schema_version": "sec-float-coverage-v1",
+  "outcome": "PILOT_COMPLETED_WITH_LIMITATIONS",
+  "m1_status": "BLOCKED_DATA",
+  "sample_size": 24,
+  "sample_design": "Per exchange: 4 ranked split/change cases + 4 alphabetically first stable cases; exploration only; no SEC outcomes used",
+  "representative_sample": false,
+  "exchange_counts": {
+    "NASDAQ": 8,
+    "NYSE American (AMEX)": 8,
+    "NYSE": 8
+  },
+  "split_flagged_securities": 12,
+  "change_flagged_securities": 5,
+  "confirmed_delisted_or_renamed": null,
+  "sec_historical_issuer_name_changes": 15,
+  "cik_mapping": {
+    "structurally_present": 24,
+    "denominator": 24,
+    "issuer_metadata_corroborated": 24,
+    "share_class_mapping_verified": 0
+  },
+  "sec_access": {
+    "http_attempts": 96,
+    "http_status_counts": {
+      "200": 96
+    },
+    "submissions_ok": 24,
+    "companyfacts_ok": 24,
+    "original_documents_ok": 48
+  },
+  "filing_availability": {
+    "securities_with_recent_annual_or_quarterly": 24,
+    "availability_rate": 1.0,
+    "scope": "RETRIEVED_RECENT_SUBMISSIONS_ONLY"
+  },
+  "public_float_disclosures": {
+    "securities_observed": 24,
+    "coverage_rate": 1.0
+  },
+  "defensible_estimates_observed": 4,
+  "direct_nonaffiliate_share_count_observations": 2,
+  "earliest_observed_acceptance_at": "2011-08-02T20:27:17+00:00",
+  "acceptance_scope": "All retrieved concepts with matched submission metadata, not only public float",
+  "earliest_known_publication_at": null,
+  "status_counts": {
+    "INSUFFICIENT_PRICE_BASIS": 16,
+    "SEC_DERIVED_HISTORICAL_ESTIMATE": 4,
+    "AMBIGUOUS_SHARE_CLASS": 2,
+    "SEC_REPORTED_SHARE_COUNT_ONLY": 2
+  },
+  "cycle_coverage": {
+    "requested_cycles": 120,
+    "sample_security_cycle_pairs": 2880,
+    "validated_float_share_pairs": 0,
+    "whole_universe_estimated_coverage": null,
+    "staleness_by_security": [
+      {
+        "security_id": "BBG00R28GXX4",
+        "ticker": "AMIX",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 240,
+        "measurement_age_days_max": 604,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG00P1DG9D3",
+        "ticker": "BYND",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 332,
+        "measurement_age_days_max": 502,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SFMX15",
+        "ticker": "CREG",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 146,
+        "measurement_age_days_max": 316,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG008LFXNV4",
+        "ticker": "FEED",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001S5N8T1",
+        "ticker": "AAME",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 476,
+        "measurement_age_days_max": 838,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG004M1KJP3",
+        "ticker": "ABAT",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 257,
+        "measurement_age_days_max": 619,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG0058YJ326",
+        "ticker": "ABOS",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SMCS49",
+        "ticker": "ABVC",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SPBXV2",
+        "ticker": "GORO",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG01Q0T3FL7",
+        "ticker": "APUS",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG00JMZD5D6",
+        "ticker": "GPUS",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG01J7XRSC3",
+        "ticker": "HCWC",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 238,
+        "measurement_age_days_max": 408,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG00Z17HFQ5",
+        "ticker": "AEON",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SK3JJ7",
+        "ticker": "AGIG",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG020VXPCC3",
+        "ticker": "AIB",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SB9J29",
+        "ticker": "AIM",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG00H00J2Q8",
+        "ticker": "ALIT",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG0157C6630",
+        "ticker": "BRCC",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG003QPMHS7",
+        "ticker": "LFT",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG00XWZB4W8",
+        "ticker": "NRDY",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001S72KY7",
+        "ticker": "ACH",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SLQ6G1",
+        "ticker": "AHT",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001S876N3",
+        "ticker": "AIV",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      },
+      {
+        "security_id": "BBG001SZYYL4",
+        "ticker": "AMC",
+        "cycles_with_accepted_float_value_usd": 120,
+        "measurement_age_days_min": 330,
+        "measurement_age_days_max": 500,
+        "actual_publication_time_verified": false,
+        "strict_verified_pit_cycles": 0,
+        "temporal_status_counts": {
+          "ACCEPTED_BEFORE_ANCHOR_PUBLICATION_UNVERIFIED": 120
+        }
+      }
+    ]
+  },
+  "reverse_split_quality": "MEASUREMENT_DATE_ONLY_NO_POST_SPLIT_OR_DILUTION_CARRY_FORWARD",
+  "massive_current_float_comparison": {
+    "status": "NOT_PERFORMED_NO_FREE_CURRENT_FLOAT_CAPTURE_FOR_SAMPLE",
+    "current_float_substitution": false
+  },
+  "request_evidence": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001617867.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:26.973167+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 26156,
+      "sha256": "5e296fddc12337294bf97a6e84fbe2f29cdf7b7522a93ccec5823e08573aef60",
+      "retrieved_at": "2026-11-15T03:34:27.399216+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:27 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001617867.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:36.878412+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 376393,
+      "sha256": "b21aac2d5907081ca02b0d99e84e35d4b1dfe1a64ea6826bf63afbedec76e03b",
+      "retrieved_at": "2026-11-15T03:34:37.365127+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:37 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926018573/amix20260331_10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:37.983874+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1332393,
+      "sha256": "4b7f24e70667f1454d180fb2982b34852e73ba50a58670a3f1d1c177adbd38e2",
+      "retrieved_at": "2026-11-15T03:34:39.278075+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 27 May 2026 20:31:38 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:38 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926036033/amix20260930_10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:39.364438+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1095683,
+      "sha256": "89e9f3eae78283a78c527c1490ad4c01cd3286d42caef21f6ea938be890eae34",
+      "retrieved_at": "2026-11-15T03:34:39.771604+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 10 Nov 2026 15:34:00 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:39 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001655210.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:40.469741+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 159592,
+      "sha256": "39c4aa11db561137156c5b48b1668af7afc433ce542bb7a06e63327601bc0209",
+      "retrieved_at": "2026-11-15T03:34:40.886589+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:40 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001655210.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:41.576828+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1860811,
+      "sha256": "599e389fedc57f89d1f3f233e5d88fb02373353d609d23ae1528b21c1f888de9",
+      "retrieved_at": "2026-11-15T03:34:42.054931+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:42 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1655210/000165521026000022/bynd-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:42.682570+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3550226,
+      "sha256": "17abc840178b7215b1923e1208177c985920a071d21b48ef814d18d93e8352d2",
+      "retrieved_at": "2026-11-15T03:34:44.136351+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 09 Apr 2026 10:04:27 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:43 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1655210/000165521026000079/bynd-20260926.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:44.300868+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2692065,
+      "sha256": "ce02af67f6cb4b69e714e55988948e838711e65c03fb1f41dbd85cde5e82816c",
+      "retrieved_at": "2026-11-15T03:34:44.973823+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 10 Nov 2026 21:31:21 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:44 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000721693.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:45.406158+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 121556,
+      "sha256": "35e662289b5231650beb869e48ccbad4d8e8f882a2e7fd1c82c7299d3109b60f",
+      "retrieved_at": "2026-11-15T03:34:45.841319+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:45 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000721693.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:46.513207+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2872178,
+      "sha256": "f9e423ad86944b5758b99897157bda4a9378dd96b7ca12bc9d24391c79dc292c",
+      "retrieved_at": "2026-11-15T03:34:47.096089+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:46 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026037674/ea0282209-10k_smart.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:47.619977+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1215473,
+      "sha256": "66e9559cb1ee0e0efe9d9ffca68e13f62a7f222c232926b637d57eb706aa5bcd",
+      "retrieved_at": "2026-11-15T03:34:48.047237+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 31 Mar 2026 21:27:46 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:47 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026057542/ea0289963-10q_smart.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:48.726802+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 713369,
+      "sha256": "475efe31657c4f75b6575041bca3625001214ed5f50746a3feb57084a76ca932",
+      "retrieved_at": "2026-11-15T03:34:49.075316+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 15 May 2026 18:18:00 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:49 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001326706.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:49.833852+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 89530,
+      "sha256": "65b41791390a32a0d6d437e3a3b5d1bd0179f7c95cd7e527e7b337802f16799c",
+      "retrieved_at": "2026-11-15T03:34:50.366349+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:50 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326706.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:50.941153+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1425004,
+      "sha256": "65e67c6b620de6561a1306549430000ba4a1ea03bfa7cf2b9d62752040f6daf8",
+      "retrieved_at": "2026-11-15T03:34:51.445872+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:51 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1326706/000149315226016871/form10-k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:52.044345+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3107423,
+      "sha256": "ef52360b45b34936838a4e39c68f03739cd3679614a57fdfe3c4508eb78587f6",
+      "retrieved_at": "2026-11-15T03:34:52.603828+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 15 Apr 2026 21:20:13 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:52 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1326706/000149315226038778/form10-q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:53.150099+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1409700,
+      "sha256": "05d649edef00642c90823d7b2f212ae7c969e91a257ccdfbea7932505858658f",
+      "retrieved_at": "2026-11-15T03:34:53.562983+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 17 Aug 2026 21:01:24 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:53 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000008177.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:54.257454+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 153186,
+      "sha256": "5fd130dfab31565c7e58fb9be25581d7fec89eebc2d9d826aa0a9c203fd8cd7f",
+      "retrieved_at": "2026-11-15T03:34:54.684368+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:54 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000008177.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:55.364216+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2902188,
+      "sha256": "c20e8432e813e70c80970ad9b88204b3c3d126158eb9e46ca81e5b7723bac3c3",
+      "retrieved_at": "2026-11-15T03:34:56.687415+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:55 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/8177/000114036126039933/ef20060652_10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:56.723290+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 4540204,
+      "sha256": "6c4c343f4f7d5de4b669a961736db9ba4eda06f3755edca9eba8b85da574c27a",
+      "retrieved_at": "2026-11-15T03:34:57.222096+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 16 Oct 2026 20:43:34 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:57 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/8177/000114036125042275/ef20054956_10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:34:57.829209+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1600573,
+      "sha256": "66d259ef512a4b66c37fb3cc221600f23f6671649295bf1ea75bb62f6859a51a",
+      "retrieved_at": "2026-11-15T03:34:58.251619+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 14 Nov 2025 20:16:50 GMT",
+        "Date": "Sun, 15 Nov 2026 03:34:58 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001576873.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:34:58.935599+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 107394,
+      "sha256": "bdff2da9bc445ca8d70539149c96ea6a181d2aa325acb484638029ec7aea3399",
+      "retrieved_at": "2026-11-15T03:34:59.285123+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:34:59 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001576873.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:00.041502+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1363022,
+      "sha256": "3ec544591259429f0f9aba5060398262d854d3bd9c5f89e76e0416ae089d6dcb",
+      "retrieved_at": "2026-11-15T03:35:00.651906+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:00 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1576873/000149315226042497/form10-k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:01.148358+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1740684,
+      "sha256": "2f383be966d814d237a10766b5bc405f3298f43215c43a168a24ef8377f4070f",
+      "retrieved_at": "2026-11-15T03:35:01.638116+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 14 Sep 2026 13:01:46 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:01 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1576873/000149315226051429/form10-q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:02.254885+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 770517,
+      "sha256": "dc576a7f84c9333a343284731187fe44c148aaca2c932f028b2dc6955099ff3f",
+      "retrieved_at": "2026-11-15T03:35:02.653790+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 12 Nov 2026 21:32:00 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:02 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001576885.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:03.361892+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 59413,
+      "sha256": "b3d7c2f7ef86ced29a445841c59d8ae5894c1a73c65c7976a8723eb933545ea8",
+      "retrieved_at": "2026-11-15T03:35:03.690643+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:03 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001576885.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:04.468103+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 832698,
+      "sha256": "b1c35d61667b04d2171e307af3e6e740238f3a27b215720daef729c603c82dee",
+      "retrieved_at": "2026-11-15T03:35:05.044903+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:05 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026021413/abos-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:05.574843+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1643308,
+      "sha256": "723f92264e62cbf63739451551a6a60961b83bcb24b1cd8c02adf1ac8d82e223",
+      "retrieved_at": "2026-11-15T03:35:06.062185+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 26 Mar 2026 20:06:48 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:05 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026067276/abos-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:06.681919+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 974727,
+      "sha256": "013b18c483ca16bae3a23a5f0ec151fe7b913c49b0e326ac2eabc6bcd29b8748",
+      "retrieved_at": "2026-11-15T03:35:07.268502+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 26 Oct 2026 20:04:30 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:07 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001173313.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:07.788776+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 146917,
+      "sha256": "005c8c64a6862108283fe75997e1b0e70c979a9a9d6e5b78f1be708b268aea27",
+      "retrieved_at": "2026-11-15T03:35:08.149730+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:08 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001173313.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:08.895903+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2344895,
+      "sha256": "72748cdedb225e0a4596f6a6ddffd60e19a55c54f1d31dffb0503968fae32f5f",
+      "retrieved_at": "2026-11-15T03:35:09.738631+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:09 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1173313/000121390026023063/ea0278313-10k_abvcbio.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:10.003105+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2157860,
+      "sha256": "39858dd63c61a2d8041ff1352b8926b969bf75ab81d641f5a09fd02cecfb3dad",
+      "retrieved_at": "2026-11-15T03:35:10.655656+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 03 Mar 2026 21:24:07 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:10 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1173313/000121390026118078/ea0309513-10q_abvcbio.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:11.110420+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1601289,
+      "sha256": "7c9ef0185d0f42b5206f211e02da98499834056219896d1ea30c2732740046dd",
+      "retrieved_at": "2026-11-15T03:35:12.120699+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 10 Nov 2026 21:51:02 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:12 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001160791.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:12.231871+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 138288,
+      "sha256": "0837e07f4a77ae4c3c5828e15adcc88032ce854300d7921ffd46b55c1fc0b576",
+      "retrieved_at": "2026-11-15T03:35:12.680774+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:12 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001160791.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:13.336425+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3022594,
+      "sha256": "7c835bf2bb19dc9919ae1d3fae018835925457a277d4967c4288acaf634e0d02",
+      "retrieved_at": "2026-11-15T03:35:14.365763+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:14 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1160791/000110465926031121/goro-20251231x10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:14.443252+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3564116,
+      "sha256": "20063ee07eb31203dbda216bade997accc15c6076042a62366e8d4f419e06013",
+      "retrieved_at": "2026-11-15T03:35:15.372615+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 18 Mar 2026 20:38:40 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:15 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1160791/000110465926057305/goro-20260331x10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:15.548563+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1961654,
+      "sha256": "10123dbe2ac07972c9d03d4565a4b0dbce74caf594eadd75ac006fbff5f29320",
+      "retrieved_at": "2026-11-15T03:35:16.942522+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 08 May 2026 10:00:42 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:16 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001894525.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:17.063122+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 23413,
+      "sha256": "0b715fc21508f17edae41116e6718685e00ced6359838fb9285f5575dbaf074b",
+      "retrieved_at": "2026-11-15T03:35:17.434316+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:17 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001894525.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:18.168245+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 245529,
+      "sha256": "762100d6aad4bafef86c3c895afaca21f77dba6e77f7535f3302d677a991a76b",
+      "retrieved_at": "2026-11-15T03:35:18.569482+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:18 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026051139/ea0288344-10k_apimeds.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:19.274264+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1135304,
+      "sha256": "eb42376d57f696efa9005e0269855dc6d3148dff1bd439c7427cbe185b347942",
+      "retrieved_at": "2026-11-15T03:35:19.693493+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 04 May 2026 10:57:49 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:19 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026090120/ea0300242-10q_apimeds.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:20.380693+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 787970,
+      "sha256": "10f21af706013fdfd8aff69c6f1cf95969f67ca92018efba049535b87563b432",
+      "retrieved_at": "2026-11-15T03:35:20.751603+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 14 Aug 2026 20:29:10 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:20 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000896493.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:21.487526+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 167460,
+      "sha256": "efc677d79d6dadadef5784cda19c63dbb159391a212f6168eac2ecae95644c7b",
+      "retrieved_at": "2026-11-15T03:35:22.387870+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:22 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000896493.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:22.595064+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3129948,
+      "sha256": "35e4b4d2a315ac2783cd2a79c5d2b3714f16fb7c52567963f7aa296ebe40328e",
+      "retrieved_at": "2026-11-15T03:35:23.220449+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:23 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926004697/hdi32026010k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:23.702187+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 4131166,
+      "sha256": "9ac2019dd37822112399a02205a04b4a50715e9b44f54bddb11af9bcf0e4108f",
+      "retrieved_at": "2026-11-15T03:35:24.280298+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 15 Apr 2026 20:32:00 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:24 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926010549/hd81126810q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:24.810056+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3078065,
+      "sha256": "83bcc84546bb0194b4eb44a1844f186e3e28023043daa36c15d54d55cf05ef25",
+      "retrieved_at": "2026-11-15T03:35:25.531360+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 19 Aug 2026 10:03:42 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:25 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001948864.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:25.917418+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 27479,
+      "sha256": "8ec895dab91b34143018df29f1b5b8202659677a836aca954280b2c1613978e9",
+      "retrieved_at": "2026-11-15T03:35:26.329495+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:26 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001948864.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:27.022519+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 432793,
+      "sha256": "9b35cc5216cd2bb0e8b6c587172796acb81a26f2fc815ef165d6e3c0b89de9d8",
+      "retrieved_at": "2026-11-15T03:35:27.472197+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:27 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1948864/000149315226010208/form10-k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:28.129635+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1699396,
+      "sha256": "12266f3d271cc2be4688f04373d9581c005c9d149b16e8d778a1a14cbf309026",
+      "retrieved_at": "2026-11-15T03:35:28.571811+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 16 Mar 2026 15:26:22 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:28 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1948864/000149315226038496/form10-q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:29.236918+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1279077,
+      "sha256": "52f49792ba426e973ffb748beb6dfb4c301d97537a181547d36158deb84f6fd5",
+      "retrieved_at": "2026-11-15T03:35:29.766258+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 14 Aug 2026 21:11:54 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:29 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001837607.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:30.345079+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 61719,
+      "sha256": "a13f205291b853106402db561afd8a0d676f37e7ac92156425e22f64f87907cb",
+      "retrieved_at": "2026-11-15T03:35:30.790515+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:30 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001837607.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:31.449724+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 656681,
+      "sha256": "976029d82f5d8e8df46acac5fd0f8f0502e669de4260fc049cc4fa8c20c63230",
+      "retrieved_at": "2026-11-15T03:35:31.939412+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:31 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000019/aeon-20251231x10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:32.556508+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2494310,
+      "sha256": "2c10b26688e951d3e9edd7dd9d80c83f35df42f243b1a2aa629856630e661694",
+      "retrieved_at": "2026-11-15T03:35:33.310090+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 30 Mar 2026 21:40:50 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:33 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000062/aeon-20260630x10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:33.663699+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1852676,
+      "sha256": "bceafb4e05e7266e864adf4781b053d0cc6e672aaec2dd30709e2e7a9f3b813f",
+      "retrieved_at": "2026-11-15T03:35:34.106527+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 12 Aug 2026 20:17:45 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:34 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001156041.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:34.771033+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 132633,
+      "sha256": "a8d127e033020bcf4ebcf0f1ef3a02b7975a21ff545b048549b7bd4b5324a56a",
+      "retrieved_at": "2026-11-15T03:35:35.215384+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:35 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001156041.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:35.875017+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2160569,
+      "sha256": "2c104bcaab252841225bb6411302589873e9cfc2ac312b7e1f544f333bfe76a9",
+      "retrieved_at": "2026-11-15T03:35:36.464603+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:36 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1156041/000149315226012070/form10-k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:36.982936+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2008179,
+      "sha256": "dfe686495f5a97de795625c176343e03a963c2c59bf438b66cba11ea7fd70606",
+      "retrieved_at": "2026-11-15T03:35:38.006958+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 23 Mar 2026 12:28:09 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:37 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1156041/000149315226050354/form10-q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:38.130800+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1613652,
+      "sha256": "a11101972038808a34709edd5e82f21c7293a4a1711de12a0033af56e77e263b",
+      "retrieved_at": "2026-11-15T03:35:38.625487+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 06 Nov 2026 12:32:49 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:38 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0002070542.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:39.236159+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 14059,
+      "sha256": "dc0f5093f5395e7f36c82c439e9cd62b74620b2f3fbe544c586fd1faaeed8573",
+      "retrieved_at": "2026-11-15T03:35:39.621700+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:39 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002070542.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:40.343218+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 90128,
+      "sha256": "be65a4c892f15c963eb55aad6da524a4468c9c09d1904814644495301d63a28f",
+      "retrieved_at": "2026-11-15T03:35:40.744684+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:40 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026036810/ea0282624-10k_blockchain.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:41.449874+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 980168,
+      "sha256": "c1b38cb685de7705a3821625744839ca2d55002bb4d87be90baf906ada9565c8",
+      "retrieved_at": "2026-11-15T03:35:41.847162+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 31 Mar 2026 10:45:37 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:41 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026089151/ea0301093-10q_aibdata.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:42.557390+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 725870,
+      "sha256": "c0db1ef0deb2f60148c018d0137e5ae9da65d0acdf408e20ee58be9de8d1370e",
+      "retrieved_at": "2026-11-15T03:35:42.954775+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 13 Aug 2026 20:31:58 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:42 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000946644.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:43.665227+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 158924,
+      "sha256": "15add33b80e1ed5605b6fceacf52d4cf4fd53d3a15647a97d6aa95dfb031c475",
+      "retrieved_at": "2026-11-15T03:35:44.087325+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:44 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000946644.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:44.772711+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2132429,
+      "sha256": "9fc71fbe8b6b6bb7c24cbac0ba23cba4913608d5a21c7957d2f8b9f656da098f",
+      "retrieved_at": "2026-11-15T03:35:46.064077+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:45 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226013301/form10-k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:46.094490+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2851114,
+      "sha256": "da2f4484a5fa7bf29f501820805dc6ea77196e969df5d37d36a5c2be130ba018",
+      "retrieved_at": "2026-11-15T03:35:48.449223+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 27 Mar 2026 21:31:14 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:47 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/946644/000149315226051439/form10-q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:48.588164+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1600099,
+      "sha256": "d39a0762defa8f96c99af249d11a5ee2feec541fe5170029b7842dd0d4349026",
+      "retrieved_at": "2026-11-15T03:35:49.012411+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 12 Nov 2026 21:36:20 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:48 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001809104.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:49.693561+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 114628,
+      "sha256": "a302c96843303eeab4b97f4fd41d7fe49da8c4c44b42299dbec435b43f6816f6",
+      "retrieved_at": "2026-11-15T03:35:50.085783+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:50 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001809104.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:50.798678+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1262713,
+      "sha256": "5fc8b142ed30f5401006aefe61855c160eca5cf80bbfdf9d26fef2e4da262054",
+      "retrieved_at": "2026-11-15T03:35:51.293950+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:51 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1809104/000162828026011108/alit-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:51.904895+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2499944,
+      "sha256": "633b8d34edc3016167da9ea87f46e9529d8e474960d2446f445ed0c6cb74c109",
+      "retrieved_at": "2026-11-15T03:35:52.385083+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 24 Feb 2026 21:19:09 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:52 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1809104/000162828026069567/alit-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:53.012348+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1830755,
+      "sha256": "2c247762e93705372805590a56c2bcf9e5e74048b7f08b219b69b4752cd2112f",
+      "retrieved_at": "2026-11-15T03:35:53.510399+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Tue, 03 Nov 2026 21:27:57 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:53 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001891101.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:54.119542+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 64334,
+      "sha256": "6aadc3359d7c597c9f5c6642a5c221d332f31859bea8b948f332b5417e9a905e",
+      "retrieved_at": "2026-11-15T03:35:54.533137+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:54 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001891101.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:55.225406+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1023634,
+      "sha256": "e3abf5f3c18e014b3012ca52e57f40db5f905d61675b7d4524fd31118e46a050",
+      "retrieved_at": "2026-11-15T03:35:55.712306+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:55 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1891101/000189110126000022/brcc-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:56.332763+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1713570,
+      "sha256": "f311f18e38d4e6d7d50fcfce7c2845641c10ffcd11861aaed7d71dec7f385c60",
+      "retrieved_at": "2026-11-15T03:35:56.763845+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 02 Mar 2026 21:20:08 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:56 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1891101/000189110126000049/brrc-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:35:57.440864+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1115292,
+      "sha256": "3e030922d8b438b79d5fe556151d9a218a489cc30c33340e22cb9500f2e687bb",
+      "retrieved_at": "2026-11-15T03:35:57.825894+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 02 Nov 2026 21:18:15 GMT",
+        "Date": "Sun, 15 Nov 2026 03:35:57 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001547546.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:58.548586+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 103765,
+      "sha256": "231e9626365b70350627c284e8679b666e0668ffc098b6b213498a27963b1d04",
+      "retrieved_at": "2026-11-15T03:35:58.972436+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:35:58 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001547546.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:35:59.652704+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2995813,
+      "sha256": "688e37835bf893f6cc2375992b31c402aab13c6443d690a9519103cc72da7d6b",
+      "retrieved_at": "2026-11-15T03:36:00.019910+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:00 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1547546/000154754626000005/hcft-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:00.760002+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2739943,
+      "sha256": "f7974df1ecf08368d2c9395f7107bd343ca296888fa992489ca64e307b5970dd",
+      "retrieved_at": "2026-11-15T03:36:01.262893+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 23 Mar 2026 21:05:53 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:01 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1547546/000154754626000022/oaks-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:01.867886+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2421965,
+      "sha256": "e6f769b27b5af244d4191d44ea71ec8a68f611f40a167956088d26f852b9265b",
+      "retrieved_at": "2026-11-15T03:36:02.295275+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 13 Nov 2026 12:32:30 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:02 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001819404.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:02.976659+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 88408,
+      "sha256": "b93debd46d1c4f671e3af1460bd191a62c9fe976d9528ac81fb44514d41330dc",
+      "retrieved_at": "2026-11-15T03:36:04.233674+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:04 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819404.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:04.245591+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 870004,
+      "sha256": "f88e3c619a913c4d3b73dd3f3906adfea167df20fdac9a25400bacdb2c69590c",
+      "retrieved_at": "2026-11-15T03:36:04.701713+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:04 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819404/000181940426000015/nrdy-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:05.352249+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 1728803,
+      "sha256": "2fc82dd2b090ccdc078d29b841eb8838660b485598ab6d1ee06a7d65e865d79f",
+      "retrieved_at": "2026-11-15T03:36:05.869917+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Thu, 26 Feb 2026 21:11:22 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:05 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819404/000181940426000103/nrdy-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:06.455381+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 942976,
+      "sha256": "c478083a671be4b2ea536cd20e5f6ee777e257e91f821f02c4cac41173a9cb37",
+      "retrieved_at": "2026-11-15T03:36:06.846289+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 09 Nov 2026 21:09:32 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:06 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000075252.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:07.561621+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 170704,
+      "sha256": "df5c2dab7faaa1cc7e3ee021afc473f1300bd944b3c53710fb92d019140e40e2",
+      "retrieved_at": "2026-11-15T03:36:07.889919+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:07 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000075252.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:08.669837+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3442665,
+      "sha256": "49689a9205a046a5c0dc3df61238cb064512a18a0d9ec48edcbd485037b718c7",
+      "retrieved_at": "2026-11-15T03:36:09.363502+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:09 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/75252/000110465926018169/omi-20251231x10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:09.777737+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3337939,
+      "sha256": "3fc88722ea455be4ff4e562c2e19a110b699d22e96f8181610018f3888734b9c",
+      "retrieved_at": "2026-11-15T03:36:10.366753+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 20 Feb 2026 21:20:14 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:10 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/75252/000110465926123491/ach-20260930x10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:10.885464+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 2347914,
+      "sha256": "bb7733a5e145dccf5ea8fc9a4125b4b4bfce6740c288a50b18f7fb900572e87c",
+      "retrieved_at": "2026-11-15T03:36:11.494322+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 06 Nov 2026 11:02:37 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:11 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001232582.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:11.993246+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 167615,
+      "sha256": "5c342f00fd9dfbb1bb2aa9069efed43eef3e85f12c6f0660412c0957d3009c5a",
+      "retrieved_at": "2026-11-15T03:36:12.553730+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:12 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001232582.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:13.099453+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3904884,
+      "sha256": "9809f1cdb56e530720d1ea8c206ea999cd0dca86a9b64549865219148d574371",
+      "retrieved_at": "2026-11-15T03:36:14.601225+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:13 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1232582/000123258226000067/aht-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:14.641764+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 6976366,
+      "sha256": "8070a6e1303d6e736db1112fc51e5e8978cca6d319ac223fb0a58f8e1e381323",
+      "retrieved_at": "2026-11-15T03:36:15.691181+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 23 Mar 2026 10:01:02 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:15 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1232582/000123258226000220/aht-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:16.015024+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 4241405,
+      "sha256": "4b31b66fa30b746cea37f01c3187b54144b294e63956396722bb861595d2067e",
+      "retrieved_at": "2026-11-15T03:36:16.635856+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 13 Nov 2026 21:13:53 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:16 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000922864.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:17.120494+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 168911,
+      "sha256": "e107e204cbae3cfab3da32b34ebe9e057a413f59721a8046dd5eda94648356eb",
+      "retrieved_at": "2026-11-15T03:36:17.507149+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:17 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000922864.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:18.224153+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3403136,
+      "sha256": "0a193c68ea57a4624f8ce73f639818378a5ed7bb2d791f4a9a54176e449aa8ac",
+      "retrieved_at": "2026-11-15T03:36:19.229783+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:18 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/922864/000119312526085547/aiv-20251231.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:19.335813+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 7150358,
+      "sha256": "1f36db3d828bca68ec7bc06b25e2d311dc480fae8b1af1a712e2f0cffe6fa87a",
+      "retrieved_at": "2026-11-15T03:36:20.103178+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 02 Mar 2026 21:42:16 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:19 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/922864/000119312526453646/aiv-20260930.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:20.439045+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3723268,
+      "sha256": "3f97af486478d0d3d02a31410a438af2332ceb335d200e2dc107afdf9556966a",
+      "retrieved_at": "2026-11-15T03:36:21.177358+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 09 Nov 2026 21:21:07 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:21 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001411579.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:21.544798+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 164913,
+      "sha256": "5bfd2e47d03f47651491332223bf9d62e65a5449f91da2ad611da526418ad5d0",
+      "retrieved_at": "2026-11-15T03:36:22.113849+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:22 GMT"
+      }
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001411579.json",
+      "host": "data.sec.gov",
+      "started_at": "2026-11-15T03:36:22.651617+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3095548,
+      "sha256": "27be2ebfbc0a6de4154d1b194706a76ca6fb3a36804e7d33d15a45f7cf165953",
+      "retrieved_at": "2026-11-15T03:36:23.449903+00:00",
+      "headers": {
+        "Content-Type": "application/json",
+        "Date": "Sun, 15 Nov 2026 03:36:23 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:23.759732+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 6201698,
+      "sha256": "c3729f8496a03b8d5a377ecc77e6bbabac6a8de1513d91f1eed0b0ce20f30f68",
+      "retrieved_at": "2026-11-15T03:36:24.343814+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Mon, 23 Feb 2026 12:07:49 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:24 GMT"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/amc-20260930x10q.htm",
+      "host": "www.sec.gov",
+      "started_at": "2026-11-15T03:36:24.866924+00:00",
+      "status": 200,
+      "user_agent_identity": "PROJECT_CONTACT",
+      "bytes": 3663110,
+      "sha256": "66358e21fd98d5699728a9585b96b1e87cc5cc621d513957052a17217fd7cfad",
+      "retrieved_at": "2026-11-15T03:36:28.610097+00:00",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 04 Nov 2026 21:24:11 GMT",
+        "Date": "Sun, 15 Nov 2026 03:36:28 GMT"
+      }
+    }
+  ],
+  "securities": [
+    {
+      "ticker": "AMIX",
+      "security_id": "BBG00R28GXX4",
+      "cik": "0001617867",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.418000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AMIX",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "6307279",
+        "observation_date": "2025-09-30",
+        "filing_date": "2026-06-15",
+        "accession": "0001437749-26-020686",
+        "form": "10-K/A",
+        "acceptance_at": "2026-06-15T21:28:45+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "amix20260331c_10ka.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "BYND",
+      "security_id": "BBG00P1DG9D3",
+      "cik": "0001655210",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-08-14",
+      "previous_rth_close": "0.407000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "BYND",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "241200000",
+        "observation_date": "2025-06-28",
+        "filing_date": "2026-04-09",
+        "accession": "0001655210-26-000022",
+        "form": "10-K",
+        "acceptance_at": "2026-04-09T01:47:49+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "bynd-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "0e9dc7baaad7b6560cc37a9ebb962b664fafac98671c76d6f7ba9c610bb94f7f"
+    },
+    {
+      "ticker": "CREG",
+      "security_id": "BBG001SFMX15",
+      "cik": "0000721693",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.378500000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "CREG",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "27900000",
+        "observation_date": "2025-12-31",
+        "filing_date": "2026-03-31",
+        "accession": "0001213900-26-037674",
+        "form": "10-K",
+        "acceptance_at": "2026-03-31T21:27:23+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "ea0282209-10k_smart.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [
+        {
+          "security_id": "BBG001SFMX15",
+          "ticker": "CREG",
+          "accession": "0001213900-26-037674",
+          "source_sha256": "66e9559cb1ee0e0efe9d9ffca68e13f62a7f222c232926b637d57eb706aa5bcd",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "the aggregate market value of the common stock outstanding held by non-affiliates of the registrant, computed by reference to the closing sales price for the common stock of $1.33, as reported on the Nasdaq Capital Market, was approximately $ 27.9 million. As of March 31, 2026, there were 22,959,128 shares of common stock, par value $0.001 per share, of the registrant issued and outstanding. SMART POWERR CORP. FORM 10-K TABLE OF CONTENTS PART I Item 1. Business 1 Item 1A. Risk Factors 25 Item 1B. Unresolved Staff Comments 49 Item 1C. Cybersecurity 49 Item 2. Properties 50 Item 3. Legal Proceedings 50 Item 4. Mine Safety Disclosures 50 PART II Item 5. Market for Common Equity, Related Shareholder Matters and Small Business Issuer Purchases of Equity Securities 51 Item 6. [Reserved] 51 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 52 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 57 Item 8. Financial Statements and Supplementary Data 57 Item 9. Changes In and Disagreements With Accountants on Accounting and Financial Disclosure 57 Item 9A. Controls and Procedures 57 Item 9B. Other Information 58 I",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used.",
+          "public_float_usd": "27900000",
+          "disclosed_price_usd": "1.33",
+          "observation_date": "2025-12-31",
+          "share_class": "Common stock",
+          "class_confirmed": true,
+          "same_measurement_date": true,
+          "same_share_basis": true,
+          "kind": "DERIVED_RATIO",
+          "precision_note": "Approximate or rounded disclosure inputs; decimal output is arithmetic precision, not measurement accuracy.",
+          "cross_cycle_validity": "NOT_ESTABLISHED",
+          "estimated_shares": "20977443.60902255639097744361",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/721693/000121390026037674/ea0282209-10k_smart.htm",
+          "acceptance_at": "2026-03-31T21:27:23+00:00",
+          "available_at": null,
+          "classification": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+          "split_dilution_carry_forward": "NOT_AUTHORIZED",
+          "verified_pit": false
+        }
+      ],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "FEED",
+      "security_id": "BBG008LFXNV4",
+      "cik": "0001326706",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.925500000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "FEED",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "7300000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-04-15",
+        "accession": "0001493152-26-016871",
+        "form": "10-K",
+        "acceptance_at": "2026-04-15T21:19:40+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "form10-k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AAME",
+      "security_id": "BBG001S5N8T1",
+      "cik": "0000008177",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.160000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AAME",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "8591319",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001140361-26-039951",
+        "form": "10-K/A",
+        "acceptance_at": "2026-10-17T01:54:57+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "ef20083985_10ka.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ABAT",
+      "security_id": "BBG004M1KJP3",
+      "cik": "0001576873",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-06-23",
+      "previous_rth_close": "2.930000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "ABAT",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "438000000",
+        "observation_date": "2025-12-31",
+        "filing_date": "2026-09-14",
+        "accession": "0001493152-26-042497",
+        "form": "10-K",
+        "acceptance_at": "2026-09-14T13:01:13+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "form10-k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "d202d0ecd916282bc442ddbc8336fca07523c5386eded6d72cbcf02bbebab276"
+    },
+    {
+      "ticker": "ABOS",
+      "security_id": "BBG0058YJ326",
+      "cik": "0001576885",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.420000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "ABOS",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "45300000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-26",
+        "accession": "0001628280-26-021413",
+        "form": "10-K",
+        "acceptance_at": "2026-03-26T20:06:16+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "abos-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ABVC",
+      "security_id": "BBG001SMCS49",
+      "cik": "0001173313",
+      "exchange": "NASDAQ",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.290000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "ABVC",
+          "XNAS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "37000000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-03",
+        "accession": "0001213900-26-023063",
+        "form": "10-K",
+        "acceptance_at": "2026-03-03T21:20:35+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "ea0278313-10k_abvcbio.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "GORO",
+      "security_id": "BBG001SPBXV2",
+      "cik": "0001160791",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.270000000000",
+      "has_split": 1,
+      "change_flag": 1,
+      "status": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "GORO",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "83177835",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-04-30",
+        "accession": "0001104659-26-051864",
+        "form": "10-K/A",
+        "acceptance_at": "2026-04-29T22:41:13+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "goro-20251231x10ka.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [
+        {
+          "security_id": "BBG001SPBXV2",
+          "ticker": "GORO",
+          "accession": "0001104659-26-031121",
+          "source_sha256": "20063ee07eb31203dbda216bade997accc15c6076042a62366e8d4f419e06013",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "The aggregate market value of the common stock of Gold Resource Corporation held by non-affiliates as of June 30, 2025, the last business day of the registrant’s most recently completed second fiscal quarter, was $ 83,177,835 based on the closing price of the common stock of $0.61 as reported on the NYSE American. ​ As of March 16, 2026, there were 161,858,849 shares of the registrant’s common stock outstanding. ​",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used.",
+          "public_float_usd": "83177835",
+          "disclosed_price_usd": "0.61",
+          "observation_date": "2025-06-30",
+          "share_class": "Common stock",
+          "class_confirmed": true,
+          "same_measurement_date": true,
+          "same_share_basis": true,
+          "kind": "DERIVED_RATIO",
+          "precision_note": "Approximate or rounded disclosure inputs; decimal output is arithmetic precision, not measurement accuracy.",
+          "cross_cycle_validity": "NOT_ESTABLISHED",
+          "estimated_shares": "136357106.5573770491803278689",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1160791/000110465926031121/goro-20251231x10k.htm",
+          "acceptance_at": "2026-03-18T20:36:19+00:00",
+          "available_at": null,
+          "classification": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+          "split_dilution_carry_forward": "NOT_AUTHORIZED",
+          "verified_pit": false
+        }
+      ],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "APUS",
+      "security_id": "BBG01Q0T3FL7",
+      "cik": "0001894525",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.420000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "APUS",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "7811096.48",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-05-04",
+        "accession": "0001213900-26-051139",
+        "form": "10-K",
+        "acceptance_at": "2026-05-04T10:57:17+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "ea0288344-10k_apimeds.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "GPUS",
+      "security_id": "BBG00JMZD5D6",
+      "cik": "0000896493",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.172000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "GPUS",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "12100000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-04-15",
+        "accession": "0001214659-26-004697",
+        "form": "10-K",
+        "acceptance_at": "2026-04-15T20:31:26+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "hdi32026010k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [
+        {
+          "security_id": "BBG00JMZD5D6",
+          "ticker": "GPUS",
+          "accession": "0001214659-26-004697",
+          "source_sha256": "9ac2019dd37822112399a02205a04b4a50715e9b44f54bddb11af9bcf0e4108f",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "the aggregate market value of the registrant’s Class A common stock held by non-affiliates of the registrant was $ 12.1 million based on the closing sale price on June 30, 2025 as reported on the NYSE American of $1.40. Shares of the registrant’s Class A common stock held by executive officers, directors or 10% beneficial owners and by each other person who may be deemed to be an affiliate of the registrant have been excluded from this computation. This calculation does not reflect a determination that certain persons are affiliates of the registrant for any other purpose. At April 12, 2026, the registrant had outstanding 415,241,090 shares of Class A common stock and 24,153,459 shares of Class B common stock. Documents incorporated by reference: None HYPERSCALE DATA, INC. AND SUBSIDIARIES FORM 10-K FOR THE FISCAL YEAR ENDED DECEMBER 31, 2025 INDEX Page PART I Item 1. Business 1 Item 1A. Risk Factors 43 Item 1B. Unresolved Staff Comments 106 Item 1C. Cybersecurity 106 Item 2. Properties 107 Item 3. Legal Proceedings 108 Item 4. Mine Safety Disclosures 109 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Secu",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used. Original listing table explicitly maps GPUS to Class A Common Stock; public-float sentence explicitly limits value to Class A. The report describes the November 2024 reverse split before the June 2025 measurement. Subsequent splits/dilution are not applied.",
+          "public_float_usd": "12100000",
+          "disclosed_price_usd": "1.40",
+          "observation_date": "2025-06-30",
+          "share_class": "Class A common stock",
+          "class_confirmed": true,
+          "same_measurement_date": true,
+          "same_share_basis": true,
+          "kind": "DERIVED_RATIO",
+          "precision_note": "Approximate or rounded disclosure inputs; decimal output is arithmetic precision, not measurement accuracy.",
+          "cross_cycle_validity": "NOT_ESTABLISHED",
+          "estimated_shares": "8642857.142857142857142857143",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926004697/hdi32026010k.htm",
+          "acceptance_at": "2026-04-15T20:31:26+00:00",
+          "available_at": null,
+          "classification": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+          "split_dilution_carry_forward": "NOT_AUTHORIZED",
+          "verified_pit": false
+        }
+      ],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "HCWC",
+      "security_id": "BBG01J7XRSC3",
+      "cik": "0001948864",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.261700000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "HCWC",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "11400000",
+        "observation_date": "2025-09-30",
+        "filing_date": "2026-03-16",
+        "accession": "0001493152-26-010208",
+        "form": "10-K",
+        "acceptance_at": "2026-03-16T15:25:51+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "form10-k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": {
+        "security_id": "BBG01J7XRSC3",
+        "ticker": "HCWC",
+        "accession": "0001493152-26-010208",
+        "source_sha256": "12266f3d271cc2be4688f04373d9581c005c9d149b16e8d778a1a14cbf309026",
+        "reviewer": "Codex source review for feasibility; not Research Lead approval",
+        "supporting_passage": "The aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold as of the last business day of the registrant’s most recently completed third fiscal quarter was approximately $ 11.4 million based on the September 30, 2025 closing price of $0.76 per share. Indicate the number of shares outstanding of each of the registrant’s classes of common stock, as of the latest practicable date: 22,750,825 shares outstanding as of March 16, 2026. INDEX Page PART I Item 1. Business 1 Item 1A. Risk Factors 8 Item 1B. Unresolved Staff Comments 8 Item 1C. Cybersecurity 9 Item 2. Properties 9 Item 3. Legal Proceedings 9 Item 4. Mine Safety Disclosures 9 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 10 Item 6. Selected Financial Data 10 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 10 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 16 Item 8. Financial Statements and Supplementary Data 16 Item 9. Changes in and Disagreements with Accountants on ",
+        "basis_rationale": "A quoted price is present, but the numerator is rounded and the filing discusses historical Class A/Class B and a later reverse split. Historical allocation/basis needs further review; no threshold claim at the apparent 15M ratio.",
+        "kind": "CLASSIFICATION_ONLY",
+        "status": "INSUFFICIENT_PRICE_BASIS"
+      },
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AEON",
+      "security_id": "BBG00Z17HFQ5",
+      "cik": "0001837607",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.770000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AEON",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "8700000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-30",
+        "accession": "0001837607-26-000019",
+        "form": "10-K",
+        "acceptance_at": "2026-03-30T21:36:07+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "aeon-20251231x10k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AGIG",
+      "security_id": "BBG001SK3JJ7",
+      "cik": "0001156041",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.150000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AGIG",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "17898445",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-05-13",
+        "accession": "0001493152-26-022630",
+        "form": "10-K/A",
+        "acceptance_at": "2026-05-13T13:01:04+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "form10-ka.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AIB",
+      "security_id": "BBG020VXPCC3",
+      "cik": "0002070542",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-06-03",
+      "previous_rth_close": "2.500000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AIB",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "0",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-31",
+        "accession": "0001213900-26-036810",
+        "form": "10-K",
+        "acceptance_at": "2026-03-31T10:45:06+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "ea0282624-10k_blockchain.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "2bbae186c032e7e756fffe9317135c7e4f64da322c312aee9de9693aa59f1754"
+    },
+    {
+      "ticker": "AIM",
+      "security_id": "BBG001SB9J29",
+      "cik": "0000946644",
+      "exchange": "NYSE American (AMEX)",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.232700000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AIM",
+          "XASE"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "6411460",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-27",
+        "accession": "0001493152-26-013301",
+        "form": "10-K",
+        "acceptance_at": "2026-03-27T21:30:45+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "form10-k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ALIT",
+      "security_id": "BBG00H00J2Q8",
+      "cik": "0001809104",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.885700000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "AMBIGUOUS_SHARE_CLASS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "ALIT",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "2703242376",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-02-24",
+        "accession": "0001628280-26-011108",
+        "form": "10-K",
+        "acceptance_at": "2026-02-24T21:18:35+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "alit-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": {
+        "security_id": "BBG00H00J2Q8",
+        "ticker": "ALIT",
+        "accession": "0001628280-26-011108",
+        "source_sha256": "633b8d34edc3016167da9ea87f46e9529d8e474960d2446f445ed0c6cb74c109",
+        "reviewer": "Codex source review for feasibility; not Research Lead approval",
+        "supporting_passage": "The aggregate market value of the voting and non-voting common equity held by non-affiliates of the Registrant, based on the closing price of the shares of common stock on the New York Stock Exchange on June 30, 2025 (the last business day of the registrant's most recent completed second fiscal quarter, was $ 2,703,242,376 . As of February 17, 2026, the registrant had 524,107,829 shares of Class A Common Stock, par value $0.0001 per share, 4,955,297 shares of Class B-1 Common Stock, par value $0.0001 per share, 4,955,297 shares of Class B-2 Common Stock, par value $0.0001 per share, and 484,358 shares of Class V Common Stock, par value $0.0001 per share, outstanding.",
+        "basis_rationale": "The generic public-float cover disclosure is accompanied by multiple common classes. Class-specific allocation/economic rights have not been established in this pilot; do not assign the issuer value to the Massive class.",
+        "kind": "CLASSIFICATION_ONLY",
+        "status": "AMBIGUOUS_SHARE_CLASS"
+      },
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "BRCC",
+      "security_id": "BBG0157C6630",
+      "cik": "0001891101",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.750000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "AMBIGUOUS_SHARE_CLASS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "BRCC",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "85094351",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-02",
+        "accession": "0001891101-26-000022",
+        "form": "10-K",
+        "acceptance_at": "2026-03-02T21:19:28+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "brcc-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": {
+        "security_id": "BBG0157C6630",
+        "ticker": "BRCC",
+        "accession": "0001891101-26-000022",
+        "source_sha256": "f311f18e38d4e6d7d50fcfce7c2845641c10ffcd11861aaed7d71dec7f385c60",
+        "reviewer": "Codex source review for feasibility; not Research Lead approval",
+        "supporting_passage": "The aggregate market value as of June 30, 2025, of the registrant’s common stock held by non-affiliates based on the reported closing price on the New York Stock Exchange on such date was $ 85,094,351 . As of February 26, 2026, the registrant had (i) 115,208,119 shares of Class A Common Stock, and (ii) 133,492,037 shares of Class B Common Stock outstanding.",
+        "basis_rationale": "The generic public-float cover disclosure is accompanied by multiple common classes. Class-specific allocation/economic rights have not been established in this pilot; do not assign the issuer value to the Massive class.",
+        "kind": "CLASSIFICATION_ONLY",
+        "status": "AMBIGUOUS_SHARE_CLASS"
+      },
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "LFT",
+      "security_id": "BBG003QPMHS7",
+      "cik": "0001547546",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.060000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "LFT",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "68000000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-23",
+        "accession": "0001547546-26-000005",
+        "form": "10-K",
+        "acceptance_at": "2026-03-23T21:05:19+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "hcft-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "NRDY",
+      "security_id": "BBG00XWZB4W8",
+      "cik": "0001819404",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "0.831000000000",
+      "has_split": 1,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "NRDY",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "98721871",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-02-26",
+        "accession": "0001819404-26-000015",
+        "form": "10-K",
+        "acceptance_at": "2026-02-26T21:08:40+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "nrdy-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "ACH",
+      "security_id": "BBG001S72KY7",
+      "cik": "0000075252",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.760000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "INSUFFICIENT_PRICE_BASIS",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "ACH",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "677542557",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-02-20",
+        "accession": "0001104659-26-018169",
+        "form": "10-K",
+        "acceptance_at": "2026-02-20T21:19:33+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "omi-20251231x10k.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AHT",
+      "security_id": "BBG001SLQ6G1",
+      "cik": "0001232582",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "2.900000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "SEC_REPORTED_SHARE_COUNT_ONLY",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AHT",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "35178000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-23",
+        "accession": "0001232582-26-000067",
+        "form": "10-K",
+        "acceptance_at": "2026-03-20T21:51:49+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "aht-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [
+        {
+          "security_id": "BBG001SLQ6G1",
+          "ticker": "AHT",
+          "accession": "0001232582-26-000067",
+          "source_sha256": "8070a6e1303d6e736db1112fc51e5e8978cca6d319ac223fb0a58f8e1e381323",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "the aggregate market value of 5,843,444 shares of the registrant’s common stock held by non-affiliates was approximately $ 35,178,000 . As of March 18, 2026, the registrant had 6,476,491 shares of common stock issued and outstanding.",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used. The cover explicitly states non-affiliate share quantity; this is not total shares outstanding. No division is needed and no daily validity is inferred.",
+          "kind": "REPORTED_NONAFFILIATE_COUNT",
+          "public_float_usd": "35178000",
+          "observation_date": "2025-06-30",
+          "share_class": "Common stock",
+          "class_confirmed": true,
+          "reported_shares": "5843444",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1232582/000123258226000067/aht-20251231.htm",
+          "acceptance_at": "2026-03-20T21:51:49+00:00",
+          "available_at": null,
+          "verified_pit": false
+        }
+      ],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    },
+    {
+      "ticker": "AIV",
+      "security_id": "BBG001S876N3",
+      "cik": "0000922864",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-06-09",
+      "previous_rth_close": "2.950000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AIV",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "1200000000",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-03-02",
+        "accession": "0001193125-26-085547",
+        "form": "10-K",
+        "acceptance_at": "2026-03-02T21:41:30+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "aiv-20251231.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [
+        {
+          "security_id": "BBG001S876N3",
+          "ticker": "AIV",
+          "accession": "0001193125-26-085547",
+          "source_sha256": "1f36db3d828bca68ec7bc06b25e2d311dc480fae8b1af1a712e2f0cffe6fa87a",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "The aggregate market value of the voting and non-voting common stock of Apartment Investment and Management Company held by non-affiliates of Apartment Investment and Management Company was approximat ely $ 1.2 bill ion based upon the closing price of $8.65 on June 30, 2025. As of February 27, 2026, there wer e 143,870,326 shares of Class A common stock (“Common Stock”) outstanding. Documents Incorporated by Reference The information required by Part III of this Report, to the extent not set forth herein, is incorporated by reference from Apartment Investment and Management Company's definitive proxy statement for the 2026 Annual Meeting of Stockholders to be filed within 120 days after December 31, 2025. EXPLANATORY NOTE Apartment Investment and Management Company (“Aimco” or the “Company”), a Maryland corporation, is a self-administered and self-managed real estate investment trust, or REIT. On December 15, 2020, Aimco completed the separation of its businesses (the “Separation”), creating two, separate and distinct, publicly traded companies, Aimco and Apartment Income REIT Corp. (“AIR”) (Aimco and AIR together, as they existed prior to the Separation, “Aimco Predecessor”). Events noted in this filing as occurring b",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used. Public-float context belongs to CIK0000922864, not the co-filing operating partnership. Quoted Common Stock is the issuer Class A class; rounded 1.2 billion numerator makes the estimate coarse.",
+          "public_float_usd": "1200000000",
+          "disclosed_price_usd": "8.65",
+          "observation_date": "2025-06-30",
+          "share_class": "Class A common stock",
+          "class_confirmed": true,
+          "same_measurement_date": true,
+          "same_share_basis": true,
+          "kind": "DERIVED_RATIO",
+          "precision_note": "Approximate or rounded disclosure inputs; decimal output is arithmetic precision, not measurement accuracy.",
+          "cross_cycle_validity": "NOT_ESTABLISHED",
+          "estimated_shares": "138728323.6994219653179190751",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/922864/000119312526085547/aiv-20251231.htm",
+          "acceptance_at": "2026-03-02T21:41:30+00:00",
+          "available_at": null,
+          "classification": "SEC_DERIVED_HISTORICAL_ESTIMATE",
+          "split_dilution_carry_forward": "NOT_AUTHORIZED",
+          "verified_pit": false
+        }
+      ],
+      "reported_nonaffiliate_share_counts": [],
+      "classification_review": null,
+      "source_snapshot_sha256": "af19947dcabe8b37649123dfdcbce1fe81dd0838dccd7428d9adbb0b478770bf"
+    },
+    {
+      "ticker": "AMC",
+      "security_id": "BBG001SZYYL4",
+      "cik": "0001411579",
+      "exchange": "NYSE",
+      "selection_cycle": "2026-05-27",
+      "previous_rth_close": "1.590000000000",
+      "has_split": 0,
+      "change_flag": 0,
+      "status": "SEC_REPORTED_SHARE_COUNT_ONLY",
+      "errors": [],
+      "historical_symbols": [
+        [
+          "AMC",
+          "XNYS"
+        ]
+      ],
+      "latest_public_float_fact": {
+        "concept": "dei:EntityPublicFloat",
+        "unit": "USD",
+        "value": "1342745039",
+        "observation_date": "2025-06-30",
+        "filing_date": "2026-04-30",
+        "accession": "0001104659-26-053024",
+        "form": "10-K/A",
+        "acceptance_at": "2026-04-30T20:31:51+00:00",
+        "source_kind": "SEC_COMPANYFACTS_ENTITY_LEVEL",
+        "primary_document": "amc-20251231x10ka.htm",
+        "available_at": null,
+        "availability_status": "ACCEPTANCE_LOWER_BOUND_NOT_DISSEMINATION_TIME"
+      },
+      "derived_estimates": [],
+      "reported_nonaffiliate_share_counts": [
+        {
+          "security_id": "BBG001SZYYL4",
+          "ticker": "AMC",
+          "accession": "0001411579-26-000016",
+          "source_sha256": "c3729f8496a03b8d5a377ecc77e6bbabac6a8de1513d91f1eed0b0ce20f30f68",
+          "reviewer": "Codex source review for feasibility; not Research Lead approval",
+          "supporting_passage": "The aggregate market value of the voting and non-voting common equity held by non-affiliates of the registrant on June 30, 2025, computed by reference to the price at which the registrant’s Class A common stock was last sold on the New York Stock Exchange on such date was $ 1,342,745,039 (433,143,561 Class A common stock shares at a closing price per share of $3.10). ​ Shares of Class A common stock outstanding— 529,547,465 shares at February 18, 2026 ​",
+          "basis_rationale": "Original cover-page disclosure and inline USD fact/context reviewed together; no market-price API used. The cover explicitly states non-affiliate share quantity; this is not total shares outstanding. No division is needed and no daily validity is inferred.",
+          "kind": "REPORTED_NONAFFILIATE_COUNT",
+          "public_float_usd": "1342745039",
+          "observation_date": "2025-06-30",
+          "share_class": "Class A common stock",
+          "class_confirmed": true,
+          "reported_shares": "433143561",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+          "acceptance_at": "2026-02-23T12:07:22+00:00",
+          "available_at": null,
+          "verified_pit": false
+        }
+      ],
+      "classification_review": null,
+      "source_snapshot_sha256": "12c896197637382c9601a451d9617ddfaa0c5e4e50e39c24e4aac5352f2109ee"
+    }
+  ],
+  "source_hashes": {
+    "sample": "b3c08ce9565cc843700063df60bee11dd2f1bb2f1ecb1471af1fd4b92020a1d3",
+    "results": "b9c62ebd160fc93e2eaa9f0947ba33af310666d243d34aa1563d2121ae5dcd3a"
+  }
+}

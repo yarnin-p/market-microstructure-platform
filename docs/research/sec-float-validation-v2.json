@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "sample_size": 24,
+  "successful_sec_requests": 96,
+  "initial_blocked_requests": 1,
+  "all_source_sha256_verified": true,
+  "offline_review_reproduced_byte_identical": true,
+  "offline_coverage_reproduced": true,
+  "m1_outputs_unchanged": true,
+  "m1_status": "BLOCKED_DATA",
+  "primary_verified_pit_observations": 0,
+  "tests": {
+    "full_suite_passed": 103,
+    "sec_tests_passed": 14
+  },
+  "contact_user_agent": "USER_AUTHORIZED_CONTACT_SENT_NOT_PERSISTED",
+  "file_hashes": {
+    "scripts/sec_float_pilot.py": "46f1a3c2bbeadf605ab7a1b10647ba8b0263ba6f9cfa571d9c100613bcb1fa9a",
+    "tests/test_sec_float_pilot.py": "4206d2c7a65278fc0e3e2e4061e35626a18b1c673246fdeea96242acc96050d8",
+    "schemas/sec-float-evidence-v1.json": "4e44fcce37e0d0135bf7dcd146d8e5a398cf62636e62ae94b038c5b5f272aa04",
+    "docs/research/sec-float-coverage-v2.json": "cb97ee8b755ff38e7134ec92c70d2345e38739d3475583e4a3f87141e9f7a500",
+    "docs/research/sec-float-reviewed-bases-v1.json": "3dfa1cd807c761c42e0a0368238f32cc740ff97b4a9cd8c72defd5ef554b3256"
+  }
+}

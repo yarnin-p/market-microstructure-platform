@@ -141,12 +141,12 @@ def test_verified_pit_and_estimate_without_evidence_are_rejected():
 def test_review_requires_hashed_original_currency_date_and_price_passage(tmp_path):
     url = "https://www.sec.gov/Archives/edgar/data/1/000000000126000001/synthetic.htm"
     body = b'''<html><xbrli:unit id="USD"><xbrli:measure>iso4217:USD</xbrli:measure></xbrli:unit>
-    <xbrli:context id="c"><xbrli:period><xbrli:instant>2025-06-30</xbrli:instant></xbrli:period></xbrli:context>
+    <xbrli:context id="c"><xbrli:entity><xbrli:identifier>0000000001</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2025-06-30</xbrli:instant></xbrli:period></xbrli:context>
     <p>The aggregate market value of common stock held by non-affiliates on June 30, 2025 was
     <ix:nonFraction name="dei:EntityPublicFloat" contextRef="c" unitRef="USD">1,200,000</ix:nonFraction>
-    based on the closing price of $0.30 per share on that date.</p></html>'''
+    based on the closing price of $0.30 per share on that date. This represents 4,000,000 shares held by non-affiliates.</p></html>'''
     (tmp_path / f"{sec.sha(url.encode())}.body").write_bytes(body)
-    row = {"schema_version": "sec-float-evidence-v1", "security": {"security_id": "SYNTHETIC"},
+    row = {"schema_version": "sec-float-evidence-v1", "security": {"security_id": "SYNTHETIC", "cik": "0000000001"},
            "status": "INSUFFICIENT_PRICE_BASIS", "verified_pit": False, "derived_estimates": [],
            "documents": [{"accession": "a", "url": url, "acceptance_at": "2026-03-01T21:00:00Z",
                           "source": {"status": 200, "sha256": sec.sha(body)}}]}
@@ -171,3 +171,26 @@ def test_review_requires_hashed_original_currency_date_and_price_passage(tmp_pat
     sec.save(review_path, [review])
     with pytest.raises(ValueError, match="amount/date"):
         sec.apply_reviews(result_path, review_path, tmp_path, tmp_path / "bad.json")
+    review.update(observation_date="2025-06-30", kind="REPORTED_NONAFFILIATE_COUNT", reported_shares="4000000")
+    sec.save(review_path, [review])
+    reported = sec.apply_reviews(result_path, review_path, tmp_path, tmp_path / "reported.json")["results"][0]
+    assert reported["status"] == "SEC_REPORTED_SHARE_COUNT_ONLY"
+    assert reported["derived_estimates"] == []
+    assert reported["reported_nonaffiliate_share_counts"][0]["reported_shares"] == "4000000"
+
+
+def test_cover_passage_survives_long_inline_hidden_header():
+    body = ("<html><ix:header>" + "context " * 12000 + "</ix:header>"
+            "<p>The aggregate market value held by non-affiliates was $100.</p></html>").encode()
+    parsed = sec.parse_filing(body)
+    assert parsed["float_passages"] and "$100" in parsed["float_passages"][0]["text"]
+
+
+def test_contact_user_agent_is_sent_but_not_persisted(tmp_path, monkeypatch):
+    session = Session([Response(200)])
+    monkeypatch.setattr(sec.requests, "Session", lambda: session)
+    contact = "Synthetic Tester contact@example.invalid"
+    client = sec.SECClient(tmp_path, user_agent=contact)
+    client.get("https://data.sec.gov/submissions/CIK0001617867.json")
+    assert session.calls[0][1]["headers"]["User-Agent"] == contact
+    assert contact not in "".join(p.read_text() for p in tmp_path.glob("*.json"))

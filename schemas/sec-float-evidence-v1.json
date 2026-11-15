@@ -58,6 +58,19 @@
         }
       }
     },
+    "reported_nonaffiliate_share_counts": {
+      "type": "array",
+      "description": "Directly stated non-affiliate shares; never total shares outstanding substituted for float.",
+      "items": {
+        "type": "object",
+        "required": ["accession", "source_url", "source_sha256", "observation_date", "share_class", "reported_shares", "supporting_passage", "verified_pit"],
+        "properties": {
+          "reported_shares": {"$ref": "#/$defs/decimal"},
+          "source_sha256": {"$ref": "#/$defs/hash"},
+          "verified_pit": {"const": false}
+        }
+      }
+    },
     "derived_estimates": {
       "type": "array",
       "items": {
