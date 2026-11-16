@@ -1,0 +1,1 @@
+{"all_scenarios_required":["holdout_census_dates","informative_missing","rare_domain","regular"],"coverage_floor":0.93,"failed_scenarios":["rare_domain"],"holdout_authorized":false,"nominal_95_percent_coverage_proven":false,"scenario_set_complete":true,"status":"BLOCKED"}

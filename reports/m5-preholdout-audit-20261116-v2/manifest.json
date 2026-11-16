@@ -1,0 +1,144 @@
+{
+  "baseline_commit": "1c02e67",
+  "config": {
+    "barriers": [
+      [
+        "0.03",
+        "0.03"
+      ],
+      [
+        "0.05",
+        "0.03"
+      ],
+      [
+        "0.10",
+        "0.05"
+      ]
+    ],
+    "baseline_commit": "1c02e67",
+    "comparison_audit_run": "m5-preholdout-audit-20261116-v1",
+    "gap_seconds": [
+      null,
+      300,
+      900
+    ],
+    "holdout_execution": false,
+    "max_events": 93,
+    "max_market_data_requests": 0,
+    "max_output_bytes": 536870912,
+    "max_raw_bytes": 8589934592,
+    "max_wall_seconds": 3600,
+    "max_window_rows": 1000000,
+    "minimum_simulation_coverage": 0.93,
+    "protocol_version": "holdout-preregistration-v2",
+    "run_id": "m5-preholdout-audit-20261116-v2",
+    "simulation_critical_value": 2.055529438642871,
+    "simulation_replicates": 1000,
+    "simulation_seed": 202611160005,
+    "source_run": "m4-temporal-cumulative30-20261116-v1",
+    "strict_calibration_gate": "All four preregistered synthetic scenarios >=0.93 coverage; any failure blocks formal holdout clearance pending a pre-access statistical amendment."
+  },
+  "contract_version": "audit-evidence-v1",
+  "event_count": 93,
+  "files": {
+    "anomalies.json": {
+      "bytes": 529,
+      "sha256": "29f994895e7c77e0e42dd85b9e58b786a2714eeea1b373c7e6eddd8e6eaafffc"
+    },
+    "calibration-readiness.json": {
+      "bytes": 747,
+      "sha256": "a20b642823faa76d38d538d7a06c03b05d0e742fe67d9e2948cffe6933e2fa37"
+    },
+    "censoring-evidence.json": {
+      "bytes": 1840499,
+      "sha256": "bfd266f59ac0110d99a6be5286193a74df25a770b3240a500e73d2f20b1cfc94"
+    },
+    "censoring_results.parquet": {
+      "bytes": 94257,
+      "sha256": "1f618e46d425f7264ea4a1992ee31d7a3c5300d32685b53523ae1c673e2ef6f2"
+    },
+    "confirmation-fairness.json": {
+      "bytes": 6138,
+      "sha256": "9801469865cc8f872fbb42bc33bc5e678ebf92d8e5e447230af25f69b08f5c68"
+    },
+    "data_quality.json": {
+      "bytes": 3620,
+      "sha256": "5dd365edae1617a98c60d9e0402962a163791953126e1b7307d1bfdee6946631"
+    },
+    "estimator-calibration.json": {
+      "bytes": 2343,
+      "sha256": "d4affefd314273c985f8f987975532c0ec35773e770857ab477be55b2eacc435"
+    },
+    "event-audits.json": {
+      "bytes": 2863041,
+      "sha256": "b8b8725e53d492623a1a2d469d32e65f1d83e3a6468ba1971d10904b04272ab3"
+    },
+    "event_results.parquet": {
+      "bytes": 131252,
+      "sha256": "c0094acf0893caf438fbe530a0e4b203d682102427dde302b1115e9ad13249c8"
+    },
+    "finalization.json": {
+      "bytes": 385,
+      "sha256": "7ac35eb64395b42c6dcb1c7e6181db138bec4f75d12de8d3d69ecb6031e0945f"
+    },
+    "holdout-preregistration-v2.md": {
+      "bytes": 11810,
+      "sha256": "b0a6705bc964c39b5f56eec71e196c268833d67a8bf4a33dde7b58aba468296e"
+    },
+    "methodology.md": {
+      "bytes": 2135,
+      "sha256": "32999daf99f4a2279e75a75299414540422de050cbaeb13b31475a6b1f6d138c"
+    },
+    "price-quality.json": {
+      "bytes": 1397,
+      "sha256": "600b08d13c06981599baff29d8438f87c38b4c2206a82ba50377fa0e24203542"
+    },
+    "protocol-freeze.json": {
+      "bytes": 12998,
+      "sha256": "74da9a463945e7ffb1cf5b922cb3173dd7f2730fff27490679913c9417aa5f34"
+    },
+    "readiness.json": {
+      "bytes": 1154,
+      "sha256": "2f9bf25ba5c9efbeb19079c01e83d03a2cec22fb112d8d989ca0e9c3f253dbfa"
+    },
+    "report.md": {
+      "bytes": 10232,
+      "sha256": "954dcea1a7bc7fb6790760a7c9ef0bf7832dbdbdd9bd592162b32441de7160a8"
+    },
+    "root-cause-summary.json": {
+      "bytes": 2179,
+      "sha256": "1e114c04cb144ceb1dc321b4d3e6ab980e70f1c13b87f16daeb395d54799179b"
+    },
+    "root-cause-witnesses.json": {
+      "bytes": 783240,
+      "sha256": "f667811e83d61884739e04bdd524c1ae0ff24bb1ca0973d5902d8bbd15456561"
+    },
+    "statistical-clearance.json": {
+      "bytes": 273,
+      "sha256": "ee3469db7de0e058b70d5c0858e1eb20f66d5296b684bcce9f363bac22d98ebd"
+    },
+    "statistical_results.json": {
+      "bytes": 18246,
+      "sha256": "b01e61b7303b6b853bfb185a8c49b473dbc6ac5bcd08f463d920e6fc267c770c"
+    },
+    "summary.json": {
+      "bytes": 632,
+      "sha256": "bf4b2b3f6e57a7df4dc014a4d924d3b58bbb9acd35e8f9f4cb03fcbe009dfe19"
+    },
+    "tests.json": {
+      "bytes": 1703,
+      "sha256": "eaa5628fa8f1aa03621b0f49e540179cb2cf0ae0edcad897e699fab4b6f1e061"
+    },
+    "validation.json": {
+      "bytes": 648,
+      "sha256": "197a87727d087c0aaae153e12cdb6f80fd6fb764e66eb66548b7d887052fd89a"
+    }
+  },
+  "holdout_executed": false,
+  "price_path": "Full existing raw evidence retained locally; independent event audit references every reconstructed source path",
+  "protocol_sha256": "b0a6705bc964c39b5f56eec71e196c268833d67a8bf4a33dde7b58aba468296e",
+  "raw_market_data_included": false,
+  "run_id": "m5-preholdout-audit-20261116-v2",
+  "statistical_claim": "Exploratory finite-population analysis; candidate interval calibration only",
+  "status": "CONDITIONAL"
+}
