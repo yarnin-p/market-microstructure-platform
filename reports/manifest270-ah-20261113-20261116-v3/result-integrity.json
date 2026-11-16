@@ -1,0 +1,8 @@
+{
+  "frozen_replay_sha256": "7370ccf1d0b9f1bd259d70ec8104b49fbfc3326fbd3a8e9fc7759addc2de939d",
+  "old_tick_pages_preserved": 559,
+  "one_event_per_security_cycle": true,
+  "reconciliation": "102 = 95 + 7 + 0",
+  "source_hashes_checked": true,
+  "threshold_float_price_bounds_passed": true
+}

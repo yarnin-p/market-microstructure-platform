@@ -47,7 +47,7 @@ def test_tick_broker_returns_only_hash_bound_candidate_whitelist(tmp_path,monkey
     write_json(old/'queue.json',[{'ticker':'A'},{'ticker':'B'}])
     p=tmp_path/'data/runs/test/candidates.json';write_json(p,[{'ticker':'B'}])
     write_json(old/'candidate-tick-authorization.json',{'replacement_run':'test','candidate_sha256':file_hash(p),'tickers':['B']})
-    write_json(tmp_path/'configs/census-20261113-transport-v2.json',{'retry_small_page_tickers':[]})
+    write_json(tmp_path/'configs/census-20261113-transport-v3.json',{'retry_small_page_tickers':[]})
     state=census.broker_state()
     assert state['tickers']==['B'] and state['population_total']==1
 

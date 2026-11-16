@@ -1,5 +1,7 @@
 # Trading Cycle 2026-11-13 — 270 Seed + AH Manifest Review
 
+ผลหลังอนุมัติและตรวจ Tick: [First Touch results](2026-11-13-first-touch-results.md).
+
 Run `manifest270-ah-20261113-20261116-v3` — **AWAITING USER APPROVAL**.
 
 ## Mandatory gate before Tick resume

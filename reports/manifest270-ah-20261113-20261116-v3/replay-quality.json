@@ -1,0 +1,26 @@
+{
+  "eligible_session_rows": {
+    "AH": 282844,
+    "PRE": 442263,
+    "RTH": 937517
+  },
+  "later_invalidated_events": 0,
+  "raw_json_hash_dependent_trigger_ties": 0,
+  "raw_session_rows": {
+    "AH": 427140,
+    "PRE": 1073876,
+    "RTH": 1977800,
+    "UNOBSERVED_OVERNIGHT": 28
+  },
+  "raw_vs_eligible_first_crossing_differs": 56,
+  "rejected_trade_reasons": {
+    "CORRECTION_OR_CANCEL_NOTICE": 4,
+    "DELAYED_PRINT": 55580,
+    "FORM_T_OUTSIDE_EXTENDED_SESSION": 45,
+    "INVALID_PRICE_OR_SIZE": 45,
+    "NON_PRICE_FORMING_CONDITION": 1755469,
+    "OUTSIDE_OBSERVED_SESSION": 14,
+    "OUT_OF_SEQUENCE_OR_REFERENCE_PRICE": 4585,
+    "PARTICIPANT_AFTER_SIP": 478
+  }
+}

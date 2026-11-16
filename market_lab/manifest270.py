@@ -164,6 +164,9 @@ def number(v):
 
 def authorize(approval_note):
     if not approval_note or not approval_note.strip():raise ValueError('EXPLICIT_USER_APPROVAL_NOTE_REQUIRED')
+    cfg=read(ROOT/'config.json')
+    assert file_hash(cfg['universe_source']['path'])==cfg['universe_source']['sha256']
+    assert file_hash(old.ROOT/'queue.json')==read(old.ROOT/'frozen.json')['queue_sha256']
     manifest=read(ROOT/'final-acquisition-manifest.json');summary=read(REPORT/'summary.json')
     assert not summary['AH discovery unresolved']
     approval={'run_id':RUN,'status':'USER_APPROVED','approval_note':approval_note,
@@ -179,13 +182,37 @@ def authorize(approval_note):
     return {'authorized_tickers':len(selected),'run_id':RUN}
 
 
+def tick_pages_for_replay(ticker):
+    return sorted((old.ROOT/'raw'/ticker).glob('page-[0-9][0-9][0-9][0-9][0-9].json'))
+
+def _replay_approved_job(job):
+    row,cfg,conditions=job
+    return old.replay_symbol(row,cfg,conditions,run_id=RUN)
+
+
 def verify_approved():
     approval=read(ROOT/'approval.json')
     assert approval['status']=='USER_APPROVED' and approval['manifest_sha256']==file_hash(ROOT/'final-acquisition-manifest.json')
+    frozen=old.read(old.ROOT/'frozen.json')
+    for path,h in frozen['protected_hashes'].items():assert file_hash(path)==h
+    assert file_hash(old.ROOT/'config.json')==frozen['config_sha256']
+    assert file_hash(old.ROOT/'conditions.json')==frozen['conditions_sha256']
     selected=read(ROOT/'candidates.json');cfg=old.read(old.ROOT/'config.json');conditions={r['id']:r for r in old.read(old.ROOT/'conditions.json')}
     results=[]
-    for row in selected:
-        result=old.replay_symbol(row,cfg,conditions,run_id=RUN)
+    from concurrent.futures import ProcessPoolExecutor
+    # Two independent per-security workers bound memory and preserve exact replay.
+    by_ticker={r['ticker']:r for r in selected}
+    jobs=sorted(selected,key=lambda r:sum(p.stat().st_size for p in tick_pages_for_replay(r['ticker'])),reverse=True)
+    with ProcessPoolExecutor(max_workers=2) as pool:
+        computed=list(pool.map(_replay_approved_job,[(r,cfg,conditions)for r in jobs]))
+    for result in computed:
+        row=by_ticker[result['ticker']]
+        if result['event']:
+            e=result['event'];f=row['float_proxy']
+            e.update(current_float_proxy_shares=f['value'],float_is_verified_pit=False,
+                float_proxy_effective_date=f.get('effective_date'),float_proxy_retrieved_at=f.get('retrieved_at'),
+                gain_from_p0_pct=str((Decimal(e['touch_price'])/Decimal(e['previous_rth_close'])-1)*100),
+                manifest_origin=row.get('manifest_origin'))
         write_json(ROOT/'replay'/f"{row['ticker']}.json",result);results.append(result)
     events=sorted([r['event']for r in results if r['event']],key=lambda e:(e['event_timestamp'],e['security_id']))
     verified=[e for e in events if e['observed_window_first_verified']]
@@ -193,16 +220,20 @@ def verify_approved():
     rejected=[r for r in results if r['disposition']=='ZERO_EVENT_OBSERVED']
     unknown=[r for r in results if r['disposition']=='UNKNOWN_INCOMPLETE']
     assert len(results)==len(events)+len(rejected)+len(unknown)
-    columns=['ticker','security_id','session','previous_rth_close','threshold_price','first_touch_price','first_touch_timestamp_et',
+    columns=['ticker','security_id','session','current_float_proxy_shares','float_is_verified_pit','float_proxy_effective_date','float_proxy_retrieved_at','manifest_origin','gain_from_p0_pct','previous_rth_close','threshold_price','first_touch_price','first_touch_timestamp_et',
         'first_touch_timestamp_utc_ns','first_touch_status','observed_window_first_verified','trade_size','trade_conditions','trade_exchange',
-        'correction_status','quality_flags','source_reference','run_id','census_event_id']
+        'restoration_status','restoration_source','correction_status','quality_flags','source_reference','run_id','census_event_id']
     for name,rows in [('all-first-touches',events),('verified-observed',verified),('unverified',unverified)]:old.table(REPORT/f'{name}.csv',rows,columns)
     for name,rows in [('rejected',rejected),('unknown-incomplete',unknown)]:
         old.table(REPORT/f'{name}.csv',[{k:v for k,v in r.items()if k not in {'event','pages','raw_first_crossing'}}for r in rows],
             ['ticker','security_id','disposition','complete','reason','raw_rows','reject_counts'])
     summary={'run_id':RUN,'approved_candidates':len(results),'first_touch_events':len(events),'verified_observed':len(verified),
        'unverified_prior_or_pagination':len(unverified),'rejected_no_eligible_touch':len(rejected),'unknown':len(unknown),
-       'complete_trade_windows':sum(r['complete']for r in results),'sessions':dict(Counter(e['session']for e in events)),
+       'complete_trade_windows':sum(r['complete']for r in results),'candidate_coverage_percent':100*sum(r['complete']for r in results)/len(results)if results else 100,
+       'verified_sessions':dict(Counter(e['session']for e in verified)),
+       'frozen_verified_AH':sum(e['first_touch_status']=='VERIFIED_FIRST_TOUCH'for e in events),
+       'raw_json_hash_dependent_trigger_ties':sum(e['source_hash_tie_ambiguity']for e in events),
+       'later_invalidated_events':sum(e['later_invalidated']for e in events),'sessions':dict(Counter(e['session']for e in events)),
        'status':'COMPLETE_APPROVED_MANIFEST_REPLAY'if not unknown and all(r['complete']for r in results)else 'INCOMPLETE / BLOCKED'}
     write_json(REPORT/'replay-summary.json',summary)
     return summary

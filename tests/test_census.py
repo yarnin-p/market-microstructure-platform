@@ -140,3 +140,21 @@ def test_null_decimal_size_presence_remains_unknown():
 def test_form_t_session_rule_is_frozen(index,allowed):
     t=bounds(CFG['cycle'])[index]+1
     assert bool(run([row(t,conditions=[12])])['event'])==allowed
+
+
+def test_inclusive_tail_resume_preserves_same_sip_ties_and_prefix(tmp_path,monkeypatch):
+    monkeypatch.setattr(c,'ROOT',tmp_path)
+    folder=tmp_path/'raw/TEST';folder.mkdir(parents=True)
+    a,_,pre,_,end=bounds(CFG['cycle'])
+    params={'timestamp.gt':str(a),'timestamp.lte':str(end),'sort':'timestamp','order':'asc','limit':5000}
+    header='sip_timestamp,participant_timestamp,price,size,id,sequence_number,exchange\n'
+    original=f'{pre},{pre},1.0,100,b,2,4\n'
+    c.write_json(folder/'page-00000.json',capture(params,header+original,{'cursor':'two'}))
+    tail=header+f'{pre},{pre},1.1,100,a,1,4\n'+original+f'{pre+1},{pre+1},1.2,100,c,3,4\n'
+    p={'timestamp.gte':str(pre),'timestamp.lte':str(end),'sort':'timestamp','order':'asc','limit':15000}
+    cap=capture(p,tail,index=1);cap.update(expected_rows=3,coverage_join='TIMESTAMP_OVERLAP_TAIL',prior_next_params={'cursor':'two'})
+    c.write_json(folder/'page-00001.json',cap)
+    result=c.replay_symbol(OP,CFG,CONDITIONS)
+    assert result['complete'] and result['event']['event_timestamp']==pre
+    assert result['exact_duplicates']==1
+    with pytest.raises(AssertionError):c.continuation_check({**cap,'params':{**p,'timestamp.gte':str(pre+1)}},{'cursor':'two'},pre,CFG['cycle'])

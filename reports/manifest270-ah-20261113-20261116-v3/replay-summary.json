@@ -1,0 +1,25 @@
+{
+  "approved_candidates": 102,
+  "candidate_coverage_percent": 100.0,
+  "complete_trade_windows": 102,
+  "first_touch_events": 95,
+  "frozen_verified_AH": 34,
+  "later_invalidated_events": 0,
+  "raw_json_hash_dependent_trigger_ties": 0,
+  "rejected_no_eligible_touch": 7,
+  "run_id": "manifest270-ah-20261113-20261116-v3",
+  "sessions": {
+    "AH": 34,
+    "PRE": 18,
+    "RTH": 43
+  },
+  "status": "COMPLETE_APPROVED_MANIFEST_REPLAY",
+  "unknown": 0,
+  "unverified_prior_or_pagination": 0,
+  "verified_observed": 95,
+  "verified_sessions": {
+    "AH": 34,
+    "PRE": 18,
+    "RTH": 43
+  }
+}

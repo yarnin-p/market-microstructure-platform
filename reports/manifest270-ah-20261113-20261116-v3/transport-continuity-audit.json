@@ -1,0 +1,41 @@
+{
+  "manual_transport_probes": "FCUV pages 00103 and 00104 are captured and hashed; the former proves a cursor limit override is ignored, the latter starts the documented inclusive tail. Both request approved FCUV only.",
+  "method": "Retain original prefix and resume with inclusive timestamp.gte at exactly the previous last SIP timestamp; deduplicate exact records and retain same-timestamp ties.",
+  "replay_policy_changed": false,
+  "tail_joins": [
+    {
+      "coverage_join": "TIMESTAMP_OVERLAP_TAIL",
+      "cursor_tail_check": "TAIL_SEQUENCE_AND_NANOSECOND_MATCH",
+      "http_headers": "NOT_EXPOSED_BY_CONNECTOR",
+      "next_params": {
+        "cursor": "YXA9MTQzNjA2MyZhcz1hdGxhcy1zdG9ja3MtdHJhZGVzJmxpbWl0PTE1MDAwJm9yZGVyPWFzYyZzb3J0PXRpbWVzdGFtcCZ0aW1lc3RhbXAuZ3RlPTIwMjYtMTEtMTNUMTQlM0E1NyUzQTIxLjAwMDQyMzE1NVomdGltZXN0YW1wLmx0ZT0xNzk0NjAzNjAwMDAwMDAwMDAw"
+      },
+      "page_index": 104,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/census-20261113-rest-20261116-v1/raw/FCUV/page-00104.json",
+      "prior_next_params": {
+        "cursor": "YXA9MTE5OTc0MCZhcz1hdGxhcy1zdG9ja3MtdHJhZGVzJmxpbWl0PTUwMDAmb3JkZXI9YXNjJnNvcnQ9dGltZXN0YW1wJnRpbWVzdGFtcC5ndGU9MjAyNi0xMS0xM1QxNCUzQTQ2JTNBMDYuNTU2MzEwODdaJnRpbWVzdGFtcC5sdGU9MTc5NDYwMzYwMDAwMDAwMDAwMA"
+      },
+      "rows": 15000,
+      "sha256": "2a174cbdee0d8922849b4efc9e5e22e45d3b1fba756a57df79722317f8190a13",
+      "ticker": "FCUV",
+      "transport": "MASSIVE_REST_VIA_MCP_CSV"
+    },
+    {
+      "coverage_join": "TIMESTAMP_OVERLAP_TAIL",
+      "cursor_tail_check": "TAIL_SEQUENCE_AND_NANOSECOND_MATCH",
+      "http_headers": "NOT_EXPOSED_BY_CONNECTOR",
+      "next_params": {
+        "cursor": "YXA9OTA3NTM0NyZhcz1hdGxhcy1zdG9ja3MtdHJhZGVzJmxpbWl0PTE1MDAwJm9yZGVyPWFzYyZzb3J0PXRpbWVzdGFtcCZ0aW1lc3RhbXAuZ3RlPTIwMjYtMTEtMTNUMTklM0E1OCUzQTUzLjc4MjE4Nzc0NlomdGltZXN0YW1wLmx0ZT0xNzk0NjAzNjAwMDAwMDAwMDAw"
+      },
+      "page_index": 3,
+      "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/census-20261113-rest-20261116-v1/raw/SNAL/page-00003.json",
+      "prior_next_params": {
+        "cursor": "YXA9NTMyODMyJmFzPWF0bGFzLXN0b2Nrcy10cmFkZXMmbGltaXQ9MTAwMDAmb3JkZXI9YXNjJnNvcnQ9dGltZXN0YW1wJnRpbWVzdGFtcC5ndGU9MjAyNi0xMS0xM1QxMSUzQTUwJTNBNDguMzY3MjgxOTY2WiZ0aW1lc3RhbXAubHRlPTE3OTQ2MDM2MDAwMDAwMDAwMDA"
+      },
+      "rows": 15000,
+      "sha256": "5bf381164e117860b50b5570e44cb037f118c061ed7678f4a2d2166e0870d0a8",
+      "ticker": "SNAL",
+      "transport": "MASSIVE_REST_VIA_MCP_CSV"
+    }
+  ]
+}

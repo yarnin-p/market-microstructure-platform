@@ -1,0 +1,7 @@
+{
+  "approval_note": "User instructed: create the +10% stock list for the Nov13 trading cycle with previous-close price >0 to $3 and current float proxy 100K\u201315M, and publish results to GitHub; resume the reviewed 102-candidate manifest.",
+  "approved_at": "2026-11-16T10:53:20.169420+00:00",
+  "manifest_sha256": "98c3fb2ed09ed5b8575e2c52e5922a3bce50cd2217888eae199a9e404bd0e4a5",
+  "run_id": "manifest270-ah-20261113-20261116-v3",
+  "status": "USER_APPROVED"
+}

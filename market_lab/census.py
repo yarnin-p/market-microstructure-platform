@@ -205,6 +205,34 @@ def normalized(raw,source,security,cycle):
             'session':session_label(cycle,t) if valid else 'INVALID','normalization_status':'OK' if valid else 'INVALID_TIMESTAMP'}
 
 
+def continuation_check(cap, expected, previous_tail, cycle):
+    actual=cap['params']
+    if actual==expected:return 'EXACT_CURSOR'
+    if cap.get('coverage_join')=='TIMESTAMP_OVERLAP_TAIL':
+        assert cap['prior_next_params']==expected and previous_tail is not None
+        assert bounds(cycle)[0]<previous_tail<=bounds(cycle)[-1]
+        assert actual=={'timestamp.gte':str(previous_tail),'timestamp.lte':str(bounds(cycle)[-1]),
+                       'sort':'timestamp','order':'asc','limit':actual['limit']}
+        assert actual['limit'] in {10000,15000,50000}
+        return 'PREFIX_PLUS_INCLUSIVE_TIMESTAMP_TAIL_UNION'
+    assert set(actual)=={'cursor','limit'} and set(expected)=={'cursor'}
+    assert actual['cursor']==expected['cursor'] and actual['limit']in {5000,10000,15000,50000}
+    return 'UNCHANGED_CURSOR_WITH_PAGE_LIMIT_ARGUMENT'
+
+
+def cursor_page_limit(params):
+    try:
+        c=params['cursor'];q=dict(parse_qsl(base64.urlsafe_b64decode(c+'='*(-len(c)%4)).decode()))
+        return int(q['limit'])
+    except (KeyError,ValueError,UnicodeError):return None
+
+
+def capture_tail(cap):
+    if not cap['expected_rows']:return None
+    lines=cap['csv'].strip().splitlines()
+    return parse_csv(lines[0]+'\n'+lines[-1]+'\n',1)[0]['sip_timestamp']
+
+
 def replay_symbol(opportunity,cfg,conditions,run_id=None):
     effective_run=run_id or RUN
     folder=ROOT/'raw'/opportunity['ticker']; pages=sorted(folder.glob('page-[0-9][0-9][0-9][0-9][0-9].json'))
@@ -220,9 +248,9 @@ def replay_symbol(opportunity,cfg,conditions,run_id=None):
             assert cap['page_index']==i
             assert cap['path']==f"/v3/trades/{opportunity['ticker']}"
             if i==0:
-                assert cap['params'].get('limit') in {5000,10000,cfg['trade_page_limit']}
+                assert cap['params'].get('limit') in {5000,10000,15000,cfg['trade_page_limit']}
                 assert cap['params']=={'timestamp.gt':str(bounds(cfg['cycle'])[0]),'timestamp.lte':str(bounds(cfg['cycle'])[-1]),'sort':'timestamp','order':'asc','limit':cap['params']['limit']}
-            else:assert cap['params']==expected_request
+            else:continuation_check(cap,expected_request,previous_tail,cfg['cycle'])
             assert not complete,'pages after terminal page'
             values=parse_csv(cap['csv'],cap['expected_rows']);total+=len(values)
             if values:
@@ -232,7 +260,7 @@ def replay_symbol(opportunity,cfg,conditions,run_id=None):
             expected_request=cap.get('next_params'); complete=expected_request is None
             tail_check=cursor_tail_audit(expected_request,values)
             source={'path':str(p.resolve()),'sha256':file_hash(p),'transport':'MASSIVE_REST_VIA_MCP_CSV','http_headers':'NOT_EXPOSED_BY_CONNECTOR'}
-            source_audit.append({**source,'rows':len(values),'page_index':i,'next_params':expected_request,'cursor_tail_check':tail_check})
+            source_audit.append({**source,'rows':len(values),'page_index':i,'next_params':expected_request,'cursor_tail_check':tail_check,'coverage_join':cap.get('coverage_join'),'prior_next_params':cap.get('prior_next_params')})
             for j,raw in enumerate(values):
                 row=normalized(raw,{**source,'row_index':j},opportunity['security_id'],cfg['cycle'])
                 if row['record_id'] in seen:duplicates+=1;continue
@@ -346,11 +374,15 @@ def finish():
 def seal(path):
     p=Path(path).resolve()
     assert p.is_relative_to((ROOT/'raw').resolve()) and p.name.startswith('page-') and p.suffix=='.json'
-    cap=read(p);parse_csv(cap['csv'],cap['expected_rows'])
     sidecar=p.with_suffix('.sha256.json')
-    receipt={'path':str(p),'sha256':file_hash(p),'rows':cap['expected_rows']}
-    if sidecar.exists():assert read(sidecar)==receipt
-    else:write_json(sidecar,receipt)
+    sha=file_hash(p)
+    if sidecar.exists():
+        receipt=read(sidecar)
+        assert receipt['path']==str(p) and receipt['sha256']==sha
+        return receipt
+    cap=read(p);parse_csv(cap['csv'],cap['expected_rows'])
+    receipt={'path':str(p),'sha256':sha,'rows':cap['expected_rows']}
+    write_json(sidecar,receipt)
     return receipt
 
 
@@ -375,22 +407,24 @@ def broker_state():
     for p in sorted((ROOT/'raw').glob('*/page-[0-9][0-9][0-9][0-9][0-9].json')):
         seal(p);groups[p.parent.name].append(p);total+=p.stat().st_size
     for ticker,paths in groups.items():
-        expected=None;seen=set()
+        expected=None;seen=set();previous_tail=None
         for index,p in enumerate(paths):
             cap=read(p);assert cap['page_index']==index,'MISSING_CACHED_PAGE'
             assert cap['path']==f'/v3/trades/{ticker}'
             if index:
-                assert expected is not None and cap['params']==expected,'BROKEN_CACHED_CURSOR_CHAIN'
+                assert expected is not None,'UNEXPECTED_PAGE_AFTER_TERMINAL'
+                continuation_check(cap,expected,previous_tail,cfg['cycle'])
             else:
-                assert cap['params'].get('limit') in {5000,10000,50000}
+                assert cap['params'].get('limit') in {5000,10000,15000,50000}
                 assert cap['params']=={'timestamp.gt':str(bounds(cfg['cycle'])[0]),'timestamp.lte':str(bounds(cfg['cycle'])[-1]),'sort':'timestamp','order':'asc','limit':cap['params']['limit']}
             key=digest(cap['params']);assert key not in seen,'CACHED_CURSOR_LOOP';seen.add(key)
+            previous_tail=capture_tail(cap)
             expected=cap['next_params']
         if expected is None:completed.add(ticker)
-        else:resume[ticker]={'page_index':len(paths),'next_params':expected}
+        else:resume[ticker]={'page_index':len(paths),'next_params':expected,'last_sip_timestamp':str(previous_tail),'cursor_page_limit':cursor_page_limit(expected)}
     total=sum(p.stat().st_size for p in ROOT.rglob('*') if p.is_file())
     assert total+2**31<cfg['max_local_storage_bytes'],'STORAGE_BUDGET'
-    transport=read('configs/census-20261113-transport-v2.json')
+    transport=read('configs/census-20261113-transport-v3.json')
     if transport.get('adaptive_retry_on_transport_closed'):
         failed=set(transport['retry_small_page_tickers'])
         for p in (ROOT/'errors').glob('*.json'):

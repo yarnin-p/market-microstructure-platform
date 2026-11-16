@@ -1,0 +1,18 @@
+{
+  "version": "census-mcp-transport-v3",
+  "default_page_limit": 15000,
+  "retry_page_limit": 10000,
+  "retry_small_page_tickers": [
+    "AKAN",
+    "BBAI"
+  ],
+  "reason": "Validated 15000-row response; use inclusive timestamp tail joins to increase transport page size without restarting or editing opaque cursors",
+  "changes_replay_policy": false,
+  "max_workers": 4,
+  "batch_seconds": 1750,
+  "batch_requests": 4000,
+  "batch_decoded_bytes": 2100000000,
+  "page_bytes": 33554432,
+  "adaptive_retry_on_transport_closed": true,
+  "request_timeout_seconds": 90
+}

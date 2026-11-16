@@ -2,7 +2,8 @@
 // Authenticated Massive MCP is the only market-data transport; no local API key.
 return (async () => {
   const cwd = '/Users/yarnin/Documents/yarnin-p/market-microstructure-platform';
-  const stateResult = await tools.exec_command({cmd:'.venv/bin/python -m market_lab.census broker-state',workdir:cwd,max_output_tokens:12000});
+  let stateResult = await tools.exec_command({cmd:'.venv/bin/python -m market_lab.census broker-state',workdir:cwd,max_output_tokens:12000,yield_time_ms:30000});
+  while(stateResult.session_id){stateResult=await tools.write_stdin({session_id:stateResult.session_id,chars:'',yield_time_ms:1000,max_output_tokens:12000});}
   if (stateResult.exit_code !== 0) throw Error(stateResult.output);
   const state = JSON.parse(stateResult.output);
   const started = Date.now();
@@ -19,6 +20,10 @@ return (async () => {
     let index=prior?.page_index || 0;
     // Smaller pages are an operational transport repair, not a sampling limit.
     let params=prior?prior.next_params:{'timestamp.gt':state.start_ns,'timestamp.lte':state.end_ns,sort:'timestamp',order:'asc',limit:state.transport.retry_small_page_tickers.includes(ticker)?state.transport.retry_page_limit:state.transport.default_page_limit};
+    let join=null;
+    if(prior&&prior.last_sip_timestamp&&prior.cursor_page_limit&&prior.cursor_page_limit<budget.default_page_limit){
+      join=prior.next_params;params={'timestamp.gte':prior.last_sip_timestamp,'timestamp.lte':state.end_ns,sort:'timestamp',order:'asc',limit:budget.default_page_limit};
+    }
     const seen=new Set();
     while(params) {
       if(halted)throw Error('BATCH_STOPPED_AFTER_TIMEOUT');
@@ -48,7 +53,7 @@ return (async () => {
       if(csv.includes('[truncated'))throw Error('TRUNCATED_EXPORT');
       const rows=csv.trimEnd().split('\n').length-1;
       const nextParams=next?JSON.parse(next[1]):null;
-      const capture={...request,page_index:index,expected_rows:rows,next_params:nextParams,csv,
+      const capture={...request,coverage_join:join?'TIMESTAMP_OVERLAP_TAIL':undefined,prior_next_params:join||undefined,page_index:index,expected_rows:rows,next_params:nextParams,csv,
         metadata:pos<0?'Terminal connector response; no next-page hint':result.slice(pos),
         retrieved_at:new Date().toISOString(),http_status:null,http_headers:null,transport:'MASSIVE_REST_VIA_MCP',
         attempt_id:attempt,decoded_connector_bytes:decodedBytes,row_count_source:'complete CSV export; equivalence to store_as/SQL checked separately'};
@@ -59,7 +64,7 @@ return (async () => {
       await save(filename,capture);
       const sealed=await tools.exec_command({cmd:'.venv/bin/python -m market_lab.census seal '+shellQuote(filename),workdir:cwd,max_output_tokens:500});
       if(sealed.exit_code!==0)throw Error(sealed.output);
-      index++;params=nextParams;
+      index++;params=nextParams;join=null;
     }
   }
   await Promise.all(Array.from({length:budget.max_workers},(_,worker)=>(async()=>{
