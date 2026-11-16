@@ -1,0 +1,8 @@
+{
+  "passed": 266,
+  "source_sha256": {
+    "tests/test_calibration_decision.py": "19a9056f6fcd16d6fcb67f507c5d7b6ff75b89dfaf0a67771866d3ed4072aa8f",
+    "tests/test_ratio_calibration.py": "9a524fd18df6eeb6245a3259e6af756499a992bb2797c59cdec2c1c7eb39dec1"
+  },
+  "warnings": 84
+}

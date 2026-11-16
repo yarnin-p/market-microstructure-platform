@@ -1,0 +1,21 @@
+{
+  "credential_shaped_value_scan": "PASS",
+  "diagnostic_semantics": {
+    "adequate_count_information_repetitions": "Counts-only diagnostic; excludes unknown-fraction and global calibration conditions.",
+    "empty_domain_coverage": "Vacuous physical [-1,1] counts in unconditional coverage but is never informative or a usable policy conclusion.",
+    "information_gate_statuses": "Post-simulation diagnostic uses known synthetic population unknown fraction; not an observable-sample estimator or a replacement for future sample-weighted unknown-fraction gate."
+  },
+  "holdout_access": false,
+  "manifest_sha256": "c1a12d5dd1c451ef6a163d23a5b8cd2cfa06679bf839eccd084d02cf47b2e8d3",
+  "market_requests": 0,
+  "protected_files_unchanged": 13956,
+  "runtime": {
+    "numpy": "2.5.4",
+    "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+    "python": "3.13.18 (main, Oct 25 2026, 18:31:23) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "rng": "numpy.default_rng / PCG64"
+  },
+  "source_hashes_verified": 10,
+  "status": "PASS",
+  "verified_manifest_files": 29
+}

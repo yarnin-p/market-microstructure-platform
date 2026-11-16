@@ -1,0 +1,161 @@
+{
+  "baseline_commit": "2a1c6a5",
+  "contract": "calibration-repair-evidence-v1",
+  "files": {
+    "baseline-reproduction.json": {
+      "bytes": 150,
+      "sha256": "04ed4a0abf851bdb2c3bcdc753bb2ce2de37584bb5349a35856d1419958f3a0b"
+    },
+    "development-diagnosis.md": {
+      "bytes": 2339,
+      "sha256": "41aa6576ca0f3aedd1a43a1fc3f88d7ac981bcc3e1bb463529e1b46208bace2d"
+    },
+    "development-holdout_census_dates.json": {
+      "bytes": 1078942,
+      "sha256": "31598482840c65cfe41b83ca7c6dc91ed6784e347ba5b7aaf13557936470df80"
+    },
+    "development-informative_missing.json": {
+      "bytes": 1085101,
+      "sha256": "e15406a92bf07090c99338f9593cda43466235494592cc26f1a5e2e76efabef8"
+    },
+    "development-rare_domain.json": {
+      "bytes": 1056850,
+      "sha256": "ab09b57cc809b6256aeaecfa0991d76d90a76ba48476252c4052caafd9d48c4b"
+    },
+    "development-regular.json": {
+      "bytes": 1076903,
+      "sha256": "455c441dc2fdc0932cbdb6c23f0e0c67ab2c4c3dd5bd705047942c8ce4e7b83b"
+    },
+    "development-started.json": {
+      "bytes": 120,
+      "sha256": "af8370c3e1a76795aade589963fc38be701c8d622872879baa81b2c0572a470e"
+    },
+    "development-summary.json": {
+      "bytes": 23887,
+      "sha256": "36fddc645a75e819f0e6ce4753b1c3ce075ea7a6547baf4096b81ed44fa246be"
+    },
+    "diagnostic-sensitivities.json": {
+      "bytes": 9436,
+      "sha256": "970c43727084caad286b9ff548b6ead6b50943f7a06e69be2fd440495787ecc8"
+    },
+    "freeze.json": {
+      "bytes": 5346,
+      "sha256": "31203901e1c2fd87ac1c3053d8d73312a8a40f927408b052af079396f78d91fa"
+    },
+    "independent-verification.json": {
+      "bytes": 4451,
+      "sha256": "8ca7e12c90009272e1855da5ac71fc01ffe418ad3334cca304fb59474c7cd448"
+    },
+    "protected.json": {
+      "bytes": 2520089,
+      "sha256": "8a161d61bd82c803f7711886ffa92bc9cf0cb27571fced7e7a17814b008da420"
+    },
+    "readiness.json": {
+      "bytes": 636,
+      "sha256": "219240fdb5c09a79543680175fc924c7103c09b882051d0275410ef65c983316"
+    },
+    "report.md": {
+      "bytes": 15334,
+      "sha256": "9d2f6030037a3980c844f5dbbeff5de921a05ddcea3a20ea6fdc499fd336f470"
+    },
+    "tests.json": {
+      "bytes": 280,
+      "sha256": "116029acf863999cd36031b539be749f755205c05678377bd969360646e995a2"
+    },
+    "validation-holdout_census_dates_p1.json": {
+      "bytes": 1076451,
+      "sha256": "5d5009a6ea8aefb299d1715ac8df2ea3feedf11ac775d7f02116cc1f60ec35b9"
+    },
+    "validation-holdout_census_dates_p2.json": {
+      "bytes": 1077204,
+      "sha256": "3de82ebd976019176dfc828625ba3e66868b1cd854eeed163a10bd5d1bd86c1e"
+    },
+    "validation-informative_missing_p1.json": {
+      "bytes": 1085343,
+      "sha256": "a72cfb3d0d3e2b6f4322bf104bcc94e598dcb21eb6a7eb7809aa9be4af7187ef"
+    },
+    "validation-informative_missing_p2.json": {
+      "bytes": 1083288,
+      "sha256": "3566b11a34693aeceae0614f920c4cbfe7d3ce7284ebe5c2738a0fed536094ac"
+    },
+    "validation-rare_005.json": {
+      "bytes": 1007312,
+      "sha256": "70106aa49e4be1c7536a5fd74ce325983d2e4a6b8f81337657ba29453f82148a"
+    },
+    "validation-rare_005_census.json": {
+      "bytes": 1035258,
+      "sha256": "72ca8e1b008e43be8418abf6c561f4aceb259f6da85108bf6bb5377b26719429"
+    },
+    "validation-rare_010_small.json": {
+      "bytes": 1058369,
+      "sha256": "77f1e67d627cf669aadc5c9e6bb31f568eae9f0d88b8ac83284c7d5a299e794b"
+    },
+    "validation-rare_020_large.json": {
+      "bytes": 1061176,
+      "sha256": "2f35b095a3b1655ac5328a0e06bdfcc4ab8f38ff2ccbbba9e30054910bf2645a"
+    },
+    "validation-rare_domain_p1.json": {
+      "bytes": 1062399,
+      "sha256": "65db01fca4242bfd439d5e56e7f95589a1825dc64d62c05da08704888a6c3d9f"
+    },
+    "validation-rare_domain_p2.json": {
+      "bytes": 1060736,
+      "sha256": "4bb78ce51588423099cba64ec00db5ebf6343b0e8e574eb1d1e9378ca10eaa26"
+    },
+    "validation-regular_p1.json": {
+      "bytes": 1077291,
+      "sha256": "a7ed27da097b4c1f7fbd0ff3bcb63b04c7a21461c62d847e35841f8253cc00e2"
+    },
+    "validation-regular_p2.json": {
+      "bytes": 1080818,
+      "sha256": "2cceff95663ba3c5c5ece961f4179f81779b4bd849cb32317b92550579ef3858"
+    },
+    "validation-started.json": {
+      "bytes": 182,
+      "sha256": "2e3a7abd3ff2d52732dedd5f810a00b6e1b17483c8d7e1c4397bea9fee675d3e"
+    },
+    "validation-summary.json": {
+      "bytes": 70219,
+      "sha256": "88bf1aaec6449c33d3c31d2584f3e575f6bc76c411145e2d2ce550483507d81a"
+    }
+  },
+  "holdout_access": false,
+  "new_market_requests": 0,
+  "original_failure_unchanged": true,
+  "primary_method_frozen_before_independent_validation": true,
+  "protocol_v3_adopted": false,
+  "readiness": {
+    "all_scenarios_present_in_frozen_order": true,
+    "coverage_floor": 0.93,
+    "failed_scenarios": [
+      {
+        "coverage": 0.834,
+        "method": "FIELLER_SCORE",
+        "scenario": "rare_005",
+        "stage": "independent"
+      }
+    ],
+    "holdout_authorized": false,
+    "independent_verification": "PASS",
+    "interpretation": "Synthetic coverage alone cannot establish real-market coverage or power.",
+    "method_substitution_from_secondary": false,
+    "primary_candidate": "FIELLER_SCORE",
+    "protocol_v2_unchanged": true,
+    "protocol_v3_adopted": false,
+    "statistical_clearance": "BLOCKED",
+    "v3_adoption_technically_eligible": false
+  },
+  "run_id": "m5-1-calibration-20261116-v1",
+  "source_hashes": {
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/scripts/finalize_calibration_repair.py": "b05d03de3473c7c28d6c0fe9d016db0899277be7d8c414fc52598152976da309",
+    "configs/task-005-1-calibration-v1.json": "da434fc70bc059d288efb89cf8927e3a8207603cdea1afdbcaf9ecd475e7757d",
+    "docs/plans/TASK-005-1-calibration-freeze-v1.md": "066a94c49f82bec01fdc26fe108fb48e0718cc65dc1575a8d1584b45171da730",
+    "docs/research/task-005-1-calibration-repair.md": "9d2f6030037a3980c844f5dbbeff5de921a05ddcea3a20ea6fdc499fd336f470",
+    "market_lab/calibration_decision.py": "608104ddf51830ab3654ca63d6d825a4c20d19326106499434e40f7704daf1bd",
+    "market_lab/calibration_repair.py": "22f4eb19e04445e66bfb79e599490022332bd9dd253b4c6d7d0f71d2b81c59d2",
+    "market_lab/ratio_calibration.py": "5bc6ff73cf7029436bc6de524b5e163e30cb1f14fd1cb90b235cf68ac70f6e39",
+    "scripts/validate_calibration_repair.py": "c2c033cbb886f60a62f89f920a731ae6c8b1bce8cfc8e08ff26266c3c8f07eb6",
+    "tests/test_calibration_decision.py": "19a9056f6fcd16d6fcb67f507c5d7b6ff75b89dfaf0a67771866d3ed4072aa8f",
+    "tests/test_ratio_calibration.py": "9a524fd18df6eeb6245a3259e6af756499a992bb2797c59cdec2c1c7eb39dec1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "all_scenarios_present_in_frozen_order": true,
+  "coverage_floor": 0.93,
+  "failed_scenarios": [
+    {
+      "coverage": 0.834,
+      "method": "FIELLER_SCORE",
+      "scenario": "rare_005",
+      "stage": "independent"
+    }
+  ],
+  "holdout_authorized": false,
+  "independent_verification": "PASS",
+  "interpretation": "Synthetic coverage alone cannot establish real-market coverage or power.",
+  "method_substitution_from_secondary": false,
+  "primary_candidate": "FIELLER_SCORE",
+  "protocol_v2_unchanged": true,
+  "protocol_v3_adopted": false,
+  "statistical_clearance": "BLOCKED",
+  "v3_adoption_technically_eligible": false
+}

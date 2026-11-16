@@ -1,0 +1,291 @@
+[
+  {
+    "fieller_misses": 46,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.38235294117647056,
+    "normal_critical_wald_coverage_diagnostic": 0.941,
+    "observable_target": 0.38235294117647056,
+    "population_identification_bounds_not_confidence_interval": [
+      0.38235294117647056,
+      0.38235294117647056
+    ],
+    "scenario": "regular",
+    "stage": "development",
+    "truth_score_coverage_direct_diagnostic": 0.954
+  },
+  {
+    "fieller_misses": 45,
+    "fieller_misses_at_boundary": 1,
+    "fieller_misses_with_no_observed_opposite_direction": 3,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.23333333333333334,
+    "normal_critical_wald_coverage_diagnostic": 0.898,
+    "observable_target": 0.23333333333333334,
+    "population_identification_bounds_not_confidence_interval": [
+      0.23333333333333334,
+      0.23333333333333334
+    ],
+    "scenario": "rare_domain",
+    "stage": "development",
+    "truth_score_coverage_direct_diagnostic": 0.955
+  },
+  {
+    "fieller_misses": 31,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.3871338311315336,
+    "normal_critical_wald_coverage_diagnostic": 0.953,
+    "observable_target": 0.2234348075818495,
+    "population_identification_bounds_not_confidence_interval": [
+      -0.07122343480758185,
+      0.5180930499712809
+    ],
+    "scenario": "informative_missing",
+    "stage": "development",
+    "truth_score_coverage_direct_diagnostic": 0.969
+  },
+  {
+    "fieller_misses": 45,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.27042577675489066,
+    "normal_critical_wald_coverage_diagnostic": 0.939,
+    "observable_target": 0.27042577675489066,
+    "population_identification_bounds_not_confidence_interval": [
+      0.27042577675489066,
+      0.27042577675489066
+    ],
+    "scenario": "holdout_census_dates",
+    "stage": "development",
+    "truth_score_coverage_direct_diagnostic": 0.955
+  },
+  {
+    "fieller_misses": 35,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.5364583333333334,
+    "normal_critical_wald_coverage_diagnostic": 0.952,
+    "observable_target": 0.5364583333333334,
+    "population_identification_bounds_not_confidence_interval": [
+      0.5364583333333334,
+      0.5364583333333334
+    ],
+    "scenario": "regular_p1",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.965
+  },
+  {
+    "fieller_misses": 54,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1,
+      "INCONCLUSIVE": 999
+    },
+    "latent_target": 0.49665924276169265,
+    "normal_critical_wald_coverage_diagnostic": 0.92,
+    "observable_target": 0.49665924276169265,
+    "population_identification_bounds_not_confidence_interval": [
+      0.49665924276169265,
+      0.49665924276169265
+    ],
+    "scenario": "rare_domain_p1",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.946
+  },
+  {
+    "fieller_misses": 41,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.3924914675767918,
+    "normal_critical_wald_coverage_diagnostic": 0.941,
+    "observable_target": 0.23094425483503983,
+    "population_identification_bounds_not_confidence_interval": [
+      -0.05631399317406143,
+      0.518202502844141
+    ],
+    "scenario": "informative_missing_p1",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.959
+  },
+  {
+    "fieller_misses": 42,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.3907563025210084,
+    "normal_critical_wald_coverage_diagnostic": 0.945,
+    "observable_target": 0.3907563025210084,
+    "population_identification_bounds_not_confidence_interval": [
+      0.3907563025210084,
+      0.3907563025210084
+    ],
+    "scenario": "holdout_census_dates_p1",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.958
+  },
+  {
+    "fieller_misses": 45,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.3747821034282394,
+    "normal_critical_wald_coverage_diagnostic": 0.933,
+    "observable_target": 0.3747821034282394,
+    "population_identification_bounds_not_confidence_interval": [
+      0.3747821034282394,
+      0.3747821034282394
+    ],
+    "scenario": "regular_p2",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.955
+  },
+  {
+    "fieller_misses": 54,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.5585412667946257,
+    "normal_critical_wald_coverage_diagnostic": 0.928,
+    "observable_target": 0.5585412667946257,
+    "population_identification_bounds_not_confidence_interval": [
+      0.5585412667946257,
+      0.5585412667946257
+    ],
+    "scenario": "rare_domain_p2",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.946
+  },
+  {
+    "fieller_misses": 46,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.515650741350906,
+    "normal_critical_wald_coverage_diagnostic": 0.94,
+    "observable_target": 0.31342668863261947,
+    "population_identification_bounds_not_confidence_interval": [
+      0.005766062602965404,
+      0.6210873146622735
+    ],
+    "scenario": "informative_missing_p2",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.954
+  },
+  {
+    "fieller_misses": 50,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 0,
+    "information_gate_statuses": {
+      "COUNT_AND_SET_GATES_MET_ONLY": 1000
+    },
+    "latent_target": 0.34782608695652173,
+    "normal_critical_wald_coverage_diagnostic": 0.94,
+    "observable_target": 0.34782608695652173,
+    "population_identification_bounds_not_confidence_interval": [
+      0.34782608695652173,
+      0.34782608695652173
+    ],
+    "scenario": "holdout_census_dates_p2",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.95
+  },
+  {
+    "fieller_misses": 166,
+    "fieller_misses_at_boundary": 149,
+    "fieller_misses_with_no_observed_opposite_direction": 166,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.6063829787234043,
+    "normal_critical_wald_coverage_diagnostic": 0.712,
+    "observable_target": 0.6063829787234043,
+    "population_identification_bounds_not_confidence_interval": [
+      0.6063829787234043,
+      0.6063829787234043
+    ],
+    "scenario": "rare_005",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.834
+  },
+  {
+    "fieller_misses": 57,
+    "fieller_misses_at_boundary": 3,
+    "fieller_misses_with_no_observed_opposite_direction": 8,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.5490196078431373,
+    "normal_critical_wald_coverage_diagnostic": 0.903,
+    "observable_target": 0.5490196078431373,
+    "population_identification_bounds_not_confidence_interval": [
+      0.5490196078431373,
+      0.5490196078431373
+    ],
+    "scenario": "rare_010_small",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.943
+  },
+  {
+    "fieller_misses": 47,
+    "fieller_misses_at_boundary": 2,
+    "fieller_misses_with_no_observed_opposite_direction": 2,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.32285714285714284,
+    "normal_critical_wald_coverage_diagnostic": 0.913,
+    "observable_target": 0.32285714285714284,
+    "population_identification_bounds_not_confidence_interval": [
+      0.32285714285714284,
+      0.32285714285714284
+    ],
+    "scenario": "rare_020_large",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.953
+  },
+  {
+    "fieller_misses": 41,
+    "fieller_misses_at_boundary": 0,
+    "fieller_misses_with_no_observed_opposite_direction": 5,
+    "information_gate_statuses": {
+      "INCONCLUSIVE": 1000
+    },
+    "latent_target": 0.203125,
+    "normal_critical_wald_coverage_diagnostic": 0.914,
+    "observable_target": 0.203125,
+    "population_identification_bounds_not_confidence_interval": [
+      0.203125,
+      0.203125
+    ],
+    "scenario": "rare_005_census",
+    "stage": "validation",
+    "truth_score_coverage_direct_diagnostic": 0.959
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "elapsed_seconds": 24.493720291997306,
+  "frozen_implementation": {
+    "market_lab/calibration_repair.py": "22f4eb19e04445e66bfb79e599490022332bd9dd253b4c6d7d0f71d2b81c59d2",
+    "market_lab/ratio_calibration.py": "5bc6ff73cf7029436bc6de524b5e163e30cb1f14fd1cb90b235cf68ac70f6e39"
+  },
+  "holdout_access": false,
+  "market_requests": 0,
+  "method_tuning": false,
+  "new_population_seeds": false,
+  "protected_files_unchanged": 13956,
+  "records": [
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "455c441dc2fdc0932cbdb6c23f0e0c67ab2c4c3dd5bd705047942c8ce4e7b83b",
+      "scenario": "regular",
+      "stage": "development"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "ab09b57cc809b6256aeaecfa0991d76d90a76ba48476252c4052caafd9d48c4b",
+      "scenario": "rare_domain",
+      "stage": "development"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "e15406a92bf07090c99338f9593cda43466235494592cc26f1a5e2e76efabef8",
+      "scenario": "informative_missing",
+      "stage": "development"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "31598482840c65cfe41b83ca7c6dc91ed6784e347ba5b7aaf13557936470df80",
+      "scenario": "holdout_census_dates",
+      "stage": "development"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "a7ed27da097b4c1f7fbd0ff3bcb63b04c7a21461c62d847e35841f8253cc00e2",
+      "scenario": "regular_p1",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "65db01fca4242bfd439d5e56e7f95589a1825dc64d62c05da08704888a6c3d9f",
+      "scenario": "rare_domain_p1",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "a72cfb3d0d3e2b6f4322bf104bcc94e598dcb21eb6a7eb7809aa9be4af7187ef",
+      "scenario": "informative_missing_p1",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "5d5009a6ea8aefb299d1715ac8df2ea3feedf11ac775d7f02116cc1f60ec35b9",
+      "scenario": "holdout_census_dates_p1",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "2cceff95663ba3c5c5ece961f4179f81779b4bd849cb32317b92550579ef3858",
+      "scenario": "regular_p2",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "4bb78ce51588423099cba64ec00db5ebf6343b0e8e574eb1d1e9378ca10eaa26",
+      "scenario": "rare_domain_p2",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "3566b11a34693aeceae0614f920c4cbfe7d3ce7284ebe5c2738a0fed536094ac",
+      "scenario": "informative_missing_p2",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "3de82ebd976019176dfc828625ba3e66868b1cd854eeed163a10bd5d1bd86c1e",
+      "scenario": "holdout_census_dates_p2",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "70106aa49e4be1c7536a5fd74ce325983d2e4a6b8f81337657ba29453f82148a",
+      "scenario": "rare_005",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "77f1e67d627cf669aadc5c9e6bb31f568eae9f0d88b8ac83284c7d5a299e794b",
+      "scenario": "rare_010_small",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "2f35b095a3b1655ac5328a0e06bdfcc4ab8f38ff2ccbbba9e30054910bf2645a",
+      "scenario": "rare_020_large",
+      "stage": "validation"
+    },
+    {
+      "direct_score_membership": "PASS",
+      "draws_reproduced": 1000,
+      "file_sha256": "72ca8e1b008e43be8418abf6c561f4aceb259f6da85108bf6bb5377b26719429",
+      "scenario": "rare_005_census",
+      "stage": "validation"
+    }
+  ],
+  "status": "PASS",
+  "total_draws": 16000,
+  "verification_code_sha256": "c2c033cbb886f60a62f89f920a731ae6c8b1bce8cfc8e08ff26266c3c8f07eb6"
+}
