@@ -1,0 +1,35 @@
+{
+  "ah_from_ms": 1794517200000,
+  "ah_to_ms": 1794531599999,
+  "batch_decoded_bytes": 268435456,
+  "batch_requests": 500,
+  "batch_seconds": 1750,
+  "clock": "SIP_UTC_NS",
+  "cycle": {
+    "afterhours_end": "2026-11-12T20:00:00-05:00",
+    "anchor_at": "2026-11-12T21:00:00+00:00",
+    "anchor_date": "2026-11-12",
+    "calendar": "XNYS",
+    "calendar_version": "4.13.2",
+    "cycle_id": "2026-11-13",
+    "early_close": false,
+    "end_at": "2026-11-13T21:00:00+00:00",
+    "extended_hours_status": "PROVIDER_COVERAGE_WINDOW_NOT_VENUE_SCHEDULE",
+    "premarket_start": "2026-11-13T04:00:00-05:00",
+    "rth_open": "2026-11-13T14:30:00+00:00",
+    "split_group": "EXPLORATORY_SINGLE_DATE",
+    "timezone": "America/New_York"
+  },
+  "float_gate": "100000 <= current proxy <= 15000000; retrospective, not historical PIT",
+  "max_workers": 4,
+  "price_multiplier": "1.10",
+  "replay_policy": "sip-first-touch-v1",
+  "run_id": "manifest270-ah-20261113-20261116-v3",
+  "seed_count": 270,
+  "seed_sha256": "823f527f900018399a8630798c5c36fa80c81d94b0966fdc36652dcf5ff4648f",
+  "tick_permission": "AWAITING_USER_APPROVAL",
+  "universe_source": {
+    "path": "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/data/runs/census-20261113-rest-20261116-v1/universe.json",
+    "sha256": "1cc53e1584ac89a0903a9db4919657d4dccb637177c53af6c41eb4807a524379"
+  }
+}

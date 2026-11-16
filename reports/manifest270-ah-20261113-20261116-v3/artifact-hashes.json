@@ -1,0 +1,11 @@
+{
+  "additional-ah-candidates.csv": "224b6fac1f4b3c7f9ba7b591f728fde3a132a7add050abe6288ecfe7aab29a3c",
+  "ah-discovery-coverage.csv": "ee6012514a4e19ed09ad5af0b863878162a26555ce98599a0cf638e22b353892",
+  "final-acquisition-manifest.csv": "9bb6af4554b3c533dcd0a59161eb7a35305c57513f91e37c1a64881bd4a05773",
+  "final-acquisition-manifest.json": "98c3fb2ed09ed5b8575e2c52e5922a3bce50cd2217888eae199a9e404bd0e4a5",
+  "integrity.json": "5282ba22e159cc88811ef8c15f736db8fcb1b495df34d134c50b12c27bbcaa72",
+  "resources.json": "f0aa0a66dbf854b8535abd3835a4cff6cc1bd400fe8debbe9064756a1fbab8ee",
+  "seed-270-universe-audit.csv": "d52bf93a2c05e6b8c5dd0d80870005e2f4d0189237588c2d046ac2f9bf0f5aba",
+  "source-index.json": "7f9cecf609961c2c96a4880e077be278680992c1691924dfe679a522df052afa",
+  "summary.json": "8967566df8811a925ce71cac148f53ced4c3d43d12cf0db0405e2360be49d8a6"
+}

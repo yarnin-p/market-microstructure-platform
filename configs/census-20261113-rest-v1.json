@@ -1,0 +1,76 @@
+{
+  "barriers": [
+    [
+      "0.03",
+      "0.03"
+    ],
+    [
+      "0.05",
+      "0.03"
+    ],
+    [
+      "0.10",
+      "0.05"
+    ]
+  ],
+  "batch_max_calls": 4096,
+  "batch_max_decoded_bytes": 2147483648,
+  "batch_max_seconds": 1800,
+  "confirmation_models": false,
+  "cycle": {
+    "afterhours_end": "2026-11-12T20:00:00-05:00",
+    "anchor_at": "2026-11-12T21:00:00+00:00",
+    "anchor_date": "2026-11-12",
+    "calendar": "XNYS",
+    "calendar_version": "4.13.2",
+    "cycle_id": "2026-11-13",
+    "early_close": false,
+    "end_at": "2026-11-13T21:00:00+00:00",
+    "extended_hours_status": "PROVIDER_COVERAGE_WINDOW_NOT_VENUE_SCHEDULE",
+    "premarket_start": "2026-11-13T04:00:00-05:00",
+    "rth_open": "2026-11-13T14:30:00+00:00",
+    "split_group": "EXPLORATORY_SINGLE_DATE",
+    "timezone": "America/New_York"
+  },
+  "cycles": [
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "diagnostic_securities": 6,
+  "float_max": 15000000,
+  "float_min": 100000,
+  "float_policy": "float-proxy-v0.2",
+  "forward_minutes": [
+    5,
+    15,
+    30,
+    60
+  ],
+  "holdout_access": false,
+  "intertrade_gap_seconds": 300,
+  "max_decoded_bytes": 1073741824,
+  "max_local_storage_bytes": 68719476736,
+  "max_mark_age_seconds": 60,
+  "max_page_bytes": 33554432,
+  "max_pages": 280,
+  "max_participant_lag_seconds": 10,
+  "max_quote_age_seconds": 5,
+  "max_quote_windows": 48,
+  "max_requests": 300,
+  "max_window_pages": 12,
+  "max_workers": 4,
+  "policy_version": "m2-first-touch-pilot-v1",
+  "quote_page_limit": 10000,
+  "quote_radius_seconds": 60,
+  "replay_policy": "sip-first-touch-v1",
+  "run_id": "census-20261113-rest-20261116-v1",
+  "sampling": "CENSUS_NO_SAMPLE",
+  "seed": 20261115,
+  "selection": "systematic: seeded random sample from first-cycle non-float M1 quality gates; diagnostic: first pilot day aggregate high/P0 descending, independent of tick continuation outcomes; disjoint samples",
+  "source_m1_run": "m1-universe-120-20261115-v2",
+  "systematic_securities": 10,
+  "trade_page_limit": 50000,
+  "transport": "MASSIVE_REST_VIA_MCP",
+  "trigger_multiplier": "1.10"
+}

@@ -1,0 +1,18 @@
+{
+  "version": "census-mcp-transport-v1",
+  "default_page_limit": 50000,
+  "retry_page_limit": 5000,
+  "retry_small_page_tickers": [
+    "AKAN",
+    "BBAI"
+  ],
+  "reason": "Observed connector Transport closed errors; no outcome-based selection",
+  "changes_replay_policy": false,
+  "max_workers": 4,
+  "batch_seconds": 1750,
+  "batch_requests": 4000,
+  "batch_decoded_bytes": 2100000000,
+  "page_bytes": 33554432,
+  "adaptive_retry_on_transport_closed": true,
+  "request_timeout_seconds": 90
+}

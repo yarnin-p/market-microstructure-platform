@@ -13,3 +13,8 @@ research/runs/*/research_bundle.zip
 reports/live-smoke/
 
 reports/*/research_bundle.zip
+# Full census CSV remains local; deterministic gzip is the compact Git artifact.
+reports/census-20261113-rest-20261116-v1/universe.csv
+
+# Superseded full-universe review drafts remain local alongside retained caches.
+reports/census-20261113-rest-20261116-v1/

@@ -1,0 +1,13 @@
+{
+  "additional_tick_requests_minimum": 55,
+  "ah_connectivity_probe_requests": 1,
+  "daily13_grouped_provider_requests": 1,
+  "daily13_query_projection_rows": 12564,
+  "exact_future_tick_request_count": "unknown until pagination is exhausted",
+  "new_ah_aggregate_request_attempts": 113,
+  "new_ah_raw_responses": 113,
+  "new_tick_requests_before_approval": 0,
+  "permission": "AWAITING_USER_APPROVAL",
+  "preserved_tick_pages": 559,
+  "reused_ah_summaries": 202
+}

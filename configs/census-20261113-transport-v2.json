@@ -1,0 +1,18 @@
+{
+  "version": "census-mcp-transport-v2",
+  "default_page_limit": 10000,
+  "retry_page_limit": 5000,
+  "retry_small_page_tickers": [
+    "AKAN",
+    "BBAI"
+  ],
+  "reason": "Bound exports below the successfully validated 10,515-row CSV payload; reduce large-response Transport closed errors without changing population or replay",
+  "changes_replay_policy": false,
+  "max_workers": 4,
+  "batch_seconds": 1750,
+  "batch_requests": 4000,
+  "batch_decoded_bytes": 2100000000,
+  "page_bytes": 33554432,
+  "adaptive_retry_on_transport_closed": true,
+  "request_timeout_seconds": 90
+}

@@ -1,0 +1,9 @@
+{
+  "final_manifest_sha256": "98c3fb2ed09ed5b8575e2c52e5922a3bce50cd2217888eae199a9e404bd0e4a5",
+  "frozen_replay_sha256": "7370ccf1d0b9f1bd259d70ec8104b49fbfc3326fbd3a8e9fc7759addc2de939d",
+  "new_tick_pages_before_approval": 0,
+  "old_research_protected_hashes_passed": true,
+  "original_tick_pages_preserved": 559,
+  "seed_sha256": "823f527f900018399a8630798c5c36fa80c81d94b0966fdc36652dcf5ff4648f",
+  "tick_permission": "AWAITING_USER_APPROVAL"
+}
