@@ -1,0 +1,1 @@
+{"reason":"Add field-level diagnostics after ATNM strict comparison shows REST-absent vs S3-zero TRF field. Strict canonical comparison/classification is unchanged; no fields removed to manufacture reconciliation. No signal/price/return thresholds changed.","code":{"market_lab/flatfile_reconcile.py":"a582704784f1f4ea0bb5a28ddaf9db1f3c42dae7de1af00703a9abe97072912b"}}

@@ -10,6 +10,7 @@ dependencies = ["requests==2.34.2", "pyarrow==26.0.1", "exchange-calendars==4.13
 
 [project.optional-dependencies]
 test = ["pytest==9.2.0"]
+flatfiles = ["boto3==1.44.3"]
 
 [project.scripts]
 market-lab = "market_lab.cli:main"

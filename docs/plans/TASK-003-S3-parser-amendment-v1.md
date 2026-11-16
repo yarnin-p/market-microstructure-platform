@@ -1,0 +1,13 @@
+# TASK 003-S3 — operational parser/integrity amendment
+
+No confirmation definition, signal threshold, deadline, first-touch risk set or historical trade input changes.
+
+The initial Arrow CSV scan was interrupted explicitly before EOF after measured throughput threatened the original shared execution budget. Its partial attempt and progress remain local and are never a complete source. A bounded prefix benchmark and controlled fixture equivalence tests justified changing only the CSV reader to a DuckDB relation streaming Arrow batches (65,536 rows, four CSV threads,768MiB database memory). WITH ORDINALITY preserves original CSV data-row identifiers before any filtering. All original values remain strings; normalized nanoseconds are int64. Completed sources are still extracted once per frozen selection. Recovery may rescan an incomplete prefix; it is accounted separately.
+
+The existing DuckDB2.0 result API uses relation.to_arrow_table()/to_arrow_reader(). The API correction changes data access only, not signal rules. Original quote_state and confirmation semantics are unchanged and remain bound by the pre-outcome code freeze.
+
+A regression test then demonstrated that DuckDB2.0 detects truncated gzip but can accept an incorrect CRC32 trailer. Successful CSV parsing is therefore insufficient for integrity certification. An independent streamed /usr/bin/gzip -dc pass must reach EOF with exit0; it counts exact decoded bytes without storing the full CSV. Mandatory proof binds source SHA256 and key. CRC-mismatched/truncated sources cannot produce accepted evidence. Fast CSV scan v3 and its source snapshot are preserved; separately recorded CRC proof is required before any analysis accepts its output. Current reader v4 also requires that proof before cache reuse/ingestion.
+
+Fast-reader decoded_bytes is an explicitly conservative encoded-CSV upper bound rather than a measured exact byte count. The independent gzip proof provides exact source uncompressed size. Total decoded work includes both CSV and integrity passes, the interrupted Arrow prefix, conservative prefetch/sniffing allowance and the bounded prefix benchmarks. The original256GiB ceiling is unchanged. Raw-file size/hash and normalized selected field values are unchanged by this amendment.
+
+Acquisition operational revisionv2 only adds RUNNING/STOPPED/COMPLETE attempt markers after a recorded IncompleteReadError, enabling bounded resume without overwriting the first error. It does not increase bytes, requests, time, disk or memory budgets. Every code revision and its reason is retained separately. No real-data signal performance is used to choose a parser or modify a rule.

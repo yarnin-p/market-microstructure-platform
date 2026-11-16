@@ -1,0 +1,70 @@
+{
+  "run_id": "m3-s3-pilot-20261116-v1",
+  "baseline_commit": "eb95502",
+  "source_run": "m2-systematic-10cycles-20261115-v2",
+  "qa_run": "m3-confirmation-qa-20261115-v1",
+  "baseline_confirmation_run": "m3-confirmation-10cycles-20261115-v1",
+  "nbbo_probe_run": "m3-nbbo-probe-20261115-v1",
+  "endpoint": "https://files.massive.com",
+  "bucket": "flatfiles",
+  "pilot_dates": [
+    "2026-05-28",
+    "2026-05-29"
+  ],
+  "objects": [
+    {
+      "dataset": "quotes",
+      "date": "2026-05-28",
+      "key": "us_stocks_sip/quotes_v1/2026/05/2026-05-28.csv.gz",
+      "size": 6534615098,
+      "last_modified": "2026-05-29T04:42:54+00:00",
+      "etag": "\"b67947e6482c34c97a609e3e3cee2ed5-98\"",
+      "status": 200,
+      "seconds": 0.984167416987475
+    },
+    {
+      "dataset": "quotes",
+      "date": "2026-05-29",
+      "key": "us_stocks_sip/quotes_v1/2026/05/2026-05-29.csv.gz",
+      "size": 6869823802,
+      "last_modified": "2026-05-30T04:49:02+00:00",
+      "etag": "\"38e82a8480420822d0b4e20d9cc41c7b-103\"",
+      "status": 200,
+      "seconds": 0.2905187500291504
+    },
+    {
+      "dataset": "trades",
+      "date": "2026-05-28",
+      "key": "us_stocks_sip/trades_v1/2026/05/2026-05-28.csv.gz",
+      "size": 3485605144,
+      "last_modified": "2026-05-29T04:33:13+00:00",
+      "etag": "\"6ac2e9a73ca0c7861be5e7db468e5478-52\"",
+      "status": 200,
+      "seconds": 0.2871202499954961
+    }
+  ],
+  "selection_rule": "First two frozen TASK003.2 audit dates among BIVI,ATNM,EVTV,FFAI,QRHC; BIVI REST-empty and ATNM corrected quote cases. All five retained in reconciliation denominator; other dates remain SOURCE_COVERAGE_UNKNOWN. One trade file only on first pilot date. Selection uses no new S3 outcomes.",
+  "max_download_bytes": 21474836480,
+  "max_storage_bytes": 42949672960,
+  "min_disk_free_bytes": 85899345920,
+  "max_memory_bytes": 2147483648,
+  "max_active_seconds": 3600,
+  "max_requests": 32,
+  "connect_timeout_seconds": 5,
+  "read_timeout_seconds": 30,
+  "chunk_bytes": 8388608,
+  "csv_block_bytes": 8388608,
+  "max_selected_rows": 10000000,
+  "max_decoded_bytes": 274877906944,
+  "max_quote_age_seconds": 5,
+  "max_state_age_seconds": 60,
+  "c2_min_span_seconds": 10,
+  "c2_deadline_seconds": 60,
+  "state_policy": "C2_S3_STATE_BASED_V1: Valid current NBBO bid>=original threshold continuously in observed update stream for10s; evaluate at causal timer first_support+10s, <=touch+60s, state age<=60s at timer; invalidate on any invalid/corrected/zero/crossed/below event, same-session only; no mechanical5s update-gap reset, freshness reported independently, no claim of continuous market/executable support. Equal-SIP updates processed as a group before timers; ambiguous unequal states at same timestamp invalidate group.",
+  "locked_quote_policy": "Keep bid==ask valid under frozen original rule, flag LOCKED; no executable claim.",
+  "no_quote_lookahead": true,
+  "holdout_access": false,
+  "automatic_full_sample_download": false,
+  "no_new_rest_requests": true,
+  "initial_risk_set": 40
+}

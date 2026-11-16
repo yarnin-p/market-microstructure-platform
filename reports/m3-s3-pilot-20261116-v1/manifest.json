@@ -1,0 +1,216 @@
+{
+  "contract": "s3-pilot-research-evidence-v1",
+  "run_id": "m3-s3-pilot-20261116-v1",
+  "files": {
+    "downloaded-sources.json": {
+      "bytes": 2162,
+      "sha256": "c7819bf6d1b95c9824f824073fbf99cd3554119995135a340d2af795c77fa816"
+    },
+    "summary.json": {
+      "bytes": 6753,
+      "sha256": "fd927a871f25026833336f18e32f7737bb79af543528ca378cdb2267e86f62d4"
+    },
+    "flatfile_cache-acquisition-v1-2ddfa25a1b86bb294038fc02c498ca37b858bd3b5f35190457764b35407b091e.py": {
+      "bytes": 9448,
+      "sha256": "2ddfa25a1b86bb294038fc02c498ca37b858bd3b5f35190457764b35407b091e"
+    },
+    "plan-freeze.json": {
+      "bytes": 796,
+      "sha256": "cfe4287ad643e788e90cbbd06387a0d952bcc3d2873a962b422250615a7a4b82"
+    },
+    "runtime.json": {
+      "bytes": 188,
+      "sha256": "49954c4507b8842ed17c9c0747b966a224230b032d787d6c17fd4b3337d3b8ff"
+    },
+    "analysis-code-v3.json": {
+      "bytes": 724,
+      "sha256": "492f5ff7a1f0908a63d8afea5038a05ffa1f8ee318e47bbece4f1ebe7726d41e"
+    },
+    "throughput-probe.json": {
+      "bytes": 575,
+      "sha256": "dffff5b7c074d0faaa50e5007c471b509f938f40de09313885ae826043b85c0f"
+    },
+    "tests.json": {
+      "bytes": 117,
+      "sha256": "736e804ddb600e9b53aa279a5bcf6953dfe32ada955ba706c09e070b20a07fb8"
+    },
+    "session-alignment-amendment.md": {
+      "bytes": 2075,
+      "sha256": "1661908f055d8e5c65eb77fc1654204aea411e4886bc68a00f574a868f7fbca3"
+    },
+    "reconciliation.json": {
+      "bytes": 17278,
+      "sha256": "185dbe1389eb0bbf463cff658ac13464547651c5d2fa04277195f8e07d71530a"
+    },
+    "event-level-results.json": {
+      "bytes": 1408835,
+      "sha256": "25871417d0ba7e3d3e748716a64946392a778d7678ce09c094521f57e607b775"
+    },
+    "report.md": {
+      "bytes": 14952,
+      "sha256": "6515a41abab650b9b614a3e1f94dc5e20ada973ee034f508151e8f7688ba7430"
+    },
+    "acquisition-stop.json": {
+      "bytes": 259,
+      "sha256": "1099f036fb20202d396a39c0429a03975ce6f50fb2d1ab77d46db3f0b426f065"
+    },
+    "acquisition-attempt-state.json": {
+      "bytes": 115,
+      "sha256": "80c9a835bb43e70b8804f2208167915e737b34eb609ab628bcd951d7481f09e9"
+    },
+    "migration-proposal.md": {
+      "bytes": 2513,
+      "sha256": "2f2be59a2d85236aa31e13664f2c49fd81da161bbcc414763347c06ab0f6b4ba"
+    },
+    "analysis-code-v5.json": {
+      "bytes": 493,
+      "sha256": "5875d85ff2ff8d178bf612d6085dc6e28a456438c15aa1299c22e1a665879aeb"
+    },
+    "baseline-reproduction.json": {
+      "bytes": 152649,
+      "sha256": "f084e680753aff91f67fc3914638ebb141d112deed516d65ec879ddc8d204450"
+    },
+    "analysis-code-v9.json": {
+      "bytes": 629,
+      "sha256": "4f684f30dfb73476980ceea02cd2a28c6bbcfc8ff03022f677c247ae49ae4538"
+    },
+    "methodology.md": {
+      "bytes": 6863,
+      "sha256": "fa08a31fef95f95e0bb33c6325401c9109253c20badec454630f04daab524fdb"
+    },
+    "analysis-code-freeze.json": {
+      "bytes": 548,
+      "sha256": "4bc1a0475c92154ad410e0402da879e15787b65fa2a4e90e99344453d268d802"
+    },
+    "ingested-sources.json": {
+      "bytes": 41133,
+      "sha256": "694936c9879fd06fc168a49d9054d852f32f55ac1ae95039c2e4d43509e5a8d5"
+    },
+    "analysis-code-v8.json": {
+      "bytes": 370,
+      "sha256": "40d8182271a14f168a297497e8c8d019b1b1ba967e2644d8c05c06b9155bbb09"
+    },
+    "acquisition-code-v2.json": {
+      "bytes": 480,
+      "sha256": "0f58c6c2d72f743123f31af70d9c3082002fc690ecd09386693448539f7cfa96"
+    },
+    "metadata-probe.json": {
+      "bytes": 1900,
+      "sha256": "62f396fe227e8c5a4ed1946108a26aa65f1ccfe7f4476273c19a36c105434a2c"
+    },
+    "analysis-code-v10.json": {
+      "bytes": 281,
+      "sha256": "ecf10b7a99f130ff988f2dd6b1d7f10fa92f1947932547f58a71641f00e70c83"
+    },
+    "analysis-code-v4.json": {
+      "bytes": 766,
+      "sha256": "a05f3a4d748ba31499d92bc59d7e379b8be2a7f3d8fac5a8814a1c509a37ac38"
+    },
+    "ingest-resources.json": {
+      "bytes": 195,
+      "sha256": "5e8e3443e5258bdf8ef3cd5a19c5fc4dfc13a6020f16a52394ca6436cb2a0642"
+    },
+    "parser-amendment.md": {
+      "bytes": 2672,
+      "sha256": "1ba282e7a54330245bb51cf96fdd0070f0fea7a7c94358e4070ae82d6742ed44"
+    },
+    "analysis-code-v7.json": {
+      "bytes": 417,
+      "sha256": "5358b74bb18de9f52b1ed48d402e4ffb2b711b0c26c98e8cdf0fc7f914e491a0"
+    },
+    "flatfile_ingest_duckdb-v3-be486b133a92302d2996c5b69219c70f94cecf9c01ff24a96a3b5c4ff68fe17d.py": {
+      "bytes": 11087,
+      "sha256": "be486b133a92302d2996c5b69219c70f94cecf9c01ff24a96a3b5c4ff68fe17d"
+    },
+    "readiness.json": {
+      "bytes": 928,
+      "sha256": "ab566edf68baeaedd89d9f447512304bef155aaaef1dbec315aa6d6f75ff0d0a"
+    },
+    "acquisition-code.json": {
+      "bytes": 201,
+      "sha256": "e98f5d5cbe7a61a763fdd4f4670895325c617cdb55f863a0ea321b971489e47a"
+    },
+    "change-explanations.json": {
+      "bytes": 48850,
+      "sha256": "dc57e82afe9acde8ca73b8b7ba2474e5ea83797aec796c4b9162abf9e34c9ead"
+    },
+    "pilot-validation.json": {
+      "bytes": 3117,
+      "sha256": "8fc9a01ba8e838af99152df4ebaca27edba670ed7dae1dac00500590a7139d70"
+    },
+    "gzip-integrity.json": {
+      "bytes": 1448,
+      "sha256": "7435949203b8ee9d44ce76edc2131d94e3e7ec8eee89cd7f80d7b210cb036a43"
+    },
+    "resource-ledger.json": {
+      "bytes": 202,
+      "sha256": "d577522e60128aa0de4ccd319d634d3522eb8e92d1d9d94d8de1e411aff449f9"
+    },
+    "analysis-code-v6.json": {
+      "bytes": 408,
+      "sha256": "e99566e3d57f9105d83a97933bda57e0ad09ff1cc0dab3bb2663b32ab7d323ce"
+    },
+    "acquisition-stop-attempt-2.json": {
+      "bytes": 308,
+      "sha256": "627b99a31c481862dc27cabc3f2beed20b4f935824d9d51e2cc1eff6ca4bbb16"
+    },
+    "event_results.parquet": {
+      "bytes": 45557,
+      "sha256": "7e77653242a31e5f52c78bd217f46fbb7d2a9932cc50bfe0e70203f3b9aec3c5"
+    },
+    "resume-attempt-3.json": {
+      "bytes": 559,
+      "sha256": "adf2b67ba7ecd831f81e66ce9604f37d7a5e5cdd0085be6019854307c1067b66"
+    },
+    "resource-audit-notes.json": {
+      "bytes": 437,
+      "sha256": "6a0945fcc68250220c7f5549fc01aaf2de8ebf1da4d4d0f96ecf7ec56f90ed60"
+    }
+  },
+  "source_hashes": {
+    "configs/task-003-s3-pilot-v1.json": "442afdc052deb504706a244dea42c60da3ca6ee8bbbd6a1e30f9cec30e67c7e9",
+    "pyproject.toml": "368fd4436679364f2bef218c930e764d3315f40ef74d45231cfb550ae93796e8",
+    "market_lab/flatfile_transfer.py": "a487dc65600c8335ad7d13d749d68ff17e1c8e2a5ce8efe87bec94015da31c0c",
+    "market_lab/flatfile_ingest_duckdb.py": "bca43d2d6597ad58872e18b9ad1ce05225cbbe8c7484561b61da8164c49e26c3",
+    "market_lab/flatfile_integrity.py": "444b2b53ed3c3f7c30ef98fe4461c1f7bb58f229276e87f7c762505c60a908a4",
+    "market_lab/flatfile_ingest.py": "f4094967dc244f2c584f0c729e1d4dbb7bcf55bdaecca3d94f7e39064c293b40",
+    "market_lab/flatfile_reconcile.py": "a582704784f1f4ea0bb5a28ddaf9db1f3c42dae7de1af00703a9abe97072912b",
+    "market_lab/flatfile_cache.py": "def7478c4a0d18e26f4d2eafdd190b604506ac1f735f4cee22d3137b66e3797e",
+    "market_lab/flatfile_revalidation.py": "09d1287e66d380a5e9baa73c63ded27afcea848e209136b49ba6af5a8a42265a",
+    "market_lab/quote_state.py": "5cce05b763229eb0c75beca82d924a3a2024efbd9adf276e7a2e92f57e17d680",
+    "scripts/audit_flatfile_changes.py": "da8f72cedc4b94008e39e338c46efae805fdafa797b0a6c76be061a8ed2d9655",
+    "scripts/prepare_flatfile_pilot.py": "3092c858e76a2b38a73661a017027dff6fbd7fdd6d8f5c8d83c377830386e511",
+    "scripts/validate_flatfile_pilot.py": "bec917d36fd9ff719649a3ab708d6d036992d5108dab8d90533fabcdeeb7b52f",
+    "/Users/yarnin/Documents/yarnin-p/market-microstructure-platform/scripts/finalize_flatfile_pilot.py": "3b73c4bbca409376bf9771e13af9bc0ef0d16367eaa00169c9856a65d817daea",
+    "tests/test_flatfiles.py": "1cb82c74451371f279d94a3a6377096bba6a79a0286fa3da1d59f240209852a9",
+    "schemas/massive-flatfile-evidence-v1.json": "406f32cf49296f7e8ce4e403dc1f86dd5a12fb5f22be8affda351ab9da595f6a",
+    "schemas/quote-state-v1.json": "f827ff5be8e655f8a5277c12508cb1c486e368d952c3adcd0bc6835885c6f2fc",
+    "docs/research/task-003-s3-flatfiles-pilot.md": "6515a41abab650b9b614a3e1f94dc5e20ada973ee034f508151e8f7688ba7430"
+  },
+  "baseline_commit": "eb95502",
+  "raw_marketwide_data_included": false,
+  "holdout_access": false,
+  "readiness": {
+    "technical_validation": "PASS",
+    "overall": "CONDITIONAL",
+    "broad_expansion_authorized": false,
+    "source_disagreement_cases": [
+      "ATNM"
+    ],
+    "audit_cases_outside_pilot": [
+      "EVTV",
+      "FFAI",
+      "QRHC"
+    ],
+    "reasons": [
+      "Only two provider days and a subset of original40 signal windows have S3 evidence; missing dates remain unknown.",
+      "REST and S3 share a provider; corrected observations and historical snapshot vintage do not independently certify original PIT market state.",
+      "State persistence is a separate sensitivity from5s quote freshness and executable liquidity.",
+      "Whole-run combined memory peak was not persisted for an interrupted quote-extraction process; memory audit remains conditional, not falsely certified from last-resume peak.",
+      "Full original development-sample expansion requires separately frozen metadata/budgets and explicit authorization."
+    ],
+    "holdout_access": false,
+    "task0051_unchanged": true,
+    "task0051_statistical_clearance": "BLOCKED"
+  }
+}

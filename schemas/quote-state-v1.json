@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Causal quote-state snapshot v1",
+  "type": "object",
+  "required": ["status", "valid", "fresh", "evaluation_ns"],
+  "properties": {
+    "status": {"enum": ["SOURCE_COVERAGE_UNKNOWN", "OUTSIDE_OBSERVED_SESSION", "NO_QUOTE_UPDATE_OBSERVED", "QUOTE_STATE_AVAILABLE", "QUOTE_STATE_INVALID_OR_STALE"]},
+    "valid": {"type": "boolean"}, "fresh": {"type": "boolean"},
+    "evaluation_ns": {"type": "integer"}, "quote_timestamp": {"type": "integer"},
+    "age_ns": {"type": "integer", "minimum": 0},
+    "flags": {"type": "array", "items": {"type": "string"}}
+  },
+  "$comment": "quote_timestamp<=evaluation_ns. Valid state and fresh quote are distinct. Invalid latest events and session transitions prevent silent forward filling. No guaranteed execution or realized P&L."
+}

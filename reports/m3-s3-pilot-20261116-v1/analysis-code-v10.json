@@ -1,0 +1,1 @@
+{"reason":"Completed-cache probe handling and idempotent probe report reuse; no wire requests or research outcomes changed. Original acquisition source snapshot preserved.","code":{"market_lab/flatfile_cache.py":"def7478c4a0d18e26f4d2eafdd190b604506ac1f735f4cee22d3137b66e3797e"}}

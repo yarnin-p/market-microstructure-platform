@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Massive flat-file immutable source and selected extraction v1",
+  "type": "object",
+  "required": ["schema_version", "source", "partitions", "raw_rows", "selected_rows", "complete", "gzip_crc_validated"],
+  "properties": {
+    "schema_version": {"const": "massive-flatfile-selected-v1"},
+    "source": {"type": "object", "required": ["key", "size", "last_modified", "etag", "downloaded_at", "sha256", "local_path", "complete"], "properties": {"size": {"type": "integer", "minimum": 0}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}},
+    "partitions": {"type": "array", "items": {"type": "object", "required": ["ticker", "security_ids", "rows", "empty", "path", "sha256"]}},
+    "complete": {"type": "boolean"},
+    "gzip_crc_validated": {"type": "boolean"},
+    "raw_rows": {"type": "integer", "minimum": 0},
+    "selected_rows": {"type": "integer", "minimum": 0}
+  },
+  "$comment": "Original CSV columns retained as strings. Additional _sip_timestamp_ns and _sequence_number_int are int64; _source_row is zero-based data-row ordinal, not byte offset. Parquet metadata binds source SHA256/key. Complete means provider-object parse completed, never independent exchange coverage or verified PIT float."
+}
