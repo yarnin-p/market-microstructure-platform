@@ -1,0 +1,246 @@
+{
+  "configuration_hash": "5036bce6d443a54cb98a0d23ff2fe4b08bded0ad42280d2bc2f48d90e5aedf3d",
+  "contract_version": "research-bundle-v1",
+  "event_definitions": "Unchanged frozen observed first-touch and TASK003.1 confirmation policies",
+  "event_population": "30 frozen temporal dates; development excluded",
+  "execution_sha256": "3ce914f68e1e55722a9785b6541c803da490de15209ff18e837f257cb8d74a9a",
+  "execution_status": "COMPLETE",
+  "experiment_id": "m4-temporal-cumulative30-20261116-v1",
+  "files": {
+    "analytical-weights.json": {
+      "bytes": 456902,
+      "sha256": "529038f7518a46f0372aee69de9776db6a2e0b0cbb260c6beb077cee064e4863"
+    },
+    "anomalies.json": {
+      "bytes": 83,
+      "sha256": "8aeb41041d9447e77877b7aec2cdf7eefb592ef3e6af21f4246ed7b7119635c9"
+    },
+    "batch2-special-result-preserved.json": {
+      "bytes": 150,
+      "sha256": "bad7dad25aa7be3ed7d01e4fa75009f3f42127c552eeb8dc11d9c0b46ef3de8f"
+    },
+    "cohort_metrics.parquet": {
+      "bytes": 32401,
+      "sha256": "a3c8c1186ef9f0b8c5a24552007231d310ae0f3701ac32a9891ebd593c6fc2ad"
+    },
+    "common-landmark-pairs.json": {
+      "bytes": 9065494,
+      "sha256": "11ccf1b88950c6d1be75868326ee414e64e9642be490776c9af3ff24ee1d40e9"
+    },
+    "cycle_metrics.json": {
+      "bytes": 5706,
+      "sha256": "02a37a463eebca42ed43c4fdd6b00a66971409030c0325462f52ac66e517c62a"
+    },
+    "cycle_metrics.parquet": {
+      "bytes": 3602,
+      "sha256": "f272ffd782a3fdb73e111f1e9046f05a094130ffae897353fe8764070de8a929"
+    },
+    "data_quality.json": {
+      "bytes": 286,
+      "sha256": "51f1b8eec2ede54ce7aacc67ebb3138d81f1e0a45c9466e34c027a1e51579b0d"
+    },
+    "design-weighted-policy-metrics.json": {
+      "bytes": 296805,
+      "sha256": "a2c66229bc654f1f44736c92000a02ee8d9875a00d9fc65129df14546e95a2a6"
+    },
+    "development-separate.json": {
+      "bytes": 907,
+      "sha256": "8ff920a6e141f8e4e144ca49b3e95c5e405868e762ee828911cf501e257ace57"
+    },
+    "distributions.parquet": {
+      "bytes": 128444,
+      "sha256": "e47c24c3f0cb2c15a12dd9a05baed0d7131fd3bef8752810e73dfe8ecd9e58bd"
+    },
+    "event_results.parquet": {
+      "bytes": 610497,
+      "sha256": "e087e594348364d560b29d61540b5a025c227b8d82f22a82c2b8cb6e33b98ad2"
+    },
+    "first-passage-counts.json": {
+      "bytes": 230,
+      "sha256": "415d3ed61a75991afcfea5854b0d9600eae305c344583be9c3411eb1b4b4902b"
+    },
+    "float-stratum-difference.json": {
+      "bytes": 495,
+      "sha256": "5cc29c45c09c453da58c83b6863f82522ca85809f1a430820bf85e7b12f35751"
+    },
+    "gap-sensitivity.json": {
+      "bytes": 1975,
+      "sha256": "890f20f04a901051073c30e9cdab1f531f53cba12956414641d941cc3d1386e3"
+    },
+    "methodology.md": {
+      "bytes": 4855,
+      "sha256": "1b86aeb6221a94977241d4b8940a05e6823cebc9ec75ced82a95db2ccc48b87b"
+    },
+    "odd-lot-sensitivity.json": {
+      "bytes": 130,
+      "sha256": "3dc054a5b240500f25784f5fbfae1bc295e4126e6c69cb62835e442478e28c4f"
+    },
+    "original-weight-warning.json": {
+      "bytes": 378,
+      "sha256": "d79d5c2584b0114cb55aafab0ff5e21d25e70446cfcc8f12897415d14985590f"
+    },
+    "publication-validation.json": {
+      "bytes": 1093,
+      "sha256": "db1aa785fb040eb47b6713e7abcea698737cccd2b86eaa798673a77fc834b6f9"
+    },
+    "raw-barrier-audit.json": {
+      "bytes": 17075,
+      "sha256": "98d9245b43b71919e18aee1c38d11a7de3bdf5f7f267ae26bf74328c812cacbe"
+    },
+    "report.md": {
+      "bytes": 7395,
+      "sha256": "bbe4660df458301ae2007e94e68f33f5c02fba2790e2be52ee1cd083006e3acf"
+    },
+    "sampling-weight-audit.json": {
+      "bytes": 965,
+      "sha256": "b64b0096e5b68d95c1efc2976d51ae4af3563d9171baf3eed8a898eeb6afc4a3"
+    },
+    "sec-secondary-overlap.json": {
+      "bytes": 229,
+      "sha256": "543ca78fbdf3682e09c2be8be497911a0ddff30745f435f0355bb93b4bd5db97"
+    },
+    "source-event-level-results.json": {
+      "bytes": 36180012,
+      "sha256": "9d5e18f456b1ba99e81494555a60bf1e515b173452a2ea0c5ea2a2db38c6c9e5"
+    },
+    "statistical-preparation.json": {
+      "bytes": 3169,
+      "sha256": "b414e9493ceb7a3b5d51afda000d6de6b65ce76124e0aba4f1f2658ac8febfc9"
+    },
+    "statistical-results.json": {
+      "bytes": 80803,
+      "sha256": "48b0a38d1de664a3e1fafcff1e1fecde7bbbc1211e334ad1b1632f31d24b5f42"
+    },
+    "statistical_tests.json": {
+      "bytes": 105,
+      "sha256": "49246f3be4f26a71b6e4624d6fb1fd4530289b4218d0fc6c0461e31a93fcdb1f"
+    },
+    "stratum-estimands.json": {
+      "bytes": 161755,
+      "sha256": "75612f546d6dc466401eb06990422a7acb0760aca4cb36aa770a7370f6a6dffe"
+    },
+    "summary.json": {
+      "bytes": 454,
+      "sha256": "7d323b540eca3ae4301769d892a1cf12c84d65162da27d38db4bd068adfbb449"
+    },
+    "tests.json": {
+      "bytes": 1613,
+      "sha256": "17025ec87e04f93a27ce1bd9937090463f8a471c02c1fd894fb3ab0deb155b74"
+    },
+    "validation.json": {
+      "bytes": 718,
+      "sha256": "edd809d325b9f5d52f27bfa5c44f878f258b332bf0021d3de0a9e9b1f782e4cf"
+    }
+  },
+  "outcome_definitions": "Own/common clocks, original barriers/corrections/censoring; all missingness retained",
+  "processed_trading_cycles": [
+    "2026-06-18",
+    "2026-07-16",
+    "2026-08-06",
+    "2026-09-02",
+    "2026-06-26",
+    "2026-07-17",
+    "2026-08-18",
+    "2026-09-17",
+    "2026-07-15",
+    "2026-08-25",
+    "2026-06-12",
+    "2026-09-08",
+    "2026-06-16",
+    "2026-07-09",
+    "2026-08-27",
+    "2026-09-15",
+    "2026-06-15",
+    "2026-07-01",
+    "2026-08-31",
+    "2026-09-03",
+    "2026-06-23",
+    "2026-07-07",
+    "2026-08-21",
+    "2026-09-10",
+    "2026-07-14",
+    "2026-08-04",
+    "2026-07-13",
+    "2026-08-19",
+    "2026-07-31",
+    "2026-08-26"
+  ],
+  "raw_ticks_included": false,
+  "record_counts": {
+    "cohort_metrics.parquet": 192,
+    "cycle_metrics.parquet": 30,
+    "distributions.parquet": 648,
+    "event_results.parquet": 1488
+  },
+  "requested_trading_cycles": [
+    "2026-06-18",
+    "2026-07-16",
+    "2026-08-06",
+    "2026-09-02",
+    "2026-06-26",
+    "2026-07-17",
+    "2026-08-18",
+    "2026-09-17",
+    "2026-07-15",
+    "2026-08-25",
+    "2026-06-12",
+    "2026-09-08",
+    "2026-06-16",
+    "2026-07-09",
+    "2026-08-27",
+    "2026-09-15",
+    "2026-06-15",
+    "2026-07-01",
+    "2026-08-31",
+    "2026-09-03",
+    "2026-06-23",
+    "2026-07-07",
+    "2026-08-21",
+    "2026-09-10",
+    "2026-07-14",
+    "2026-08-04",
+    "2026-07-13",
+    "2026-08-19",
+    "2026-07-31",
+    "2026-08-26"
+  ],
+  "research_configuration": {
+    "baseline_commit": "89b1a6a",
+    "bootstrap_replicates": 500,
+    "bootstrap_seed": 202611150041,
+    "date_probabilities": {
+      "2026-06": [
+        6,
+        14
+      ],
+      "2026-07": [
+        9,
+        22
+      ],
+      "2026-08": [
+        9,
+        21
+      ],
+      "2026-09": [
+        6,
+        13
+      ]
+    },
+    "development_pooled": false,
+    "expected_dates": 30,
+    "expected_opportunities": 720,
+    "holdout_access": false,
+    "run_id": "m4-temporal-cumulative30-20261116-v1",
+    "source_runs": [
+      "m4-temporal-10cycles-20261115-v1",
+      "m4-temporal-batch2-20261115-v1",
+      "m4-temporal-batch3-20261116-v1"
+    ],
+    "source_temporal_run": "m4-temporal-10cycles-20261115-v1"
+  },
+  "schema_versions": {
+    "weights": "full30-analytical-weights-v1"
+  },
+  "size_policy": "Full results, no raw ticks, no truncation",
+  "timezone": "America/New_York; SIP UTC nanoseconds"
+}

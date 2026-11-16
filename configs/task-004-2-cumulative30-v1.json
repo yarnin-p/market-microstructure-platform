@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "89b1a6a",
+  "bootstrap_replicates": 500,
+  "bootstrap_seed": 202611150041,
+  "date_probabilities": {
+    "2026-06": [
+      6,
+      14
+    ],
+    "2026-07": [
+      9,
+      22
+    ],
+    "2026-08": [
+      9,
+      21
+    ],
+    "2026-09": [
+      6,
+      13
+    ]
+  },
+  "development_pooled": false,
+  "expected_dates": 30,
+  "expected_opportunities": 720,
+  "holdout_access": false,
+  "run_id": "m4-temporal-cumulative30-20261116-v1",
+  "source_runs": [
+    "m4-temporal-10cycles-20261115-v1",
+    "m4-temporal-batch2-20261115-v1",
+    "m4-temporal-batch3-20261116-v1"
+  ],
+  "source_temporal_run": "m4-temporal-10cycles-20261115-v1"
+}

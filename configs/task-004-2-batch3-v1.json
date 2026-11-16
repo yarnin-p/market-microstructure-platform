@@ -1,0 +1,58 @@
+{
+  "analysis_wall_seconds": 5400,
+  "baseline_commit": "89b1a6a",
+  "batch_cycles": 10,
+  "batch_index": 3,
+  "bootstrap_replicates": 500,
+  "bootstrap_seed": 202611150041,
+  "condition_policies": [
+    "HIGH_LOW_ONLY",
+    "ODD_LOT_OBSERVATION_SENSITIVITY"
+  ],
+  "connect_timeout_seconds": 5,
+  "development_run": "m2-systematic-10cycles-20261115-v2",
+  "expected_dates": [
+    "2026-06-23",
+    "2026-07-07",
+    "2026-08-21",
+    "2026-09-10",
+    "2026-07-14",
+    "2026-08-04",
+    "2026-07-13",
+    "2026-08-19",
+    "2026-07-31",
+    "2026-08-26"
+  ],
+  "gap_sensitivities_seconds": [
+    null,
+    300,
+    900
+  ],
+  "holdout_access": false,
+  "master_seed": 202611150004,
+  "max_decoded_bytes": 3221225472,
+  "max_page_bytes": 33554432,
+  "max_pages": 1150,
+  "max_quote_windows": 160,
+  "max_requests": 1200,
+  "max_storage_bytes": 10737418240,
+  "max_window_pages": 96,
+  "minimum_request_spacing_seconds": 0.1,
+  "per_stratum": 12,
+  "plan_cycles": 30,
+  "quote_page_limit": 10000,
+  "quote_radius_seconds": 60,
+  "read_timeout_seconds": 30,
+  "reference_snapshot": "FROZEN_DEVELOPMENT_CURRENT_FLOAT_SNAPSHOT_NOT_HISTORICAL_PIT",
+  "remaining_inventory": "reports/m4-temporal-batch2-20261115-v1/remaining-frozen-batch.json",
+  "run_id": "m4-temporal-batch3-20261116-v1",
+  "source_m1_run": "m1-universe-120-20261115-v2",
+  "source_temporal_run": "m4-temporal-10cycles-20261115-v1",
+  "strata": [
+    "PROXY_FLOAT_IN_RANGE",
+    "OTHER_EXCHANGE_PRICE_ELIGIBLE"
+  ],
+  "threshold_optimization": false,
+  "total_wall_seconds": 1800,
+  "trade_page_limit": 50000
+}

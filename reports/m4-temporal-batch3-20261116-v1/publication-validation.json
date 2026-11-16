@@ -1,0 +1,13 @@
+{
+  "canonical_derived_views_corrected_without_signal_changes": true,
+  "derived_batch_month_allocation": [
+    1,
+    4,
+    4,
+    1
+  ],
+  "publisher_sha256": "a560c42ec82a47025c2eea9e7fde63217dc11ec1b8ef6b75a038cd88c401035e",
+  "source_event_json_sha256": "3491709df0a723f05548dd88b4dbef684b9daa4a855bd1d9bf9cdf9dfc3150a2",
+  "source_weights_unchanged": true,
+  "status": "PASS"
+}

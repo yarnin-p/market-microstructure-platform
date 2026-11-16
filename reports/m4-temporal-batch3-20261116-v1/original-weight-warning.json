@@ -1,0 +1,18 @@
+{
+  "archive_hashes": {
+    "original-weight-cohort_metrics.json": "9291f1425a61dcfdb812e0a04f96eaa7d5d35538dc287666b3ce18c0d46fde4e",
+    "original-weight-stratum-incidence.json": "39a0b7ffbbe8a108e310e586d609f2946c0b50f9d3f94f24846ad24a443a3a75"
+  },
+  "audit_only_files": [
+    "original-weight-stratum-incidence.json",
+    "original-weight-cohort_metrics.json",
+    "original-weight-cohort_metrics.parquet"
+  ],
+  "derived_files": [
+    "stratum-incidence.json",
+    "cohort_metrics.json",
+    "cohort_metrics.parquet",
+    "statistical-results.json"
+  ],
+  "scope": "Original source event/opportunity weights unchanged. Canonical derived reports use batch3 allocation1/4/4/1; archived inherited projections are audit-only."
+}

@@ -1,0 +1,28 @@
+{
+  "OTHER_EXCHANGE_PRICE_ELIGIBLE": {
+    "assumptions": "Fixed finite population, planned month allocation {'2026-06': 1, '2026-07': 4, '2026-08': 4, '2026-09': 1}, original security SRSWOR, full response only. Taylor linearization approximation; no iid/normal confidence interval or stationarity claim.",
+    "complete_denominator": 120,
+    "date_clusters": 10,
+    "incomplete": 0,
+    "kish_effective_n": 98.66467215574363,
+    "observed_events": 9,
+    "security_clusters": 104,
+    "selected_denominator": 120,
+    "uncertainty_status": "INSUFFICIENT_DATE_STRATUM_RESPONSE",
+    "weight_sum": 30355.75,
+    "weighted_incidence": 0.08941812232169084
+  },
+  "PROXY_FLOAT_IN_RANGE": {
+    "assumptions": "Fixed finite population, planned month allocation {'2026-06': 1, '2026-07': 4, '2026-08': 4, '2026-09': 1}, original security SRSWOR, full response only. Taylor linearization approximation; no iid/normal confidence interval or stationarity claim.",
+    "complete_denominator": 120,
+    "date_clusters": 10,
+    "incomplete": 0,
+    "kish_effective_n": 99.46861145975116,
+    "observed_events": 23,
+    "security_clusters": 104,
+    "selected_denominator": 120,
+    "uncertainty_status": "INSUFFICIENT_DATE_STRATUM_RESPONSE",
+    "weight_sum": 21455.5,
+    "weighted_incidence": 0.2052008808930111
+  }
+}

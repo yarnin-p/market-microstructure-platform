@@ -1,0 +1,32 @@
+{
+  "all_common_timestamps_and_censoring_reconciled": true,
+  "analytical_weights": "Join analytical-weights.json by cycle_id/security_id. Original conditional weights in source pairs are retained, never reused as full30 weights.",
+  "derived_weight_rows": 720,
+  "paired_rows": 5208,
+  "planned_date_probabilities": {
+    "2026-06": [
+      6,
+      14
+    ],
+    "2026-07": [
+      9,
+      22
+    ],
+    "2026-08": [
+      9,
+      21
+    ],
+    "2026-09": [
+      6,
+      13
+    ]
+  },
+  "publisher_sha256": "a560c42ec82a47025c2eea9e7fde63217dc11ec1b8ef6b75a038cd88c401035e",
+  "source_pair_hashes": {
+    "reports/m4-temporal-10cycles-20261115-v1/common-landmark-pairs.json": "9a2c60e8e32de35fc3549294cd0a3d88befa87cb2d0274188fecb48020a5e339",
+    "reports/m4-temporal-batch2-20261115-v1/common-landmark-pairs.json": "cc602ac82c472d11ee2b259752aedba1eb3bb49c83fcab9432e23aabb144b4fe",
+    "reports/m4-temporal-batch3-20261116-v1/common-landmark-pairs.json": "c09eac5ee3902b710e89d3c796d06f932962bf98a118fd581f16e3e8cb10356b"
+  },
+  "source_weights_unchanged": true,
+  "status": "PASS"
+}

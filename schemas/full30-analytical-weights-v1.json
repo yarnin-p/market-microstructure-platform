@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Full frozen 30-date analytical weights v1",
+  "type": "array",
+  "minItems": 720,
+  "maxItems": 720,
+  "items": {
+    "type": "object",
+    "required": ["cycle_id", "security_id", "stratum", "original_security_weight", "original_joint_weight", "analysis_date_probability", "analysis_security_probability", "analysis_joint_probability", "analysis_joint_weight", "analysis_weight_numerator", "analysis_weight_denominator"],
+    "properties": {
+      "analysis_date_probability": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+      "analysis_joint_weight": {"type": "number", "exclusiveMinimum": 0}
+    }
+  },
+  "x-exact-ratio": "analysis_weight_numerator/analysis_weight_denominator = month_population_N*security_population_N/(month_planned_n*security_sample_n)",
+  "x-date-design": "June6/14, July9/22, August9/21, September6/13. Source original weights remain unchanged."
+}

@@ -1,0 +1,13 @@
+{
+  "analytical_weights": "analytical-weights.json",
+  "join_keys": [
+    "cycle_id",
+    "security_id"
+  ],
+  "scope": "Source original conditional weights remain unchanged; use only the separate full30 analytical weights for cumulative estimates.",
+  "source_files": [
+    "source-event-level-results.json",
+    "event_results.parquet",
+    "common-landmark-pairs.json"
+  ]
+}
