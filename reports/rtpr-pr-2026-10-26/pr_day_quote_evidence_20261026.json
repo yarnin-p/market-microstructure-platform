@@ -1,0 +1,176 @@
+[
+  {
+    "ticker": "SRTM",
+    "entry_request": {
+      "timestamp.gte": "1793014205000000000",
+      "timestamp.lt": "1793014505000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 100
+    },
+    "peak_request": {
+      "timestamp.gte": "1793017379000000000",
+      "timestamp.lt": "1793017441000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 11,
+    "valid_peak_quotes": 999,
+    "peak_sample_has_more": true,
+    "entry_capture_sha256": "925f40c9fd49f23a738b5a2819c7983966122f3e642ab78a84348cdc50e42757",
+    "peak_capture_sha256": "07abb1352ccc72fab0e3830d00439f2e5851eaadd7660e71734fd3927c48e1c6",
+    "entry_ask": "0.447",
+    "entry_ask_utc": "2026-10-26T11:31:50.908820203Z",
+    "entry_ask_size": "500",
+    "exit_bid": "0.7305",
+    "exit_bid_utc": "2026-10-26T12:23:01.665813986Z",
+    "exit_bid_size": "100",
+    "gross_quote_mark_pct": "63.42281879194630872483221480"
+  },
+  {
+    "ticker": "SHFS",
+    "entry_request": {
+      "timestamp.gte": "1793017443000000000",
+      "timestamp.lt": "1793017455000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 20
+    },
+    "peak_request": {
+      "timestamp.gte": "1793017834000000000",
+      "timestamp.lt": "1793017837000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 20,
+    "valid_peak_quotes": 86,
+    "peak_sample_has_more": false,
+    "entry_capture_sha256": "105f1642deda41ce11b128999206a4ceaec12594851f227b239934f2046aa396",
+    "peak_capture_sha256": "45d42865de0d1335a1b817cdd308f1e2e2e5fa6b6919c76c516815f75fe1fe04",
+    "entry_ask": "0.1064",
+    "entry_ask_utc": "2026-10-26T12:24:03.197285106Z",
+    "entry_ask_size": "200",
+    "exit_bid": "0.1448",
+    "exit_bid_utc": "2026-10-26T12:30:35.944771288Z",
+    "exit_bid_size": "300",
+    "gross_quote_mark_pct": "36.09022556390977443609022560"
+  },
+  {
+    "ticker": "VBIO",
+    "entry_request": {
+      "timestamp.gte": "1793016003000000000",
+      "timestamp.lt": "1793016015000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 20
+    },
+    "peak_request": {
+      "timestamp.gte": "1793016019000000000",
+      "timestamp.lt": "1793016022000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 1,
+    "valid_peak_quotes": 36,
+    "peak_sample_has_more": false,
+    "entry_capture_sha256": "b831d9f608f4527593e3c1c171c0d6161de6f6a4f71f0177e6d917a473c3ae86",
+    "peak_capture_sha256": "c0fa2072e94e63f12b3cb2f262569bb1f97694e6f9f269873712fca2d192a81d",
+    "entry_ask": "1.1",
+    "entry_ask_utc": "2026-10-26T12:00:06.004653120Z",
+    "entry_ask_size": "100",
+    "exit_bid": "1.21",
+    "exit_bid_utc": "2026-10-26T12:00:20.147470031Z",
+    "exit_bid_size": "100",
+    "gross_quote_mark_pct": "10.0"
+  },
+  {
+    "ticker": "VAI",
+    "entry_request": {
+      "timestamp.gte": "1793012300000000000",
+      "timestamp.lt": "1793012312000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 20
+    },
+    "peak_request": {
+      "timestamp.gte": "1793015939000000000",
+      "timestamp.lt": "1793016001000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 20,
+    "valid_peak_quotes": 12,
+    "peak_sample_has_more": false,
+    "entry_capture_sha256": "3ee77fe9342c393deb48171ed0f2f57a425475673f55ccf58b911732526c26a4",
+    "peak_capture_sha256": "e2cd7b9b1cc078029047afd6af2ea65a2fecb15ba132b7b636da87d188410169",
+    "entry_ask": "2.2",
+    "entry_ask_utc": "2026-10-26T10:58:20.183569239Z",
+    "entry_ask_size": "800",
+    "exit_bid": "2.53",
+    "exit_bid_utc": "2026-10-26T11:59:39.807536045Z",
+    "exit_bid_size": "100",
+    "gross_quote_mark_pct": "15.00"
+  },
+  {
+    "ticker": "NXTS",
+    "entry_request": {
+      "timestamp.gte": "1793016980000000000",
+      "timestamp.lt": "1793016992000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 20
+    },
+    "peak_request": {
+      "timestamp.gte": "1793017008000000000",
+      "timestamp.lt": "1793017011000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 2,
+    "valid_peak_quotes": 2,
+    "peak_sample_has_more": false,
+    "entry_capture_sha256": "d2331d2dc35238ee63ac1c77879f837c813322e8e527a594723d73ab8c70a341",
+    "peak_capture_sha256": "5c55a743f4455b2fcae012c3ed50f1f16543e6229317d88b3f34a3df5e4fbe38",
+    "entry_ask": "0.6028",
+    "entry_ask_utc": "2026-10-26T12:16:24.456941497Z",
+    "entry_ask_size": "900",
+    "exit_bid": "0.5674",
+    "exit_bid_utc": "2026-10-26T12:16:49.616166237Z",
+    "exit_bid_size": "500",
+    "gross_quote_mark_pct": "-5.872594558725945587259455870"
+  },
+  {
+    "ticker": "EPOW",
+    "entry_request": {
+      "timestamp.gte": "1793026803000000000",
+      "timestamp.lt": "1793026815000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 20
+    },
+    "peak_request": {
+      "timestamp.gte": "1793027002000000000",
+      "timestamp.lt": "1793027005000000000",
+      "order": "asc",
+      "sort": "timestamp",
+      "limit": 1000
+    },
+    "valid_entry_quotes": 2,
+    "valid_peak_quotes": 24,
+    "peak_sample_has_more": false,
+    "entry_capture_sha256": "d907108b492ea1c2991cb2fd6e6a8d2a2c24cd136d116f6de18cc5bfd48c8e4c",
+    "peak_capture_sha256": "01fa9c7bc12cc3eb5ab3418acf7a4e43a98b113e9f686276a37326353a59f963",
+    "entry_ask": "4.08",
+    "entry_ask_utc": "2026-10-26T15:00:10.462166793Z",
+    "entry_ask_size": "100",
+    "exit_bid": "4.25",
+    "exit_bid_utc": "2026-10-26T15:03:23.010503137Z",
+    "exit_bid_size": "100",
+    "gross_quote_mark_pct": "4.166666666666666666666666700"
+  }
+]
