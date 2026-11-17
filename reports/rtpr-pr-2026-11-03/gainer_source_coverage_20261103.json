@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-03",
+  "gainer_stock_days": 72,
+  "gainer_archive_sha256": "9cbdad9c8792b7624e3743dd8da5f476bfe3a6752f2efc3806dd7359ea000945",
+  "rtpr_articles": {
+    "feed_page_count": 62,
+    "same_day_gainer_article_ids": 20,
+    "per_page_sha256": {
+      "0001.json": "e93a431cab7a539e18225bf10a9aea6dc374daf0393ab4fd06805d5d5f2eafa6",
+      "0002.json": "86d4546f0afb68295367cfc5a7896d0dddac75c87f338be28a5c448d9ecb9ae1",
+      "0003.json": "3306b00cf22228469117494ba62464d60836f32e72fda59f27bc2f761be63c40",
+      "0004.json": "66d3bc8d62b423130b156d8061e7d8f4e409e32d4d95c2387261572024e5847e",
+      "0005.json": "a372bf7aafaf88bf023eab6c0e179f2521e656d699606a17ea6043e6ab7dec5d",
+      "0006.json": "e4bff1537bcfd603c8eb6444cf4b008ebe06334a94daa3e010c38c3089a28fc3",
+      "0007.json": "0fe4151660a18935c4b2c39809ff39f73fe4ad628a230979b2a6ebd4da621357",
+      "0008.json": "5105350fba8a9ee80515244a04a40c256afc83911712c495989185c2b4bec398",
+      "0009.json": "32a08c3d09275d2ea4ecda1ad7d26cd6e486d93326191d8a01ba1a48dd7439b4",
+      "0010.json": "64f437e42b492db6ab41fa5829a101696f333776aaf8107491817246a1a698e4",
+      "0011.json": "227a97d1f3eed11fea244873ca8f0e47b3b81d386e7092c90ace16cb2e8add1f",
+      "0012.json": "aaa4b4392c88eda42a9876ee7e64fde7fd4ac5270c30adec4dac2ed74dad730c",
+      "0013.json": "328be0b4cb2d4d86c4942e1262dc17fd798acf09e9cfced01397a3da390cc05f",
+      "0014.json": "1c1e0cc4575a5db1743335639a9c3b187e26370d32a73a0c4dad387b5556b291",
+      "0015.json": "a948c566f4a68b2a1b2ecf69ec1cdbb391b33cf1a0c4a53664cd9dd5c33131a9",
+      "0016.json": "b84d3d6ca65c47abcbc3d067b43b16769fb5f1a80877fd2ded03409f2f68b2d3",
+      "0017.json": "4594056b8413d1e41367aef267fa00d5ecabf7d074aa0e5722edd022c9d1e998",
+      "0018.json": "4204cfcd5288f88ed4e999bd75c3e639167aca18354c01569cf3a3654336dfec",
+      "0019.json": "9edc4d366459ceccaecbbe702a31f134ce17a8c9ae2cd17aec20cf1219b2be9a",
+      "0020.json": "8272b570adc809e78b9af9295dd500612e6b098dda6707a4717c316dc92fa330",
+      "0021.json": "1bae701c20309989219b7f1d0f6b33f72076779d5c609af2ea9b813697051826",
+      "0022.json": "429956d94b4825fa660e336940973f209e93a460b065b56bf65c28080df565e1",
+      "0023.json": "c05396a76bfd9cbc7c57e3c2c5f78add96e623a438a8b72330d33b0667cb2950",
+      "0024.json": "77f108a55e8fd66172486517e87db8468eb54f2b6866ee97aec83f8201036c0d",
+      "0025.json": "50c6c4960b6a2436402604e746776d58cd536b4d462c43358506e8a61e3f8c23",
+      "0026.json": "17eece5d637e2adadddaf0b5921f39f173be44a2fd158e6bdfc76cc35bd7ba20",
+      "0027.json": "b3bea1c33be7a2c39bb3dedca0d01479d9a65c7e64d1bbe23b60bc8e5eea1d26",
+      "0028.json": "67d866feba60b492d59a978e5819c3260fce750ecd8904cd26be000f37b89593",
+      "0029.json": "be3f7ae229cb1e5746e09fb7d3e12ba3839e1566b0869b899fd4a80b240fdecd",
+      "0030.json": "04ae96944a925c70a45f228767b038f0a21dd159d32b7cd45d87a2ff88cc104e",
+      "0031.json": "cf29acc61299322437babced6c836b52a8c6685fd224d86594ee2cd5453cc4c2",
+      "0032.json": "17acf9c71d2cff2543261dfb33ebbd83686865ac48d9b394aaf4a709390fbccf",
+      "0033.json": "b18c3b748de7c9cbfa6acc846534557bddf03d453506e045c2cdf860fc7c7c20",
+      "0034.json": "640b103eb4bc80056c21db6a20986ec300fe1b2f3185ed9f38515cf999a0ecec",
+      "0035.json": "be246c7d485d263d596867a21702d1906be9f0370dca0902bec1fbcc6f581136",
+      "0036.json": "77587aa1c99c4296c3f9495745ec66354845d8785bfb8cb23fb95c00676a9037",
+      "0037.json": "0083ae561880d48a4f96622878422cabf9f5d0575213c361e4025f4aa5dc4370",
+      "0038.json": "2b30f64bf11cf1a96a8c3cc7f4b533ac07e0a3e624fb420a9eb6fc9c52c73db1",
+      "0039.json": "1e75471ba5473e538270633d94bf7dacbe75715ddf1515b3e5ebb9558e4a775e",
+      "0040.json": "bf77b95dde63d57ebcb0b55c171aadc5e4b73bf7c1c70e13869602c2e8f5c3ef",
+      "0041.json": "0e8ae56caf7bc11fcceea04a1c0cdfe5c643cb0ef3e0ede58a0592af53bfef4f",
+      "0042.json": "0771539bcc47b5c1f8aafb6554c204b519647a9fcab20e757ac01d6d02dfb858",
+      "0043.json": "5e8ea5ebe5f5788022962c5e1d6e26f441196b71048a3cd4e2060645380cbc50",
+      "0044.json": "698d8e6347299d89e8545370e8b62d2921d7aea50834958615734e4bb10f8415",
+      "0045.json": "5a3216c1f7f8c148e7c52a2120d15a80e23e9e48d2dd4c4b15e279c775372314",
+      "0046.json": "f2e924b759d3eb93e95a2e1e4f882bf3f25dc3ef0fb01d63b3f1eec9acb85744",
+      "0047.json": "1a1b7f359c646e95f27484ca8602a4adb0f36eb7c88b3b39150a827afe99362b",
+      "0048.json": "1b58df7eba04ae4dd176aa64b63a771e038a22d19154adc416872f7aabee3e70",
+      "0049.json": "63de873f7f91fc7906e0104a0a4a08e9f50a68a7b135803fefd447492f1b4cbd",
+      "0050.json": "ed9c363c8c7f451dd53abc33e46ba0e7cfe032bfe4f89f5b5d3846f8c1615609",
+      "0051.json": "4c40dcca815077b6b1cbe827848d463dcbe6a5ecf879fb43361eee5c5e77e2fa",
+      "0052.json": "a4653427dc36f798fd142d007b94122964921cd6a910c85443247a6772f7b881",
+      "0053.json": "6439a206d6c65b7524beeee5e3f80980b8c1dd410f556228de37570cedd2360e",
+      "0054.json": "e3c9bb8bfc7a08bb7bed5c0ca6db4064bea732d23840a64fd935b4e837e56d9b",
+      "0055.json": "5ebfe9a7cda60ade683c45297a3cd99cab6002cc1015cc674a364978abd41d10",
+      "0056.json": "6f54f5b73f25a44e83c5892776d43edb206cff4b17de7e0d0db0327407bd71e0",
+      "0057.json": "bf12491581d260da7bfdb71fd1da8cc4e291c7cfd9721feefc7f7762e00b7f42",
+      "0058.json": "f7e71154f9326e54f1d3f7754ed047e79b5cf554902bea449068923de3417725",
+      "0059.json": "1b4b9e9819ac94dead6c97cbb5e06af588461c52cd3f3fde16c9bfefa2c86d32",
+      "0060.json": "28bf575df6188bf2c6181ce4b6de0ac8b59f4e31ea78f84f08a11d43b5f6ea6a",
+      "0061.json": "6684ad119d4b9e9cc2ca0b2062be31b08da6d24d3091e39142c6eb909939eef5",
+      "0062.json": "af149b15e0e97a534707b6a609192273770ea2f7f91128a8a563846a3f9b820a"
+    }
+  },
+  "rtpr_wire": {
+    "frames": 80,
+    "first_observed_at": "2026-11-03T04:25:00.436104835Z",
+    "last_observed_at": "2026-11-03T23:36:48.418306969Z",
+    "kinds": {
+      "rule_match": 43,
+      "high_impact": 37
+    },
+    "continuous_coverage_verified": false
+  },
+  "massive_news": {
+    "pages": 4,
+    "records": 762,
+    "terminal": true,
+    "page_sha256": {
+      "03-1.json": "abb0e7757802a21607554cc4980f59533d96bc43de6ded6bcadbf521c9b00361",
+      "03-2.json": "5b34a9b7ba34e5fa7ed1296a872bb0b1f6de895e670b3273d307afc3a421852e",
+      "03-3.json": "eb9853b84ad6b570e1346f0ba61c9d8ced1f67dcd0c4e177c743871d58432925",
+      "03-4.json": "72874a2477f319e977f6a1589c46c616f1e10807a14bbcbd6e9eafabf6ea96ec"
+    }
+  },
+  "sec_index": {
+    "f0d03-1.json": {
+      "records": 819,
+      "params": {
+        "filing_date": "2026-11-03",
+        "form_type.any_of": "8-K,6-K,10-Q,DEFR14A",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "0305f95c854ca393116c9ef0abdb305d7a98210dfbd6db7d3af68096fea1e925",
+      "terminal": true
+    },
+    "f1d03-1.json": {
+      "records": 239,
+      "params": {
+        "filing_date": "2026-11-03",
+        "form_type.any_of": "8-K/A,6-K/A,10-K,10-K/A,10-Q/A,SCHEDULE 13D,SCHEDULE 13D/A,SCHEDULE 13G,SCHEDULE 13G/A,424B3,424B5,DEF 14A",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "0c34de414b4854e54508a90e6dd219ffb12b77c72d2a473cc11ac2dd1008b10c",
+      "terminal": true
+    },
+    "f2d03-1.json": {
+      "records": 17,
+      "params": {
+        "filing_date": "2026-11-03",
+        "form_type.any_of": "20-F,20-F/A,40-F,F-1,F-1/A,F-3,F-3/A,S-1,S-1/A,S-3,S-3/A,8-A12B",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "b824f2c97c98879444bb8c6bb6a2134aff4ea95d2fdecfca3549b1e47c12a2ad",
+      "terminal": true
+    }
+  },
+  "sec_gainer_filings": 13,
+  "rejected_or_unresolved_rtpr_tags": 5
+}
