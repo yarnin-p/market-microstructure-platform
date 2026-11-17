@@ -1,0 +1,880 @@
+{
+  "date": "2026-11-04",
+  "gainer_stock_days": 61,
+  "dated_universe_sha256": "c0501d862dac8af7efa3b4f02b575e0ed4f66ba1e6f65597d80a48473f95810b",
+  "universe_frame": {
+    "grouped_rows": {
+      "prior": 12582,
+      "current": 12580
+    },
+    "dated_universe": 5691,
+    "prior_recovered": [
+      {
+        "ticker": "ALOV",
+        "reference_date": "2026-11-02",
+        "reference": 10.0
+      },
+      {
+        "ticker": "AMAC",
+        "reference_date": "2026-11-02",
+        "reference": 9.81
+      },
+      {
+        "ticker": "ANGH",
+        "reference_date": "2026-11-02",
+        "reference": 3.49
+      },
+      {
+        "ticker": "APAC",
+        "reference_date": "2026-10-27",
+        "reference": 10.34
+      },
+      {
+        "ticker": "APLM",
+        "reference_date": "2026-11-02",
+        "reference": 20.84
+      },
+      {
+        "ticker": "BEBE",
+        "reference_date": "2026-10-30",
+        "reference": 10.05
+      },
+      {
+        "ticker": "BLIV",
+        "reference_date": "2026-11-02",
+        "reference": 2.27
+      },
+      {
+        "ticker": "BRKH",
+        "reference_date": "2026-10-26",
+        "reference": 10.02
+      },
+      {
+        "ticker": "CAII",
+        "reference_date": "2026-10-29",
+        "reference": 10.02
+      },
+      {
+        "ticker": "CHAR",
+        "reference_date": "2026-10-30",
+        "reference": 10.99
+      },
+      {
+        "ticker": "DBCA",
+        "reference_date": "2026-11-02",
+        "reference": 10.055
+      },
+      {
+        "ticker": "DNMX",
+        "reference_date": "2026-10-30",
+        "reference": 10.12
+      },
+      {
+        "ticker": "DRDB",
+        "reference_date": "2026-11-02",
+        "reference": 10.765
+      },
+      {
+        "ticker": "DYOR",
+        "reference_date": "2026-10-29",
+        "reference": 10.1699
+      },
+      {
+        "ticker": "EGHA",
+        "reference_date": "2026-11-02",
+        "reference": 10.46
+      },
+      {
+        "ticker": "EVOX",
+        "reference_date": "2026-11-02",
+        "reference": 10.145
+      },
+      {
+        "ticker": "FDMM",
+        "reference_date": "2026-11-02",
+        "reference": 9.84
+      },
+      {
+        "ticker": "FEDU",
+        "reference_date": "2026-11-02",
+        "reference": 10.15
+      },
+      {
+        "ticker": "FMAC",
+        "reference_date": "2026-10-30",
+        "reference": 10.09
+      },
+      {
+        "ticker": "FRMEP",
+        "reference_date": "2026-11-02",
+        "reference": 24.75
+      },
+      {
+        "ticker": "GCGR",
+        "reference_date": "2026-10-30",
+        "reference": 10.1
+      },
+      {
+        "ticker": "GIW",
+        "reference_date": "2026-11-02",
+        "reference": 10.19
+      },
+      {
+        "ticker": "GPAT",
+        "reference_date": "2026-10-30",
+        "reference": 11.1
+      },
+      {
+        "ticker": "GSHR",
+        "reference_date": "2026-11-02",
+        "reference": 10.62
+      },
+      {
+        "ticker": "HAVA",
+        "reference_date": "2026-10-30",
+        "reference": 10.275
+      },
+      {
+        "ticker": "HCAC",
+        "reference_date": "2026-10-29",
+        "reference": 10.14
+      },
+      {
+        "ticker": "HVMC",
+        "reference_date": "2026-11-02",
+        "reference": 10.3
+      },
+      {
+        "ticker": "INAC",
+        "reference_date": "2026-11-02",
+        "reference": 10.4239
+      },
+      {
+        "ticker": "INBKZ",
+        "reference_date": "2026-11-02",
+        "reference": 25.315
+      },
+      {
+        "ticker": "IPVV",
+        "reference_date": "2026-10-30",
+        "reference": 9.84
+      },
+      {
+        "ticker": "ITHA",
+        "reference_date": "2026-11-02",
+        "reference": 10.09
+      },
+      {
+        "ticker": "JATT",
+        "reference_date": "2026-10-30",
+        "reference": 10.253
+      },
+      {
+        "ticker": "KCHV",
+        "reference_date": "2026-11-02",
+        "reference": 10.52
+      },
+      {
+        "ticker": "LATA",
+        "reference_date": "2026-11-02",
+        "reference": 10.21
+      },
+      {
+        "ticker": "LCCC",
+        "reference_date": "2026-10-22",
+        "reference": 10.56
+      },
+      {
+        "ticker": "LPAA",
+        "reference_date": "2026-11-02",
+        "reference": 10.88
+      },
+      {
+        "ticker": "MCAH",
+        "reference_date": "2026-11-02",
+        "reference": 10.07
+      },
+      {
+        "ticker": "MLAA",
+        "reference_date": "2026-10-30",
+        "reference": 10.02
+      },
+      {
+        "ticker": "MOG.B",
+        "reference_date": "2026-10-30",
+        "reference": 349.9501
+      },
+      {
+        "ticker": "MWG",
+        "reference_date": "2026-11-02",
+        "reference": 1.44
+      },
+      {
+        "ticker": "MZYX",
+        "reference_date": "2026-11-02",
+        "reference": 10.0
+      },
+      {
+        "ticker": "OIM",
+        "reference_date": "2026-10-28",
+        "reference": 10.1
+      },
+      {
+        "ticker": "OXLCL",
+        "reference_date": "2026-11-02",
+        "reference": 23.86
+      },
+      {
+        "ticker": "OYSE",
+        "reference_date": "2026-11-02",
+        "reference": 10.44
+      },
+      {
+        "ticker": "PRHIZ",
+        "reference_date": "2026-10-22",
+        "reference": 25.17
+      },
+      {
+        "ticker": "RDAG",
+        "reference_date": "2026-11-02",
+        "reference": 10.47
+      },
+      {
+        "ticker": "SVIV",
+        "reference_date": "2026-11-02",
+        "reference": 10.085
+      },
+      {
+        "ticker": "SZZL",
+        "reference_date": "2026-11-02",
+        "reference": 10.53
+      },
+      {
+        "ticker": "TAVI",
+        "reference_date": "2026-10-28",
+        "reference": 10.85
+      },
+      {
+        "ticker": "TCXB",
+        "reference_date": "2026-11-02",
+        "reference": 10.1
+      },
+      {
+        "ticker": "TDWD",
+        "reference_date": "2026-10-29",
+        "reference": 10.14
+      },
+      {
+        "ticker": "THEO",
+        "reference_date": "2026-11-02",
+        "reference": 9.92
+      },
+      {
+        "ticker": "TLIH",
+        "reference_date": "2026-10-30",
+        "reference": 5.5
+      },
+      {
+        "ticker": "TRGS",
+        "reference_date": "2026-10-23",
+        "reference": 9.96
+      },
+      {
+        "ticker": "TWLV",
+        "reference_date": "2026-11-02",
+        "reference": 10.1
+      },
+      {
+        "ticker": "VHCP",
+        "reference_date": "2026-10-29",
+        "reference": 10.1
+      },
+      {
+        "ticker": "VNME",
+        "reference_date": "2026-10-29",
+        "reference": 10.34
+      },
+      {
+        "ticker": "WLII",
+        "reference_date": "2026-11-02",
+        "reference": 10.21
+      },
+      {
+        "ticker": "WPAC",
+        "reference_date": "2026-11-02",
+        "reference": 10.08
+      },
+      {
+        "ticker": "XFLH",
+        "reference_date": "2026-11-02",
+        "reference": 10.11
+      },
+      {
+        "ticker": "XSLL",
+        "reference_date": "2026-11-02",
+        "reference": 10.01
+      }
+    ],
+    "excluded_types": 0,
+    "wide_band_symbols": [
+      "ADV",
+      "AIOK",
+      "ALIT",
+      "ANGI",
+      "BNR",
+      "BRKR",
+      "CD",
+      "CRCT",
+      "DFH",
+      "DUOL",
+      "FTK",
+      "FXHO",
+      "HELE",
+      "JXG",
+      "KD",
+      "LAW",
+      "LIVN",
+      "LQDA",
+      "LYEL",
+      "NICM",
+      "OPRT",
+      "PCOR",
+      "RPGL",
+      "RYTM",
+      "TREE",
+      "TRNS",
+      "UFPT",
+      "WEYS",
+      "XCH",
+      "YOU"
+    ]
+  },
+  "grouped_daily_capture_sha256": {
+    "03-1.json": "ecd8e47bfccc0a5dd61f0798f90a2d5773d2ab5f432814ce19df36b9580f0bbc",
+    "04-1.json": "7d7e02794ee79260ddc1a9938a171e5e93d8e6dcece9b651e074592d954bffd5",
+    "splits-1.json": "836e776b6e5c850340cdab97caf84caf37722970edea17cf8bfe954e0725751c"
+  },
+  "rtpr_articles": {
+    "original_index_latest_day_article_utc": "2026-11-04T09:39:00.071Z",
+    "per_ticker_completed": 61,
+    "same_day_gainer_article_ids": 21,
+    "ticker_feeds": {
+      "ADCT": {
+        "capture_sha256": "fe9b696f44a7ad487031054d34cd5d9bc93487dcf399c7e155255194df1754cf",
+        "same_day_records": 1,
+        "page_sha256": [
+          "503d86cb84c3fbc2b789b141a67be684e84035f817a24246a945fbd0dc26aa91"
+        ]
+      },
+      "ADVB": {
+        "capture_sha256": "2483de7a6b78d997d56be63d7b63e18cc7e871fd79c69f7f6e2381b6a9a3164f",
+        "same_day_records": 0,
+        "page_sha256": [
+          "7eda3845d8ea01cc4811ebb33c77918c730a7e3e73ea6906550502f2643fc3c2"
+        ]
+      },
+      "AIMD": {
+        "capture_sha256": "177c7ea2ce61fa30651217d1c3b467e1feedbc4d14b1dea4870bc6f42e38453e",
+        "same_day_records": 0,
+        "page_sha256": [
+          "13f03ff537078627bfab75dec2e6858a493e5eeabebf67f0ff7cb4de9d43aa73"
+        ]
+      },
+      "AMSS": {
+        "capture_sha256": "b422f0365f9d14291d5b59126fc12f35dcce2f578e84280af55ba5af5a1ab8f0",
+        "same_day_records": 0,
+        "page_sha256": [
+          "f69e5cd2713ed5e342e8e080d51bc43d02db90f85a5a2a16cc82a192330f7d27"
+        ]
+      },
+      "ARRY": {
+        "capture_sha256": "4496a8dc06b9e0b14373cfe02b08744f1d859732adbe3ca9f5eb8344c1412f1f",
+        "same_day_records": 2,
+        "page_sha256": [
+          "a2be7ff1af5bfcf7c2b6892fa46ea742ea44dd44d1c2d1e2c30ab481725a8690"
+        ]
+      },
+      "ASTI": {
+        "capture_sha256": "8953b27bd9a060ee9dbcf8f747aa1019c7a443b99488d9b613cac4f28d46ba14",
+        "same_day_records": 0,
+        "page_sha256": [
+          "843be5b9f94dff2973e00e170ef0bd895a47c8c82b9b5c09c2c0ee923ba8321f"
+        ]
+      },
+      "ATPC": {
+        "capture_sha256": "2483de7a6b78d997d56be63d7b63e18cc7e871fd79c69f7f6e2381b6a9a3164f",
+        "same_day_records": 0,
+        "page_sha256": [
+          "7eda3845d8ea01cc4811ebb33c77918c730a7e3e73ea6906550502f2643fc3c2"
+        ]
+      },
+      "BYSI": {
+        "capture_sha256": "5141fecd542906c745bb2b2766ca5635b9bf637d171b9934a26c707c08720ecb",
+        "same_day_records": 0,
+        "page_sha256": [
+          "c609324e95fd64d9a95be43ca753c29680e0a78c1c1d43b7e8b4e138f4156d0e"
+        ]
+      },
+      "CHSN": {
+        "capture_sha256": "c90ff37fec71c1bf98667a92ef6aab2483fcaefb9a1a4d1df92df700210474c9",
+        "same_day_records": 0,
+        "page_sha256": [
+          "4278738c807b01722c3fac48396ba23a50b21e5502d47ca5ce0ee8a2dd79e474"
+        ]
+      },
+      "CMTG": {
+        "capture_sha256": "e1dcc0fe9d9dab823e9ad8c885339638453ee5f714e44ce19da2093d90ba82df",
+        "same_day_records": 0,
+        "page_sha256": [
+          "5e11a96ecdc86b7e667f912efd896e77042ce5cec7655cc30d0b9c45b212b3af"
+        ]
+      },
+      "CRIS": {
+        "capture_sha256": "d59164e941d50b5a23340190bc9c89e7f7d64c8d18f587322a077a02507871b6",
+        "same_day_records": 0,
+        "page_sha256": [
+          "533c46bdf7d72887337252417c0c916da699d166b3abb4383965998adb55c27e"
+        ]
+      },
+      "CRMT": {
+        "capture_sha256": "b9d23bc400f7a5d5b4c1574a3b478bdc40dd2ebdbcdbcd096906b40cc42211cc",
+        "same_day_records": 0,
+        "page_sha256": [
+          "50b4bae44b0edba83632b65076a32048c897a239535da143f522d4993e6494ab"
+        ]
+      },
+      "DFDV": {
+        "capture_sha256": "7bb75ed2e2db49b9721ed270015dd7495847acb1dfe4dd463353f275b3e2c7b7",
+        "same_day_records": 0,
+        "page_sha256": [
+          "b24ab3777c21c3947e0bf49ee16e6e9c8a39423161ee724f51a3e5a0fcbb125d"
+        ]
+      },
+      "DKI": {
+        "capture_sha256": "9830ec6275f0eab85267eb6ce42a85fdc04a153fdc79358b79a2441463a0cf78",
+        "same_day_records": 0,
+        "page_sha256": [
+          "7f56e495e971d2642de9232475a135935b5c783167529bc2e56314dc76f68470"
+        ]
+      },
+      "EBON": {
+        "capture_sha256": "378cc2c72b15ba8b60adc9a9686f53365d9f0194efde0d3b905f07bbc66f2156",
+        "same_day_records": 0,
+        "page_sha256": [
+          "811f1ddeaf14349b69a27be16afd1125c9f02dcbd4db4de1908c26a6a4f24c28"
+        ]
+      },
+      "EOSE": {
+        "capture_sha256": "4d15ec67af341606a1820063e69e72716bef1200d657d102115b1f40312884c6",
+        "same_day_records": 0,
+        "page_sha256": [
+          "7c8aeb571c217308ee1f7ecd7a171a40a763e1a3ad4a0c64bf4edba53dfffeea"
+        ]
+      },
+      "FGL": {
+        "capture_sha256": "a6d41783e0beaa5b4aa76fad506ec9509324b05538cd756abb58b7dd6d13076e",
+        "same_day_records": 0,
+        "page_sha256": [
+          "98c47516ffa8afeeb24e34129d306f09e8c001103b6f2ec6b31632823bfc475e"
+        ]
+      },
+      "FTCI": {
+        "capture_sha256": "19c3399b7332a0f09c7e8d1bfaab89f82db6a9a959bf7937ddaf1e6cb098fb72",
+        "same_day_records": 1,
+        "page_sha256": [
+          "474e98c06206e2fde4eaf827a9f7a4a269d4b571155ddcc4a9429d0aa3f571b2"
+        ]
+      },
+      "GLAS": {
+        "capture_sha256": "7ebf2c430382ada3a6604fc8a893e62af945e75795912be56dc10ec073e0e443",
+        "same_day_records": 0,
+        "page_sha256": [
+          "76838ec468ffd7a4a62644835bb9e0f17282cc039e6da0cecef3d826a1d54723"
+        ]
+      },
+      "GMHS": {
+        "capture_sha256": "dc95a92447eaec70e0fbc3fa041c902571135de685ffd388ca2ec236ac1d9786",
+        "same_day_records": 0,
+        "page_sha256": [
+          "8c9b6f5671b65676950a581dc47613ddb88e8d5d08c73b118422a27188dfdfe2"
+        ]
+      },
+      "HCAI": {
+        "capture_sha256": "b4fe6ec040c12dd4055416786a7337a9954eb467dd597e9c5bf3d9f1e01e2d77",
+        "same_day_records": 0,
+        "page_sha256": [
+          "964c05226862de3532254137f9b329c32ea863662d56affb0beec065d3f76d80"
+        ]
+      },
+      "HPAI": {
+        "capture_sha256": "8ca6258a3a4a0584128afbc929630e24f3196f54548d3b00a2f95543f7c2e151",
+        "same_day_records": 0,
+        "page_sha256": [
+          "1cc5c9d0e55c414e262be0b758f6788d170996a512d341dacccff2390838f86a"
+        ]
+      },
+      "IFBD": {
+        "capture_sha256": "2483de7a6b78d997d56be63d7b63e18cc7e871fd79c69f7f6e2381b6a9a3164f",
+        "same_day_records": 0,
+        "page_sha256": [
+          "7eda3845d8ea01cc4811ebb33c77918c730a7e3e73ea6906550502f2643fc3c2"
+        ]
+      },
+      "JBDI": {
+        "capture_sha256": "7a397462218094aa5a155264f9c7a83dd31f73dadd0fcfaa72372590a7ace754",
+        "same_day_records": 0,
+        "page_sha256": [
+          "5e8512882d15ec9f7052bf02ee9896ffdbe0c854aad2860f3d61c28a4a230474"
+        ]
+      },
+      "JELD": {
+        "capture_sha256": "61c25d58d42d2c7341dcbb29fb101bad83fa3f76b91f738885f1db7dfa5aa046",
+        "same_day_records": 0,
+        "page_sha256": [
+          "d64a1a6d7179815846b3720ea2f2fccff7f4bf2e46717183ea5691c3d96af27f"
+        ]
+      },
+      "KPTI": {
+        "capture_sha256": "5c166d7e124e6fa4542c7a6e963c98010b0e8cb7fd0a919fbd97cbef8155b6fe",
+        "same_day_records": 1,
+        "page_sha256": [
+          "032131dabb75a5131a71ee0065ed308ccdd6b1e7d7c7abd46eb494bf6796fdf3"
+        ]
+      },
+      "LBGJ": {
+        "capture_sha256": "0c6db5e609b5fa763063001796e249d10b03228e75aebdf431cba0c342acb4f4",
+        "same_day_records": 0,
+        "page_sha256": [
+          "4f86d101e48fb89bcc2b4630ffa01852da9dae587eeb0ee3ddc6ab6648313218"
+        ]
+      },
+      "LOT": {
+        "capture_sha256": "36259603943860966f5cdd6e3641bf3855b9b6db0417fbeec81633ac978aa1ee",
+        "same_day_records": 0,
+        "page_sha256": [
+          "8b3952c209dfa4cd29c074aa05afdcf8531fbbb8a95f425cd76faca046ab37f3"
+        ]
+      },
+      "LVWR": {
+        "capture_sha256": "a913e674f744ca8158c5585a00f630c09b1f8c2415391e0c1c449898b00bfb93",
+        "same_day_records": 0,
+        "page_sha256": [
+          "c4d588fb5081bae251849be252bb78f7dc9a068dbeb3fabd3d8705e07b0f2303"
+        ]
+      },
+      "MERC": {
+        "capture_sha256": "1e15f07f6f32870e122d6347e0c843be1f12fce9496a288322d9e31c73b46a1e",
+        "same_day_records": 0,
+        "page_sha256": [
+          "6fc02414af2024f8966fdc9c7fc6dba60db2967cb3b23284cf203d0b3f904b38"
+        ]
+      },
+      "MPU": {
+        "capture_sha256": "58d62b827fb6c58e8ba4db889c35c7c83c4d56e8eb38a9b0d79555027e88a07a",
+        "same_day_records": 0,
+        "page_sha256": [
+          "fb7457eb4ff99068aa003785ea4b4a77dc41ce5bddbcd8a5f3ce0a924955536d"
+        ]
+      },
+      "MSS": {
+        "capture_sha256": "45f4c7b95c4e090d1eae79e2e993e73c130b3c67be7a9f575964a8354597fcf5",
+        "same_day_records": 0,
+        "page_sha256": [
+          "06ce39b7044111c759ca011aa45da145e3875cf4b6b9c99a8a9e7e71113a091c"
+        ]
+      },
+      "NAMM": {
+        "capture_sha256": "82df079a21d50ae91306cf613f29bc14ffccb3094b8956adf7c309ace0a0d143",
+        "same_day_records": 0,
+        "page_sha256": [
+          "91c6b8d2fb7ce4446b1c3c66ee38f882820ff34bdac17903fcee440bf3f6eb77"
+        ]
+      },
+      "NSPR": {
+        "capture_sha256": "aed3037d23b51e2a01ddb3dec7a80408d9705fa033d1585942eaefeeecf18a86",
+        "same_day_records": 0,
+        "page_sha256": [
+          "6514a912b58862e72269ab505748da5beea23ed06af35c750aad6dd5920ddb9f"
+        ]
+      },
+      "OFAL": {
+        "capture_sha256": "49a7de9848fe6a4449b182d3d37e6d44756b361c4ff9124e1ec4f780347e5516",
+        "same_day_records": 0,
+        "page_sha256": [
+          "ca112b022d179162a02b0a8520bcf857fa7bbd00d3b3188003af19988f821a3d"
+        ]
+      },
+      "OMH": {
+        "capture_sha256": "2c0623de1cd585aa45bf2d37a9637b2686cf9bd31b5c0aa2a767881e8ce78f24",
+        "same_day_records": 0,
+        "page_sha256": [
+          "900483ac04b0d94758cc53664aee7b68d7201de5c18c7eddbe683d037f6e41db"
+        ]
+      },
+      "PMAX": {
+        "capture_sha256": "e2c2066a2e0622dd690025ab4ba26b423b100fdfb1522094a32635f12888610a",
+        "same_day_records": 0,
+        "page_sha256": [
+          "fa9a6c479efb35927615790274d61f38ae42e96100edb04f7db9b2bf1bf043ee"
+        ]
+      },
+      "PMCB": {
+        "capture_sha256": "687530981cfa3f332635271f396b7d957e4c9a8ee75562efd65d5a98e3e67298",
+        "same_day_records": 0,
+        "page_sha256": [
+          "17ad3b30059025f46024d80affb60cfce34afdd1646bf7e07110f6c17bf3a614"
+        ]
+      },
+      "RCT": {
+        "capture_sha256": "9926119038ff3381abcb33625e6953591b8751ff29acc42b8038de99a03171ee",
+        "same_day_records": 2,
+        "page_sha256": [
+          "5d4d91119a1b1083a15b3ea95f2796491ea22b10692ef0582a10de9c161648d1"
+        ]
+      },
+      "RETO": {
+        "capture_sha256": "efe988cd6ce49172ef94590dad10e79bac2f870800d324a6448731937ac39394",
+        "same_day_records": 0,
+        "page_sha256": [
+          "be4cde2f2e593b59e261bbf959535031e4b15504285c0a43fd607a1e28626770"
+        ]
+      },
+      "SLQT": {
+        "capture_sha256": "310b51a6e4f150395a579d33a9a0cce39c905616101e62dc50eac5e6d8d17812",
+        "same_day_records": 1,
+        "page_sha256": [
+          "ac3f82222f5b75734630b4441cdd3435398600a98359e20e4adea0ab923bb1b8"
+        ]
+      },
+      "SMRT": {
+        "capture_sha256": "65f40ba59790a6b64365b428ba45e3cbf239e249571b23a9ff1ffffafee0bc39",
+        "same_day_records": 1,
+        "page_sha256": [
+          "0544ec34d6a2c2ed19e98fdbcb0d6abd75d1a9e4a8dbcc20374bc34cc66010cf"
+        ]
+      },
+      "SNSC": {
+        "capture_sha256": "80cc7f2e53b21641a59e7839292b0787be94f8ca3a238021f002dea8153cf2ca",
+        "same_day_records": 0,
+        "page_sha256": [
+          "6a7a5279276f622e79556a26ee5a9c9e27f67f9b8ee0f04b4782fad76821ea95"
+        ]
+      },
+      "SPRU": {
+        "capture_sha256": "be13d1e2c1eb9a96bc6d6f048e821aabbf36c91fb29f2171048e477e2aaa8915",
+        "same_day_records": 0,
+        "page_sha256": [
+          "852ce808606ab27dff766d66dfc4ae3c7a95311e58404308f8fc4b97ed4f81a2"
+        ]
+      },
+      "SPWR": {
+        "capture_sha256": "016d3bf3a408332c6f3a42f2a72168f73046c4f331d8a4e730794f627ab92f6a",
+        "same_day_records": 0,
+        "page_sha256": [
+          "38312e5bbe80ffbe6da913a9f35ef170d2c9190a0ec08e4755ab2e66e0e8b08b"
+        ]
+      },
+      "STEM": {
+        "capture_sha256": "f4dae3ae2a4bb2ac1a575b26248aea559feee0f29f85bc871821a9fcbdca03e8",
+        "same_day_records": 1,
+        "page_sha256": [
+          "fcd4b9ce2fdefc149f23c8a8b111480e48f94d7185450e74526fa68531ee4130"
+        ]
+      },
+      "STIM": {
+        "capture_sha256": "7e017cd9c97787c6f52b1254275133835843ad15fc4867f9b4171b77b616db60",
+        "same_day_records": 2,
+        "page_sha256": [
+          "5161f0b7516e9023f1e2637874ecd1b5752623a7daff093bc1cae646ed76a54e"
+        ]
+      },
+      "STXS": {
+        "capture_sha256": "c332ed08f980f1157a3a8e0ded0f351aae163567970c65e6c6290689f245bc5d",
+        "same_day_records": 0,
+        "page_sha256": [
+          "906ed162d90b63bd8f567087fca4ba911daafc913cd32ce51683f986bc0db600"
+        ]
+      },
+      "TGHL": {
+        "capture_sha256": "d6f6c7c5a5ba836393bda5aa6338a85e740737c33c9e7fb0e176bc61a8900e63",
+        "same_day_records": 0,
+        "page_sha256": [
+          "d8c6b2fb88c0e5e37614a5935871ffb98e706f72a0bfc550efbd18b2591c2135"
+        ]
+      },
+      "TYGO": {
+        "capture_sha256": "36ba07da045aa9b243aff93e502df6a3a76c178b764322e4b236d58e3b730cb2",
+        "same_day_records": 8,
+        "page_sha256": [
+          "7e770a1503e36165520858d9fa70b3ad72391a3d2d190253c951c10e9832def5"
+        ]
+      },
+      "UWMC": {
+        "capture_sha256": "00ed3ed4b3d256bf1209ad6e3c5bd3143aa843478682ba338615e77c721487ea",
+        "same_day_records": 1,
+        "page_sha256": [
+          "8f85f036d951cc9f857e7664b273c4df429bb2fe68415abc1c0a92924f546da1"
+        ]
+      },
+      "VIOT": {
+        "capture_sha256": "d618465c54b3668c633b3c22c16ce3ed72c4a100416df4d53c858bfa6320175d",
+        "same_day_records": 0,
+        "page_sha256": [
+          "92a63e04e946367da1dea787dd30028c2b7c26d80150ea07c119025a955deb22"
+        ]
+      },
+      "VNET": {
+        "capture_sha256": "ff6a39e84ee7f96811d743173da6042857b26d7fc9f8fd47d79418223a7a79e1",
+        "same_day_records": 0,
+        "page_sha256": [
+          "468d3e88fbb3152d3b2b40d671baf537a582646e05cebcaf1f468c9da1253f96"
+        ]
+      },
+      "VRAX": {
+        "capture_sha256": "b8010fe9bd93af91fb561d5ba7b45edfa25b281bd088bccd80b9685f8421ada3",
+        "same_day_records": 0,
+        "page_sha256": [
+          "c9930ca95a9fd37e6f01bece20f8d3443168cd6de1a61c44b5e4621c6881073d"
+        ]
+      },
+      "WATR": {
+        "capture_sha256": "b4e9fe540c6e238251612f8dca21ae7d2379b33935bbd006bd57b1365a1fbdc8",
+        "same_day_records": 0,
+        "page_sha256": [
+          "0853cbc58333de316ca04e867d9ee06d4239cb031f97da1b09116116e72a45eb"
+        ]
+      },
+      "WORX": {
+        "capture_sha256": "354815c4b052051caad24af6864162dddc46543fa79f227ff9e74e3672bd48fb",
+        "same_day_records": 0,
+        "page_sha256": [
+          "a60d14f07477cb4193be5649f213038c33874ec03d23bcfd24850043645356db"
+        ]
+      },
+      "WXM": {
+        "capture_sha256": "73051ca247a4aeecc0c027aea19706140944cd01c1282245dd99b29826ba53fe",
+        "same_day_records": 0,
+        "page_sha256": [
+          "d14a5e214592b5676bd048c4e7c058c68e852aea9eec198ffc7e1becd2344489"
+        ]
+      },
+      "WYHG": {
+        "capture_sha256": "f87f937fac1c6ef7acc68c3ac2c64b8c21ad2c3b0da48ad39d298becee26b885",
+        "same_day_records": 0,
+        "page_sha256": [
+          "8f26902498b693dc855287492ad7675125111fcca966bf5795c4a74a73fce8f6"
+        ]
+      },
+      "XMAX": {
+        "capture_sha256": "c6c659548c9fb7ba782b52c21db4c35d5f365f42a2e9a009155707f2b932fd4f",
+        "same_day_records": 0,
+        "page_sha256": [
+          "ce3af6d4f2484cf3db4fc12bf6b8dce71c5acc9957a56a09b126ba3f031ed2c9"
+        ]
+      },
+      "ZNB": {
+        "capture_sha256": "d2fc9db83f4269850b35070eb21086cbceec9f08e3be1cb925baec8571782fdf",
+        "same_day_records": 0,
+        "page_sha256": [
+          "ba39666ad8c260686887e88ba2b8eb1004135948418ce89fbb57ea9caaf2d3fb"
+        ]
+      },
+      "ZONE": {
+        "capture_sha256": "65dab4b73c0cd9486f879816aedff7d911e8f8667767c4d42cfef4f715430270",
+        "same_day_records": 0,
+        "page_sha256": [
+          "442ecfa7a62bfd7acc1d8b5fcc5c32fd6fc0a1dd8cbc262f7c9e069eccec0ce2"
+        ]
+      }
+    },
+    "article_body_sha256": {
+      "nACS7hWBba-20261104": "0674227b27132008783e02b61eb1b8e6962771f76b294008f84753015bf5d105",
+      "nACSDP626a-20261104": "3ca53195d36d97b44663345094d317a4f1ae8cd5454c2599ac0c31a74b5852f9",
+      "nBw4KXPzHa-20261104": "7c12bdbddb258c0eac53df96d0e843630c0de60c7263e13889b275f7a67e62c5",
+      "nBw6F4Vmza-20261104": "d7b1ad1ebdf7375d54d8f1159f773660888583e370dd6c5450ce5b66a03add0b",
+      "nBw8btdJDa-20261104": "db1108c5d8cb8f20d88d858bba34562f495d3ab8c42e5039e0e58f3a3ab5de83",
+      "nBw8ptgnHa-20261104": "6533cd0d68f55720129e81d8bb138128de592f3230d55a78cba3ec8291d8dff5",
+      "nBwcbVF0da-20261104": "25385b4e1968d5b67e88794330b2899a3f8b747195d6a604d37f0b5012bf30e6",
+      "nGNE1WCqSc-20261104": "6f5533eb6baef5b97a08e4909b806f5cec149fae6c60432600c239f291eb724a",
+      "nGNX2Gv6hF-20261104": "1053486aeaf8baa38f32f53a650b400efd8a094b0a1b606dcc3827b30130c8bb",
+      "nGNX2wXfGQ-20261104": "0b783185954111f865bb3b086f2a3c5454e8481c2f86bae1ca90a0f1abcd7a99",
+      "nGNX3bkLKm-20261104": "a767704edb5ba26c80c147da4d00188060b6a2c8de2072e4eb4f63e4648e4c2b",
+      "nGNX4hBvQP-20261104": "234da34aba93cdb64f3f4e1f6d2c2d17aad4e9c36dad95bebcb9a270d94b6ffa",
+      "nGNX58TJfp-20261104": "bb2c4678a7aeeee33823dcdcdfbcdfd3509a4b37cbe7b44fdd7df99bbd01b720",
+      "nGNX7QF1T3-20261104": "e347573da9869c0d5eb6e2cf2b3e7f72ecdd6c65efa982a27cdf4fc1889228f4",
+      "nGNX7k9K6j-20261104": "e082b36629aa53fe1bd73e09c6747f8e78eeb2d89eab07b77d2f12e98c61d2ce",
+      "nGNXc6ZM94-20261104": "e6d25a5c24eb757db49ebd4c7ff345170b0a379fa67b1462f3520d6b47dfefc1",
+      "nNFC21rt7b-20261104": "44f55adfc2df41acec60cb0fdd76495b85fa38257fca2a3023f167298225f313",
+      "nPn2r0Mcja-20261104": "d76b736880b42b46579ea5cb76901257be5827bd87d2595ad31c9898023f62d7",
+      "nPn6DRLLSa-20261104": "aa12ab1f3032a5a745aacc61e088906354ddbba74050221e7d90e93128cd9169",
+      "nPn7Cn5pqa-20261104": "2f5bdaacb07bcfebd3c65a906f7ca5d32d686168ca2ab3e19dd796df9b733bc1",
+      "nPnbNSKtLa-20261104": "33480fc61ea09b627b179bc3956693eaec8c77a62d9d3b9ac59e09647eb92c41"
+    }
+  },
+  "rtpr_wire": {
+    "frames": 150,
+    "first_observed_at": "2026-11-04T00:10:00.274049127Z",
+    "last_observed_at": "2026-11-04T23:41:28.744929345Z",
+    "kinds": {
+      "rule_match": 57,
+      "high_impact": 93
+    },
+    "continuous_coverage_verified": false
+  },
+  "massive_news": {
+    "pages": 4,
+    "records": 768,
+    "terminal": true,
+    "page_sha256": {
+      "04-1.json": "71c5fb684c3205bb5ef92a6371ae92a411b4dbe913c9b37d4f2c971ef168e5a3",
+      "04-2.json": "0fa0e8e9fd602ffbd2936b7e619d8a287701c045f631add9b5fab8135a5d6267",
+      "04-3.json": "344e6b9dd42f12c29fbb500f423424ff76e0697348633d0608f098735cf72aac",
+      "04-4.json": "88f8802eb83ad39aca6631c03673d0e095fcf75aa362a302beecae0fa18a23ad"
+    }
+  },
+  "sec_index": {
+    "f0d04-1.json": {
+      "records": 1000,
+      "params": {
+        "filing_date": "2026-11-04",
+        "form_type.any_of": "8-K,6-K,10-Q,DEFR14A",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "6621b1da617e67913f7885becbaee243097feb8d383279918e7967e57e8097bd",
+      "terminal": false
+    },
+    "f0d04-2.json": {
+      "records": 151,
+      "params": {
+        "cursor": "AgYJ-zKiDBEEDwM4LUsPAzYtSw8EMTAtUQ8HREVGUjE0QQIDAAEFAAEB--gDAAIBCfsyogEPFDAwMDE2NzIwMTMtMjYtMDAwMTc5"
+      },
+      "capture_sha256": "d5a3209e41ad2f31e760eb1e55100b75049617b344fa173d1fa3a75c7bce3caa",
+      "terminal": true
+    },
+    "f1d04-1.json": {
+      "records": 376,
+      "params": {
+        "filing_date": "2026-11-04",
+        "form_type.any_of": "8-K/A,6-K/A,10-K,10-K/A,10-Q/A,SCHEDULE 13D,SCHEDULE 13D/A,SCHEDULE 13G,SCHEDULE 13G/A,424B3,424B5,DEF 14A",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "b159eec88fa805c3e8f8a7515fedc5cfbcf7465df745b2568d518026db948942",
+      "terminal": true
+    },
+    "f2d04-1.json": {
+      "records": 71,
+      "params": {
+        "filing_date": "2026-11-04",
+        "form_type.any_of": "20-F,20-F/A,40-F,F-1,F-1/A,F-3,F-3/A,S-1,S-1/A,S-3,S-3/A,8-A12B,EFFECT",
+        "limit": 1000,
+        "sort": "filing_date.asc"
+      },
+      "capture_sha256": "fa07808145b7b46d6a1ab8a99359838f869a8fb304b7eae7e83ea73e95eb8286",
+      "terminal": true
+    }
+  },
+  "sec_gainer_filings": 24,
+  "rejected_or_unresolved_rtpr_tags": 0
+}
