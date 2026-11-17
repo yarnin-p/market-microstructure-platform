@@ -1,0 +1,634 @@
+{
+  "capture_disposition": "Capture hashes refer to locally retained inputs. Full exports and provider pages are omitted from the repository.",
+  "cycle": "2026-10-26",
+  "one_second_requests": [
+    {
+      "capture_sha256": "d0b5b5d3ac19bc7c27e0015d28e2b719a0a197088be01029ab07253c713dffa5",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/AEYE/range/1/second/1793044260000/1793045479999",
+      "ticker": "AEYE"
+    },
+    {
+      "capture_sha256": "ac85a66b5e346384f790fbfaae17d46ddf749d4405c1b40bb877eb37b1852712",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/AMAN/range/1/second/1793008200000/1793009404999",
+      "ticker": "AMAN"
+    },
+    {
+      "capture_sha256": "af895de0abb7bd015ba1de6ca146514342fc7be1b0ea03a71f76445fe2965046",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/ANIX/range/1/second/1793017203000/1793018465999",
+      "ticker": "ANIX"
+    },
+    {
+      "capture_sha256": "f89ff297a8e827e45aa3ad301c1f162292e16509a0d40dcd449cedba9997d12c",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/APVO/range/1/second/1793015700000/1793016921999",
+      "ticker": "APVO"
+    },
+    {
+      "capture_sha256": "66d7a28f2ac8beeb2ee656181cf52efc373619c6b3252e61039d30fdebea39fd",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/BESS/range/1/second/1793010000000/1793011221999",
+      "ticker": "BESS"
+    },
+    {
+      "capture_sha256": "02ba7de203c2078176efc378f517a01b5d065222990294bf7e3ca5372842e984",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/BIVI/range/1/second/1793015400000/1793016633999",
+      "ticker": "BIVI"
+    },
+    {
+      "capture_sha256": "b7972ea33de4f24fdcafa0d47e97d45b6531392236983c7c0e4982746307ab68",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/CANF/range/1/second/1793011800000/1793013030999",
+      "ticker": "CANF"
+    },
+    {
+      "capture_sha256": "51e7d82caed1920ecd87824b252f1bdef03890483f7d334cfffe292ffb12ad07",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/CVM/range/1/second/1793015401000/1793016701999",
+      "ticker": "CVM"
+    },
+    {
+      "capture_sha256": "33b5d83774eed5b64bd6068df2fa7cf420c44a878ebe1bded6d226668e5adf48",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/DAVI/range/1/second/1793013600000/1793014806999",
+      "ticker": "DAVI"
+    },
+    {
+      "capture_sha256": "0de2059d3b3a4cfec13bbb687d82e34efe8a4395edcfb1d64ba088ce8b5ecbaa",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/DRIO/range/1/second/1793017200000/1793018406999",
+      "ticker": "DRIO"
+    },
+    {
+      "capture_sha256": "bc4dcccb4f8338c0f02e81292a7afb89e500adcdf3368fbb79b0d48bb61ffaf6",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/ELDN/range/1/second/1793011802000/1793013069999",
+      "ticker": "ELDN"
+    },
+    {
+      "capture_sha256": "338225ef68946ec165e65362427d462ea011d79e07e92b592a68bab0370eb951",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/EPOW/range/1/second/1793026200000/1793027403999",
+      "ticker": "EPOW"
+    },
+    {
+      "capture_sha256": "5b444c029085fbbfd3c4a9b34be21ea54b772cfba634b0a51730250de055168c",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/EQ/range/1/second/1793017200000/1793018428999",
+      "ticker": "EQ"
+    },
+    {
+      "capture_sha256": "3622fa3aa39681ddf3562b8ec28f818c93ed253d7e7b6e45779e476b8caee6c9",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/FATE/range/1/second/1793011801000/1793013044999",
+      "ticker": "FATE"
+    },
+    {
+      "capture_sha256": "3c3d45f9ca08ce82a055a9dd2bc6b3f9d6901add081935bd763ff7f058dcef64",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/FFAI/range/1/second/1793028000000/1793029202999",
+      "ticker": "FFAI"
+    },
+    {
+      "capture_sha256": "e0c1393608959f6e45172d419d9bbe828b2b66f62a8097031e1ddb04e135a992",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/FFR/range/1/second/1793028000000/1793029202999",
+      "ticker": "FFR"
+    },
+    {
+      "capture_sha256": "0920db8e331274fca834fa74ea49caf93924e61211b9b6ff323fffa51c10a826",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/FTEK/range/1/second/1793017200000/1793018404999",
+      "ticker": "FTEK"
+    },
+    {
+      "capture_sha256": "94b4a5aa037f5c912f70236f4d30d261b0b455b561ce72b01ddfbfec555abf35",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/GAME/range/1/second/1793015401000/1793016712999",
+      "ticker": "GAME"
+    },
+    {
+      "capture_sha256": "f8d1f23a4d52475e9c327586e7eaea4dd7b1baf0477c30f041ec316c9e5aec85",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/GIXI/range/1/second/1793044380000/1793045604999",
+      "ticker": "GIXI"
+    },
+    {
+      "capture_sha256": "a7dcdcf4d7d01508e31cb351ccee8b3d7659e6c46de107b0123af490a746481c",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/HCTI/range/1/second/1793011805000/1793013009999",
+      "ticker": "HCTI"
+    },
+    {
+      "capture_sha256": "79f0dfdd88ef0d63e9f697fd30d35ebf4c9672abd9d2e76b4384c1c981e66beb",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/HURA/range/1/second/1793013600000/1793014845999",
+      "ticker": "HURA"
+    },
+    {
+      "capture_sha256": "b69aba3d49ebe2bda7df7913911a7d2aab335458bce3670dadeaa56a9c45e50c",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/IAM/range/1/second/1793015401000/1793016691999",
+      "ticker": "IAM"
+    },
+    {
+      "capture_sha256": "7619eca07088b3453812b1da036578c52cc5cb1d31ccc7dc768ed634449bcb20",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/IPI/range/1/second/1793017200000/1793018447999",
+      "ticker": "IPI"
+    },
+    {
+      "capture_sha256": "ea01c7f88949e94385e8c2f646a5453ab6aaf96d3ffab5baccd36e8b5575b6b1",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/IQST/range/1/second/1793017252000/1793018475999",
+      "ticker": "IQST"
+    },
+    {
+      "capture_sha256": "b4253c4bfa381ad6a02279f4f3a808971f3ccfbfc299880aaeeb2b21da3d8bcf",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/MDCX/range/1/second/1793013600000/1793014803999",
+      "ticker": "MDCX"
+    },
+    {
+      "capture_sha256": "249a6dc503de8e02b21331ef4ecd2abb6404c9f1404ec39f8eeb7b98ae787948",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/MGNX/range/1/second/1793012171000/1793013389999",
+      "ticker": "MGNX"
+    },
+    {
+      "capture_sha256": "e014a139fc6b8cbb6335f0ccd7208249d071a0f237a3ffd21905df8ec6de1d9f",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/NXTS/range/1/second/1793016360000/1793017580999",
+      "ticker": "NXTS"
+    },
+    {
+      "capture_sha256": "355a21d9ceb3b742e7cf7591e92965efa4e5b274eef6e1b3d90780c15408c90e",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/OPNW/range/1/second/1793046000000/1793047221999",
+      "ticker": "OPNW"
+    },
+    {
+      "capture_sha256": "61663ee5eac8185d8e25d1dbf4f8a5360785bc272ec4be975f3a2a8aa8974c1b",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/OPTH/range/1/second/1793015401000/1793016685999",
+      "ticker": "OPTH"
+    },
+    {
+      "capture_sha256": "989518e467b6016faf742faebfb94cd1893b9c1b492e6616fe19bd199706639d",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/OPTT/range/1/second/1793013600000/1793014805999",
+      "ticker": "OPTT"
+    },
+    {
+      "capture_sha256": "f287f1c70307edc3d5333bfd41ec95c72cc4bf3e1477c1499fb3245dd0a6b77f",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/PPCB/range/1/second/1793017200000/1793018457999",
+      "ticker": "PPCB"
+    },
+    {
+      "capture_sha256": "a152d0f55c0679c588bf606b8467495e0306fce41ed403bb728ee243571ba5f4",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/QXL/range/1/second/1793044380000/1793045604999",
+      "ticker": "QXL"
+    },
+    {
+      "capture_sha256": "a2ff592e4420245acf052b1e532e245a4ba4b23fc1e9683d746bad94c1251c2f",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/RNAZ/range/1/second/1793013660000/1793014880999",
+      "ticker": "RNAZ"
+    },
+    {
+      "capture_sha256": "40e4c2f246e829a50fc34f60e8a3b14f0c9062a43758b3a2caa1e8a6fe7d1365",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/SHFS/range/1/second/1793016840000/1793018043999",
+      "ticker": "SHFS"
+    },
+    {
+      "capture_sha256": "8e3d38a337160bd953b5739bd7d0cd8a3ed17eeed7f1f4f76c1b2ae84ae98853",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/SPAI/range/1/second/1793015772000/1793016974999",
+      "ticker": "SPAI"
+    },
+    {
+      "capture_sha256": "fda3cefcb80897a866398450ce498b609f0df660030d4c0ce2ea6ea58dc84717",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/SRTM/range/1/second/1793013600000/1793014805999",
+      "ticker": "SRTM"
+    },
+    {
+      "capture_sha256": "a0ac64114ab4f9042a794104563c7988aa059e9dfb2dcb529d9f5ea5a23bfd53",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/STRR/range/1/second/1793017200000/1793018407999",
+      "ticker": "STRR"
+    },
+    {
+      "capture_sha256": "625897039b90ec222bd8cb177c535703ac369eec51a4e265145a755927a3dd90",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/SWMR/range/1/second/1793029800000/1793031004999",
+      "ticker": "SWMR"
+    },
+    {
+      "capture_sha256": "81535e42ced79fa74ae4679ba4ca017a79fe2b67f77858bf66deff2badb9af1c",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/VAI/range/1/second/1793011680000/1793012900999",
+      "ticker": "VAI"
+    },
+    {
+      "capture_sha256": "d40f53207a9e1914f84d843f86657806a7cc1aabf7733db0207545d11d43b9be",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/VBIO/range/1/second/1793015400000/1793016603999",
+      "ticker": "VBIO"
+    },
+    {
+      "capture_sha256": "52a182f76e0e99bb0ae7c31745bc4a02e77265a6071e12f55117a229c7f88e5d",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/VHUB/range/1/second/1793013900000/1793015103999",
+      "ticker": "VHUB"
+    },
+    {
+      "capture_sha256": "a45e609907c72827ebff3e1654b75f9bf482fc14b6c0a41c2299b7072c484e17",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/VJET/range/1/second/1793045100000/1793046325999",
+      "ticker": "VJET"
+    },
+    {
+      "capture_sha256": "fb271d9bccda3ed2b8e5d366f62f278ba4e91dc5890516c504439f809edc7dfa",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/XLO/range/1/second/1793013600000/1793014822999",
+      "ticker": "XLO"
+    },
+    {
+      "capture_sha256": "3897c08cb87358de85573ded754883896f775afb53924d3e2bd1666447122cc0",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/YI/range/1/second/1793001000000/1793002205999",
+      "ticker": "YI"
+    },
+    {
+      "capture_sha256": "27eb78a1d183c28842f88117061e75f8d117b33f8b26cfe802b28e5b44f7ec94",
+      "params": {
+        "adjusted": false,
+        "limit": 50000,
+        "sort": "asc"
+      },
+      "path": "/v2/aggs/ticker/ZDGE/range/1/second/1793044800000/1793046021999",
+      "ticker": "ZDGE"
+    }
+  ],
+  "published_file_sha256": {
+    "dedup_summary_20261026.md": "9fc0900343f636ea265253b67d2adeed494175b66e2c89400bb2ab9c71cbb5de",
+    "duplicate_mapping_20261026.csv": "1410ce3902711d3951dcd93045a0c3c8f628c09410d1278ce224e9574e613476",
+    "pr_price_reaction_20261026.csv": "1d0738b56b2dfd8f2d1f99f43992b2957ed5f42b8e50806d5eea85a1e170eadb",
+    "pr_price_reaction_20261026.md": "7ea4454eb2c7f8ca16aa884459a6e3436725f462d24f3b1dc437574c5a4b91c5",
+    "unique_pr_20261026.csv": "a3e46ff3e323ea654308e7481721df2a2fae976e3cefe188f33ee315393ef6a7"
+  },
+  "tick_peak_verification": {
+    "CANF": {
+      "alert_5m_peak_price": "2.09",
+      "first_matching_regular_or_form_t_sip_ns": "1793012590643047938",
+      "matching_records_in_alert_5m": 8,
+      "matching_trade_conditions": "[12]",
+      "pages": [
+        {
+          "capture_sha256": "c28de3eda637e70ced0a240dd6458e92e8577653cdf48abcc624c57830b57b76",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793012100577000000",
+            "timestamp.lte": "1793012730000000000"
+          },
+          "path": "/v3/trades/CANF",
+          "records": 2178,
+          "terminal": true
+        }
+      ],
+      "records": 2178
+    },
+    "EPOW": {
+      "alert_5m_peak_price": "4.51",
+      "first_matching_regular_or_form_t_sip_ns": "1793027003015580792",
+      "matching_records_in_alert_5m": 2,
+      "matching_trade_conditions": "[]",
+      "pages": [
+        {
+          "capture_sha256": "ceead8e9aa02f67cf92c303cad38ca7b8e4c6b5ebe2b6d21374ccb4f0de78106",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793026500111000000",
+            "timestamp.lte": "1793027103000000000"
+          },
+          "path": "/v3/trades/EPOW",
+          "records": 315,
+          "terminal": true
+        }
+      ],
+      "records": 315
+    },
+    "SHFS": {
+      "alert_5m_peak_price": "0.144",
+      "first_matching_regular_or_form_t_sip_ns": "1793017608464315868",
+      "matching_records_in_alert_5m": 10,
+      "matching_trade_conditions": "[12]",
+      "pages": [
+        {
+          "capture_sha256": "bd52bc812f00758733c5dd529fbcf1c6020e90969f46973d345bc5ceaa5b112e",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793017140132000000",
+            "timestamp.lte": "1793017743000000000"
+          },
+          "path": "/v3/trades/SHFS",
+          "records": 5000,
+          "terminal": false
+        },
+        {
+          "capture_sha256": "daa04e177aa15018bc39ca39865b2a7f2c251eefc61bbd34965fc2d62b7164fb",
+          "params": {
+            "cursor": "YXA9NTA3NTkyJmFzPWF0bGFzLXN0b2Nrcy10cmFkZXMmbGltaXQ9NTAwMCZvcmRlcj1hc2Mmc29ydD10aW1lc3RhbXAmdGltZXN0YW1wLmd0ZT0yMDI2LTEwLTI2VDEyJTNBMjclM0EwMy4yMTUxOTM3MDhaJnRpbWVzdGFtcC5sdGU9MTc5MzAxNzc0MzAwMDAwMDAwMA"
+          },
+          "path": "/v3/trades/SHFS",
+          "records": 2834,
+          "terminal": true
+        }
+      ],
+      "records": 7834
+    },
+    "SRTM": {
+      "alert_5m_peak_price": "0.45",
+      "first_matching_regular_or_form_t_sip_ns": "1793014225362936947",
+      "matching_records_in_alert_5m": 8,
+      "matching_trade_conditions": "[12]",
+      "pages": [
+        {
+          "capture_sha256": "12e5463c42cbd5f9108533c7bbebcb5b57607ab6c4e9b2456f18541893538cd9",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793013900343000000",
+            "timestamp.lte": "1793014505000000000"
+          },
+          "path": "/v3/trades/SRTM",
+          "records": 25,
+          "terminal": true
+        }
+      ],
+      "records": 25
+    },
+    "VAI": {
+      "alert_5m_peak_price": "2.2855",
+      "first_matching_regular_or_form_t_sip_ns": "1793012465729995789",
+      "matching_records_in_alert_5m": 1,
+      "matching_trade_conditions": "[12]",
+      "pages": [
+        {
+          "capture_sha256": "e4a8bc967fe65866c534a823a63c505d29f83990a0b6c05782caa43caf8f031b",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793011980099000000",
+            "timestamp.lte": "1793012600000000000"
+          },
+          "path": "/v3/trades/VAI",
+          "records": 16,
+          "terminal": true
+        }
+      ],
+      "records": 16
+    },
+    "VBIO": {
+      "alert_5m_peak_price": "1.25",
+      "first_matching_regular_or_form_t_sip_ns": "1793016020145836676",
+      "matching_records_in_alert_5m": 4,
+      "matching_trade_conditions": "[12]",
+      "pages": [
+        {
+          "capture_sha256": "b33f153c474d03d500fc55f75b7754f7ddc888de56244c1e0d374bb67e1f79e2",
+          "params": {
+            "limit": 5000,
+            "order": "asc",
+            "sort": "timestamp",
+            "timestamp.gte": "1793015700713000000",
+            "timestamp.lte": "1793016303000000000"
+          },
+          "path": "/v3/trades/VBIO",
+          "records": 5000,
+          "terminal": false
+        },
+        {
+          "capture_sha256": "60b5f3adffa8593509ac5641a9e01aaa5722696007ca2c74a580f713d852623f",
+          "params": {
+            "cursor": "YXA9NDk0NzY5JmFzPWF0bGFzLXN0b2Nrcy10cmFkZXMmbGltaXQ9NTAwMCZvcmRlcj1hc2Mmc29ydD10aW1lc3RhbXAmdGltZXN0YW1wLmd0ZT0yMDI2LTEwLTI2VDEyJTNBMDElM0E0Mi45NTU4OTMxOFomdGltZXN0YW1wLmx0ZT0xNzkzMDE2MzAzMDAwMDAwMDAw"
+          },
+          "path": "/v3/trades/VBIO",
+          "records": 5000,
+          "terminal": false
+        },
+        {
+          "capture_sha256": "bf66161036c90b031a0f98e1b0b65358bd1caae84fed5364b0170c6e3ac8c787",
+          "params": {
+            "cursor": "YXA9NTAzMDM0JmFzPWF0bGFzLXN0b2Nrcy10cmFkZXMmbGltaXQ9NTAwMCZvcmRlcj1hc2Mmc29ydD10aW1lc3RhbXAmdGltZXN0YW1wLmd0ZT0yMDI2LTEwLTI2VDEyJTNBMDIlM0E1Ny4xODQxMjIxMTlaJnRpbWVzdGFtcC5sdGU9MTc5MzAxNjMwMzAwMDAwMDAwMA"
+          },
+          "path": "/v3/trades/VBIO",
+          "records": 5000,
+          "terminal": false
+        },
+        {
+          "capture_sha256": "502536aa51eb275524276a11ef34ebcd371b038dac43118784557d1057983335",
+          "params": {
+            "cursor": "YXA9NTEzMDkxJmFzPWF0bGFzLXN0b2Nrcy10cmFkZXMmbGltaXQ9NTAwMCZvcmRlcj1hc2Mmc29ydD10aW1lc3RhbXAmdGltZXN0YW1wLmd0ZT0yMDI2LTEwLTI2VDEyJTNBMDQlM0EyNi4xOTczMTQ0WiZ0aW1lc3RhbXAubHRlPTE3OTMwMTYzMDMwMDAwMDAwMDA"
+          },
+          "path": "/v3/trades/VBIO",
+          "records": 3627,
+          "terminal": true
+        }
+      ],
+      "records": 18627
+    }
+  },
+  "transport": "Massive REST via MCP"
+}
