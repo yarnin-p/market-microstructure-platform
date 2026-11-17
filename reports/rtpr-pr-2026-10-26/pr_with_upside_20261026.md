@@ -45,3 +45,5 @@ One row per announcement. Include it when any linked ticker trades above its fir
 | Davion Healthcare Announces US$25 Million Acquisition of Humaskan Medical Technology IP | Rule Match | Rule Match | 1 | DAVI 5.1→5.1324 (+0.6353%) |
 | TransCode Therapeutics Presents Phase 1a Clinical Data for TTX-MC138 at ESMO Congress 2026 | Impact Wire | Impact Wire | 1 | RNAZ 1.83→1.84 (+0.5464%) |
 | Faraday Future Announces Completion of FF EAI Robotics Ecosystem's (FFR) Acquisition of Faraday Future's Robotics Business and Establishment of a Nasdaq-Listed Humanoid and Bionic Robotics Platform | Both | Rule Match | 12 | FFAI 0.5798→0.58 (+0.0345%); FFR 1.0999→1.1 (+0.0091%) |
+
+[Gainers with news outside the two delivered alerts on 2026-10-26](../rtpr-gainer-news-coverage-2026-10-26-to-29/README.md#2026-10-26)

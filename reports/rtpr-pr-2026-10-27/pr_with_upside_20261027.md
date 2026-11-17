@@ -38,3 +38,5 @@ One row per announcement. Include it when any linked ticker trades above its fir
 | SkyAI Enters into Tender Support and Settlement Agreement with Bastion Trading Limited; Extends Cash Tender Offer to All Pre-Funded Warrants and Includes All Stapled Warrants | Rule Match | Rule Match | 2 | SKYA 2.91→2.94 (+1.0309%) |
 | GrabAGun Digital Holdings Completes Camfour Acquisition, Expanding Its Technology-Driven Platform into National Wholesale Distribution | Rule Match | Rule Match | 1 | PEW 2.1167→2.13 (+0.6283%) |
 | BigBear.ai Announces Third Quarter 2026 Results and Raises FY 2026 Revenue Guidance | Impact Wire | Impact Wire | 1 | BBAI 2.48→2.49 (+0.4032%) |
+
+[Gainers with news outside the two delivered alerts on 2026-10-27](../rtpr-gainer-news-coverage-2026-10-26-to-29/README.md#2026-10-27)

@@ -31,3 +31,5 @@ The 19 matched tickers exclude three alert-tag collisions. DCM refers to TSX-lis
 Article identity and archived content link the feeds. Six YFOR alerts from three article IDs describe the same deployment of 11 robots at the Singapore hotels. NXTS repeats the October 26 Boltz screening milestone under a new article ID. The CSV flags that earlier article and measures the re-publication on October 29 as a daily alert event. The CSV preserves Telegram message IDs and archived article IDs.
 
 Use the open of the first fully post-publication price bar and the highest observed trade-bar high through 20:00 ET. Unadjusted Massive minute bars cover the session, with second bars replacing complete minutes around publication where available. The observed upside uses the high in hindsight. The first observed price can arrive later than the PR.
+
+[Gainers with news outside the two delivered alerts on 2026-10-29](../rtpr-gainer-news-coverage-2026-10-26-to-29/README.md#2026-10-29)

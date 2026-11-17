@@ -46,3 +46,5 @@ The Telegram exports cover 15 Rule Match and 32 Impact Wire alerts for October 2
 Article identity and archived content link the feeds. The cross-ID groups were REKR for the same Florida DOT contract increase, ENLV for the same Allocetra trial update, and SNES for the same Sandstrom marketing-advisor engagement. For linked Telegram cards with an empty title, the archive supplies the title. The CSV preserves message IDs and article IDs.
 
 Use the open of the first fully post-publication price bar and the highest observed trade-bar high through 20:00 ET. Unadjusted Massive minute bars cover the session, with second bars replacing complete minutes around publication where available. The observed upside uses the high in hindsight. The first observed price can arrive later than the PR.
+
+[Gainers with news outside the two delivered alerts on 2026-10-28](../rtpr-gainer-news-coverage-2026-10-26-to-29/README.md#2026-10-28)
